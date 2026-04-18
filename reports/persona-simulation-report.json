@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T21:45:07.465Z",
+  "generatedAt": "2026-04-18T21:45:12.724Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
@@ -513,7 +513,7 @@
         "cause": 4.667791188896549
       },
       "matchName": "三笠·阿克曼",
-      "matchDistance": 5.318,
+      "matchDistance": 5.362,
       "expectationGap": 1.368,
       "dimensionalGap": 0.5,
       "needsCalibration": false
