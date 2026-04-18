@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T21:24:10.517Z",
+  "generatedAt": "2026-04-18T21:24:15.764Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
@@ -535,7 +535,7 @@
         "cause": 7.091757824782201
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.854,
+      "matchDistance": 2.894,
       "expectationGap": 1.72,
       "dimensionalGap": 0,
       "needsCalibration": false
@@ -579,7 +579,7 @@
         "cause": 6.933445990571415
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.785,
+      "matchDistance": 2.827,
       "expectationGap": 1.043,
       "dimensionalGap": 0,
       "needsCalibration": false
@@ -634,17 +634,17 @@
     "reflectionCount": 1,
     "selfPerceptionDriftCount": 3,
     "avgLanguageToResultGap": 4.828,
-    "avgOptionToResultGap": 2.367,
+    "avgOptionToResultGap": 2.37,
     "inconsistentOptionCount": 3
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.606,
+      "scoreDistance": 3.646,
       "expectationGap": 3.968,
       "languageToResultGap": 5.578,
-      "optionToResultGap": 2.587,
+      "optionToResultGap": 2.598,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -799,11 +799,11 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 4.9155999999999995,
-        "moral": 5.9978,
-        "realism": 6.8494,
+        "freedom": 4.9212,
+        "moral": 6.0006,
+        "realism": 6.8578,
         "fatalism": 5.936000000000001,
-        "cause": 7.0152
+        "cause": 7.0264
       },
       "averageOptionProfile": {
         "freedom": 5.463999999999999,
@@ -1166,10 +1166,10 @@
     {
       "persona": "现实主义调停者",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.037,
+      "scoreDistance": 3.08,
       "expectationGap": 1.482,
-      "languageToResultGap": 5.511,
-      "optionToResultGap": 2.466,
+      "languageToResultGap": 5.51,
+      "optionToResultGap": 2.476,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -1324,11 +1324,11 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 4.9155999999999995,
-        "moral": 5.9978,
-        "realism": 6.8494,
+        "freedom": 4.9212,
+        "moral": 6.0006,
+        "realism": 6.8578,
         "fatalism": 5.936000000000001,
-        "cause": 7.0152
+        "cause": 7.0264
       },
       "averageOptionProfile": {
         "freedom": 5.247999999999999,
@@ -2593,9 +2593,9 @@
   ],
   "recommendations": [
     "人格“守护型照料者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.307，选项语义到结果偏差 2.761；建议复查其高频命中的题目文案与分值。",
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.578，但选项语义到结果偏差仅 2.587。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
+    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.578，但选项语义到结果偏差仅 2.598。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
     "人格“集体主义战略家”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.26，但选项语义到结果偏差仅 2.13。建议在结果页提示“你的选择比自我描述更接近 利威尔·阿克曼”。",
-    "人格“现实主义调停者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.511，但选项语义到结果偏差仅 2.466。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
+    "人格“现实主义调停者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.51，但选项语义到结果偏差仅 2.476。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
     "题目 10 的选项“负责评估局势、统筹资源，并把关键决策推进落地。”文本语义 Top 维度为 freedom / moral，与数值 Top 维度 realism / cause 重合偏低，建议人工复核。",
     "题目 11 的选项“会先认下这层风险，拉开一点距离，避免它继续波及身边人。”文本语义 Top 维度为 realism / freedom，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。",
     "题目 18 的选项“会把这份预警当作可能发生的风险，先做好安排和后手，但不完全照单执行。”文本语义 Top 维度为 realism / freedom，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。"
