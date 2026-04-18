@@ -1,70 +1,75 @@
 {
-  "generatedAt": "2026-04-18T20:52:50.869Z",
+  "generatedAt": "2026-04-18T20:52:55.834Z",
   "sampleSize": 2000,
-  "seed": 20260446,
+  "seed": 20260447,
   "topCharacter": {
-    "name": "让·基尔希斯坦",
-    "count": 388,
-    "share": 19.4
+    "name": "利威尔·阿克曼",
+    "count": 404,
+    "share": 20.2
   },
-  "averageConfidenceGap": 0.239,
-  "distributionEntropy": 3,
+  "averageConfidenceGap": 0.295,
+  "distributionEntropy": 3.018,
   "maxEntropy": 4.322,
   "distribution": [
     {
-      "name": "让·基尔希斯坦",
-      "count": 388,
-      "share": 19.4
+      "name": "利威尔·阿克曼",
+      "count": 404,
+      "share": 20.2
     },
     {
-      "name": "利威尔·阿克曼",
-      "count": 384,
-      "share": 19.2
+      "name": "让·基尔希斯坦",
+      "count": 352,
+      "share": 17.6
     },
     {
       "name": "柯尼·斯普林格",
-      "count": 309,
-      "share": 15.45
+      "count": 310,
+      "share": 15.5
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 259,
-      "share": 12.95
+      "count": 261,
+      "share": 13.05
     },
     {
       "name": "贾碧·布朗",
-      "count": 213,
-      "share": 10.65
-    },
-    {
-      "name": "三笠·阿克曼",
-      "count": 142,
-      "share": 7.1
+      "count": 209,
+      "share": 10.45
     },
     {
       "name": "阿明·阿诺德",
-      "count": 131,
-      "share": 6.55
+      "count": 168,
+      "share": 8.4
+    },
+    {
+      "name": "三笠·阿克曼",
+      "count": 129,
+      "share": 6.45
     },
     {
       "name": "莱纳·布朗",
-      "count": 111,
-      "share": 5.55
+      "count": 104,
+      "share": 5.2
     },
     {
       "name": "萨莎·布劳斯",
-      "count": 49,
-      "share": 2.45
+      "count": 40,
+      "share": 2
     },
     {
       "name": "吉克·耶格尔",
-      "count": 14,
-      "share": 0.7
+      "count": 21,
+      "share": 1.05
     },
     {
       "name": "艾伦·耶格尔",
-      "count": 0,
-      "share": 0
+      "count": 1,
+      "share": 0.05
+    },
+    {
+      "name": "肯尼·阿克曼",
+      "count": 1,
+      "share": 0.05
     },
     {
       "name": "艾尔文·史密斯",
@@ -83,11 +88,6 @@
     },
     {
       "name": "艾伦·克鲁格",
-      "count": 0,
-      "share": 0
-    },
-    {
-      "name": "肯尼·阿克曼",
       "count": 0,
       "share": 0
     },
