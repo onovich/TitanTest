@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T20:50:40.464Z",
+  "generatedAt": "2026-04-18T20:50:45.247Z",
   "strictMode": false,
   "issues": [],
   "summary": {
@@ -160,17 +160,17 @@
     "reflectionCount": 0,
     "selfPerceptionDriftCount": 1,
     "avgLanguageToResultGap": 3.684,
-    "avgOptionToResultGap": 2.155,
+    "avgOptionToResultGap": 2.174,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
       "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.494,
+      "scoreDistance": 3.564,
       "expectationGap": 3.585,
-      "languageToResultGap": 5.079,
-      "optionToResultGap": 2.502,
+      "languageToResultGap": 5.097,
+      "optionToResultGap": 2.549,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -325,11 +325,11 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 6.0952,
-        "moral": 4.2408,
-        "realism": 7.2776,
-        "fatalism": 3.4816000000000003,
-        "cause": 6.518400000000001
+        "freedom": 6.1068999999999996,
+        "moral": 4.229100000000001,
+        "realism": 7.3127,
+        "fatalism": 3.4582,
+        "cause": 6.5418
       },
       "averageOptionProfile": {
         "freedom": 5.840000000000001,
@@ -517,10 +517,10 @@
     {
       "persona": "守护型照料者",
       "matchedCharacter": "柯尼·斯普林格",
-      "scoreDistance": 2.82,
+      "scoreDistance": 2.846,
       "expectationGap": 3.349,
-      "languageToResultGap": 1.314,
-      "optionToResultGap": 1.44,
+      "languageToResultGap": 1.318,
+      "optionToResultGap": 1.467,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -675,11 +675,11 @@
         "cause": 7.24
       },
       "resultProfile": {
-        "freedom": 4.3019,
-        "moral": 5.4181,
+        "freedom": 4.286300000000001,
+        "moral": 5.4337,
         "realism": 5.336,
-        "fatalism": 4.3019,
-        "cause": 6.5381
+        "fatalism": 4.286300000000001,
+        "cause": 6.5537
       },
       "averageOptionProfile": {
         "freedom": 5.336,
@@ -692,10 +692,10 @@
     {
       "persona": "现实主义调停者",
       "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.091,
+      "scoreDistance": 3.159,
       "expectationGap": 1.787,
-      "languageToResultGap": 3.633,
-      "optionToResultGap": 2.037,
+      "languageToResultGap": 3.61,
+      "optionToResultGap": 2.076,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -850,11 +850,11 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 6.0952,
-        "moral": 4.2408,
-        "realism": 7.2776,
-        "fatalism": 3.4816000000000003,
-        "cause": 6.518400000000001
+        "freedom": 6.1068999999999996,
+        "moral": 4.229100000000001,
+        "realism": 7.3127,
+        "fatalism": 3.4582,
+        "cause": 6.5418
       },
       "averageOptionProfile": {
         "freedom": 5.488,
@@ -2118,6 +2118,6 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.079，但选项语义到结果偏差仅 2.502。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
+    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.097，但选项语义到结果偏差仅 2.549。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
   ]
 }
