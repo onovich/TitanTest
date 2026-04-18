@@ -97,13 +97,86 @@ function mutateCharacterTuning(config, evaluation, iteration, mode, variant = 'b
   return next;
 }
 
+function getModerationFloor(evaluation) {
+  return Math.min(evaluation.extremity?.promptScore ?? 0, evaluation.extremity?.optionScore ?? 0);
+}
+
+function getRegressionSummary(candidateEvaluation, baselineEvaluation) {
+  return {
+    personaDrop: Math.max(0, baselineEvaluation.persona.personaScore - candidateEvaluation.persona.personaScore),
+    balanceDrop: Math.max(0, baselineEvaluation.balance.balanceScore - candidateEvaluation.balance.balanceScore),
+    promptDrop: Math.max(0, (baselineEvaluation.extremity?.promptScore ?? 0) - (candidateEvaluation.extremity?.promptScore ?? 0)),
+    optionDrop: Math.max(0, (baselineEvaluation.extremity?.optionScore ?? 0) - (candidateEvaluation.extremity?.optionScore ?? 0)),
+    gapIncrease: Math.max(0, candidateEvaluation.scoreGap - baselineEvaluation.scoreGap),
+    reflectionIncrease: Math.max(0, candidateEvaluation.persona.reflectionCount - baselineEvaluation.persona.reflectionCount),
+    driftIncrease: Math.max(0, candidateEvaluation.persona.selfPerceptionDriftCount - baselineEvaluation.persona.selfPerceptionDriftCount),
+    inconsistencyIncrease: Math.max(0, candidateEvaluation.persona.inconsistentOptionCount - baselineEvaluation.persona.inconsistentOptionCount),
+  };
+}
+
 function rankCandidate(candidateEvaluation, bestEvaluation) {
-  const personaFloorScore = candidateEvaluation.persona.personaScore >= 86 ? 25 : candidateEvaluation.persona.personaScore >= 82 ? 10 : -20;
-  const balanceBonus = candidateEvaluation.balance.balanceScore * 1.4;
-  const gapPenalty = candidateEvaluation.scoreGap * 1.2;
-  const personaBonus = candidateEvaluation.persona.personaScore;
-  const improvementBonus = candidateEvaluation.balance.balanceScore > bestEvaluation.balance.balanceScore ? 8 : 0;
-  return Number((personaFloorScore + balanceBonus + personaBonus - gapPenalty + improvementBonus).toFixed(2));
+  const moderationFloor = getModerationFloor(candidateEvaluation);
+  const regression = getRegressionSummary(candidateEvaluation, bestEvaluation);
+  const improvementBonus =
+    (candidateEvaluation.persona.personaScore > bestEvaluation.persona.personaScore ? 8 : 0) +
+    (candidateEvaluation.balance.balanceScore > bestEvaluation.balance.balanceScore ? 8 : 0) +
+    ((candidateEvaluation.extremity?.promptScore ?? 0) > (bestEvaluation.extremity?.promptScore ?? 0) ? 4 : 0) +
+    ((candidateEvaluation.extremity?.optionScore ?? 0) > (bestEvaluation.extremity?.optionScore ?? 0) ? 4 : 0) +
+    (candidateEvaluation.scoreGap < bestEvaluation.scoreGap ? 6 : 0);
+
+  const regressionPenalty =
+    regression.personaDrop * 2.6 +
+    regression.balanceDrop * 2.2 +
+    regression.promptDrop * 1.6 +
+    regression.optionDrop * 1.6 +
+    regression.gapIncrease * 1.8 +
+    regression.reflectionIncrease * 8 +
+    regression.driftIncrease * 4 +
+    regression.inconsistencyIncrease * 5;
+
+  return Number(
+    (
+      candidateEvaluation.combinedScore +
+      candidateEvaluation.persona.personaScore * 0.45 +
+      candidateEvaluation.balance.balanceScore * 0.35 +
+      moderationFloor * 0.25 +
+      candidateEvaluation.balance.activeRoleCount * 1.2 +
+      improvementBonus -
+      regressionPenalty
+    ).toFixed(2)
+  );
+}
+
+function shouldAcceptCandidate(candidateEvaluation, bestEvaluation) {
+  const regression = getRegressionSummary(candidateEvaluation, bestEvaluation);
+  const moderationFloor = getModerationFloor(candidateEvaluation);
+  const bestModerationFloor = getModerationFloor(bestEvaluation);
+
+  const noMajorRegression =
+    regression.personaDrop <= 1.2 &&
+    regression.balanceDrop <= 2.5 &&
+    regression.promptDrop <= 1.5 &&
+    regression.optionDrop <= 1.5 &&
+    regression.gapIncrease <= 2.2 &&
+    regression.reflectionIncrease <= 0 &&
+    regression.driftIncrease <= 0 &&
+    regression.inconsistencyIncrease <= 0;
+
+  const strongOverallImprovement =
+    candidateEvaluation.combinedScore >= bestEvaluation.combinedScore + 2.5 &&
+    candidateEvaluation.persona.personaScore >= bestEvaluation.persona.personaScore - 0.6 &&
+    candidateEvaluation.balance.balanceScore >= bestEvaluation.balance.balanceScore - 0.8 &&
+    moderationFloor >= bestModerationFloor - 0.8;
+
+  const multiMetricImprovementCount = [
+    candidateEvaluation.persona.personaScore > bestEvaluation.persona.personaScore,
+    candidateEvaluation.balance.balanceScore > bestEvaluation.balance.balanceScore,
+    (candidateEvaluation.extremity?.promptScore ?? 0) > (bestEvaluation.extremity?.promptScore ?? 0),
+    (candidateEvaluation.extremity?.optionScore ?? 0) > (bestEvaluation.extremity?.optionScore ?? 0),
+    candidateEvaluation.scoreGap < bestEvaluation.scoreGap,
+  ].filter(Boolean).length;
+
+  return noMajorRegression && (strongOverallImprovement || multiMetricImprovementCount >= 3);
 }
 
 function runJsonCommand(argsList) {
@@ -197,9 +270,7 @@ async function main() {
     const chosenCandidate = evaluatedCandidates[0];
     const candidateEvaluation = chosenCandidate.evaluation;
 
-    const accept =
-      candidateEvaluation.persona.personaScore >= bestEvaluation.persona.personaScore - 1.5 &&
-      (candidateEvaluation.balance.balanceScore > bestEvaluation.balance.balanceScore || candidateEvaluation.scoreGap < bestEvaluation.scoreGap - 1);
+    const accept = shouldAcceptCandidate(candidateEvaluation, bestEvaluation);
 
     if (accept) {
       currentRuntimeConfig = chosenCandidate.runtime;
@@ -221,7 +292,16 @@ async function main() {
       selectedCandidate: chosenCandidate.name,
       accepted: bestEvaluation,
       candidate: candidateEvaluation,
-      candidateRanks: evaluatedCandidates.map((item) => ({ name: item.name, rank: item.rank, personaScore: item.evaluation.persona.personaScore, balanceScore: item.evaluation.balance.balanceScore, scoreGap: item.evaluation.scoreGap })),
+      candidateRanks: evaluatedCandidates.map((item) => ({
+        name: item.name,
+        rank: item.rank,
+        combinedScore: item.evaluation.combinedScore,
+        personaScore: item.evaluation.persona.personaScore,
+        balanceScore: item.evaluation.balance.balanceScore,
+        promptScore: item.evaluation.extremity?.promptScore,
+        optionScore: item.evaluation.extremity?.optionScore,
+        scoreGap: item.evaluation.scoreGap,
+      })),
       accept,
       degradationStreak,
     };
