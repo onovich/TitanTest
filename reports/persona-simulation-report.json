@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T21:44:56.697Z",
+  "generatedAt": "2026-04-18T21:45:02.220Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
@@ -512,8 +512,8 @@
         "fatalism": 3.28510602290972,
         "cause": 4.680947456457396
       },
-      "matchName": "让·基尔希斯坦",
-      "matchDistance": 5.415,
+      "matchName": "三笠·阿克曼",
+      "matchDistance": 5.33,
       "expectationGap": 1.367,
       "dimensionalGap": 0.5,
       "needsCalibration": false
