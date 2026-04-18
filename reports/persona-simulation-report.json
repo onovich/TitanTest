@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T13:12:03.615Z",
+  "generatedAt": "2026-04-18T13:12:10.654Z",
   "strictMode": false,
   "issues": [],
   "summary": {
@@ -157,24 +157,24 @@
   ],
   "semanticSummary": {
     "personaCount": 6,
-    "reflectionCount": 0,
-    "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 4.09,
-    "avgOptionToResultGap": 2.188,
+    "reflectionCount": 1,
+    "selfPerceptionDriftCount": 0,
+    "avgLanguageToResultGap": 4.408,
+    "avgOptionToResultGap": 2.404,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
-      "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.947,
+      "matchedCharacter": "三笠·阿克曼",
+      "scoreDistance": 4.639,
       "expectationGap": 3.781,
-      "languageToResultGap": 5.211,
-      "optionToResultGap": 2.372,
-      "semanticTopOverlap": 0,
-      "selfPerceptionDrift": true,
-      "calibrationConcern": false,
-      "needsReflection": false,
+      "languageToResultGap": 7.119,
+      "optionToResultGap": 3.67,
+      "semanticTopOverlap": 0.5,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": true,
+      "needsReflection": true,
       "chosenOptions": [
         {
           "questionId": 1,
@@ -325,11 +325,11 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 6.0705,
-        "moral": 4.2655,
-        "realism": 7.203500000000001,
-        "fatalism": 3.531,
-        "cause": 6.469
+        "freedom": 3.5734999999999997,
+        "moral": 4.51075,
+        "realism": 5,
+        "fatalism": 4.62275,
+        "cause": 3.58825
       },
       "averageOptionProfile": {
         "freedom": 6.340000000000001,
@@ -2118,6 +2118,6 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.211，但选项语义到结果偏差仅 2.372。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
+    "人格“理想主义反叛者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 7.119，选项语义到结果偏差 3.67；建议复查其高频命中的题目文案与分值。"
   ]
 }
