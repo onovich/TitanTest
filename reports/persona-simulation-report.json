@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T21:51:54.217Z",
+  "generatedAt": "2026-04-18T21:51:59.433Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
@@ -478,12 +478,12 @@
   },
   "summary": {
     "personaCount": 6,
-    "avgExpectationGap": 1.201,
+    "avgExpectationGap": 1.2,
     "calibrationNeededCount": 0,
     "topProblemDimensions": [
       {
         "dimension": "cause",
-        "error": 0.648
+        "error": 0.653
       },
       {
         "dimension": "fatalism",
@@ -508,13 +508,13 @@
       "finalScores": {
         "freedom": 7.420966377952256,
         "moral": 3.1450824344367523,
-        "realism": 4.479937925711123,
+        "realism": 4.527332842812881,
         "fatalism": 3.29959582762442,
-        "cause": 4.685332878977679
+        "cause": 4.702523735257184
       },
       "matchName": "三笠·阿克曼",
-      "matchDistance": 5.387,
-      "expectationGap": 1.377,
+      "matchDistance": 5.392,
+      "expectationGap": 1.369,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     },
@@ -530,13 +530,13 @@
       "finalScores": {
         "freedom": 5.670653853643928,
         "moral": 6.034812165828699,
-        "realism": 7.555794555178128,
+        "realism": 7.605207231261204,
         "fatalism": 5.8780214912,
-        "cause": 7.576252010309866
+        "cause": 7.5937730169737785
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.858,
-      "expectationGap": 1.59,
+      "matchDistance": 2.83,
+      "expectationGap": 1.573,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -552,13 +552,13 @@
       "finalScores": {
         "freedom": 4.187861438671996,
         "moral": 3.9689229258994208,
-        "realism": 6.356963820285944,
+        "realism": 6.405314720019535,
         "fatalism": 7.249325458710299,
-        "cause": 5.9702067147550855
+        "cause": 5.986438641479274
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.764,
-      "expectationGap": 1.03,
+      "matchDistance": 2.719,
+      "expectationGap": 1.039,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -574,13 +574,13 @@
       "finalScores": {
         "freedom": 6.031206407748629,
         "moral": 5.777014186697518,
-        "realism": 7.514937532382981,
+        "realism": 7.564262845241229,
         "fatalism": 5.483187726335999,
-        "cause": 7.417940176099081
+        "cause": 7.435461182762994
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.729,
-      "expectationGap": 1.195,
+      "matchDistance": 2.699,
+      "expectationGap": 1.182,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -596,13 +596,13 @@
       "finalScores": {
         "freedom": 3.2006431793129324,
         "moral": 5.72694745231044,
-        "realism": 6.888448994514288,
+        "realism": 6.937228042322475,
         "fatalism": 7.4991983015527826,
-        "cause": 6.8087725685246525
+        "cause": 6.825209229938795
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.211,
-      "expectationGap": 1.082,
+      "matchDistance": 2.172,
+      "expectationGap": 1.113,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -618,37 +618,37 @@
       "finalScores": {
         "freedom": 5.508989935873628,
         "moral": 6.484105728340571,
-        "realism": 7.531451146554578,
+        "realism": 7.580230194362764,
         "fatalism": 6.957880849800923,
-        "cause": 6.919857040136973
+        "cause": 6.937378046800885
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.808,
-      "expectationGap": 0.93,
+      "matchDistance": 2.79,
+      "expectationGap": 0.922,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     }
   ],
   "semanticSummary": {
     "personaCount": 6,
-    "reflectionCount": 1,
-    "selfPerceptionDriftCount": 2,
-    "avgLanguageToResultGap": 4.501,
-    "avgOptionToResultGap": 2.478,
+    "reflectionCount": 2,
+    "selfPerceptionDriftCount": 1,
+    "avgLanguageToResultGap": 4.395,
+    "avgOptionToResultGap": 2.728,
     "inconsistentOptionCount": 5
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
-      "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.763,
-      "expectationGap": 4.279,
-      "languageToResultGap": 5.58,
-      "optionToResultGap": 2.641,
+      "matchedCharacter": "吉克·耶格尔",
+      "scoreDistance": 3.188,
+      "expectationGap": 4.308,
+      "languageToResultGap": 4.945,
+      "optionToResultGap": 4.144,
       "semanticTopOverlap": 0.5,
-      "selfPerceptionDrift": true,
-      "calibrationConcern": false,
-      "needsReflection": false,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": true,
+      "needsReflection": true,
       "chosenOptions": [
         {
           "questionId": 1,
@@ -799,11 +799,11 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 4.9688,
-        "moral": 6.0244,
-        "realism": 6.9292,
-        "fatalism": 5.936000000000001,
-        "cause": 7.1216
+        "freedom": 6.72185,
+        "moral": 7.2958,
+        "realism": 8.415799999999999,
+        "fatalism": 5.57395,
+        "cause": 7.05785
       },
       "averageOptionProfile": {
         "freedom": 5.295999999999999,
@@ -816,8 +816,8 @@
     {
       "persona": "集体主义战略家",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.456,
-      "expectationGap": 2.422,
+      "scoreDistance": 3.428,
+      "expectationGap": 2.403,
       "languageToResultGap": 4.428,
       "optionToResultGap": 2.335,
       "semanticTopOverlap": 1,
@@ -991,8 +991,8 @@
     {
       "persona": "守护型照料者",
       "matchedCharacter": "利威尔·阿克曼",
-      "scoreDistance": 3.635,
-      "expectationGap": 2.989,
+      "scoreDistance": 3.603,
+      "expectationGap": 2.995,
       "languageToResultGap": 3.307,
       "optionToResultGap": 2.832,
       "semanticTopOverlap": 0,
@@ -1166,8 +1166,8 @@
     {
       "persona": "现实主义调停者",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.954,
-      "expectationGap": 1.435,
+      "scoreDistance": 2.921,
+      "expectationGap": 1.413,
       "languageToResultGap": 5.498,
       "optionToResultGap": 2.552,
       "semanticTopOverlap": 0.5,
@@ -1341,8 +1341,8 @@
     {
       "persona": "宿命型幸存者",
       "matchedCharacter": "利威尔·阿克曼",
-      "scoreDistance": 2.755,
-      "expectationGap": 3.477,
+      "scoreDistance": 2.739,
+      "expectationGap": 3.499,
       "languageToResultGap": 4.405,
       "optionToResultGap": 2.174,
       "semanticTopOverlap": 1,
@@ -1516,8 +1516,8 @@
     {
       "persona": "矛盾型士兵",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.522,
-      "expectationGap": 1.957,
+      "scoreDistance": 3.495,
+      "expectationGap": 1.95,
       "languageToResultGap": 3.786,
       "optionToResultGap": 2.332,
       "semanticTopOverlap": 1,
@@ -2592,8 +2592,8 @@
     }
   ],
   "recommendations": [
+    "人格“理想主义反叛者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 4.945，选项语义到结果偏差 4.144；建议复查其高频命中的题目文案与分值。",
     "人格“守护型照料者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.307，选项语义到结果偏差 2.832；建议复查其高频命中的题目文案与分值。",
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.58，但选项语义到结果偏差仅 2.641。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
     "人格“现实主义调停者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.498，但选项语义到结果偏差仅 2.552。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
     "题目 10 的选项“需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。”文本语义 Top 维度为 freedom / moral，与数值 Top 维度 cause / realism 重合偏低，建议人工复核。",
     "题目 11 的选项“知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。”文本语义 Top 维度为 realism / freedom，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。",
