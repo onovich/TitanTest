@@ -1,60 +1,55 @@
 {
-  "generatedAt": "2026-04-18T13:12:42.087Z",
+  "generatedAt": "2026-04-18T13:12:47.504Z",
   "sampleSize": 2000,
-  "seed": 20260434,
+  "seed": 20260435,
   "topCharacter": {
     "name": "利威尔·阿克曼",
-    "count": 554,
-    "share": 27.7
+    "count": 512,
+    "share": 25.6
   },
-  "averageConfidenceGap": 0.396,
-  "distributionEntropy": 2.798,
+  "averageConfidenceGap": 0.369,
+  "distributionEntropy": 2.815,
   "maxEntropy": 4.322,
   "distribution": [
     {
       "name": "利威尔·阿克曼",
-      "count": 554,
-      "share": 27.7
+      "count": 512,
+      "share": 25.6
     },
     {
       "name": "让·基尔希斯坦",
-      "count": 403,
-      "share": 20.15
+      "count": 401,
+      "share": 20.05
     },
     {
       "name": "阿明·阿诺德",
-      "count": 324,
-      "share": 16.2
+      "count": 335,
+      "share": 16.75
     },
     {
       "name": "贾碧·布朗",
-      "count": 247,
-      "share": 12.35
-    },
-    {
-      "name": "柯尼·斯普林格",
-      "count": 150,
-      "share": 7.5
+      "count": 244,
+      "share": 12.2
     },
     {
       "name": "莱纳·布朗",
-      "count": 148,
-      "share": 7.4
+      "count": 176,
+      "share": 8.8
+    },
+    {
+      "name": "柯尼·斯普林格",
+      "count": 146,
+      "share": 7.3
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 80,
-      "share": 4
+      "count": 105,
+      "share": 5.25
     },
     {
       "name": "吉克·耶格尔",
-      "count": 53,
-      "share": 2.65
-    },
-    {
-      "name": "三笠·阿克曼",
-      "count": 20,
-      "share": 1
+      "count": 54,
+      "share": 2.7
     },
     {
       "name": "萨莎·布劳斯",
@@ -62,7 +57,12 @@
       "share": 1
     },
     {
-      "name": "肯尼·阿克曼",
+      "name": "三笠·阿克曼",
+      "count": 6,
+      "share": 0.3
+    },
+    {
+      "name": "弗洛克·福斯特",
       "count": 1,
       "share": 0.05
     },
@@ -92,12 +92,12 @@
       "share": 0
     },
     {
-      "name": "威利·戴巴",
+      "name": "肯尼·阿克曼",
       "count": 0,
       "share": 0
     },
     {
-      "name": "弗洛克·福斯特",
+      "name": "威利·戴巴",
       "count": 0,
       "share": 0
     },
@@ -115,73 +115,73 @@
   "centrality": [
     {
       "name": "莱纳·布朗",
-      "averageDistanceToOthers": 6.126,
+      "averageDistanceToOthers": 6.124,
       "distanceToNeutral": 5.657
     },
     {
       "name": "吉克·耶格尔",
-      "averageDistanceToOthers": 6.282,
+      "averageDistanceToOthers": 6.278,
       "distanceToNeutral": 6.927
     },
     {
       "name": "柯尼·斯普林格",
-      "averageDistanceToOthers": 6.539,
+      "averageDistanceToOthers": 6.538,
       "distanceToNeutral": 2.064
     },
     {
       "name": "利威尔·阿克曼",
-      "averageDistanceToOthers": 6.557,
+      "averageDistanceToOthers": 6.556,
       "distanceToNeutral": 4.957
     },
     {
       "name": "阿明·阿诺德",
-      "averageDistanceToOthers": 6.575,
-      "distanceToNeutral": 5.762
+      "averageDistanceToOthers": 6.589,
+      "distanceToNeutral": 5.806
     },
     {
       "name": "贾碧·布朗",
-      "averageDistanceToOthers": 6.707,
-      "distanceToNeutral": 5.43
+      "averageDistanceToOthers": 6.72,
+      "distanceToNeutral": 5.47
     },
     {
       "name": "弗洛克·福斯特",
-      "averageDistanceToOthers": 6.873,
-      "distanceToNeutral": 6.753
+      "averageDistanceToOthers": 6.836,
+      "distanceToNeutral": 6.691
     },
     {
       "name": "格里沙·耶格尔",
-      "averageDistanceToOthers": 6.887,
+      "averageDistanceToOthers": 6.885,
       "distanceToNeutral": 5
     },
     {
       "name": "威利·戴巴",
-      "averageDistanceToOthers": 6.913,
+      "averageDistanceToOthers": 6.909,
       "distanceToNeutral": 7.874
     },
     {
       "name": "清美·亚兹玛比特",
-      "averageDistanceToOthers": 6.938,
-      "distanceToNeutral": 5.196
+      "averageDistanceToOthers": 6.923,
+      "distanceToNeutral": 5.165
     },
     {
       "name": "艾尔文·史密斯",
-      "averageDistanceToOthers": 7.104,
+      "averageDistanceToOthers": 7.102,
       "distanceToNeutral": 7.616
     },
     {
       "name": "萨莎·布劳斯",
-      "averageDistanceToOthers": 7.245,
-      "distanceToNeutral": 2.28
+      "averageDistanceToOthers": 7.227,
+      "distanceToNeutral": 2.244
     },
     {
       "name": "艾伦·克鲁格",
-      "averageDistanceToOthers": 7.45,
+      "averageDistanceToOthers": 7.445,
       "distanceToNeutral": 8.66
     },
     {
       "name": "让·基尔希斯坦",
-      "averageDistanceToOthers": 7.484,
-      "distanceToNeutral": 4.821
+      "averageDistanceToOthers": 7.514,
+      "distanceToNeutral": 4.882
     },
     {
       "name": "贝特霍尔德·胡佛",
@@ -190,17 +190,17 @@
     },
     {
       "name": "三笠·阿克曼",
-      "averageDistanceToOthers": 8.317,
-      "distanceToNeutral": 3.641
+      "averageDistanceToOthers": 8.288,
+      "distanceToNeutral": 3.594
     },
     {
       "name": "阿尼·利昂纳德",
-      "averageDistanceToOthers": 8.394,
+      "averageDistanceToOthers": 8.396,
       "distanceToNeutral": 8.185
     },
     {
       "name": "艾伦·耶格尔",
-      "averageDistanceToOthers": 8.666,
+      "averageDistanceToOthers": 8.664,
       "distanceToNeutral": 8.246
     },
     {
@@ -210,42 +210,42 @@
     },
     {
       "name": "尤弥尔·弗里茨",
-      "averageDistanceToOthers": 11.043,
+      "averageDistanceToOthers": 11.046,
       "distanceToNeutral": 9.539
     }
   ],
   "dimensionSpread": [
     {
       "dimension": "freedom",
-      "average": 5.661,
-      "deviation": 2.557,
+      "average": 5.666,
+      "deviation": 2.555,
       "min": 1,
       "max": 10
     },
     {
       "dimension": "moral",
-      "average": 7.55,
-      "deviation": 2.003,
-      "min": 3.894,
+      "average": 7.548,
+      "deviation": 2,
+      "min": 3.88,
       "max": 10
     },
     {
       "dimension": "realism",
-      "average": 7.054,
+      "average": 7.055,
       "deviation": 2.285,
       "min": 2,
       "max": 10
     },
     {
       "dimension": "fatalism",
-      "average": 6.377,
+      "average": 6.378,
       "deviation": 2.173,
-      "min": 2.788,
+      "min": 2.76,
       "max": 10
     },
     {
       "dimension": "cause",
-      "average": 5.86,
+      "average": 5.865,
       "deviation": 2.891,
       "min": 1,
       "max": 10

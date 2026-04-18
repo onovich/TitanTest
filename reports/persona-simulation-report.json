@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T13:12:41.806Z",
+  "generatedAt": "2026-04-18T13:12:47.226Z",
   "strictMode": false,
   "issues": [],
   "summary": {
@@ -39,7 +39,7 @@
         "cause": 4.986520794157305
       },
       "matchName": "让·基尔希斯坦",
-      "matchDistance": 4.75,
+      "matchDistance": 4.79,
       "expectationGap": 2.001,
       "dimensionalGap": 0.5,
       "needsCalibration": false
@@ -61,7 +61,7 @@
         "cause": 7.416977219527487
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.249,
+      "matchDistance": 2.282,
       "expectationGap": 2.786,
       "dimensionalGap": 0,
       "needsCalibration": false
@@ -105,7 +105,7 @@
         "cause": 7.233811827343731
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.31,
+      "matchDistance": 2.344,
       "expectationGap": 2.16,
       "dimensionalGap": 0,
       "needsCalibration": false
@@ -159,18 +159,18 @@
     "personaCount": 6,
     "reflectionCount": 0,
     "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 3.963,
-    "avgOptionToResultGap": 2.088,
+    "avgLanguageToResultGap": 3.957,
+    "avgOptionToResultGap": 2.103,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
       "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.803,
+      "scoreDistance": 3.858,
       "expectationGap": 3.801,
-      "languageToResultGap": 5.196,
-      "optionToResultGap": 2.311,
+      "languageToResultGap": 5.205,
+      "optionToResultGap": 2.347,
       "semanticTopOverlap": 0,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -325,11 +325,11 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 6.0549,
-        "moral": 4.2811,
-        "realism": 7.1567,
-        "fatalism": 3.5622,
-        "cause": 6.4378
+        "freedom": 6.064,
+        "moral": 4.272,
+        "realism": 7.184,
+        "fatalism": 3.5439999999999996,
+        "cause": 6.456
       },
       "averageOptionProfile": {
         "freedom": 6.340000000000001,
@@ -342,10 +342,10 @@
     {
       "persona": "集体主义战略家",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.936,
+      "scoreDistance": 2.964,
       "expectationGap": 2.853,
-      "languageToResultGap": 3.976,
-      "optionToResultGap": 1.737,
+      "languageToResultGap": 3.963,
+      "optionToResultGap": 1.749,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -500,11 +500,11 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 5.7364,
-        "moral": 6.9282,
-        "realism": 7.560600000000001,
+        "freedom": 5.742,
+        "moral": 6.931,
+        "realism": 7.569,
         "fatalism": 5.416,
-        "cause": 6.9928
+        "cause": 7.004
       },
       "averageOptionProfile": {
         "freedom": 5.104,
@@ -692,10 +692,10 @@
     {
       "persona": "现实主义调停者",
       "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 2.576,
+      "scoreDistance": 2.617,
       "expectationGap": 2.004,
-      "languageToResultGap": 3.715,
-      "optionToResultGap": 1.811,
+      "languageToResultGap": 3.696,
+      "optionToResultGap": 1.842,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -850,11 +850,11 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 6.0549,
-        "moral": 4.2811,
-        "realism": 7.1567,
-        "fatalism": 3.5622,
-        "cause": 6.4378
+        "freedom": 6.064,
+        "moral": 4.272,
+        "realism": 7.184,
+        "fatalism": 3.5439999999999996,
+        "cause": 6.456
       },
       "averageOptionProfile": {
         "freedom": 5.722,
@@ -1042,10 +1042,10 @@
     {
       "persona": "矛盾型士兵",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.801,
+      "scoreDistance": 2.833,
       "expectationGap": 1.305,
-      "languageToResultGap": 3.459,
-      "optionToResultGap": 1.78,
+      "languageToResultGap": 3.447,
+      "optionToResultGap": 1.789,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -1200,11 +1200,11 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 5.7364,
-        "moral": 6.9282,
-        "realism": 7.560600000000001,
+        "freedom": 5.742,
+        "moral": 6.931,
+        "realism": 7.569,
         "fatalism": 5.416,
-        "cause": 6.9928
+        "cause": 7.004
       },
       "averageOptionProfile": {
         "freedom": 5.104,
@@ -2118,6 +2118,6 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.196，但选项语义到结果偏差仅 2.311。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
+    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.205，但选项语义到结果偏差仅 2.347。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
   ]
 }
