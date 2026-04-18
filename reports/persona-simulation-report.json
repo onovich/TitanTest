@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-04-18T20:52:30.660Z",
+  "generatedAt": "2026-04-18T20:52:35.608Z",
   "strictMode": false,
   "issues": [],
   "summary": {
     "personaCount": 6,
-    "avgExpectationGap": 1.204,
+    "avgExpectationGap": 1.219,
     "calibrationNeededCount": 0,
     "topProblemDimensions": [
       {
         "dimension": "cause",
-        "error": 0.645
+        "error": 0.638
       },
       {
         "dimension": "fatalism",
-        "error": 0.54
+        "error": 0.543
       },
       {
         "dimension": "realism",
-        "error": 0.389
+        "error": 0.437
       }
     ]
   },
@@ -33,14 +33,14 @@
       },
       "finalScores": {
         "freedom": 7.321964401845761,
-        "moral": 3.3050020319228612,
-        "realism": 4.571000024481832,
-        "fatalism": 2.899433710230962,
-        "cause": 4.96222611638886
+        "moral": 3.294987147675617,
+        "realism": 4.523582960000641,
+        "fatalism": 2.9096317727873084,
+        "cause": 4.9393497598862375
       },
       "matchName": "三笠·阿克曼",
-      "matchDistance": 5.202,
-      "expectationGap": 1.436,
+      "matchDistance": 5.193,
+      "expectationGap": 1.44,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     },
@@ -55,14 +55,14 @@
       },
       "finalScores": {
         "freedom": 5.763093107970883,
-        "moral": 6.13575028056232,
-        "realism": 7.316408296117688,
-        "fatalism": 5.617045856,
-        "cause": 7.336329739550502
+        "moral": 6.125652690584015,
+        "realism": 7.265232296790267,
+        "fatalism": 5.6241639039999995,
+        "cause": 7.312836924528246
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.569,
-      "expectationGap": 1.618,
+      "matchDistance": 2.605,
+      "expectationGap": 1.658,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -77,14 +77,14 @@
       },
       "finalScores": {
         "freedom": 3.792805475414916,
-        "moral": 4.23926661584245,
-        "realism": 6.145548703959558,
-        "fatalism": 7.5359753403699745,
-        "cause": 6.044482338956344
+        "moral": 4.229244297013672,
+        "realism": 6.096088241732509,
+        "fatalism": 7.550368130391963,
+        "cause": 6.022660335426633
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.811,
-      "expectationGap": 1.267,
+      "matchDistance": 2.863,
+      "expectationGap": 1.268,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -99,14 +99,14 @@
       },
       "finalScores": {
         "freedom": 6.087626670864036,
-        "moral": 5.766157817056139,
-        "realism": 7.2973521183474155,
-        "fatalism": 5.72116958368,
-        "cause": 7.14122607977596
+        "moral": 5.756060227077836,
+        "realism": 7.246266599857897,
+        "fatalism": 5.72949438912,
+        "cause": 7.117819670022825
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.618,
-      "expectationGap": 1.438,
+      "matchDistance": 2.658,
+      "expectationGap": 1.47,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -121,14 +121,14 @@
       },
       "finalScores": {
         "freedom": 3.061852704183117,
-        "moral": 5.879432442688072,
-        "realism": 6.50792310493907,
-        "fatalism": 7.486799941892511,
-        "cause": 6.875578647697703
+        "moral": 5.869410123859294,
+        "realism": 6.457846772135594,
+        "fatalism": 7.501384855859206,
+        "cause": 6.853481401357772
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.647,
-      "expectationGap": 1.024,
+      "matchDistance": 2.683,
+      "expectationGap": 1,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     },
@@ -143,14 +143,14 @@
       },
       "finalScores": {
         "freedom": 5.250410198989036,
-        "moral": 6.910790432961596,
-        "realism": 7.3412799443257635,
-        "fatalism": 7.253056355958443,
-        "cause": 7.316153668827905
+        "moral": 6.900768114132818,
+        "realism": 7.291203611522288,
+        "fatalism": 7.266150369944978,
+        "cause": 7.292660853805649
       },
       "matchName": "莱纳·布朗",
-      "matchDistance": 1.973,
-      "expectationGap": 0.44,
+      "matchDistance": 1.974,
+      "expectationGap": 0.48,
       "dimensionalGap": 0,
       "needsCalibration": false
     }
@@ -159,8 +159,8 @@
     "personaCount": 6,
     "reflectionCount": 0,
     "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 3.685,
-    "avgOptionToResultGap": 2.261,
+    "avgLanguageToResultGap": 3.684,
+    "avgOptionToResultGap": 2.25,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
@@ -168,9 +168,9 @@
       "persona": "理想主义反叛者",
       "matchedCharacter": "让·基尔希斯坦",
       "scoreDistance": 3.918,
-      "expectationGap": 3.601,
-      "languageToResultGap": 5.197,
-      "optionToResultGap": 2.795,
+      "expectationGap": 3.568,
+      "languageToResultGap": 5.186,
+      "optionToResultGap": 2.768,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -325,11 +325,11 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 6.168000000000001,
-        "moral": 4.168,
-        "realism": 7.496,
-        "fatalism": 3.3360000000000003,
-        "cause": 6.664
+        "freedom": 6.1615,
+        "moral": 4.1745,
+        "realism": 7.476500000000001,
+        "fatalism": 3.349,
+        "cause": 6.651
       },
       "averageOptionProfile": {
         "freedom": 5.840000000000001,
@@ -342,8 +342,8 @@
     {
       "persona": "集体主义战略家",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.045,
-      "expectationGap": 2.194,
+      "scoreDistance": 3.085,
+      "expectationGap": 2.236,
       "languageToResultGap": 3.994,
       "optionToResultGap": 2.173,
       "semanticTopOverlap": 1,
@@ -517,10 +517,10 @@
     {
       "persona": "守护型照料者",
       "matchedCharacter": "柯尼·斯普林格",
-      "scoreDistance": 2.979,
-      "expectationGap": 3.338,
-      "languageToResultGap": 1.333,
-      "optionToResultGap": 1.541,
+      "scoreDistance": 2.949,
+      "expectationGap": 3.326,
+      "languageToResultGap": 1.328,
+      "optionToResultGap": 1.521,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -675,11 +675,11 @@
         "cause": 7.24
       },
       "resultProfile": {
-        "freedom": 4.243399999999999,
-        "moral": 5.4765999999999995,
+        "freedom": 4.2551000000000005,
+        "moral": 5.4649,
         "realism": 5.336,
-        "fatalism": 4.243399999999999,
-        "cause": 6.5966
+        "fatalism": 4.2551000000000005,
+        "cause": 6.584899999999999
       },
       "averageOptionProfile": {
         "freedom": 5.336,
@@ -692,10 +692,10 @@
     {
       "persona": "现实主义调停者",
       "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.506,
-      "expectationGap": 1.8,
-      "languageToResultGap": 3.502,
-      "optionToResultGap": 2.284,
+      "scoreDistance": 3.501,
+      "expectationGap": 1.843,
+      "languageToResultGap": 3.512,
+      "optionToResultGap": 2.261,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -850,11 +850,11 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 6.168000000000001,
-        "moral": 4.168,
-        "realism": 7.496,
-        "fatalism": 3.3360000000000003,
-        "cause": 6.664
+        "freedom": 6.1615,
+        "moral": 4.1745,
+        "realism": 7.476500000000001,
+        "fatalism": 3.349,
+        "cause": 6.651
       },
       "averageOptionProfile": {
         "freedom": 5.488,
@@ -867,8 +867,8 @@
     {
       "persona": "宿命型幸存者",
       "matchedCharacter": "莱纳·布朗",
-      "scoreDistance": 2.116,
-      "expectationGap": 2.242,
+      "scoreDistance": 2.122,
+      "expectationGap": 2.205,
       "languageToResultGap": 4.675,
       "optionToResultGap": 2.682,
       "semanticTopOverlap": 0,
@@ -1042,8 +1042,8 @@
     {
       "persona": "矛盾型士兵",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.983,
-      "expectationGap": 1.348,
+      "scoreDistance": 3.021,
+      "expectationGap": 1.368,
       "languageToResultGap": 3.409,
       "optionToResultGap": 2.094,
       "semanticTopOverlap": 1,
@@ -2118,6 +2118,6 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.197，但选项语义到结果偏差仅 2.795。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
+    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.186，但选项语义到结果偏差仅 2.768。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
   ]
 }
