@@ -93,10 +93,78 @@ function buildMarkdown(iteration, record) {
   return lines.join('\n');
 }
 
+function createQuestionHotspots() {
+  return QUESTIONS.map((question) => ({
+    questionId: question.id,
+    questionText: question.text,
+    options: question.options.map((option, index) => ({
+      optionIndex: index,
+      optionText: option.text,
+      totalSelections: 0,
+      subThresholdSelections: 0,
+      reflectionSelections: 0,
+      selfPerceptionSelections: 0,
+    })),
+  }));
+}
+
+function updateQuestionHotspots(hotspots, languageResult, isSubThreshold) {
+  languageResult.reports.forEach((report) => {
+    report.chosenOptions.forEach((choice) => {
+      const question = hotspots.find((item) => item.questionId === choice.questionId);
+      const option = question?.options.find((item) => item.optionIndex === choice.optionIndex);
+      if (!option) {
+        return;
+      }
+
+      option.totalSelections += 1;
+      if (isSubThreshold) {
+        option.subThresholdSelections += 1;
+      }
+      if (report.needsReflection) {
+        option.reflectionSelections += 1;
+      }
+      if (report.selfPerceptionDrift) {
+        option.selfPerceptionSelections += 1;
+      }
+    });
+  });
+}
+
+function buildHotspotMarkdown(questionHotspots, iterations) {
+  const lines = [];
+  lines.push('## 题目热点');
+  const totalDecisionCount = iterations * PERSONAS.length;
+
+  questionHotspots.forEach((question) => {
+    lines.push(`### Q${question.questionId}`);
+    lines.push(`- ${question.questionText}`);
+
+    question.options
+      .map((option) => ({
+        ...option,
+        selectionRate: Number(((option.totalSelections / totalDecisionCount) * 100).toFixed(1)),
+        subThresholdRate: Number(((option.subThresholdSelections / Math.max(1, option.totalSelections)) * 100).toFixed(1)),
+        driftRate: Number(((option.selfPerceptionSelections / Math.max(1, option.totalSelections)) * 100).toFixed(1)),
+      }))
+      .sort((a, b) => b.totalSelections - a.totalSelections)
+      .forEach((option) => {
+        lines.push(
+          `- 选项 ${option.optionIndex + 1}：总命中 ${option.totalSelections} 次（占全部人格作答的 ${option.selectionRate}%），低满意轮次命中 ${option.subThresholdSelections} 次，占该选项命中的 ${option.subThresholdRate}%；自我感知偏差路径命中 ${option.selfPerceptionSelections} 次，占 ${option.driftRate}%`
+        );
+      });
+
+    lines.push('');
+  });
+
+  return lines.join('\n');
+}
+
 async function main() {
   await mkdir(logsDir, { recursive: true });
 
   const history = [];
+  const questionHotspots = createQuestionHotspots();
 
   for (let iteration = 1; iteration <= maxIterations; iteration += 1) {
     const seed = 20260418 + iteration;
@@ -117,6 +185,7 @@ async function main() {
 
     const satisfactionScore = computeSatisfactionScore(numericResult, languageResult);
     const assessment = buildIterationAssessment(satisfactionScore, satisfactionThreshold, numericResult, languageResult);
+    updateQuestionHotspots(questionHotspots, languageResult, satisfactionScore < satisfactionThreshold);
     const record = {
       iteration,
       seed,
@@ -167,6 +236,7 @@ async function main() {
     maxSatisfaction: Math.max(...history.map((item) => item.satisfactionScore)),
     satisfiedIterations: history.filter((item) => item.satisfactionScore >= satisfactionThreshold).length,
     finalVerdict: averageSatisfaction >= satisfactionThreshold ? 'satisfied' : 'needs-more-work',
+    questionHotspots,
   };
 
   await writeFile(path.join(logsDir, 'summary.json'), `${JSON.stringify(summary, null, 2)}\n`, 'utf8');
@@ -182,6 +252,8 @@ async function main() {
       `- 最高满意度：${summary.maxSatisfaction}`,
       `- 达标轮数：${summary.satisfiedIterations}`,
       `- 最终结论：${summary.finalVerdict}`,
+      '',
+      buildHotspotMarkdown(questionHotspots, history.length),
       '',
       '## 说明',
       '- 每轮都包含数值模拟与自然语言直觉模拟。',

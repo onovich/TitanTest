@@ -28,6 +28,11 @@
 - [logs/iterations](logs/iterations)
 - 汇总文件：[logs/iterations/summary.md](logs/iterations/summary.md)
 
+其中 [logs/iterations/summary.md](logs/iterations/summary.md) 还会包含 **题目热点统计**：
+- 每题各选项在多轮语义模拟中的命中次数
+- 哪些选项更常出现在低满意度轮次里
+- 哪些选项更常出现在“自我感知偏差”路径里
+
 辅助诊断脚本：
 - `node scripts/inspect-matches.js`：查看特定人格路径下最近的角色候选。
 
