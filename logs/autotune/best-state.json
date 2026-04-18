@@ -10,11 +10,11 @@
     "optionScoreCalibrationStrengths": {
       "freedom": 0.04,
       "moral": 0.18,
-      "realism": 0.42999999999999994,
+      "realism": 0.39559999999999995,
       "fatalism": 0.07000000000000003,
-      "cause": 0.2449999999999999
+      "cause": 0.22539999999999993
     },
-    "matchDensityPenaltyWeight": 4.98,
+    "matchDensityPenaltyWeight": 4.3824000000000005,
     "neutralCenterPenaltyWeight": 2.35,
     "ambiguityCenter": 12.38,
     "ambiguityWidth": 7.5
@@ -44,99 +44,99 @@
     }
   },
   "evaluation": {
-    "generatedAt": "2026-04-18T21:50:13.303Z",
+    "generatedAt": "2026-04-18T21:56:42.592Z",
     "workflowLength": 923,
     "sampleSize": 3000,
     "seed": 20260418,
     "persona": {
-      "personaScore": 15.35,
-      "avgExpectationGap": 1.201,
+      "personaScore": 49.36,
+      "avgExpectationGap": 1.2,
       "calibrationNeededCount": 0,
-      "reflectionCount": 1,
+      "reflectionCount": 2,
       "selfPerceptionDriftCount": 2,
-      "inconsistentOptionCount": 5,
-      "avgLanguageToResultGap": 4.501,
-      "avgOptionToResultGap": 2.478
+      "inconsistentOptionCount": 1,
+      "avgLanguageToResultGap": 4.374,
+      "avgOptionToResultGap": 2.442
     },
     "balance": {
       "sampleSize": 3000,
       "seed": 20260418,
-      "topShare": 33.7,
-      "topCharacter": "让·基尔希斯坦",
-      "normalizedEntropy": 0.638,
-      "averageConfidenceGap": 0.367,
+      "topShare": 33.1,
+      "topCharacter": "利威尔·阿克曼",
+      "normalizedEntropy": 0.616,
+      "averageConfidenceGap": 0.371,
       "activeRoleCount": 14,
-      "balanceScore": 80.19,
+      "balanceScore": 80.61,
       "distribution": [
         {
-          "name": "让·基尔希斯坦",
-          "count": 1011,
-          "share": 33.7
+          "name": "利威尔·阿克曼",
+          "count": 993,
+          "share": 33.1
         },
         {
-          "name": "利威尔·阿克曼",
-          "count": 839,
-          "share": 27.97
+          "name": "让·基尔希斯坦",
+          "count": 920,
+          "share": 30.67
         },
         {
           "name": "阿明·阿诺德",
-          "count": 213,
-          "share": 7.1
+          "count": 269,
+          "share": 8.97
         },
         {
           "name": "贾碧·布朗",
-          "count": 175,
-          "share": 5.83
-        },
-        {
-          "name": "肯尼·阿克曼",
-          "count": 165,
-          "share": 5.5
+          "count": 186,
+          "share": 6.2
         },
         {
           "name": "格里沙·耶格尔",
-          "count": 148,
-          "share": 4.93
+          "count": 137,
+          "share": 4.57
+        },
+        {
+          "name": "肯尼·阿克曼",
+          "count": 119,
+          "share": 3.97
         },
         {
           "name": "艾伦·耶格尔",
-          "count": 142,
-          "share": 4.73
-        },
-        {
-          "name": "三笠·阿克曼",
           "count": 102,
           "share": 3.4
         },
         {
-          "name": "莱纳·布朗",
-          "count": 78,
-          "share": 2.6
-        },
-        {
           "name": "吉克·耶格尔",
-          "count": 65,
-          "share": 2.17
+          "count": 100,
+          "share": 3.33
         },
         {
-          "name": "尤弥尔·弗里茨",
-          "count": 55,
-          "share": 1.83
+          "name": "莱纳·布朗",
+          "count": 92,
+          "share": 3.07
+        },
+        {
+          "name": "三笠·阿克曼",
+          "count": 61,
+          "share": 2.03
         },
         {
           "name": "多托·匹西斯",
-          "count": 3,
-          "share": 0.1
+          "count": 8,
+          "share": 0.27
         },
         {
           "name": "萨莎·布劳斯",
-          "count": 3,
-          "share": 0.1
+          "count": 6,
+          "share": 0.2
         },
         {
           "name": "艾尔文·史密斯",
-          "count": 1,
-          "share": 0.03
+          "count": 4,
+          "share": 0.13
+        },
+        {
+          "name": "尤弥尔·弗里茨",
+          "count": 3,
+          "share": 0.1
         },
         {
           "name": "阿尼·利昂纳德",
@@ -172,11 +172,11 @@
     },
     "extremity": {
       "promptAverage": 1.94,
-      "optionAverage": 2.137,
+      "optionAverage": 2.135,
       "promptMax": 2.4,
       "optionMax": 2.7,
       "promptScore": 76.5,
-      "optionScore": 71.58,
+      "optionScore": 71.63,
       "flaggedPromptCount": 0,
       "flaggedOptionCount": 0,
       "items": [
@@ -216,8 +216,8 @@
             },
             {
               "index": 1,
-              "text": "尽量压低个体损失，不轻易让少数人被迫买单。",
-              "score": 1.9
+              "text": "尽量保住每个人的退路和选择，不让少数人直接被当成代价。",
+              "score": 2
             },
             {
               "index": 2,
@@ -308,8 +308,8 @@
             },
             {
               "index": 1,
-              "text": "接受结果，但把收尾、交接和影响控制好。",
-              "score": 2.1
+              "text": "接受这件事大概率就到这里了，但把收尾、交接和影响控制好。",
+              "score": 2.2
             },
             {
               "index": 2,
@@ -326,13 +326,13 @@
           "options": [
             {
               "index": 0,
-              "text": "只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。",
-              "score": 2.1
+              "text": "只会在局面快失控时临时压住消息，把秩序和收尾先稳住。",
+              "score": 2
             },
             {
               "index": 1,
-              "text": "宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。",
-              "score": 2.2
+              "text": "宁可一开始难堪一点，我也更想把真相和判断空间说开，免得以后信任整块塌掉。",
+              "score": 2.3
             },
             {
               "index": 2,
@@ -395,8 +395,8 @@
           "options": [
             {
               "index": 0,
-              "text": "需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。",
-              "score": 2.5
+              "text": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
+              "score": 2.4
             },
             {
               "index": 1,
@@ -418,8 +418,8 @@
           "options": [
             {
               "index": 0,
-              "text": "知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。",
-              "score": 2.1
+              "text": "知道这层风险没办法绕开时，我会先把它隔离开，再拉开距离，避免继续拖累同伴。",
+              "score": 2
             },
             {
               "index": 1,
@@ -464,8 +464,8 @@
           "options": [
             {
               "index": 0,
-              "text": "先配合稳定局面，同时尽快安排后续公开节奏。",
-              "score": 2.2
+              "text": "先配合稳住局面和民心，同时尽快安排后续公开节奏。",
+              "score": 2.1
             },
             {
               "index": 1,
@@ -474,8 +474,8 @@
             },
             {
               "index": 2,
-              "text": "尽量多公开，让人至少保有基本判断空间。",
-              "score": 2.1
+              "text": "尽量多公开真相，让人至少保有判断空间，而不是一直被代替决定。",
+              "score": 2.2
             }
           ]
         },
@@ -492,13 +492,13 @@
             },
             {
               "index": 1,
-              "text": "会强迫自己把事停在这里，至少别让更多无关的人被卷进后续消耗。",
-              "score": 2
+              "text": "会理性把事情停在这里，至少别让更多无关的人继续为后果买单。",
+              "score": 1.9
             },
             {
               "index": 2,
-              "text": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、谈代价的时候再处理。",
-              "score": 2.3
+              "text": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、处理后续局面的时候再谈。",
+              "score": 2.2
             }
           ]
         },
@@ -511,7 +511,7 @@
             {
               "index": 0,
               "text": "人生方向总被别人安排，自己几乎没有选择空间。",
-              "score": 1.9
+              "score": 2
             },
             {
               "index": 1,
@@ -579,7 +579,7 @@
           "options": [
             {
               "index": 0,
-              "text": "会先按最坏情况把后手和空位预留出来，但不会完全照着这份预警行动。",
+              "text": "如果最坏结局看起来很难避开，我会先把同伴的位置和后手预留出来，再决定跟到哪一步。",
               "score": 1.9
             },
             {
@@ -644,7 +644,7 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 64.84,
-    "combinedScore": 72.3
+    "scoreGap": 31.25,
+    "combinedScore": 133.62
   }
 }
