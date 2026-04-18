@@ -1,70 +1,75 @@
 {
-  "generatedAt": "2026-04-18T21:24:52.846Z",
+  "generatedAt": "2026-04-18T21:24:58.163Z",
   "sampleSize": 3000,
-  "seed": 20260428,
+  "seed": 20260429,
   "topCharacter": {
     "name": "利威尔·阿克曼",
-    "count": 1218,
-    "share": 40.6
+    "count": 1374,
+    "share": 45.8
   },
-  "averageConfidenceGap": 0.366,
-  "distributionEntropy": 2.555,
+  "averageConfidenceGap": 0.402,
+  "distributionEntropy": 2.402,
   "maxEntropy": 4.322,
   "distribution": [
     {
       "name": "利威尔·阿克曼",
-      "count": 1218,
-      "share": 40.6
+      "count": 1374,
+      "share": 45.8
     },
     {
       "name": "让·基尔希斯坦",
-      "count": 693,
-      "share": 23.1
+      "count": 649,
+      "share": 21.63
     },
     {
       "name": "阿明·阿诺德",
-      "count": 329,
-      "share": 10.97
+      "count": 309,
+      "share": 10.3
     },
     {
       "name": "贾碧·布朗",
-      "count": 173,
-      "share": 5.77
+      "count": 184,
+      "share": 6.13
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 153,
-      "share": 5.1
+      "count": 136,
+      "share": 4.53
     },
     {
       "name": "莱纳·布朗",
-      "count": 117,
-      "share": 3.9
-    },
-    {
-      "name": "萨莎·布劳斯",
-      "count": 117,
-      "share": 3.9
+      "count": 106,
+      "share": 3.53
     },
     {
       "name": "吉克·耶格尔",
-      "count": 110,
-      "share": 3.67
+      "count": 95,
+      "share": 3.17
+    },
+    {
+      "name": "萨莎·布劳斯",
+      "count": 89,
+      "share": 2.97
     },
     {
       "name": "三笠·阿克曼",
-      "count": 49,
-      "share": 1.63
+      "count": 25,
+      "share": 0.83
     },
     {
       "name": "肯尼·阿克曼",
-      "count": 30,
-      "share": 1
+      "count": 22,
+      "share": 0.73
     },
     {
       "name": "艾伦·耶格尔",
-      "count": 11,
-      "share": 0.37
+      "count": 8,
+      "share": 0.27
+    },
+    {
+      "name": "多托·匹西斯",
+      "count": 3,
+      "share": 0.1
     },
     {
       "name": "艾尔文·史密斯",
@@ -93,11 +98,6 @@
     },
     {
       "name": "弗洛克·福斯特",
-      "count": 0,
-      "share": 0
-    },
-    {
-      "name": "多托·匹西斯",
       "count": 0,
       "share": 0
     },
