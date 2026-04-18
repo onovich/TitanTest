@@ -1,70 +1,65 @@
 {
-  "generatedAt": "2026-04-18T20:51:51.160Z",
+  "generatedAt": "2026-04-18T20:51:56.139Z",
   "sampleSize": 2000,
-  "seed": 20260434,
+  "seed": 20260435,
   "topCharacter": {
-    "name": "利威尔·阿克曼",
-    "count": 457,
-    "share": 22.85
+    "name": "让·基尔希斯坦",
+    "count": 400,
+    "share": 20
   },
-  "averageConfidenceGap": 0.252,
-  "distributionEntropy": 2.965,
+  "averageConfidenceGap": 0.218,
+  "distributionEntropy": 3.039,
   "maxEntropy": 4.322,
   "distribution": [
     {
-      "name": "利威尔·阿克曼",
-      "count": 457,
-      "share": 22.85
+      "name": "让·基尔希斯坦",
+      "count": 400,
+      "share": 20
     },
     {
-      "name": "让·基尔希斯坦",
-      "count": 419,
-      "share": 20.95
+      "name": "利威尔·阿克曼",
+      "count": 371,
+      "share": 18.55
     },
     {
       "name": "柯尼·斯普林格",
-      "count": 276,
-      "share": 13.8
-    },
-    {
-      "name": "阿明·阿诺德",
-      "count": 194,
-      "share": 9.7
+      "count": 298,
+      "share": 14.9
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 191,
-      "share": 9.55
+      "count": 244,
+      "share": 12.2
     },
     {
       "name": "贾碧·布朗",
-      "count": 191,
-      "share": 9.55
+      "count": 196,
+      "share": 9.8
     },
     {
-      "name": "三笠·阿克曼",
-      "count": 106,
-      "share": 5.3
+      "name": "阿明·阿诺德",
+      "count": 168,
+      "share": 8.4
     },
     {
       "name": "莱纳·布朗",
-      "count": 102,
-      "share": 5.1
+      "count": 130,
+      "share": 6.5
+    },
+    {
+      "name": "三笠·阿克曼",
+      "count": 109,
+      "share": 5.45
     },
     {
       "name": "萨莎·布劳斯",
-      "count": 33,
-      "share": 1.65
+      "count": 57,
+      "share": 2.85
     },
     {
       "name": "吉克·耶格尔",
-      "count": 30,
-      "share": 1.5
-    },
-    {
-      "name": "肯尼·阿克曼",
-      "count": 1,
-      "share": 0.05
+      "count": 27,
+      "share": 1.35
     },
     {
       "name": "艾伦·耶格尔",
@@ -88,6 +83,11 @@
     },
     {
       "name": "艾伦·克鲁格",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "肯尼·阿克曼",
       "count": 0,
       "share": 0
     },
@@ -115,123 +115,123 @@
   "centrality": [
     {
       "name": "吉克·耶格尔",
-      "averageDistanceToOthers": 5.969,
+      "averageDistanceToOthers": 5.966,
       "distanceToNeutral": 6.199
     },
     {
       "name": "莱纳·布朗",
-      "averageDistanceToOthers": 6.139,
+      "averageDistanceToOthers": 6.135,
       "distanceToNeutral": 5.657
     },
     {
       "name": "利威尔·阿克曼",
-      "averageDistanceToOthers": 6.575,
+      "averageDistanceToOthers": 6.571,
       "distanceToNeutral": 4.957
     },
     {
       "name": "阿明·阿诺德",
-      "averageDistanceToOthers": 6.589,
+      "averageDistanceToOthers": 6.585,
       "distanceToNeutral": 5.806
     },
     {
       "name": "柯尼·斯普林格",
-      "averageDistanceToOthers": 6.623,
+      "averageDistanceToOthers": 6.618,
       "distanceToNeutral": 2.328
     },
     {
       "name": "弗洛克·福斯特",
-      "averageDistanceToOthers": 6.872,
+      "averageDistanceToOthers": 6.869,
       "distanceToNeutral": 6.753
     },
     {
       "name": "格里沙·耶格尔",
-      "averageDistanceToOthers": 6.91,
+      "averageDistanceToOthers": 6.906,
       "distanceToNeutral": 5
     },
     {
       "name": "贾碧·布朗",
-      "averageDistanceToOthers": 6.92,
+      "averageDistanceToOthers": 6.916,
       "distanceToNeutral": 5.89
     },
     {
       "name": "威利·戴巴",
-      "averageDistanceToOthers": 6.922,
+      "averageDistanceToOthers": 6.919,
       "distanceToNeutral": 7.874
     },
     {
       "name": "清美·亚兹玛比特",
-      "averageDistanceToOthers": 6.953,
+      "averageDistanceToOthers": 6.949,
       "distanceToNeutral": 5.196
     },
     {
       "name": "艾尔文·史密斯",
-      "averageDistanceToOthers": 7.129,
+      "averageDistanceToOthers": 7.127,
       "distanceToNeutral": 7.616
     },
     {
       "name": "萨莎·布劳斯",
-      "averageDistanceToOthers": 7.257,
+      "averageDistanceToOthers": 7.252,
       "distanceToNeutral": 2.244
     },
     {
       "name": "艾伦·克鲁格",
-      "averageDistanceToOthers": 7.472,
+      "averageDistanceToOthers": 7.47,
       "distanceToNeutral": 8.66
     },
     {
       "name": "贝特霍尔德·胡佛",
-      "averageDistanceToOthers": 7.739,
+      "averageDistanceToOthers": 7.736,
       "distanceToNeutral": 7.746
     },
     {
       "name": "让·基尔希斯坦",
-      "averageDistanceToOthers": 7.915,
+      "averageDistanceToOthers": 7.911,
       "distanceToNeutral": 5.579
     },
     {
       "name": "三笠·阿克曼",
-      "averageDistanceToOthers": 8.31,
+      "averageDistanceToOthers": 8.305,
       "distanceToNeutral": 3.583
     },
     {
       "name": "阿尼·利昂纳德",
-      "averageDistanceToOthers": 8.425,
+      "averageDistanceToOthers": 8.423,
       "distanceToNeutral": 8.185
     },
     {
       "name": "艾伦·耶格尔",
-      "averageDistanceToOthers": 8.694,
+      "averageDistanceToOthers": 8.692,
       "distanceToNeutral": 8.246
     },
     {
       "name": "肯尼·阿克曼",
-      "averageDistanceToOthers": 8.8,
-      "distanceToNeutral": 7.81
+      "averageDistanceToOthers": 8.734,
+      "distanceToNeutral": 7.717
     },
     {
       "name": "尤弥尔·弗里茨",
-      "averageDistanceToOthers": 11.076,
+      "averageDistanceToOthers": 11.073,
       "distanceToNeutral": 9.539
     }
   ],
   "dimensionSpread": [
     {
       "dimension": "freedom",
-      "average": 5.661,
-      "deviation": 2.554,
+      "average": 5.658,
+      "deviation": 2.549,
       "min": 1,
       "max": 10
     },
     {
       "dimension": "moral",
-      "average": 7.538,
-      "deviation": 2,
+      "average": 7.535,
+      "deviation": 1.998,
       "min": 3.72,
       "max": 10
     },
     {
       "dimension": "realism",
-      "average": 7.061,
+      "average": 7.059,
       "deviation": 2.288,
       "min": 2,
       "max": 10
@@ -245,8 +245,8 @@
     },
     {
       "dimension": "cause",
-      "average": 5.891,
-      "deviation": 2.912,
+      "average": 5.894,
+      "deviation": 2.908,
       "min": 1,
       "max": 10
     }
