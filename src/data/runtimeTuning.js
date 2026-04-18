@@ -13,7 +13,7 @@ export const RUNTIME_TUNING = {
     "fatalism": 0.060000000000000005,
     "cause": 0.23504
   },
-  "matchDensityPenaltyWeight": 5.329599999999999,
+  "matchDensityPenaltyWeight": 5.549599999999999,
   "ambiguityCenter": 12.5,
-  "ambiguityWidth": 7.290000000000002
+  "ambiguityWidth": 7.410000000000002
 };
