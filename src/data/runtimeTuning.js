@@ -8,12 +8,12 @@ export const RUNTIME_TUNING = {
   },
   "optionScoreCalibrationStrengths": {
     "freedom": 0.04,
-    "moral": 0.11999999999999997,
-    "realism": 0.33832448,
-    "fatalism": 0.04,
-    "cause": 0.22543680000000005
+    "moral": 0.12999999999999998,
+    "realism": 0.35832448,
+    "fatalism": 0.03,
+    "cause": 0.24043680000000006
   },
-  "matchDensityPenaltyWeight": 5.5,
+  "matchDensityPenaltyWeight": 5.68,
   "ambiguityCenter": 12.5,
   "ambiguityWidth": 7.5
 };
