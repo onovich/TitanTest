@@ -1,3 +1,5 @@
+import { RUNTIME_TUNING } from '../data/runtimeTuning.js';
+
 export const DIMENSIONS = ['freedom', 'moral', 'realism', 'fatalism', 'cause'];
 
 export const INITIAL_SCORES = {
@@ -8,31 +10,14 @@ export const INITIAL_SCORES = {
   cause: 5,
 };
 
-const OPTION_SCORE_BASELINES = {
-  freedom: 6.355,
-  moral: 6.054,
-  realism: 7.583,
-  fatalism: 6.478,
-  cause: 6.581,
-};
-
-const OPTION_SCORE_CALIBRATION_STRENGTHS = {
-  freedom: 0.18,
-  moral: 0.04,
-  realism: 0.42,
-  fatalism: 0.12,
-  cause: 0.32,
-};
-const MATCH_DENSITY_PENALTY_WEIGHT = 3.4;
-
 export function clampScore(value, min = 1, max = 10) {
   return Math.min(max, Math.max(min, value));
 }
 
 export function calibrateOptionScores(optionScores) {
   return Object.entries(optionScores).reduce((acc, [key, value]) => {
-    const baseline = OPTION_SCORE_BASELINES[key] ?? 5;
-    const calibrationStrength = OPTION_SCORE_CALIBRATION_STRENGTHS[key] ?? 0;
+    const baseline = RUNTIME_TUNING.optionScoreBaselines[key] ?? 5;
+    const calibrationStrength = RUNTIME_TUNING.optionScoreCalibrationStrengths[key] ?? 0;
     acc[key] = clampScore(value - (baseline - 5) * calibrationStrength);
     return acc;
   }, {});
@@ -71,7 +56,7 @@ function buildDensityPenaltyMap(characters) {
   return Object.fromEntries(
     densityEntries.map((entry) => [
       entry.name,
-      Number((((maxDistance - entry.averageDistance) / spread) * MATCH_DENSITY_PENALTY_WEIGHT).toFixed(3)),
+      Number((((maxDistance - entry.averageDistance) / spread) * (RUNTIME_TUNING.matchDensityPenaltyWeight ?? 0)).toFixed(3)),
     ])
   );
 }
@@ -79,7 +64,9 @@ function buildDensityPenaltyMap(characters) {
 function buildRankedMatch(finalScores, character, densityPenaltyMap) {
   const distance = euclideanDistance(finalScores, character.scores);
   const signalStrength = profileSignalStrength(finalScores);
-  const ambiguityFactor = clampUnit((10.5 - signalStrength) / 5);
+  const ambiguityCenter = RUNTIME_TUNING.ambiguityCenter ?? 10.5;
+  const ambiguityWidth = RUNTIME_TUNING.ambiguityWidth ?? 5;
+  const ambiguityFactor = clampUnit((ambiguityCenter - signalStrength) / ambiguityWidth);
   const densityPenalty = Number(((densityPenaltyMap[character.name] ?? 0) * ambiguityFactor).toFixed(3));
 
   return {

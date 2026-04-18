@@ -68,6 +68,7 @@ export const QUESTIONS = [
     options: [
       { text: '是的，真相高于一切生存意义。', scores: { freedom: 9, realism: 6, cause: 5 } },
       { text: '不，有些时候无知才是一种幸福。', scores: { realism: 8, fatalism: 9, freedom: 2 } },
+      { text: '会追寻，但要给自己和同伴留下理解与消化真相的余地。', scores: { realism: 9, cause: 7, moral: 4 } },
     ],
   },
   {

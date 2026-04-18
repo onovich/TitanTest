@@ -27,24 +27,28 @@ export default function VisitorCounter() {
 
   return (
     <div className="mt-10 border-t border-neutral-800 pt-6 text-center text-sm text-neutral-500 space-y-3">
-      <p>访客计数器</p>
-      <div className="flex flex-wrap items-center justify-center gap-3">
-        <img
-          src={totalBadgeUrl}
-          alt="累计访问"
-          className="h-6"
-          loading="lazy"
-          referrerPolicy="no-referrer"
-        />
-        <img
-          src={todayBadgeUrl}
-          alt="今日访问"
-          className="h-6"
-          loading="lazy"
-          referrerPolicy="no-referrer"
-        />
+      <p className="tracking-[0.18em] uppercase text-xs text-neutral-400">访客计数器</p>
+      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-md mx-auto">
+        <div className="rounded-xl border border-neutral-800 bg-neutral-900/60 px-3 py-2 flex items-center justify-center min-h-12 overflow-hidden">
+          <img
+            src={totalBadgeUrl}
+            alt="累计访问"
+            className="h-6 max-w-full object-contain"
+            loading="lazy"
+            referrerPolicy="no-referrer"
+          />
+        </div>
+        <div className="rounded-xl border border-neutral-800 bg-neutral-900/60 px-3 py-2 flex items-center justify-center min-h-12 overflow-hidden">
+          <img
+            src={todayBadgeUrl}
+            alt="今日访问"
+            className="h-6 max-w-full object-contain"
+            loading="lazy"
+            referrerPolicy="no-referrer"
+          />
+        </div>
       </div>
-      <p className="text-xs text-neutral-600">若微信或极简模式屏蔽外部徽章图片，可能暂时看不到数字。</p>
+      <p className="text-xs text-neutral-600 leading-relaxed">若微信或极简模式屏蔽外部徽章图片，可能暂时看不到数字。</p>
     </div>
   );
 }

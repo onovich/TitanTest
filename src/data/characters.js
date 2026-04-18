@@ -1,4 +1,25 @@
-export const CHARACTERS = [
+import { CHARACTER_TUNING } from './characterTuning.js';
+
+function clampScore(value) {
+  return Math.min(10, Math.max(1, value));
+}
+
+function applyCharacterTuning(character) {
+  const scale = CHARACTER_TUNING.signalScales[character.name] ?? 1;
+  const tunedScores = Object.fromEntries(
+    Object.entries(character.scores).map(([dimension, value]) => [
+      dimension,
+      Number(clampScore(5 + (value - 5) * scale).toFixed(3)),
+    ])
+  );
+
+  return {
+    ...character,
+    scores: tunedScores,
+  };
+}
+
+const BASE_CHARACTERS = [
   { name: '艾伦·耶格尔', aliases: ['艾伦 耶格尔'], desc: '追求绝对自由的悲剧英雄，为了终结循环不惜背负世界的罪恶。', scores: { freedom: 10, moral: 10, realism: 4, fatalism: 9, cause: 4 }, quote: '如果有人要夺走我的自由，我就会先夺走他们的自由。' },
   { name: '阿明·阿诺德', aliases: ['阿尔敏 阿诺德'], desc: '理性的博爱主义者，相信沟通的力量，但也深知必须舍弃人性才能改变。', scores: { freedom: 7, moral: 6, realism: 8, fatalism: 5, cause: 9 }, quote: '什么都无法舍弃的人，什么也改变不了。' },
   { name: '三笠·阿克曼', aliases: ['三笠 阿克曼'], desc: '纯粹的守护者，宏大的世界于你而言不及爱人项间的围巾。', scores: { freedom: 3, moral: 4, realism: 5, fatalism: 4, cause: 2 }, quote: '这个世界是如此的残酷，却又如此的美丽。' },
@@ -40,3 +61,5 @@ export const CHARACTERS = [
     quoteType: 'inspired',
   },
 ];
+
+export const CHARACTERS = BASE_CHARACTERS.map(applyCharacterTuning);

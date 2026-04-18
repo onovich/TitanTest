@@ -7,6 +7,8 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
+    "autotune": "node scripts/run-autotune-cycle.js",
+    "autotune:evaluate": "node scripts/evaluate-tuning.js",
     "assets:portraits": "node scripts/download-portraits.js",
     "assets:selected-portraits": "node scripts/generate-selected-portraits.js",
     "test": "npm run test:personas",
