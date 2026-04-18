@@ -15,7 +15,7 @@ export const QUESTIONS = [
     text: '当团队资源有限，不可能照顾到每个人时，你更倾向于？',
     options: [
       { text: '优先保住整体目标，即使少数人需要额外承担压力。', scores: { moral: 8, cause: 8, realism: 7 } },
-      { text: '尽量压低个体损失，不轻易让少数人被迫买单。', scores: { moral: 3, freedom: 5, cause: 4 } },
+      { text: '尽量保住每个人的退路和选择，不让少数人直接被当成代价。', scores: { moral: 3, freedom: 5, cause: 4 } },
       { text: '先把取舍规则讲清楚，让资源分配更透明、更能执行。', scores: { moral: 6, cause: 7, fatalism: 6, realism: 8 } },
     ],
   },
@@ -55,7 +55,7 @@ export const QUESTIONS = [
     text: '如果一件你投入很多的事大概率会失败，最后阶段你会？',
     options: [
       { text: '还是会继续尝试，看能不能再多争取一点空间。', scores: { freedom: 8, realism: 5, cause: 3 } },
-      { text: '接受结果，但把收尾、交接和影响控制好。', scores: { fatalism: 8, realism: 9, cause: 7 } },
+      { text: '接受这件事大概率就到这里了，但把收尾、交接和影响控制好。', scores: { fatalism: 8, realism: 9, cause: 7 } },
       { text: '把时间留给重要的人，也尽量让过程体面一些。', scores: { moral: 7, fatalism: 6, freedom: 3 } },
     ],
   },
@@ -64,8 +64,8 @@ export const QUESTIONS = [
     weight: 0.8,
     text: '你怎么看待“善意的隐瞒”？',
     options: [
-      { text: '只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。', scores: { moral: 8, realism: 8, cause: 7 } },
-      { text: '宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。', scores: { freedom: 8, moral: 3, realism: 5 } },
+      { text: '只会在局面快失控时临时压住消息，把秩序和收尾先稳住。', scores: { moral: 8, realism: 8, cause: 7 } },
+      { text: '宁可一开始难堪一点，我也更想把真相和判断空间说开，免得以后信任整块塌掉。', scores: { freedom: 8, moral: 3, realism: 5 } },
       { text: '如果能替具体的人挡掉一波伤害，我愿意自己背这个隐瞒。', scores: { fatalism: 8, moral: 6, freedom: 3 } },
     ],
   },
@@ -94,7 +94,7 @@ export const QUESTIONS = [
     weight: 0.8,
     text: '在团队里，大家通常会自然把什么事交给你？',
     options: [
-      { text: '需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。', scores: { realism: 8, moral: 7, cause: 9 } },
+      { text: '需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。', scores: { realism: 8, moral: 7, cause: 9 } },
       { text: '真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。', scores: { fatalism: 7, cause: 7, freedom: 3, realism: 8 } },
       { text: '当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。', scores: { freedom: 9, moral: 4, cause: 2, realism: 5 } },
     ],
@@ -104,7 +104,7 @@ export const QUESTIONS = [
     weight: 0.45,
     text: '如果你的某种身份或处境会让身边人跟着承担风险，你通常会？',
     options: [
-      { text: '知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。', scores: { fatalism: 8, cause: 7, moral: 6 } },
+      { text: '知道这层风险没办法绕开时，我会先把它隔离开，再拉开距离，避免继续拖累同伴。', scores: { fatalism: 8, cause: 7, moral: 6 } },
       { text: '会说明情况，再和相关的人一起定方案。', scores: { realism: 8, cause: 8, freedom: 5 } },
       { text: '不想被身份完全定义，但会更谨慎安排自己的选择。', scores: { freedom: 8, fatalism: 3, moral: 4 } },
     ],
@@ -124,9 +124,9 @@ export const QUESTIONS = [
     weight: 0.45,
     text: '为了避免恐慌，上级希望暂时不公开全部信息，你更倾向于？',
     options: [
-      { text: '先配合稳定局面，同时尽快安排后续公开节奏。', scores: { realism: 7, cause: 8, fatalism: 7, moral: 6 } },
+      { text: '先配合稳住局面和民心，同时尽快安排后续公开节奏。', scores: { realism: 7, cause: 8, fatalism: 7, moral: 6 } },
       { text: '部分公开，保留关键筹码，避免全面失控。', scores: { realism: 9, cause: 8, moral: 7 } },
-      { text: '尽量多公开，让人至少保有基本判断空间。', scores: { freedom: 7, moral: 3, cause: 3, realism: 4 } },
+      { text: '尽量多公开真相，让人至少保有判断空间，而不是一直被代替决定。', scores: { freedom: 7, moral: 3, cause: 3, realism: 4 } },
     ],
   },
   {
@@ -135,8 +135,8 @@ export const QUESTIONS = [
     text: '如果追究一段旧怨能让你出气，但会让关系更糟，你会？',
     options: [
       { text: '我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。', scores: { moral: 8, freedom: 8, fatalism: 6 } },
-      { text: '会强迫自己把事停在这里，至少别让更多无关的人被卷进后续消耗。', scores: { realism: 8, cause: 7, moral: 3 } },
-      { text: '先把情绪封住，不急着翻旧账，而是留到更能谈条件、谈代价的时候再处理。', scores: { realism: 9, cause: 8, moral: 6 } },
+      { text: '会理性把事情停在这里，至少别让更多无关的人继续为后果买单。', scores: { realism: 8, cause: 7, moral: 3 } },
+      { text: '先把情绪封住，不急着翻旧账，而是留到更能谈条件、处理后续局面的时候再谈。', scores: { realism: 9, cause: 8, moral: 6 } },
     ],
   },
   {
@@ -174,7 +174,7 @@ export const QUESTIONS = [
     weight: 0.45,
     text: '如果你提前收到一些不完整、但可能准确的预警信息，你会？',
     options: [
-      { text: '会先按最坏情况把后手和空位预留出来，但不会完全照着这份预警行动。', scores: { fatalism: 8, cause: 7, moral: 6 } },
+      { text: '如果最坏结局看起来很难避开，我会先把同伴的位置和后手预留出来，再决定跟到哪一步。', scores: { fatalism: 8, cause: 7, moral: 6 } },
       { text: '把它当作情报，尽可能改写最坏结果。', scores: { realism: 9, freedom: 7, cause: 7 } },
       { text: '不希望被预警绑住，还是想保留当下的主动权。', scores: { freedom: 8, fatalism: 3, realism: 4 } },
     ],

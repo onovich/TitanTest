@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-04-18T21:52:46.739Z",
+  "generatedAt": "2026-04-18T21:55:56.584Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
     "promptAverage": 1.94,
-    "optionAverage": 2.137,
+    "optionAverage": 2.135,
     "promptMax": 2.4,
     "optionMax": 2.7,
     "promptScore": 76.5,
-    "optionScore": 71.58,
+    "optionScore": 71.63,
     "flaggedPromptCount": 0,
     "flaggedOptionCount": 0,
     "items": [
@@ -48,8 +48,8 @@
           },
           {
             "index": 1,
-            "text": "尽量压低个体损失，不轻易让少数人被迫买单。",
-            "score": 1.9
+            "text": "尽量保住每个人的退路和选择，不让少数人直接被当成代价。",
+            "score": 2
           },
           {
             "index": 2,
@@ -140,8 +140,8 @@
           },
           {
             "index": 1,
-            "text": "接受结果，但把收尾、交接和影响控制好。",
-            "score": 2.1
+            "text": "接受这件事大概率就到这里了，但把收尾、交接和影响控制好。",
+            "score": 2.2
           },
           {
             "index": 2,
@@ -158,13 +158,13 @@
         "options": [
           {
             "index": 0,
-            "text": "只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。",
-            "score": 2.1
+            "text": "只会在局面快失控时临时压住消息，把秩序和收尾先稳住。",
+            "score": 2
           },
           {
             "index": 1,
-            "text": "宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。",
-            "score": 2.2
+            "text": "宁可一开始难堪一点，我也更想把真相和判断空间说开，免得以后信任整块塌掉。",
+            "score": 2.3
           },
           {
             "index": 2,
@@ -227,8 +227,8 @@
         "options": [
           {
             "index": 0,
-            "text": "需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。",
-            "score": 2.5
+            "text": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
+            "score": 2.4
           },
           {
             "index": 1,
@@ -250,8 +250,8 @@
         "options": [
           {
             "index": 0,
-            "text": "知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。",
-            "score": 2.1
+            "text": "知道这层风险没办法绕开时，我会先把它隔离开，再拉开距离，避免继续拖累同伴。",
+            "score": 2
           },
           {
             "index": 1,
@@ -296,8 +296,8 @@
         "options": [
           {
             "index": 0,
-            "text": "先配合稳定局面，同时尽快安排后续公开节奏。",
-            "score": 2.2
+            "text": "先配合稳住局面和民心，同时尽快安排后续公开节奏。",
+            "score": 2.1
           },
           {
             "index": 1,
@@ -306,8 +306,8 @@
           },
           {
             "index": 2,
-            "text": "尽量多公开，让人至少保有基本判断空间。",
-            "score": 2.1
+            "text": "尽量多公开真相，让人至少保有判断空间，而不是一直被代替决定。",
+            "score": 2.2
           }
         ]
       },
@@ -324,13 +324,13 @@
           },
           {
             "index": 1,
-            "text": "会强迫自己把事停在这里，至少别让更多无关的人被卷进后续消耗。",
-            "score": 2
+            "text": "会理性把事情停在这里，至少别让更多无关的人继续为后果买单。",
+            "score": 1.9
           },
           {
             "index": 2,
-            "text": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、谈代价的时候再处理。",
-            "score": 2.3
+            "text": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、处理后续局面的时候再谈。",
+            "score": 2.2
           }
         ]
       },
@@ -343,7 +343,7 @@
           {
             "index": 0,
             "text": "人生方向总被别人安排，自己几乎没有选择空间。",
-            "score": 1.9
+            "score": 2
           },
           {
             "index": 1,
@@ -411,7 +411,7 @@
         "options": [
           {
             "index": 0,
-            "text": "会先按最坏情况把后手和空位预留出来，但不会完全照着这份预警行动。",
+            "text": "如果最坏结局看起来很难避开，我会先把同伴的位置和后手预留出来，再决定跟到哪一步。",
             "score": 1.9
           },
           {
@@ -632,23 +632,23 @@
   "semanticSummary": {
     "personaCount": 6,
     "reflectionCount": 2,
-    "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 4.395,
-    "avgOptionToResultGap": 2.728,
-    "inconsistentOptionCount": 5
+    "selfPerceptionDriftCount": 2,
+    "avgLanguageToResultGap": 4.374,
+    "avgOptionToResultGap": 2.442,
+    "inconsistentOptionCount": 1
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
-      "matchedCharacter": "吉克·耶格尔",
-      "scoreDistance": 3.188,
-      "expectationGap": 4.308,
-      "languageToResultGap": 4.945,
-      "optionToResultGap": 4.144,
+      "matchedCharacter": "阿明·阿诺德",
+      "scoreDistance": 3.635,
+      "expectationGap": 4.197,
+      "languageToResultGap": 5.58,
+      "optionToResultGap": 2.573,
       "semanticTopOverlap": 0.5,
-      "selfPerceptionDrift": false,
-      "calibrationConcern": true,
-      "needsReflection": true,
+      "selfPerceptionDrift": true,
+      "calibrationConcern": false,
+      "needsReflection": false,
       "chosenOptions": [
         {
           "questionId": 1,
@@ -688,16 +688,16 @@
         {
           "questionId": 6,
           "optionIndex": 1,
-          "optionText": "接受结果，但把收尾、交接和影响控制好。",
-          "semanticMatch": 0.277,
-          "noisyScore": 0.277
+          "optionText": "接受这件事大概率就到这里了，但把收尾、交接和影响控制好。",
+          "semanticMatch": 0.267,
+          "noisyScore": 0.267
         },
         {
           "questionId": 7,
-          "optionIndex": 0,
-          "optionText": "只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。",
-          "semanticMatch": 0.163,
-          "noisyScore": 0.163
+          "optionIndex": 1,
+          "optionText": "宁可一开始难堪一点，我也更想把真相和判断空间说开，免得以后信任整块塌掉。",
+          "semanticMatch": 0.247,
+          "noisyScore": 0.247
         },
         {
           "questionId": 8,
@@ -715,10 +715,10 @@
         },
         {
           "questionId": 10,
-          "optionIndex": 2,
-          "optionText": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
-          "semanticMatch": 0.179,
-          "noisyScore": 0.179
+          "optionIndex": 0,
+          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
+          "semanticMatch": 0.222,
+          "noisyScore": 0.222
         },
         {
           "questionId": 11,
@@ -736,10 +736,10 @@
         },
         {
           "questionId": 13,
-          "optionIndex": 0,
-          "optionText": "先配合稳定局面，同时尽快安排后续公开节奏。",
-          "semanticMatch": 0.163,
-          "noisyScore": 0.163
+          "optionIndex": 2,
+          "optionText": "尽量多公开真相，让人至少保有判断空间，而不是一直被代替决定。",
+          "semanticMatch": 0.252,
+          "noisyScore": 0.252
         },
         {
           "questionId": 14,
@@ -799,29 +799,29 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 6.72185,
-        "moral": 7.2958,
-        "realism": 8.415799999999999,
-        "fatalism": 5.57395,
-        "cause": 7.05785
+        "freedom": 4.9688,
+        "moral": 6.0244,
+        "realism": 6.9292,
+        "fatalism": 5.936000000000001,
+        "cause": 7.1216
       },
       "averageOptionProfile": {
-        "freedom": 5.295999999999999,
+        "freedom": 5.367999999999999,
         "moral": 4.96,
-        "realism": 6.112,
-        "fatalism": 5.16,
-        "cause": 5.008
+        "realism": 6.304,
+        "fatalism": 5.096,
+        "cause": 5.064
       }
     },
     {
       "persona": "集体主义战略家",
-      "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.428,
-      "expectationGap": 2.403,
-      "languageToResultGap": 4.428,
-      "optionToResultGap": 2.335,
-      "semanticTopOverlap": 1,
-      "selfPerceptionDrift": false,
+      "matchedCharacter": "利威尔·阿克曼",
+      "scoreDistance": 2.681,
+      "expectationGap": 2.547,
+      "languageToResultGap": 5.26,
+      "optionToResultGap": 1.898,
+      "semanticTopOverlap": 0.5,
+      "selfPerceptionDrift": true,
       "calibrationConcern": false,
       "needsReflection": false,
       "chosenOptions": [
@@ -862,17 +862,17 @@
         },
         {
           "questionId": 6,
-          "optionIndex": 2,
-          "optionText": "把时间留给重要的人，也尽量让过程体面一些。",
-          "semanticMatch": 0.212,
-          "noisyScore": 0.212
+          "optionIndex": 1,
+          "optionText": "接受这件事大概率就到这里了，但把收尾、交接和影响控制好。",
+          "semanticMatch": 0.218,
+          "noisyScore": 0.218
         },
         {
           "questionId": 7,
-          "optionIndex": 1,
-          "optionText": "宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。",
-          "semanticMatch": 0.128,
-          "noisyScore": 0.128
+          "optionIndex": 0,
+          "optionText": "只会在局面快失控时临时压住消息，把秩序和收尾先稳住。",
+          "semanticMatch": 0.135,
+          "noisyScore": 0.135
         },
         {
           "questionId": 8,
@@ -890,10 +890,10 @@
         },
         {
           "questionId": 10,
-          "optionIndex": 1,
-          "optionText": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
-          "semanticMatch": 0.118,
-          "noisyScore": 0.118
+          "optionIndex": 0,
+          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
+          "semanticMatch": 0.217,
+          "noisyScore": 0.217
         },
         {
           "questionId": 11,
@@ -911,17 +911,17 @@
         },
         {
           "questionId": 13,
-          "optionIndex": 1,
-          "optionText": "部分公开，保留关键筹码，避免全面失控。",
-          "semanticMatch": 0.131,
-          "noisyScore": 0.131
+          "optionIndex": 0,
+          "optionText": "先配合稳住局面和民心，同时尽快安排后续公开节奏。",
+          "semanticMatch": 0.24,
+          "noisyScore": 0.24
         },
         {
           "questionId": 14,
-          "optionIndex": 0,
-          "optionText": "我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。",
-          "semanticMatch": 0.206,
-          "noisyScore": 0.206
+          "optionIndex": 1,
+          "optionText": "会理性把事情停在这里，至少别让更多无关的人继续为后果买单。",
+          "semanticMatch": 0.208,
+          "noisyScore": 0.208
         },
         {
           "questionId": 15,
@@ -946,8 +946,8 @@
         },
         {
           "questionId": 18,
-          "optionIndex": 1,
-          "optionText": "把它当作情报，尽可能改写最坏结果。",
+          "optionIndex": 0,
+          "optionText": "如果最坏结局看起来很难避开，我会先把同伴的位置和后手预留出来，再决定跟到哪一步。",
           "semanticMatch": 0.131,
           "noisyScore": 0.131
         },
@@ -974,28 +974,28 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 4.9688,
-        "moral": 6.0244,
-        "realism": 6.9292,
-        "fatalism": 5.936000000000001,
-        "cause": 7.1216
+        "freedom": 4.84,
+        "moral": 5,
+        "realism": 7.496,
+        "fatalism": 6.664,
+        "cause": 6.112
       },
       "averageOptionProfile": {
-        "freedom": 5,
-        "moral": 4.9399999999999995,
-        "realism": 6.208,
-        "fatalism": 5.016,
-        "cause": 5.415999999999999
+        "freedom": 4.936,
+        "moral": 4.896,
+        "realism": 6.6,
+        "fatalism": 5.112,
+        "cause": 5.504
       }
     },
     {
       "persona": "守护型照料者",
-      "matchedCharacter": "利威尔·阿克曼",
-      "scoreDistance": 3.603,
-      "expectationGap": 2.995,
-      "languageToResultGap": 3.307,
-      "optionToResultGap": 2.832,
-      "semanticTopOverlap": 0,
+      "matchedCharacter": "格里沙·耶格尔",
+      "scoreDistance": 4.134,
+      "expectationGap": 2.975,
+      "languageToResultGap": 2.164,
+      "optionToResultGap": 3.147,
+      "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": true,
       "needsReflection": true,
@@ -1045,9 +1045,9 @@
         {
           "questionId": 7,
           "optionIndex": 1,
-          "optionText": "宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。",
-          "semanticMatch": 0.421,
-          "noisyScore": 0.421
+          "optionText": "宁可一开始难堪一点，我也更想把真相和判断空间说开，免得以后信任整块塌掉。",
+          "semanticMatch": 0.416,
+          "noisyScore": 0.416
         },
         {
           "questionId": 8,
@@ -1065,17 +1065,17 @@
         },
         {
           "questionId": 10,
-          "optionIndex": 0,
-          "optionText": "需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。",
-          "semanticMatch": 0.296,
-          "noisyScore": 0.296
+          "optionIndex": 2,
+          "optionText": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
+          "semanticMatch": 0.285,
+          "noisyScore": 0.285
         },
         {
           "questionId": 11,
-          "optionIndex": 2,
-          "optionText": "不想被身份完全定义，但会更谨慎安排自己的选择。",
-          "semanticMatch": 0.228,
-          "noisyScore": 0.228
+          "optionIndex": 0,
+          "optionText": "知道这层风险没办法绕开时，我会先把它隔离开，再拉开距离，避免继续拖累同伴。",
+          "semanticMatch": 0.311,
+          "noisyScore": 0.311
         },
         {
           "questionId": 12,
@@ -1087,16 +1087,16 @@
         {
           "questionId": 13,
           "optionIndex": 2,
-          "optionText": "尽量多公开，让人至少保有基本判断空间。",
-          "semanticMatch": 0.296,
-          "noisyScore": 0.296
+          "optionText": "尽量多公开真相，让人至少保有判断空间，而不是一直被代替决定。",
+          "semanticMatch": 0.34,
+          "noisyScore": 0.34
         },
         {
           "questionId": 14,
           "optionIndex": 2,
-          "optionText": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、谈代价的时候再处理。",
-          "semanticMatch": 0.281,
-          "noisyScore": 0.281
+          "optionText": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、处理后续局面的时候再谈。",
+          "semanticMatch": 0.373,
+          "noisyScore": 0.373
         },
         {
           "questionId": 15,
@@ -1122,9 +1122,9 @@
         {
           "questionId": 18,
           "optionIndex": 0,
-          "optionText": "会先按最坏情况把后手和空位预留出来，但不会完全照着这份预警行动。",
-          "semanticMatch": 0.296,
-          "noisyScore": 0.296
+          "optionText": "如果最坏结局看起来很难避开，我会先把同伴的位置和后手预留出来，再决定跟到哪一步。",
+          "semanticMatch": 0.423,
+          "noisyScore": 0.423
         },
         {
           "questionId": 19,
@@ -1149,31 +1149,31 @@
         "cause": 7.24
       },
       "resultProfile": {
-        "freedom": 4.84,
-        "moral": 5,
-        "realism": 7.496,
-        "fatalism": 6.664,
-        "cause": 6.112
+        "freedom": 6.456,
+        "moral": 5.7672,
+        "realism": 4.6164,
+        "fatalism": 6.4304,
+        "cause": 7.8472
       },
       "averageOptionProfile": {
-        "freedom": 5.112,
+        "freedom": 5.215999999999999,
         "moral": 5.0920000000000005,
-        "realism": 5.32,
-        "fatalism": 5.087999999999999,
-        "cause": 5.263999999999999
+        "realism": 5.432,
+        "fatalism": 5.119999999999999,
+        "cause": 5.4959999999999996
       }
     },
     {
       "persona": "现实主义调停者",
-      "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.921,
-      "expectationGap": 1.413,
-      "languageToResultGap": 5.498,
-      "optionToResultGap": 2.552,
+      "matchedCharacter": "让·基尔希斯坦",
+      "scoreDistance": 3.687,
+      "expectationGap": 1.676,
+      "languageToResultGap": 3.93,
+      "optionToResultGap": 3.192,
       "semanticTopOverlap": 0.5,
-      "selfPerceptionDrift": true,
-      "calibrationConcern": false,
-      "needsReflection": false,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": true,
+      "needsReflection": true,
       "chosenOptions": [
         {
           "questionId": 1,
@@ -1219,10 +1219,10 @@
         },
         {
           "questionId": 7,
-          "optionIndex": 0,
-          "optionText": "只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。",
-          "semanticMatch": 0.162,
-          "noisyScore": 0.162
+          "optionIndex": 1,
+          "optionText": "宁可一开始难堪一点，我也更想把真相和判断空间说开，免得以后信任整块塌掉。",
+          "semanticMatch": 0.218,
+          "noisyScore": 0.218
         },
         {
           "questionId": 8,
@@ -1240,10 +1240,10 @@
         },
         {
           "questionId": 10,
-          "optionIndex": 2,
-          "optionText": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
-          "semanticMatch": 0.146,
-          "noisyScore": 0.146
+          "optionIndex": 0,
+          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
+          "semanticMatch": 0.292,
+          "noisyScore": 0.292
         },
         {
           "questionId": 11,
@@ -1261,17 +1261,17 @@
         },
         {
           "questionId": 13,
-          "optionIndex": 1,
-          "optionText": "部分公开，保留关键筹码，避免全面失控。",
-          "semanticMatch": 0.172,
-          "noisyScore": 0.172
+          "optionIndex": 2,
+          "optionText": "尽量多公开真相，让人至少保有判断空间，而不是一直被代替决定。",
+          "semanticMatch": 0.217,
+          "noisyScore": 0.217
         },
         {
           "questionId": 14,
-          "optionIndex": 0,
-          "optionText": "我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。",
-          "semanticMatch": 0.256,
-          "noisyScore": 0.256
+          "optionIndex": 1,
+          "optionText": "会理性把事情停在这里，至少别让更多无关的人继续为后果买单。",
+          "semanticMatch": 0.26,
+          "noisyScore": 0.26
         },
         {
           "questionId": 15,
@@ -1324,27 +1324,27 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 4.9688,
-        "moral": 6.0244,
-        "realism": 6.9292,
-        "fatalism": 5.936000000000001,
-        "cause": 7.1216
+        "freedom": 5.832000000000001,
+        "moral": 4.672000000000001,
+        "realism": 7.832000000000001,
+        "fatalism": 3.3360000000000003,
+        "cause": 7.56
       },
       "averageOptionProfile": {
-        "freedom": 5.143999999999999,
+        "freedom": 5.215999999999999,
         "moral": 4.8,
-        "realism": 6.336,
-        "fatalism": 4.968,
-        "cause": 5.199999999999999
+        "realism": 6.4079999999999995,
+        "fatalism": 4.904,
+        "cause": 5.2559999999999985
       }
     },
     {
       "persona": "宿命型幸存者",
       "matchedCharacter": "利威尔·阿克曼",
-      "scoreDistance": 2.739,
-      "expectationGap": 3.499,
+      "scoreDistance": 2.67,
+      "expectationGap": 3.432,
       "languageToResultGap": 4.405,
-      "optionToResultGap": 2.174,
+      "optionToResultGap": 1.897,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -1388,16 +1388,16 @@
         {
           "questionId": 6,
           "optionIndex": 1,
-          "optionText": "接受结果，但把收尾、交接和影响控制好。",
-          "semanticMatch": 0.267,
-          "noisyScore": 0.267
+          "optionText": "接受这件事大概率就到这里了，但把收尾、交接和影响控制好。",
+          "semanticMatch": 0.292,
+          "noisyScore": 0.292
         },
         {
           "questionId": 7,
           "optionIndex": 0,
-          "optionText": "只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。",
-          "semanticMatch": 0.139,
-          "noisyScore": 0.139
+          "optionText": "只会在局面快失控时临时压住消息，把秩序和收尾先稳住。",
+          "semanticMatch": 0.148,
+          "noisyScore": 0.148
         },
         {
           "questionId": 8,
@@ -1415,17 +1415,17 @@
         },
         {
           "questionId": 10,
-          "optionIndex": 1,
-          "optionText": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
-          "semanticMatch": 0.138,
-          "noisyScore": 0.138
+          "optionIndex": 0,
+          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
+          "semanticMatch": 0.158,
+          "noisyScore": 0.158
         },
         {
           "questionId": 11,
           "optionIndex": 0,
-          "optionText": "知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。",
-          "semanticMatch": 0.153,
-          "noisyScore": 0.153
+          "optionText": "知道这层风险没办法绕开时，我会先把它隔离开，再拉开距离，避免继续拖累同伴。",
+          "semanticMatch": 0.248,
+          "noisyScore": 0.248
         },
         {
           "questionId": 12,
@@ -1436,17 +1436,17 @@
         },
         {
           "questionId": 13,
-          "optionIndex": 1,
-          "optionText": "部分公开，保留关键筹码，避免全面失控。",
-          "semanticMatch": 0.144,
-          "noisyScore": 0.144
+          "optionIndex": 0,
+          "optionText": "先配合稳住局面和民心，同时尽快安排后续公开节奏。",
+          "semanticMatch": 0.156,
+          "noisyScore": 0.156
         },
         {
           "questionId": 14,
-          "optionIndex": 0,
-          "optionText": "我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。",
-          "semanticMatch": 0.149,
-          "noisyScore": 0.149
+          "optionIndex": 1,
+          "optionText": "会理性把事情停在这里，至少别让更多无关的人继续为后果买单。",
+          "semanticMatch": 0.151,
+          "noisyScore": 0.151
         },
         {
           "questionId": 15,
@@ -1508,19 +1508,19 @@
       "averageOptionProfile": {
         "freedom": 4.936,
         "moral": 4.952,
-        "realism": 6.32,
-        "fatalism": 5.087999999999999,
-        "cause": 5.191999999999999
+        "realism": 6.736,
+        "fatalism": 5.112,
+        "cause": 5.335999999999999
       }
     },
     {
       "persona": "矛盾型士兵",
-      "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.495,
-      "expectationGap": 1.95,
-      "languageToResultGap": 3.786,
-      "optionToResultGap": 2.332,
-      "semanticTopOverlap": 1,
+      "matchedCharacter": "利威尔·阿克曼",
+      "scoreDistance": 2.702,
+      "expectationGap": 1.447,
+      "languageToResultGap": 4.907,
+      "optionToResultGap": 1.946,
+      "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
       "needsReflection": false,
@@ -1569,10 +1569,10 @@
         },
         {
           "questionId": 7,
-          "optionIndex": 1,
-          "optionText": "宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。",
-          "semanticMatch": 0.141,
-          "noisyScore": 0.141
+          "optionIndex": 0,
+          "optionText": "只会在局面快失控时临时压住消息，把秩序和收尾先稳住。",
+          "semanticMatch": 0.143,
+          "noisyScore": 0.143
         },
         {
           "questionId": 8,
@@ -1590,17 +1590,17 @@
         },
         {
           "questionId": 10,
-          "optionIndex": 1,
-          "optionText": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
-          "semanticMatch": 0.128,
-          "noisyScore": 0.128
+          "optionIndex": 0,
+          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
+          "semanticMatch": 0.149,
+          "noisyScore": 0.149
         },
         {
           "questionId": 11,
           "optionIndex": 0,
-          "optionText": "知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。",
-          "semanticMatch": 0.146,
-          "noisyScore": 0.146
+          "optionText": "知道这层风险没办法绕开时，我会先把它隔离开，再拉开距离，避免继续拖累同伴。",
+          "semanticMatch": 0.179,
+          "noisyScore": 0.179
         },
         {
           "questionId": 12,
@@ -1611,17 +1611,17 @@
         },
         {
           "questionId": 13,
-          "optionIndex": 1,
-          "optionText": "部分公开，保留关键筹码，避免全面失控。",
-          "semanticMatch": 0.139,
-          "noisyScore": 0.139
+          "optionIndex": 0,
+          "optionText": "先配合稳住局面和民心，同时尽快安排后续公开节奏。",
+          "semanticMatch": 0.249,
+          "noisyScore": 0.249
         },
         {
           "questionId": 14,
-          "optionIndex": 0,
-          "optionText": "我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。",
-          "semanticMatch": 0.144,
-          "noisyScore": 0.144
+          "optionIndex": 2,
+          "optionText": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、处理后续局面的时候再谈。",
+          "semanticMatch": 0.153,
+          "noisyScore": 0.153
         },
         {
           "questionId": 15,
@@ -1646,10 +1646,10 @@
         },
         {
           "questionId": 18,
-          "optionIndex": 1,
-          "optionText": "把它当作情报，尽可能改写最坏结果。",
-          "semanticMatch": 0.139,
-          "noisyScore": 0.139
+          "optionIndex": 0,
+          "optionText": "如果最坏结局看起来很难避开，我会先把同伴的位置和后手预留出来，再决定跟到哪一步。",
+          "semanticMatch": 0.146,
+          "noisyScore": 0.146
         },
         {
           "questionId": 19,
@@ -1674,18 +1674,18 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 4.9688,
-        "moral": 6.0244,
-        "realism": 6.9292,
-        "fatalism": 5.936000000000001,
-        "cause": 7.1216
+        "freedom": 4.84,
+        "moral": 5,
+        "realism": 7.496,
+        "fatalism": 6.664,
+        "cause": 6.112
       },
       "averageOptionProfile": {
         "freedom": 5.056,
         "moral": 4.9399999999999995,
-        "realism": 6.223999999999999,
-        "fatalism": 5.016,
-        "cause": 5.415999999999999
+        "realism": 6.447999999999999,
+        "fatalism": 5.112,
+        "cause": 5.631999999999999
       }
     }
   ],
@@ -1753,17 +1753,17 @@
     {
       "questionId": 2,
       "optionIndex": 1,
-      "optionText": "尽量压低个体损失，不轻易让少数人被迫买单。",
+      "optionText": "尽量保住每个人的退路和选择，不让少数人直接被当成代价。",
       "textTop": [
         "freedom",
-        "moral"
+        "fatalism"
       ],
       "numericTop": [
         "moral",
         "cause"
       ],
-      "overlap": 0.5,
-      "warning": false
+      "overlap": 0,
+      "warning": true
     },
     {
       "questionId": 2,
@@ -1933,16 +1933,16 @@
     {
       "questionId": 6,
       "optionIndex": 1,
-      "optionText": "接受结果，但把收尾、交接和影响控制好。",
+      "optionText": "接受这件事大概率就到这里了，但把收尾、交接和影响控制好。",
       "textTop": [
-        "fatalism",
-        "freedom"
+        "realism",
+        "fatalism"
       ],
       "numericTop": [
         "realism",
         "fatalism"
       ],
-      "overlap": 0.5,
+      "overlap": 1,
       "warning": false
     },
     {
@@ -1963,7 +1963,7 @@
     {
       "questionId": 7,
       "optionIndex": 0,
-      "optionText": "只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。",
+      "optionText": "只会在局面快失控时临时压住消息，把秩序和收尾先稳住。",
       "textTop": [
         "realism",
         "freedom"
@@ -1978,10 +1978,10 @@
     {
       "questionId": 7,
       "optionIndex": 1,
-      "optionText": "宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。",
+      "optionText": "宁可一开始难堪一点，我也更想把真相和判断空间说开，免得以后信任整块塌掉。",
       "textTop": [
-        "cause",
-        "freedom"
+        "freedom",
+        "cause"
       ],
       "numericTop": [
         "freedom",
@@ -2098,17 +2098,17 @@
     {
       "questionId": 10,
       "optionIndex": 0,
-      "optionText": "需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。",
+      "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
       "textTop": [
-        "freedom",
-        "moral"
+        "realism",
+        "freedom"
       ],
       "numericTop": [
         "cause",
         "realism"
       ],
-      "overlap": 0,
-      "warning": true
+      "overlap": 0.5,
+      "warning": false
     },
     {
       "questionId": 10,
@@ -2143,17 +2143,17 @@
     {
       "questionId": 11,
       "optionIndex": 0,
-      "optionText": "知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。",
+      "optionText": "知道这层风险没办法绕开时，我会先把它隔离开，再拉开距离，避免继续拖累同伴。",
       "textTop": [
-        "realism",
-        "freedom"
+        "fatalism",
+        "cause"
       ],
       "numericTop": [
         "fatalism",
         "cause"
       ],
-      "overlap": 0,
-      "warning": true
+      "overlap": 1,
+      "warning": false
     },
     {
       "questionId": 11,
@@ -2233,16 +2233,16 @@
     {
       "questionId": 13,
       "optionIndex": 0,
-      "optionText": "先配合稳定局面，同时尽快安排后续公开节奏。",
+      "optionText": "先配合稳住局面和民心，同时尽快安排后续公开节奏。",
       "textTop": [
         "realism",
-        "freedom"
+        "cause"
       ],
       "numericTop": [
         "cause",
         "realism"
       ],
-      "overlap": 0.5,
+      "overlap": 1,
       "warning": false
     },
     {
@@ -2263,16 +2263,16 @@
     {
       "questionId": 13,
       "optionIndex": 2,
-      "optionText": "尽量多公开，让人至少保有基本判断空间。",
+      "optionText": "尽量多公开真相，让人至少保有判断空间，而不是一直被代替决定。",
       "textTop": [
         "freedom",
-        "moral"
+        "fatalism"
       ],
       "numericTop": [
         "freedom",
         "moral"
       ],
-      "overlap": 1,
+      "overlap": 0.5,
       "warning": false
     },
     {
@@ -2293,32 +2293,32 @@
     {
       "questionId": 14,
       "optionIndex": 1,
-      "optionText": "会强迫自己把事停在这里，至少别让更多无关的人被卷进后续消耗。",
+      "optionText": "会理性把事情停在这里，至少别让更多无关的人继续为后果买单。",
       "textTop": [
-        "cause",
+        "realism",
         "freedom"
       ],
       "numericTop": [
         "realism",
         "moral"
       ],
-      "overlap": 0,
-      "warning": true
+      "overlap": 0.5,
+      "warning": false
     },
     {
       "questionId": 14,
       "optionIndex": 2,
-      "optionText": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、谈代价的时候再处理。",
+      "optionText": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、处理后续局面的时候再谈。",
       "textTop": [
-        "fatalism",
-        "freedom"
+        "cause",
+        "realism"
       ],
       "numericTop": [
         "realism",
         "cause"
       ],
-      "overlap": 0,
-      "warning": true
+      "overlap": 1,
+      "warning": false
     },
     {
       "questionId": 15,
@@ -2458,17 +2458,17 @@
     {
       "questionId": 18,
       "optionIndex": 0,
-      "optionText": "会先按最坏情况把后手和空位预留出来，但不会完全照着这份预警行动。",
+      "optionText": "如果最坏结局看起来很难避开，我会先把同伴的位置和后手预留出来，再决定跟到哪一步。",
       "textTop": [
-        "freedom",
-        "moral"
+        "fatalism",
+        "cause"
       ],
       "numericTop": [
         "fatalism",
         "cause"
       ],
-      "overlap": 0,
-      "warning": true
+      "overlap": 1,
+      "warning": false
     },
     {
       "questionId": 18,
@@ -2592,13 +2592,10 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 4.945，选项语义到结果偏差 4.144；建议复查其高频命中的题目文案与分值。",
-    "人格“守护型照料者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.307，选项语义到结果偏差 2.832；建议复查其高频命中的题目文案与分值。",
-    "人格“现实主义调停者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.498，但选项语义到结果偏差仅 2.552。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
-    "题目 10 的选项“需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。”文本语义 Top 维度为 freedom / moral，与数值 Top 维度 cause / realism 重合偏低，建议人工复核。",
-    "题目 11 的选项“知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。”文本语义 Top 维度为 realism / freedom，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。",
-    "题目 14 的选项“会强迫自己把事停在这里，至少别让更多无关的人被卷进后续消耗。”文本语义 Top 维度为 cause / freedom，与数值 Top 维度 realism / moral 重合偏低，建议人工复核。",
-    "题目 14 的选项“先把情绪封住，不急着翻旧账，而是留到更能谈条件、谈代价的时候再处理。”文本语义 Top 维度为 fatalism / freedom，与数值 Top 维度 realism / cause 重合偏低，建议人工复核。",
-    "题目 18 的选项“会先按最坏情况把后手和空位预留出来，但不会完全照着这份预警行动。”文本语义 Top 维度为 freedom / moral，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。"
+    "人格“守护型照料者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 2.164，选项语义到结果偏差 3.147；建议复查其高频命中的题目文案与分值。",
+    "人格“现实主义调停者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.93，选项语义到结果偏差 3.192；建议复查其高频命中的题目文案与分值。",
+    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.58，但选项语义到结果偏差仅 2.573。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
+    "人格“集体主义战略家”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.26，但选项语义到结果偏差仅 1.898。建议在结果页提示“你的选择比自我描述更接近 利威尔·阿克曼”。",
+    "题目 2 的选项“尽量保住每个人的退路和选择，不让少数人直接被当成代价。”文本语义 Top 维度为 freedom / fatalism，与数值 Top 维度 moral / cause 重合偏低，建议人工复核。"
   ]
 }

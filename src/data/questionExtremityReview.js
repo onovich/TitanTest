@@ -8,7 +8,7 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 2,
     stemScore: 2.4,
-    optionScores: [2.7, 1.9, 2.2],
+    optionScores: [2.7, 2.0, 2.2],
     note: '把极端生命交换改成资源分配，更贴近日常组织困境。',
   },
   {
@@ -32,13 +32,13 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 6,
     stemScore: 2.1,
-    optionScores: [2.4, 2.1, 1.8],
+    optionScores: [2.4, 2.2, 1.8],
     note: '从世界末日改成高投入事项大概率失败，保留收尾方式差异。',
   },
   {
     id: 7,
     stemScore: 1.5,
-    optionScores: [2.1, 2.2, 2.4],
+    optionScores: [2.0, 2.3, 2.4],
     note: '维持常见伦理题框架，但让“设期限 / 说开 / 自己背锅”三种姿态更分明。',
   },
   {
@@ -56,13 +56,13 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 10,
     stemScore: 1.7,
-    optionScores: [2.5, 2.3, 2.6],
+    optionScores: [2.4, 2.3, 2.6],
     note: '团队角色题适度回调戏剧性，强化拍板者、收残局者与唱反调者的区别。',
   },
   {
     id: 11,
     stemScore: 2.0,
-    optionScores: [2.1, 1.8, 2.0],
+    optionScores: [2.0, 1.8, 2.0],
     note: '保留身份压力，但从灾难语气改成风险传导。',
   },
   {
@@ -74,19 +74,19 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 13,
     stemScore: 2.1,
-    optionScores: [2.2, 2.0, 2.1],
+    optionScores: [2.1, 2.0, 2.2],
     note: '信息公开题保留治理意味，但不再过于战时。',
   },
   {
     id: 14,
     stemScore: 1.9,
-    optionScores: [2.5, 2.0, 2.3],
+    optionScores: [2.5, 1.9, 2.2],
     note: '仍是旧怨处理，但把“硬算账 / 强停手 / 留到谈判桌”三种处理方式写得更有张力。',
   },
   {
     id: 15,
     stemScore: 1.7,
-    optionScores: [1.9, 1.8, 1.9],
+    optionScores: [2.0, 1.8, 1.9],
     note: '不可忍受状态题，整体中性。',
   },
   {
