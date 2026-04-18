@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-04-18T12:48:23.528Z",
+  "generatedAt": "2026-04-18T13:11:19.787Z",
   "strictMode": false,
   "issues": [],
   "summary": {
     "personaCount": 6,
-    "avgExpectationGap": 1.878,
+    "avgExpectationGap": 1.856,
     "calibrationNeededCount": 0,
     "topProblemDimensions": [
       {
         "dimension": "fatalism",
-        "error": 0.984
+        "error": 1.012
       },
       {
         "dimension": "cause",
-        "error": 0.797
+        "error": 0.815
       },
       {
         "dimension": "realism",
-        "error": 0.771
+        "error": 0.69
       }
     ]
   },
@@ -32,15 +32,15 @@
         "cause": 4
       },
       "finalScores": {
-        "freedom": 7.4790933420573396,
-        "moral": 3.439987260019338,
-        "realism": 4.26180791029461,
-        "fatalism": 2.576438003440625,
-        "cause": 4.862150084822203
+        "freedom": 7.573521753190752,
+        "moral": 3.3988298063074307,
+        "realism": 4.339441105724639,
+        "fatalism": 2.6215323538562503,
+        "cause": 4.916527273395929
       },
       "matchName": "让·基尔希斯坦",
-      "matchDistance": 4.607,
-      "expectationGap": 2.061,
+      "matchDistance": 4.85,
+      "expectationGap": 2.015,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     },
@@ -54,15 +54,15 @@
         "cause": 9
       },
       "finalScores": {
-        "freedom": 5.91320257882246,
-        "moral": 6.397248749144152,
-        "realism": 7.86872864244724,
-        "fatalism": 5.7200746,
-        "cause": 7.2909429004443185
+        "freedom": 5.993426118047754,
+        "moral": 6.355915849831829,
+        "realism": 7.9517938358564315,
+        "fatalism": 5.7542164,
+        "cause": 7.34604745015852
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.19,
-      "expectationGap": 2.85,
+      "matchDistance": 2.324,
+      "expectationGap": 2.845,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -76,15 +76,15 @@
         "cause": 5
       },
       "finalScores": {
-        "freedom": 3.504307948731756,
-        "moral": 4.149505670789384,
-        "realism": 6.081086816878009,
-        "fatalism": 7.820986638292339,
-        "cause": 5.76257989054027
+        "freedom": 3.5940597129979723,
+        "moral": 4.108960719469462,
+        "realism": 6.162002552667195,
+        "fatalism": 7.878764047340251,
+        "cause": 5.814328600180934
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.32,
-      "expectationGap": 1.539,
+      "matchDistance": 2.881,
+      "expectationGap": 1.521,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -98,15 +98,15 @@
         "cause": 7
       },
       "finalScores": {
-        "freedom": 6.238562496547099,
-        "moral": 5.926971227493866,
-        "realism": 7.927345695841678,
-        "fatalism": 5.871461045,
-        "cause": 7.107983437985009
+        "freedom": 6.32390529704354,
+        "moral": 5.885638328181542,
+        "realism": 8.010192911970709,
+        "fatalism": 5.90997403,
+        "cause": 7.162997951391473
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.22,
-      "expectationGap": 2.174,
+      "matchDistance": 2.381,
+      "expectationGap": 2.185,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -120,15 +120,15 @@
         "cause": 6
       },
       "finalScores": {
-        "freedom": 2.5634390288402344,
-        "moral": 6.043474641928545,
-        "realism": 6.362446865087188,
-        "fatalism": 7.542652168836273,
-        "cause": 6.626356496668168
+        "freedom": 2.6467651506541015,
+        "moral": 6.0029296906086245,
+        "realism": 6.44420313015016,
+        "fatalism": 7.601367897577322,
+        "cause": 6.680251992935439
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.554,
-      "expectationGap": 1.765,
+      "matchDistance": 2.839,
+      "expectationGap": 1.689,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     },
@@ -142,15 +142,15 @@
         "cause": 8
       },
       "finalScores": {
-        "freedom": 5.187124488734598,
-        "moral": 7.08517276689834,
-        "realism": 7.873526846133894,
-        "fatalism": 7.45623360109742,
-        "cause": 7.285033480448733
+        "freedom": 5.27246728923104,
+        "moral": 7.044062548540391,
+        "realism": 7.955283111196865,
+        "fatalism": 7.511320328323736,
+        "cause": 7.340138030162933
       },
       "matchName": "莱纳·布朗",
-      "matchDistance": 1.953,
-      "expectationGap": 0.882,
+      "matchDistance": 2.03,
+      "expectationGap": 0.88,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     }
@@ -159,18 +159,18 @@
     "personaCount": 6,
     "reflectionCount": 0,
     "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 4.05,
-    "avgOptionToResultGap": 2.206,
+    "avgLanguageToResultGap": 4.098,
+    "avgOptionToResultGap": 2.164,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
       "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.526,
-      "expectationGap": 3.767,
-      "languageToResultGap": 5.143,
-      "optionToResultGap": 2.051,
+      "scoreDistance": 3.896,
+      "expectationGap": 3.771,
+      "languageToResultGap": 5.196,
+      "optionToResultGap": 2.311,
       "semanticTopOverlap": 0,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -325,11 +325,11 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 5.986000000000001,
-        "moral": 4.35,
-        "realism": 6.95,
-        "fatalism": 3.7,
-        "cause": 6.3
+        "freedom": 6.0549,
+        "moral": 4.2811,
+        "realism": 7.1567,
+        "fatalism": 3.5622,
+        "cause": 6.4378
       },
       "averageOptionProfile": {
         "freedom": 6.340000000000001,
@@ -342,10 +342,10 @@
     {
       "persona": "集体主义战略家",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.9,
-      "expectationGap": 2.938,
-      "languageToResultGap": 4.059,
-      "optionToResultGap": 1.66,
+      "scoreDistance": 3.007,
+      "expectationGap": 2.923,
+      "languageToResultGap": 3.976,
+      "optionToResultGap": 1.737,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -500,11 +500,11 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 5.699999999999999,
-        "moral": 6.91,
-        "realism": 7.506,
+        "freedom": 5.7364,
+        "moral": 6.9282,
+        "realism": 7.560600000000001,
         "fatalism": 5.416,
-        "cause": 6.92
+        "cause": 6.9928
       },
       "averageOptionProfile": {
         "freedom": 5.104,
@@ -517,8 +517,8 @@
     {
       "persona": "守护型照料者",
       "matchedCharacter": "莱纳·布朗",
-      "scoreDistance": 2.703,
-      "expectationGap": 4.464,
+      "scoreDistance": 2.723,
+      "expectationGap": 4.487,
       "languageToResultGap": 2.691,
       "optionToResultGap": 2.806,
       "semanticTopOverlap": 1,
@@ -692,10 +692,10 @@
     {
       "persona": "现实主义调停者",
       "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 2.358,
-      "expectationGap": 2.206,
-      "languageToResultGap": 3.87,
-      "optionToResultGap": 1.696,
+      "scoreDistance": 2.604,
+      "expectationGap": 2.058,
+      "languageToResultGap": 3.715,
+      "optionToResultGap": 1.811,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -752,10 +752,10 @@
         },
         {
           "questionId": 8,
-          "optionIndex": 0,
-          "optionText": "是的，真相高于一切生存意义。",
-          "semanticMatch": 0.238,
-          "noisyScore": 0.238
+          "optionIndex": 2,
+          "optionText": "会追寻，但要给自己和同伴留下理解与消化真相的余地。",
+          "semanticMatch": 0.342,
+          "noisyScore": 0.342
         },
         {
           "questionId": 9,
@@ -838,8 +838,8 @@
           "questionId": 20,
           "optionIndex": 1,
           "optionText": "让人愿意同行的理解、沟通与说服。",
-          "semanticMatch": 0.222,
-          "noisyScore": 0.222
+          "semanticMatch": 0.249,
+          "noisyScore": 0.249
         }
       ],
       "personaProfile": {
@@ -850,25 +850,25 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 5.986000000000001,
-        "moral": 4.35,
-        "realism": 6.95,
-        "fatalism": 3.7,
-        "cause": 6.3
+        "freedom": 6.0549,
+        "moral": 4.2811,
+        "realism": 7.1567,
+        "fatalism": 3.5622,
+        "cause": 6.4378
       },
       "averageOptionProfile": {
         "freedom": 5.722,
-        "moral": 4.5760000000000005,
-        "realism": 6.396000000000001,
+        "moral": 4.5280000000000005,
+        "realism": 6.636,
         "fatalism": 5.207999999999999,
-        "cause": 5.882
+        "cause": 6.081999999999999
       }
     },
     {
       "persona": "宿命型幸存者",
       "matchedCharacter": "莱纳·布朗",
-      "scoreDistance": 1.794,
-      "expectationGap": 3.124,
+      "scoreDistance": 1.84,
+      "expectationGap": 3.169,
       "languageToResultGap": 4.742,
       "optionToResultGap": 2.085,
       "semanticTopOverlap": 0,
@@ -1041,11 +1041,11 @@
     },
     {
       "persona": "矛盾型士兵",
-      "matchedCharacter": "吉克·耶格尔",
-      "scoreDistance": 2.68,
-      "expectationGap": 1.576,
-      "languageToResultGap": 3.794,
-      "optionToResultGap": 2.938,
+      "matchedCharacter": "利威尔·阿克曼",
+      "scoreDistance": 2.819,
+      "expectationGap": 1.343,
+      "languageToResultGap": 4.266,
+      "optionToResultGap": 2.237,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -1102,10 +1102,10 @@
         },
         {
           "questionId": 8,
-          "optionIndex": 0,
-          "optionText": "是的，真相高于一切生存意义。",
-          "semanticMatch": 0.133,
-          "noisyScore": 0.133
+          "optionIndex": 2,
+          "optionText": "会追寻，但要给自己和同伴留下理解与消化真相的余地。",
+          "semanticMatch": 0.2,
+          "noisyScore": 0.2
         },
         {
           "questionId": 9,
@@ -1186,10 +1186,10 @@
         },
         {
           "questionId": 20,
-          "optionIndex": 0,
-          "optionText": "让敌人恐惧到不敢越线的压倒性力量。",
-          "semanticMatch": 0.15,
-          "noisyScore": 0.15
+          "optionIndex": 1,
+          "optionText": "让人愿意同行的理解、沟通与说服。",
+          "semanticMatch": 0.151,
+          "noisyScore": 0.151
         }
       ],
       "personaProfile": {
@@ -1200,18 +1200,18 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 6.95,
-        "moral": 7.6000000000000005,
-        "realism": 7.6000000000000005,
-        "fatalism": 5.65,
-        "cause": 7.286
+        "freedom": 5.800000000000001,
+        "moral": 5.936000000000001,
+        "realism": 6.343999999999999,
+        "fatalism": 7.352,
+        "cause": 6.904
       },
       "averageOptionProfile": {
         "freedom": 5.104,
-        "moral": 5.711999999999999,
-        "realism": 6.651999999999999,
+        "moral": 5.4239999999999995,
+        "realism": 6.892,
         "fatalism": 5.367999999999999,
-        "cause": 6.459999999999999
+        "cause": 6.756
       }
     }
   ],
@@ -1559,6 +1559,21 @@
         "freedom"
       ],
       "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 8,
+      "optionIndex": 2,
+      "optionText": "会追寻，但要给自己和同伴留下理解与消化真相的余地。",
+      "textTop": [
+        "realism",
+        "cause"
+      ],
+      "numericTop": [
+        "realism",
+        "cause"
+      ],
+      "overlap": 1,
       "warning": false
     },
     {
@@ -2103,6 +2118,6 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.143，但选项语义到结果偏差仅 2.051。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
+    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.196，但选项语义到结果偏差仅 2.311。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
   ]
 }

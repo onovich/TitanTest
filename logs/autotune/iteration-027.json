@@ -1,0 +1,306 @@
+{
+  "iteration": 27,
+  "generatedAt": "2026-04-18T13:00:03.311Z",
+  "workflowLength": 923,
+  "mode": "normal",
+  "selectedCandidate": "balanced-character",
+  "accepted": {
+    "generatedAt": "2026-04-18T13:00:01.808Z",
+    "workflowLength": 923,
+    "sampleSize": 2000,
+    "seed": 20260444,
+    "persona": {
+      "personaScore": 87.86,
+      "avgExpectationGap": 1.874,
+      "calibrationNeededCount": 0,
+      "reflectionCount": 0,
+      "selfPerceptionDriftCount": 1,
+      "inconsistentOptionCount": 0,
+      "avgLanguageToResultGap": 3.984,
+      "avgOptionToResultGap": 2.05
+    },
+    "balance": {
+      "sampleSize": 2000,
+      "seed": 20260444,
+      "topShare": 23.5,
+      "topCharacter": "利威尔·阿克曼",
+      "normalizedEntropy": 0.668,
+      "averageConfidenceGap": 0.402,
+      "activeRoleCount": 10,
+      "balanceScore": 92.08,
+      "distribution": [
+        {
+          "name": "利威尔·阿克曼",
+          "count": 470,
+          "share": 23.5
+        },
+        {
+          "name": "让·基尔希斯坦",
+          "count": 318,
+          "share": 15.9
+        },
+        {
+          "name": "阿明·阿诺德",
+          "count": 316,
+          "share": 15.8
+        },
+        {
+          "name": "贾碧·布朗",
+          "count": 275,
+          "share": 13.75
+        },
+        {
+          "name": "柯尼·斯普林格",
+          "count": 234,
+          "share": 11.7
+        },
+        {
+          "name": "莱纳·布朗",
+          "count": 167,
+          "share": 8.35
+        },
+        {
+          "name": "格里沙·耶格尔",
+          "count": 146,
+          "share": 7.3
+        },
+        {
+          "name": "吉克·耶格尔",
+          "count": 41,
+          "share": 2.05
+        },
+        {
+          "name": "萨莎·布劳斯",
+          "count": 28,
+          "share": 1.4
+        },
+        {
+          "name": "三笠·阿克曼",
+          "count": 5,
+          "share": 0.25
+        },
+        {
+          "name": "艾伦·耶格尔",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "艾尔文·史密斯",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "阿尼·利昂纳德",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "贝特霍尔德·胡佛",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "艾伦·克鲁格",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "肯尼·阿克曼",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "威利·戴巴",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "弗洛克·福斯特",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "清美·亚兹玛比特",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "尤弥尔·弗里茨",
+          "count": 0,
+          "share": 0
+        }
+      ]
+    },
+    "scoreGap": 4.22,
+    "combinedScore": 176.56
+  },
+  "candidate": {
+    "generatedAt": "2026-04-18T13:00:03.160Z",
+    "workflowLength": 923,
+    "sampleSize": 2000,
+    "seed": 20260445,
+    "persona": {
+      "personaScore": 87.86,
+      "avgExpectationGap": 1.874,
+      "calibrationNeededCount": 0,
+      "reflectionCount": 0,
+      "selfPerceptionDriftCount": 1,
+      "inconsistentOptionCount": 0,
+      "avgLanguageToResultGap": 4.103,
+      "avgOptionToResultGap": 2.155
+    },
+    "balance": {
+      "sampleSize": 2000,
+      "seed": 20260445,
+      "topShare": 25.65,
+      "topCharacter": "利威尔·阿克曼",
+      "normalizedEntropy": 0.667,
+      "averageConfidenceGap": 0.406,
+      "activeRoleCount": 12,
+      "balanceScore": 91.7,
+      "distribution": [
+        {
+          "name": "利威尔·阿克曼",
+          "count": 513,
+          "share": 25.65
+        },
+        {
+          "name": "让·基尔希斯坦",
+          "count": 296,
+          "share": 14.8
+        },
+        {
+          "name": "阿明·阿诺德",
+          "count": 273,
+          "share": 13.65
+        },
+        {
+          "name": "贾碧·布朗",
+          "count": 261,
+          "share": 13.05
+        },
+        {
+          "name": "柯尼·斯普林格",
+          "count": 252,
+          "share": 12.6
+        },
+        {
+          "name": "莱纳·布朗",
+          "count": 193,
+          "share": 9.65
+        },
+        {
+          "name": "格里沙·耶格尔",
+          "count": 139,
+          "share": 6.95
+        },
+        {
+          "name": "吉克·耶格尔",
+          "count": 37,
+          "share": 1.85
+        },
+        {
+          "name": "萨莎·布劳斯",
+          "count": 29,
+          "share": 1.45
+        },
+        {
+          "name": "三笠·阿克曼",
+          "count": 4,
+          "share": 0.2
+        },
+        {
+          "name": "清美·亚兹玛比特",
+          "count": 2,
+          "share": 0.1
+        },
+        {
+          "name": "弗洛克·福斯特",
+          "count": 1,
+          "share": 0.05
+        },
+        {
+          "name": "艾伦·耶格尔",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "艾尔文·史密斯",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "阿尼·利昂纳德",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "贝特霍尔德·胡佛",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "艾伦·克鲁格",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "肯尼·阿克曼",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "威利·戴巴",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "尤弥尔·弗里茨",
+          "count": 0,
+          "share": 0
+        }
+      ]
+    },
+    "scoreGap": 3.84,
+    "combinedScore": 176.49
+  },
+  "candidateRanks": [
+    {
+      "name": "balanced-character",
+      "rank": 236.63,
+      "personaScore": 87.86,
+      "balanceScore": 91.7,
+      "scoreGap": 3.84
+    },
+    {
+      "name": "focus-top-character",
+      "rank": 236.63,
+      "personaScore": 87.86,
+      "balanceScore": 91.7,
+      "scoreGap": 3.84
+    },
+    {
+      "name": "density-runtime",
+      "rank": 236.52,
+      "personaScore": 87.86,
+      "balanceScore": 91.16,
+      "scoreGap": 3.3
+    },
+    {
+      "name": "restore-runtime",
+      "rank": 236.14,
+      "personaScore": 87.95,
+      "balanceScore": 88.27,
+      "scoreGap": 0.32
+    },
+    {
+      "name": "balanced-runtime",
+      "rank": 236.03,
+      "personaScore": 87.96,
+      "balanceScore": 87.93,
+      "scoreGap": 0.03
+    }
+  ],
+  "accept": false,
+  "degradationStreak": 1
+}
