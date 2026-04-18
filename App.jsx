@@ -6,6 +6,13 @@ import { buildResultInsights } from './src/logic/resultInsights';
 import WelcomeScreen from './src/view/WelcomeScreen.jsx';
 import QuizScreen from './src/view/QuizScreen.jsx';
 import ResultScreen from './src/view/ResultScreen.jsx';
+import VisitorCounter from './src/view/VisitorCounter.jsx';
+
+function findCharacterByName(characterName) {
+  return CHARACTERS.find(
+    (character) => character.name === characterName || character.aliases?.includes(characterName),
+  );
+}
 
 function buildShareUrl(characterName) {
   const url = new URL(window.location.href);
@@ -31,7 +38,7 @@ export default function App() {
       return;
     }
 
-    const sharedCharacter = CHARACTERS.find((character) => character.name === sharedCharacterName);
+    const sharedCharacter = findCharacterByName(sharedCharacterName);
     if (!sharedCharacter) {
       document.title = '测测你是《进击的巨人》里的谁｜灵魂共鸣测试';
       return;
@@ -62,8 +69,8 @@ export default function App() {
     setResultInsights(null);
   };
 
-  const handleAnswer = (optionScores) => {
-    const nextScores = mergeOptionScores(userScores, optionScores);
+  const handleAnswer = (optionScores, questionWeight = 1) => {
+    const nextScores = mergeOptionScores(userScores, optionScores, questionWeight);
     setUserScores(nextScores);
 
     if (currentQ < QUESTIONS.length - 1) {
@@ -97,6 +104,8 @@ export default function App() {
             resultInsights={resultInsights}
           />
         )}
+
+        <VisitorCounter />
       </div>
     </div>
   );

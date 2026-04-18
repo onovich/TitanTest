@@ -22,7 +22,7 @@ export default function QuizScreen({ question, currentQ, total, onAnswer }) {
         {question.options.map((opt, idx) => (
           <button
             key={idx}
-            onClick={() => onAnswer(opt.scores)}
+            onClick={() => onAnswer(opt.scores, question.weight ?? 1)}
             className="w-full p-5 text-left bg-neutral-900 border border-neutral-800 hover:border-red-800 hover:bg-neutral-800 transition-all rounded-xl group"
           >
             <span className="text-lg text-neutral-300 group-hover:text-white transition-colors">{opt.text}</span>

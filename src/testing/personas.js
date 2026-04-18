@@ -6,7 +6,7 @@ export const PERSONAS = [
     selfImage: '反叛者、真相追寻者、自由优先',
     expectedScores: { freedom: 9, moral: 4, realism: 5, fatalism: 2, cause: 4 },
     expectedTopDimensions: ['freedom', 'realism'],
-    picks: [0, 1, 1, 1, 0, 0, 1, 0, 0, 2],
+    picks: [0, 1, 1, 1, 0, 0, 1, 0, 0, 2, 2, 0, 2, 1, 0, 2, 0, 2, 1, 1],
   },
   {
     id: 'collective-strategist',
@@ -15,16 +15,16 @@ export const PERSONAS = [
     selfImage: '战略家、领导者、集体主义者',
     expectedScores: { freedom: 5, moral: 8, realism: 9, fatalism: 5, cause: 9 },
     expectedTopDimensions: ['cause', 'realism'],
-    picks: [2, 0, 2, 0, 2, 1, 0, 0, 2, 0],
+    picks: [2, 0, 2, 0, 2, 1, 0, 0, 2, 0, 1, 1, 1, 2, 2, 0, 1, 1, 2, 1],
   },
   {
     id: 'protective-caregiver',
     name: '守护型照料者',
     narrative: '我最在乎具体的人。面对灾难时，我会先保护重要的人，不愿让抽象的大义、牺牲或残酷逻辑压过真实关系。',
     selfImage: '守护者、照料者、关系优先',
-    expectedScores: { freedom: 4, moral: 5, realism: 5, fatalism: 6, cause: 3 },
-    expectedTopDimensions: ['fatalism', 'moral'],
-    picks: [1, 2, 0, 2, 1, 2, 2, 1, 1, 1],
+    expectedScores: { freedom: 4, moral: 4, realism: 7, fatalism: 7, cause: 5 },
+    expectedTopDimensions: ['fatalism', 'realism'],
+    picks: [1, 2, 0, 2, 1, 2, 2, 1, 1, 1, 0, 0, 1, 1, 1, 2, 2, 0, 1, 1],
   },
   {
     id: 'pragmatic-mediator',
@@ -33,7 +33,7 @@ export const PERSONAS = [
     selfImage: '调停者、理性派、长期主义者',
     expectedScores: { freedom: 6, moral: 6, realism: 9, fatalism: 4, cause: 7 },
     expectedTopDimensions: ['realism', 'cause'],
-    picks: [2, 2, 2, 1, 2, 0, 0, 0, 2, 0],
+    picks: [2, 2, 2, 1, 2, 0, 0, 0, 2, 0, 1, 1, 1, 2, 2, 1, 1, 1, 2, 1],
   },
   {
     id: 'fatalistic-survivor',
@@ -42,7 +42,7 @@ export const PERSONAS = [
     selfImage: '幸存者、宿命论者、安全优先',
     expectedScores: { freedom: 3, moral: 6, realism: 7, fatalism: 9, cause: 6 },
     expectedTopDimensions: ['fatalism', 'realism'],
-    picks: [1, 2, 0, 1, 1, 1, 2, 1, 1, 1],
+    picks: [1, 2, 0, 1, 1, 1, 2, 1, 1, 1, 0, 1, 0, 1, 1, 1, 2, 0, 0, 2],
   },
   {
     id: 'conflicted-soldier',
@@ -51,6 +51,6 @@ export const PERSONAS = [
     selfImage: '士兵、责任承担者、矛盾执行者',
     expectedScores: { freedom: 5, moral: 7, realism: 8, fatalism: 7, cause: 8 },
     expectedTopDimensions: ['cause', 'realism'],
-    picks: [2, 2, 2, 0, 2, 1, 0, 0, 2, 1],
+    picks: [2, 2, 2, 0, 2, 1, 0, 0, 2, 1, 1, 1, 0, 2, 1, 1, 1, 0, 0, 0],
   },
 ];

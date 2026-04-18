@@ -38,7 +38,7 @@ function pickOptionByLanguage(persona, question, options = {}) {
     const semanticMatch = semanticSimilarity(personaLanguageProfile, optionProfile);
     const optionArchetypes = inferArchetypes(`${question.text} ${option.text}`);
     const personaArchetypes = inferArchetypes(`${persona.narrative} ${persona.selfImage ?? ''}`);
-    const archetypeBonus = optionArchetypes.filter((tag) => personaArchetypes.includes(tag)).length * 0.04;
+    const archetypeBonus = optionArchetypes.filter((tag) => personaArchetypes.includes(tag)).length * 0.07;
 
     return {
       index,
@@ -86,7 +86,7 @@ export function runNaturalLanguageSimulation({ personas, questions, characters, 
 
     questions.forEach((question) => {
       const selected = pickOptionByLanguage(persona, question, { randomize, decisionNoise, random });
-      scores = mergeOptionScores(scores, selected.option.scores);
+      scores = mergeOptionScores(scores, selected.option.scores, question.weight ?? 1);
       chosenOptions.push({
         questionId: question.id,
         optionIndex: selected.index,
@@ -110,8 +110,8 @@ export function runNaturalLanguageSimulation({ personas, questions, characters, 
     const semanticTopOverlap = rankByImpact(characterSemanticProfile)
       .slice(0, 2)
       .filter((key) => rankByImpact(personaProfile).slice(0, 2).includes(key)).length / 2;
-    const selfPerceptionDrift = languageToResultGap > 5 && optionToResultGap <= 2.8;
-    const calibrationConcern = !selfPerceptionDrift && (optionToResultGap > 2.8 || (semanticTopOverlap < 0.5 && optionToResultGap > 2.2));
+    const selfPerceptionDrift = languageToResultGap > 5 && optionToResultGap <= 2.9;
+    const calibrationConcern = !selfPerceptionDrift && (optionToResultGap > 3.1 || (semanticTopOverlap < 0.5 && optionToResultGap > 2.7));
 
     return {
       persona: persona.name,

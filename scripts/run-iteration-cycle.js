@@ -30,13 +30,13 @@ function createSeededRandom(seed) {
 
 function computeSatisfactionScore(numericResult, languageResult) {
   const hardPenalty =
-    numericResult.summary.calibrationNeededCount * 16 +
-    languageResult.summary.reflectionCount * 12 +
-    languageResult.summary.inconsistentOptionCount * 12;
+    numericResult.summary.calibrationNeededCount * 14 +
+    languageResult.summary.reflectionCount * 9 +
+    languageResult.summary.inconsistentOptionCount * 10;
   const softPenalty =
-    numericResult.summary.avgExpectationGap * 2.2 +
-    Math.max(0, languageResult.summary.avgOptionToResultGap - 2.2) * 6 +
-    languageResult.summary.selfPerceptionDriftCount * 1.5;
+    numericResult.summary.avgExpectationGap * 1.9 +
+    Math.max(0, languageResult.summary.avgOptionToResultGap - 2.5) * 4 +
+    languageResult.summary.selfPerceptionDriftCount * 0.8;
 
   const score = 100 - hardPenalty - softPenalty;
 
@@ -179,7 +179,7 @@ async function main() {
       questions: QUESTIONS,
       characters: CHARACTERS,
       randomize: true,
-        decisionNoise: 0.02,
+        decisionNoise: 0.015,
       random,
     });
 

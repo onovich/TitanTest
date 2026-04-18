@@ -21,7 +21,7 @@ export function runPersonaSimulation({ personas, questions, characters }) {
     questions.forEach((q, index) => {
       const pickIndex = persona.picks[index] ?? 0;
       const option = q.options[pickIndex] ?? q.options[0];
-      scores = mergeOptionScores(scores, option.scores);
+      scores = mergeOptionScores(scores, option.scores, q.weight ?? 1);
     });
 
     const { character, distance } = findBestMatch(scores, characters);

@@ -1,20 +1,20 @@
 {
   "iteration": 27,
   "seed": 20260445,
-  "generatedAt": "2026-04-18T10:41:45.442Z",
-  "satisfactionScore": 80.83,
+  "generatedAt": "2026-04-18T12:28:41.562Z",
+  "satisfactionScore": 84.87,
   "verdict": "继续观察",
   "action": "当前无硬性告警，但满意度未达阈值；继续积累样本验证稳定性。",
   "note": "本轮用于验证稳定性；若后续扩充人格样本出现新告警，应优先回看该轮附近的题目与语义日志。",
   "numeric": {
-    "avgExpectationGap": 2.096,
+    "avgExpectationGap": 1.925,
     "calibrationNeededCount": 0
   },
   "language": {
-    "avgLanguageToResultGap": 4.428,
-    "avgOptionToResultGap": 2.377,
+    "avgLanguageToResultGap": 4.735,
+    "avgOptionToResultGap": 2.518,
     "reflectionCount": 1,
-    "selfPerceptionDriftCount": 1,
+    "selfPerceptionDriftCount": 3,
     "inconsistentOptionCount": 0
   }
 }

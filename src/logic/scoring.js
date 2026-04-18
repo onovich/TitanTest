@@ -12,9 +12,9 @@ export function clampScore(value, min = 1, max = 10) {
   return Math.min(max, Math.max(min, value));
 }
 
-export function mergeOptionScores(currentScores, optionScores) {
+export function mergeOptionScores(currentScores, optionScores, weight = 1) {
   const nextScores = { ...currentScores };
-  const influence = 0.35;
+  const influence = 0.35 * weight;
 
   Object.keys(optionScores).forEach((key) => {
     nextScores[key] = clampScore(nextScores[key] + (optionScores[key] - nextScores[key]) * influence);

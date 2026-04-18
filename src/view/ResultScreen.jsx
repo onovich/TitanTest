@@ -1,13 +1,43 @@
 import React, { useState } from 'react';
 import { User, RefreshCw, Share2 } from 'lucide-react';
+import { PORTRAITS } from '../data/portraits';
 import { DIMENSION_LABELS } from '../logic/labels';
 
 export default function ResultScreen({ match, onRestart, userScores, resultInsights }) {
   const [shareStatus, setShareStatus] = useState('');
+  const portrait = PORTRAITS[match.name];
+  const hasSelectedPortrait = Boolean(portrait?.selected?.src);
+
+  const copyShareText = async (text) => {
+    if (navigator.clipboard?.writeText) {
+      await navigator.clipboard.writeText(text);
+      return true;
+    }
+
+    const fallbackInput = document.createElement('textarea');
+    fallbackInput.value = text;
+    document.body.appendChild(fallbackInput);
+    fallbackInput.select();
+    const copied = document.execCommand('copy');
+    document.body.removeChild(fallbackInput);
+    return copied;
+  };
 
   const handleShare = async () => {
     const shareUrl = window.location.href;
     const text = `我在《进击的巨人》灵魂共鸣测试中，匹配到了【${match.name}】！来看看你是谁？`;
+    const sharePayload = `${text}\n${shareUrl}`;
+    const isWeChatBrowser = /MicroMessenger/i.test(window.navigator.userAgent);
+
+    if (isWeChatBrowser) {
+      const copied = await copyShareText(sharePayload);
+      setShareStatus(
+        copied
+          ? '微信内请点右上角“···”后选择“发送给朋友”，结果链接已复制。'
+          : '微信内请点右上角“···”后选择“发送给朋友”。'
+      );
+      return;
+    }
 
     if (navigator.share) {
       try {
@@ -25,19 +55,13 @@ export default function ResultScreen({ match, onRestart, userScores, resultInsig
       }
     }
 
-    if (navigator.clipboard?.writeText) {
-      await navigator.clipboard.writeText(`${text}\n${shareUrl}`);
+    if (await copyShareText(sharePayload)) {
       setShareStatus('结果文案和链接已复制');
       return;
     }
 
-    const fallbackInput = document.createElement('textarea');
-    fallbackInput.value = `${text}\n${shareUrl}`;
-    document.body.appendChild(fallbackInput);
-    fallbackInput.select();
-    document.execCommand('copy');
-    document.body.removeChild(fallbackInput);
-    setShareStatus('结果文案和链接已复制');
+    window.prompt('请复制这段结果文案与链接后自行分享：', sharePayload);
+    setShareStatus('已打开手动复制窗口');
   };
 
   return (
@@ -45,10 +69,26 @@ export default function ResultScreen({ match, onRestart, userScores, resultInsig
       <div className="bg-neutral-900 rounded-3xl overflow-hidden border border-neutral-800 shadow-2xl">
         <div className="p-8 md:p-12 space-y-6">
           <div className="flex justify-center">
-            <div className="w-20 h-20 bg-red-600/10 rounded-full flex items-center justify-center border border-red-600/30">
-              <User className="text-red-600 w-10 h-10" />
-            </div>
+            {hasSelectedPortrait ? (
+              <img
+                src={portrait.selected.src}
+                alt={portrait.selected.alt ?? `${match.name}头像`}
+                className="w-28 h-28 rounded-3xl object-cover border border-red-600/30 shadow-lg shadow-red-950/30"
+                style={{ objectPosition: portrait.selected.objectPosition ?? 'center' }}
+              />
+            ) : (
+              <div className="w-28 h-28 bg-red-600/10 rounded-3xl flex flex-col items-center justify-center border border-dashed border-red-600/30 gap-2 px-3 text-center">
+                <User className="text-red-600 w-9 h-9" />
+                <span className="text-[11px] tracking-[0.2em] uppercase text-red-200/80">头像待确认</span>
+              </div>
+            )}
           </div>
+
+          {portrait && !hasSelectedPortrait && (
+            <p className="text-center text-xs text-neutral-500">
+              已整理 {portrait.candidates.length} 个候选，推荐编号：{portrait.recommended.join(' / ')}
+            </p>
+          )}
 
           <div className="text-center space-y-2">
             <h3 className="text-neutral-400 uppercase tracking-widest text-sm font-bold">你的共鸣角色是</h3>
