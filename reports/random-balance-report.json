@@ -1,80 +1,80 @@
 {
-  "generatedAt": "2026-04-18T21:59:05.496Z",
+  "generatedAt": "2026-04-18T21:59:10.689Z",
   "sampleSize": 3000,
-  "seed": 20260446,
+  "seed": 20260447,
   "topCharacter": {
     "name": "利威尔·阿克曼",
-    "count": 1050,
-    "share": 35
+    "count": 1104,
+    "share": 36.8
   },
-  "averageConfidenceGap": 0.392,
-  "distributionEntropy": 2.661,
+  "averageConfidenceGap": 0.434,
+  "distributionEntropy": 2.65,
   "maxEntropy": 4.322,
   "distribution": [
     {
       "name": "利威尔·阿克曼",
-      "count": 1050,
-      "share": 35
+      "count": 1104,
+      "share": 36.8
     },
     {
       "name": "让·基尔希斯坦",
-      "count": 812,
-      "share": 27.07
+      "count": 747,
+      "share": 24.9
     },
     {
       "name": "阿明·阿诺德",
-      "count": 326,
-      "share": 10.87
+      "count": 354,
+      "share": 11.8
     },
     {
       "name": "贾碧·布朗",
-      "count": 182,
-      "share": 6.07
+      "count": 172,
+      "share": 5.73
     },
     {
       "name": "吉克·耶格尔",
-      "count": 142,
-      "share": 4.73
+      "count": 163,
+      "share": 5.43
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 130,
-      "share": 4.33
+      "count": 131,
+      "share": 4.37
     },
     {
       "name": "莱纳·布朗",
-      "count": 120,
-      "share": 4
+      "count": 102,
+      "share": 3.4
     },
     {
       "name": "肯尼·阿克曼",
-      "count": 110,
-      "share": 3.67
+      "count": 98,
+      "share": 3.27
     },
     {
       "name": "艾伦·耶格尔",
-      "count": 68,
-      "share": 2.27
+      "count": 70,
+      "share": 2.33
     },
     {
       "name": "三笠·阿克曼",
-      "count": 39,
-      "share": 1.3
+      "count": 35,
+      "share": 1.17
     },
     {
       "name": "萨莎·布劳斯",
-      "count": 13,
-      "share": 0.43
+      "count": 12,
+      "share": 0.4
     },
     {
       "name": "多托·匹西斯",
-      "count": 8,
-      "share": 0.27
+      "count": 11,
+      "share": 0.37
     },
     {
       "name": "艾尔文·史密斯",
-      "count": 0,
-      "share": 0
+      "count": 1,
+      "share": 0.03
     },
     {
       "name": "阿尼·利昂纳德",
