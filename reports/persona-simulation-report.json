@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T13:13:09.307Z",
+  "generatedAt": "2026-04-18T13:13:15.478Z",
   "strictMode": false,
   "issues": [],
   "summary": {
@@ -39,7 +39,7 @@
         "cause": 4.96318962057018
       },
       "matchName": "让·基尔希斯坦",
-      "matchDistance": 4.811,
+      "matchDistance": 4.852,
       "expectationGap": 1.988,
       "dimensionalGap": 0.5,
       "needsCalibration": false
@@ -61,7 +61,7 @@
         "cause": 7.393333963071165
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.259,
+      "matchDistance": 2.292,
       "expectationGap": 2.836,
       "dimensionalGap": 0,
       "needsCalibration": false
@@ -105,7 +105,7 @@
         "cause": 7.210207202026312
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.327,
+      "matchDistance": 2.361,
       "expectationGap": 2.194,
       "dimensionalGap": 0,
       "needsCalibration": false
@@ -157,24 +157,24 @@
   ],
   "semanticSummary": {
     "personaCount": 6,
-    "reflectionCount": 0,
-    "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 3.827,
-    "avgOptionToResultGap": 2.058,
+    "reflectionCount": 1,
+    "selfPerceptionDriftCount": 0,
+    "avgLanguageToResultGap": 4.28,
+    "avgOptionToResultGap": 2.329,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
-      "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.858,
+      "matchedCharacter": "三笠·阿克曼",
+      "scoreDistance": 4.723,
       "expectationGap": 3.771,
-      "languageToResultGap": 5.196,
-      "optionToResultGap": 2.311,
-      "semanticTopOverlap": 0,
-      "selfPerceptionDrift": true,
-      "calibrationConcern": false,
-      "needsReflection": false,
+      "languageToResultGap": 7.142,
+      "optionToResultGap": 3.704,
+      "semanticTopOverlap": 0.5,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": true,
+      "needsReflection": true,
       "chosenOptions": [
         {
           "questionId": 1,
@@ -325,11 +325,11 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 6.0549,
-        "moral": 4.2811,
-        "realism": 7.1567,
-        "fatalism": 3.5622,
-        "cause": 6.4378
+        "freedom": 3.554,
+        "moral": 4.5009999999999994,
+        "realism": 5,
+        "fatalism": 4.6129999999999995,
+        "cause": 3.559
       },
       "averageOptionProfile": {
         "freedom": 6.340000000000001,
@@ -342,10 +342,10 @@
     {
       "persona": "集体主义战略家",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.947,
+      "scoreDistance": 2.976,
       "expectationGap": 2.907,
-      "languageToResultGap": 3.976,
-      "optionToResultGap": 1.737,
+      "languageToResultGap": 3.963,
+      "optionToResultGap": 1.749,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -500,11 +500,11 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 5.7364,
-        "moral": 6.9282,
-        "realism": 7.560600000000001,
+        "freedom": 5.742,
+        "moral": 6.931,
+        "realism": 7.569,
         "fatalism": 5.416,
-        "cause": 6.9928
+        "cause": 7.004
       },
       "averageOptionProfile": {
         "freedom": 5.104,
@@ -516,11 +516,11 @@
     },
     {
       "persona": "守护型照料者",
-      "matchedCharacter": "贾碧·布朗",
-      "scoreDistance": 3.035,
+      "matchedCharacter": "莱纳·布朗",
+      "scoreDistance": 2.742,
       "expectationGap": 4.517,
-      "languageToResultGap": 1.873,
-      "optionToResultGap": 2.626,
+      "languageToResultGap": 2.691,
+      "optionToResultGap": 2.806,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -675,11 +675,11 @@
         "cause": 7.24
       },
       "resultProfile": {
-        "freedom": 6.4118,
-        "moral": 6.5238000000000005,
-        "realism": 5.3919999999999995,
-        "fatalism": 5.7059,
-        "cause": 7.8236
+        "freedom": 4.35,
+        "moral": 6.95,
+        "realism": 6.3,
+        "fatalism": 6.95,
+        "cause": 7.286
       },
       "averageOptionProfile": {
         "freedom": 4.896,
@@ -692,10 +692,10 @@
     {
       "persona": "现实主义调停者",
       "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 2.598,
+      "scoreDistance": 2.64,
       "expectationGap": 2.056,
-      "languageToResultGap": 3.715,
-      "optionToResultGap": 1.811,
+      "languageToResultGap": 3.696,
+      "optionToResultGap": 1.842,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -850,11 +850,11 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 6.0549,
-        "moral": 4.2811,
-        "realism": 7.1567,
-        "fatalism": 3.5622,
-        "cause": 6.4378
+        "freedom": 6.064,
+        "moral": 4.272,
+        "realism": 7.184,
+        "fatalism": 3.5439999999999996,
+        "cause": 6.456
       },
       "averageOptionProfile": {
         "freedom": 5.722,
@@ -1042,10 +1042,10 @@
     {
       "persona": "矛盾型士兵",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.81,
+      "scoreDistance": 2.843,
       "expectationGap": 1.329,
-      "languageToResultGap": 3.459,
-      "optionToResultGap": 1.78,
+      "languageToResultGap": 3.447,
+      "optionToResultGap": 1.789,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -1200,11 +1200,11 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 5.7364,
-        "moral": 6.9282,
-        "realism": 7.560600000000001,
+        "freedom": 5.742,
+        "moral": 6.931,
+        "realism": 7.569,
         "fatalism": 5.416,
-        "cause": 6.9928
+        "cause": 7.004
       },
       "averageOptionProfile": {
         "freedom": 5.104,
@@ -2118,6 +2118,6 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.196，但选项语义到结果偏差仅 2.311。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
+    "人格“理想主义反叛者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 7.142，选项语义到结果偏差 3.704；建议复查其高频命中的题目文案与分值。"
   ]
 }
