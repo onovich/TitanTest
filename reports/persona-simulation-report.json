@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T21:45:18.148Z",
+  "generatedAt": "2026-04-18T21:45:23.467Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
@@ -633,8 +633,8 @@
     "personaCount": 6,
     "reflectionCount": 2,
     "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 4.584,
-    "avgOptionToResultGap": 2.704,
+    "avgLanguageToResultGap": 4.399,
+    "avgOptionToResultGap": 2.724,
     "inconsistentOptionCount": 5
   },
   "semanticReports": [
@@ -1515,12 +1515,12 @@
     },
     {
       "persona": "矛盾型士兵",
-      "matchedCharacter": "利威尔·阿克曼",
-      "scoreDistance": 3.172,
+      "matchedCharacter": "阿明·阿诺德",
+      "scoreDistance": 3.524,
       "expectationGap": 1.967,
-      "languageToResultGap": 4.907,
-      "optionToResultGap": 2.206,
-      "semanticTopOverlap": 0.5,
+      "languageToResultGap": 3.796,
+      "optionToResultGap": 2.323,
+      "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
       "needsReflection": false,
@@ -1674,11 +1674,11 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 4.84,
-        "moral": 5,
-        "realism": 7.496,
-        "fatalism": 6.664,
-        "cause": 6.112
+        "freedom": 4.964599999999999,
+        "moral": 6.0222999999999995,
+        "realism": 6.9229,
+        "fatalism": 5.936000000000001,
+        "cause": 7.113199999999999
       },
       "averageOptionProfile": {
         "freedom": 5.056,
