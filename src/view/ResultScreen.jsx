@@ -1,22 +1,43 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { User, RefreshCw, Share2 } from 'lucide-react';
 import { DIMENSION_LABELS } from '../logic/labels';
 
 export default function ResultScreen({ match, onRestart, userScores, resultInsights }) {
+  const [shareStatus, setShareStatus] = useState('');
+
   const handleShare = async () => {
+    const shareUrl = window.location.href;
     const text = `我在《进击的巨人》灵魂共鸣测试中，匹配到了【${match.name}】！来看看你是谁？`;
 
+    if (navigator.share) {
+      try {
+        await navigator.share({
+          title: `我是${match.name}｜进击的巨人角色测试`,
+          text,
+          url: shareUrl,
+        });
+        setShareStatus('已打开系统分享面板');
+        return;
+      } catch (error) {
+        if (error?.name === 'AbortError') {
+          return;
+        }
+      }
+    }
+
     if (navigator.clipboard?.writeText) {
-      await navigator.clipboard.writeText(text);
+      await navigator.clipboard.writeText(`${text}\n${shareUrl}`);
+      setShareStatus('结果文案和链接已复制');
       return;
     }
 
     const fallbackInput = document.createElement('textarea');
-    fallbackInput.value = text;
+    fallbackInput.value = `${text}\n${shareUrl}`;
     document.body.appendChild(fallbackInput);
     fallbackInput.select();
     document.execCommand('copy');
     document.body.removeChild(fallbackInput);
+    setShareStatus('结果文案和链接已复制');
   };
 
   return (
@@ -34,9 +55,11 @@ export default function ResultScreen({ match, onRestart, userScores, resultInsig
             <h2 className="text-5xl md:text-6xl font-black text-white">{match.name}</h2>
           </div>
 
-          <div className="p-6 bg-black/40 rounded-2xl italic text-neutral-300 text-center text-lg border-l-4 border-red-600">
-            “{match.quote}”
-          </div>
+          {match.quote && (
+            <div className="p-6 bg-black/40 rounded-2xl italic text-neutral-300 text-center text-lg border-l-4 border-red-600">
+              “{match.quote}”
+            </div>
+          )}
 
           <div className="space-y-4">
             <p className="text-neutral-400 leading-relaxed text-lg text-center">{match.desc}</p>
@@ -88,6 +111,8 @@ export default function ResultScreen({ match, onRestart, userScores, resultInsig
             <Share2 className="w-5 h-5" /> 分享结果
           </button>
         </div>
+
+        {shareStatus && <p className="px-6 pb-6 text-center text-sm text-green-400">{shareStatus}</p>}
       </div>
 
       <p className="text-center text-neutral-500 text-sm">* 结果基于你的价值取向向量计算，旨在映射角色的哲学立场。</p>

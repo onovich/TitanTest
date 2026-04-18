@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 import { QUESTIONS } from './src/data/questions';
 import { CHARACTERS } from './src/data/characters';
 import { INITIAL_SCORES, mergeOptionScores, rankCharacterMatches } from './src/logic/scoring';
@@ -7,12 +7,52 @@ import WelcomeScreen from './src/view/WelcomeScreen.jsx';
 import QuizScreen from './src/view/QuizScreen.jsx';
 import ResultScreen from './src/view/ResultScreen.jsx';
 
+function buildShareUrl(characterName) {
+  const url = new URL(window.location.href);
+  if (characterName) {
+    url.searchParams.set('character', characterName);
+  } else {
+    url.searchParams.delete('character');
+  }
+  return url.toString();
+}
+
 export default function App() {
   const [step, setStep] = useState('welcome');
   const [currentQ, setCurrentQ] = useState(0);
   const [userScores, setUserScores] = useState(INITIAL_SCORES);
   const [match, setMatch] = useState(null);
   const [resultInsights, setResultInsights] = useState(null);
+
+  useEffect(() => {
+    const sharedCharacterName = new URLSearchParams(window.location.search).get('character');
+    if (!sharedCharacterName) {
+      document.title = '测测你是《进击的巨人》里的谁｜灵魂共鸣测试';
+      return;
+    }
+
+    const sharedCharacter = CHARACTERS.find((character) => character.name === sharedCharacterName);
+    if (!sharedCharacter) {
+      document.title = '测测你是《进击的巨人》里的谁｜灵魂共鸣测试';
+      return;
+    }
+
+    setMatch(sharedCharacter);
+    setResultInsights(null);
+    setUserScores(sharedCharacter.scores);
+    setStep('result');
+  }, []);
+
+  useEffect(() => {
+    if (step === 'result' && match) {
+      document.title = `我是${match.name}｜测测你是《进击的巨人》里的谁`;
+      window.history.replaceState({}, '', buildShareUrl(match.name));
+      return;
+    }
+
+    document.title = '测测你是《进击的巨人》里的谁｜灵魂共鸣测试';
+    window.history.replaceState({}, '', buildShareUrl(null));
+  }, [step, match]);
 
   const startQuiz = () => {
     setStep('quiz');
