@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T21:45:34.120Z",
+  "generatedAt": "2026-04-18T21:45:39.340Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
@@ -633,8 +633,8 @@
     "personaCount": 6,
     "reflectionCount": 2,
     "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 4.399,
-    "avgOptionToResultGap": 2.724,
+    "avgLanguageToResultGap": 4.207,
+    "avgOptionToResultGap": 2.809,
     "inconsistentOptionCount": 5
   },
   "semanticReports": [
@@ -990,12 +990,12 @@
     },
     {
       "persona": "守护型照料者",
-      "matchedCharacter": "利威尔·阿克曼",
-      "scoreDistance": 3.675,
+      "matchedCharacter": "格里沙·耶格尔",
+      "scoreDistance": 4.319,
       "expectationGap": 2.977,
-      "languageToResultGap": 3.307,
-      "optionToResultGap": 2.832,
-      "semanticTopOverlap": 0,
+      "languageToResultGap": 2.159,
+      "optionToResultGap": 3.346,
+      "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": true,
       "needsReflection": true,
@@ -1149,11 +1149,11 @@
         "cause": 7.24
       },
       "resultProfile": {
-        "freedom": 4.84,
-        "moral": 5,
-        "realism": 7.496,
-        "fatalism": 6.664,
-        "cause": 6.112
+        "freedom": 6.456,
+        "moral": 5.7644,
+        "realism": 4.6178,
+        "fatalism": 6.424799999999999,
+        "cause": 7.8444
       },
       "averageOptionProfile": {
         "freedom": 5.112,
@@ -2593,7 +2593,7 @@
   ],
   "recommendations": [
     "人格“理想主义反叛者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 4.945，选项语义到结果偏差 4.144；建议复查其高频命中的题目文案与分值。",
-    "人格“守护型照料者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.307，选项语义到结果偏差 2.832；建议复查其高频命中的题目文案与分值。",
+    "人格“守护型照料者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 2.159，选项语义到结果偏差 3.346；建议复查其高频命中的题目文案与分值。",
     "人格“现实主义调停者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.499，但选项语义到结果偏差仅 2.543。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
     "题目 10 的选项“需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。”文本语义 Top 维度为 freedom / moral，与数值 Top 维度 cause / realism 重合偏低，建议人工复核。",
     "题目 11 的选项“知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。”文本语义 Top 维度为 realism / freedom，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。",
