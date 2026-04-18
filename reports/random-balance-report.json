@@ -1,85 +1,85 @@
 {
-  "generatedAt": "2026-04-18T21:51:49.353Z",
+  "generatedAt": "2026-04-18T21:51:54.566Z",
   "sampleSize": 3000,
-  "seed": 20260437,
+  "seed": 20260438,
   "topCharacter": {
     "name": "让·基尔希斯坦",
-    "count": 991,
-    "share": 33.03
+    "count": 1011,
+    "share": 33.7
   },
-  "averageConfidenceGap": 0.399,
-  "distributionEntropy": 2.763,
+  "averageConfidenceGap": 0.401,
+  "distributionEntropy": 2.764,
   "maxEntropy": 4.322,
   "distribution": [
     {
       "name": "让·基尔希斯坦",
-      "count": 991,
-      "share": 33.03
+      "count": 1011,
+      "share": 33.7
     },
     {
       "name": "利威尔·阿克曼",
-      "count": 848,
-      "share": 28.27
+      "count": 844,
+      "share": 28.13
     },
     {
       "name": "阿明·阿诺德",
-      "count": 221,
-      "share": 7.37
+      "count": 193,
+      "share": 6.43
     },
     {
       "name": "贾碧·布朗",
-      "count": 169,
-      "share": 5.63
-    },
-    {
-      "name": "肯尼·阿克曼",
       "count": 163,
       "share": 5.43
     },
     {
-      "name": "艾伦·耶格尔",
-      "count": 146,
-      "share": 4.87
-    },
-    {
       "name": "格里沙·耶格尔",
-      "count": 143,
-      "share": 4.77
+      "count": 159,
+      "share": 5.3
     },
     {
-      "name": "三笠·阿克曼",
-      "count": 100,
-      "share": 3.33
+      "name": "肯尼·阿克曼",
+      "count": 154,
+      "share": 5.13
     },
     {
-      "name": "莱纳·布朗",
-      "count": 82,
-      "share": 2.73
+      "name": "艾伦·耶格尔",
+      "count": 142,
+      "share": 4.73
     },
     {
       "name": "吉克·耶格尔",
-      "count": 78,
-      "share": 2.6
+      "count": 93,
+      "share": 3.1
+    },
+    {
+      "name": "三笠·阿克曼",
+      "count": 87,
+      "share": 2.9
+    },
+    {
+      "name": "莱纳·布朗",
+      "count": 86,
+      "share": 2.87
     },
     {
       "name": "尤弥尔·弗里茨",
-      "count": 57,
-      "share": 1.9
+      "count": 63,
+      "share": 2.1
+    },
+    {
+      "name": "萨莎·布劳斯",
+      "count": 3,
+      "share": 0.1
+    },
+    {
+      "name": "艾尔文·史密斯",
+      "count": 1,
+      "share": 0.03
     },
     {
       "name": "多托·匹西斯",
       "count": 1,
       "share": 0.03
-    },
-    {
-      "name": "萨莎·布劳斯",
-      "count": 1,
-      "share": 0.03
-    },
-    {
-      "name": "艾尔文·史密斯",
-      "count": 0,
-      "share": 0
     },
     {
       "name": "阿尼·利昂纳德",
