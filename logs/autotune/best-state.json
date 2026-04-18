@@ -10,13 +10,13 @@
     "optionScoreCalibrationStrengths": {
       "freedom": 0.04,
       "moral": 0.18,
-      "realism": 0.42999999999999994,
-      "fatalism": 0.08000000000000003,
-      "cause": 0.24999999999999992
+      "realism": 0.44999999999999996,
+      "fatalism": 0.07000000000000003,
+      "cause": 0.2649999999999999
     },
-    "matchDensityPenaltyWeight": 4.98,
+    "matchDensityPenaltyWeight": 5.16,
     "neutralCenterPenaltyWeight": 2.35,
-    "ambiguityCenter": 12.38,
+    "ambiguityCenter": 12.5,
     "ambiguityWidth": 7.5
   },
   "characterTuning": {
@@ -44,54 +44,54 @@
     }
   },
   "evaluation": {
-    "generatedAt": "2026-04-18T21:46:52.414Z",
+    "generatedAt": "2026-04-18T21:46:57.785Z",
     "workflowLength": 923,
     "sampleSize": 3000,
-    "seed": 20260441,
+    "seed": 20260442,
     "persona": {
-      "personaScore": 15.37,
-      "avgExpectationGap": 1.199,
+      "personaScore": 15.36,
+      "avgExpectationGap": 1.2,
       "calibrationNeededCount": 0,
       "reflectionCount": 1,
       "selfPerceptionDriftCount": 2,
       "inconsistentOptionCount": 5,
-      "avgLanguageToResultGap": 4.51,
-      "avgOptionToResultGap": 2.462
+      "avgLanguageToResultGap": 4.318,
+      "avgOptionToResultGap": 2.547
     },
     "balance": {
       "sampleSize": 3000,
-      "seed": 20260441,
-      "topShare": 31.03,
+      "seed": 20260442,
+      "topShare": 33.73,
       "topCharacter": "让·基尔希斯坦",
-      "normalizedEntropy": 0.637,
-      "averageConfidenceGap": 0.35,
-      "activeRoleCount": 12,
-      "balanceScore": 81.43,
+      "normalizedEntropy": 0.638,
+      "averageConfidenceGap": 0.352,
+      "activeRoleCount": 14,
+      "balanceScore": 80.13,
       "distribution": [
         {
           "name": "让·基尔希斯坦",
-          "count": 931,
-          "share": 31.03
+          "count": 1012,
+          "share": 33.73
         },
         {
           "name": "利威尔·阿克曼",
-          "count": 887,
-          "share": 29.57
+          "count": 840,
+          "share": 28
         },
         {
           "name": "阿明·阿诺德",
-          "count": 263,
-          "share": 8.77
+          "count": 210,
+          "share": 7
         },
         {
           "name": "贾碧·布朗",
-          "count": 191,
-          "share": 6.37
+          "count": 181,
+          "share": 6.03
         },
         {
           "name": "格里沙·耶格尔",
-          "count": 168,
-          "share": 5.6
+          "count": 162,
+          "share": 5.4
         },
         {
           "name": "肯尼·阿克曼",
@@ -99,29 +99,29 @@
           "share": 4.63
         },
         {
-          "name": "三笠·阿克曼",
-          "count": 126,
-          "share": 4.2
-        },
-        {
           "name": "艾伦·耶格尔",
-          "count": 104,
-          "share": 3.47
+          "count": 132,
+          "share": 4.4
         },
         {
-          "name": "莱纳·布朗",
-          "count": 81,
-          "share": 2.7
+          "name": "三笠·阿克曼",
+          "count": 120,
+          "share": 4
         },
         {
           "name": "吉克·耶格尔",
-          "count": 80,
-          "share": 2.67
+          "count": 69,
+          "share": 2.3
+        },
+        {
+          "name": "莱纳·布朗",
+          "count": 65,
+          "share": 2.17
         },
         {
           "name": "尤弥尔·弗里茨",
-          "count": 27,
-          "share": 0.9
+          "count": 64,
+          "share": 2.13
         },
         {
           "name": "萨莎·布劳斯",
@@ -130,8 +130,13 @@
         },
         {
           "name": "艾尔文·史密斯",
-          "count": 0,
-          "share": 0
+          "count": 2,
+          "share": 0.07
+        },
+        {
+          "name": "多托·匹西斯",
+          "count": 1,
+          "share": 0.03
         },
         {
           "name": "阿尼·利昂纳德",
@@ -155,11 +160,6 @@
         },
         {
           "name": "弗洛克·福斯特",
-          "count": 0,
-          "share": 0
-        },
-        {
-          "name": "多托·匹西斯",
           "count": 0,
           "share": 0
         },
@@ -644,7 +644,7 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 66.06,
-    "combinedScore": 72.58
+    "scoreGap": 64.77,
+    "combinedScore": 72.31
   }
 }
