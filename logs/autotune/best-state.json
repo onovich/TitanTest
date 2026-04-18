@@ -10,13 +10,13 @@
     "optionScoreCalibrationStrengths": {
       "freedom": 0.11000000000000001,
       "moral": 0.14,
-      "realism": 0.47,
+      "realism": 0.44999999999999996,
       "fatalism": 0.12000000000000001,
-      "cause": 0.30999999999999994
+      "cause": 0.2899999999999999
     },
-    "matchDensityPenaltyWeight": 2.920000000000001,
+    "matchDensityPenaltyWeight": 2.7400000000000007,
     "neutralCenterPenaltyWeight": 2.35,
-    "ambiguityCenter": 11.150000000000007,
+    "ambiguityCenter": 11.030000000000008,
     "ambiguityWidth": 6.480000000000001
   },
   "characterTuning": {
@@ -44,13 +44,13 @@
     }
   },
   "evaluation": {
-    "generatedAt": "2026-04-18T21:25:12.665Z",
+    "generatedAt": "2026-04-18T21:25:23.950Z",
     "workflowLength": 923,
     "sampleSize": 3000,
-    "seed": 20260432,
+    "seed": 20260434,
     "persona": {
-      "personaScore": 37.15,
-      "avgExpectationGap": 1.201,
+      "personaScore": 37.19,
+      "avgExpectationGap": 1.195,
       "calibrationNeededCount": 0,
       "reflectionCount": 1,
       "selfPerceptionDriftCount": 3,
@@ -60,73 +60,73 @@
     },
     "balance": {
       "sampleSize": 3000,
-      "seed": 20260432,
-      "topShare": 42.47,
+      "seed": 20260434,
+      "topShare": 43.63,
       "topCharacter": "利威尔·阿克曼",
-      "normalizedEntropy": 0.576,
-      "averageConfidenceGap": 0.346,
+      "normalizedEntropy": 0.564,
+      "averageConfidenceGap": 0.354,
       "activeRoleCount": 12,
-      "balanceScore": 59.71,
+      "balanceScore": 57.34,
       "distribution": [
         {
           "name": "利威尔·阿克曼",
-          "count": 1274,
-          "share": 42.47
+          "count": 1309,
+          "share": 43.63
         },
         {
           "name": "让·基尔希斯坦",
-          "count": 683,
-          "share": 22.77
+          "count": 666,
+          "share": 22.2
         },
         {
           "name": "阿明·阿诺德",
-          "count": 343,
-          "share": 11.43
+          "count": 370,
+          "share": 12.33
         },
         {
           "name": "贾碧·布朗",
-          "count": 158,
-          "share": 5.27
-        },
-        {
-          "name": "格里沙·耶格尔",
-          "count": 143,
-          "share": 4.77
+          "count": 173,
+          "share": 5.77
         },
         {
           "name": "莱纳·布朗",
-          "count": 142,
-          "share": 4.73
+          "count": 122,
+          "share": 4.07
         },
         {
           "name": "吉克·耶格尔",
-          "count": 91,
-          "share": 3.03
+          "count": 115,
+          "share": 3.83
+        },
+        {
+          "name": "格里沙·耶格尔",
+          "count": 104,
+          "share": 3.47
         },
         {
           "name": "萨莎·布劳斯",
-          "count": 88,
-          "share": 2.93
+          "count": 79,
+          "share": 2.63
         },
         {
           "name": "三笠·阿克曼",
-          "count": 40,
-          "share": 1.33
+          "count": 31,
+          "share": 1.03
         },
         {
           "name": "肯尼·阿克曼",
-          "count": 27,
-          "share": 0.9
+          "count": 20,
+          "share": 0.67
         },
         {
           "name": "艾伦·耶格尔",
-          "count": 8,
-          "share": 0.27
+          "count": 6,
+          "share": 0.2
         },
         {
           "name": "多托·匹西斯",
-          "count": 3,
-          "share": 0.1
+          "count": 5,
+          "share": 0.17
         },
         {
           "name": "艾尔文·史密斯",
@@ -644,7 +644,7 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 22.56,
-    "combinedScore": 108.96
+    "scoreGap": 20.15,
+    "combinedScore": 108.56
   }
 }
