@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T21:26:03.645Z",
+  "generatedAt": "2026-04-18T21:26:08.831Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
@@ -631,10 +631,10 @@
   ],
   "semanticSummary": {
     "personaCount": 6,
-    "reflectionCount": 1,
-    "selfPerceptionDriftCount": 3,
-    "avgLanguageToResultGap": 4.827,
-    "avgOptionToResultGap": 2.39,
+    "reflectionCount": 2,
+    "selfPerceptionDriftCount": 2,
+    "avgLanguageToResultGap": 4.565,
+    "avgOptionToResultGap": 2.505,
     "inconsistentOptionCount": 3
   },
   "semanticReports": [
@@ -1165,15 +1165,15 @@
     },
     {
       "persona": "现实主义调停者",
-      "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.13,
+      "matchedCharacter": "让·基尔希斯坦",
+      "scoreDistance": 3.584,
       "expectationGap": 1.352,
-      "languageToResultGap": 5.502,
-      "optionToResultGap": 2.534,
+      "languageToResultGap": 3.93,
+      "optionToResultGap": 3.224,
       "semanticTopOverlap": 0.5,
-      "selfPerceptionDrift": true,
-      "calibrationConcern": false,
-      "needsReflection": false,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": true,
+      "needsReflection": true,
       "chosenOptions": [
         {
           "questionId": 1,
@@ -1324,11 +1324,11 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 4.952,
-        "moral": 6.016,
-        "realism": 6.904,
-        "fatalism": 5.936000000000001,
-        "cause": 7.088
+        "freedom": 5.832000000000001,
+        "moral": 4.672000000000001,
+        "realism": 7.832000000000001,
+        "fatalism": 3.3360000000000003,
+        "cause": 7.56
       },
       "averageOptionProfile": {
         "freedom": 5.247999999999999,
@@ -2593,9 +2593,9 @@
   ],
   "recommendations": [
     "人格“守护型照料者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.307，选项语义到结果偏差 2.761；建议复查其高频命中的题目文案与分值。",
+    "人格“现实主义调停者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.93，选项语义到结果偏差 3.224；建议复查其高频命中的题目文案与分值。",
     "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.579，但选项语义到结果偏差仅 2.659。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
     "人格“集体主义战略家”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.26，但选项语义到结果偏差仅 2.13。建议在结果页提示“你的选择比自我描述更接近 利威尔·阿克曼”。",
-    "人格“现实主义调停者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.502，但选项语义到结果偏差仅 2.534。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
     "题目 10 的选项“负责评估局势、统筹资源，并把关键决策推进落地。”文本语义 Top 维度为 freedom / moral，与数值 Top 维度 realism / cause 重合偏低，建议人工复核。",
     "题目 11 的选项“会先认下这层风险，拉开一点距离，避免它继续波及身边人。”文本语义 Top 维度为 realism / freedom，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。",
     "题目 18 的选项“会把这份预警当作可能发生的风险，先做好安排和后手，但不完全照单执行。”文本语义 Top 维度为 realism / freedom，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。"
