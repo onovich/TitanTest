@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T13:11:42.322Z",
+  "generatedAt": "2026-04-18T13:11:48.376Z",
   "strictMode": false,
   "issues": [],
   "summary": {
@@ -61,7 +61,7 @@
         "cause": 7.353928535643961
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.358,
+      "matchDistance": 2.384,
       "expectationGap": 2.859,
       "dimensionalGap": 0,
       "needsCalibration": false
@@ -105,7 +105,7 @@
         "cause": 7.170866159830613
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.421,
+      "matchDistance": 2.447,
       "expectationGap": 2.199,
       "dimensionalGap": 0,
       "needsCalibration": false
@@ -159,18 +159,18 @@
     "personaCount": 6,
     "reflectionCount": 1,
     "selfPerceptionDriftCount": 0,
-    "avgLanguageToResultGap": 4.41,
-    "avgOptionToResultGap": 2.403,
+    "avgLanguageToResultGap": 4.409,
+    "avgOptionToResultGap": 2.406,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
       "matchedCharacter": "三笠·阿克曼",
-      "scoreDistance": 4.611,
+      "scoreDistance": 4.622,
       "expectationGap": 3.761,
-      "languageToResultGap": 7.119,
-      "optionToResultGap": 3.67,
+      "languageToResultGap": 7.123,
+      "optionToResultGap": 3.677,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": true,
@@ -325,11 +325,11 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 3.5734999999999997,
-        "moral": 4.51075,
+        "freedom": 3.5696,
+        "moral": 4.5088,
         "realism": 5,
-        "fatalism": 4.62275,
-        "cause": 3.58825
+        "fatalism": 4.6208,
+        "cause": 3.5824
       },
       "averageOptionProfile": {
         "freedom": 6.340000000000001,
@@ -342,10 +342,10 @@
     {
       "persona": "集体主义战略家",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.035,
+      "scoreDistance": 3.058,
       "expectationGap": 2.935,
-      "languageToResultGap": 3.957,
-      "optionToResultGap": 1.755,
+      "languageToResultGap": 3.947,
+      "optionToResultGap": 1.764,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -500,11 +500,11 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 5.7448,
-        "moral": 6.9324,
-        "realism": 7.5732,
+        "freedom": 5.749,
+        "moral": 6.9345,
+        "realism": 7.5795,
         "fatalism": 5.416,
-        "cause": 7.0096
+        "cause": 7.018
       },
       "averageOptionProfile": {
         "freedom": 5.104,
@@ -2118,6 +2118,6 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 7.119，选项语义到结果偏差 3.67；建议复查其高频命中的题目文案与分值。"
+    "人格“理想主义反叛者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 7.123，选项语义到结果偏差 3.677；建议复查其高频命中的题目文案与分值。"
   ]
 }
