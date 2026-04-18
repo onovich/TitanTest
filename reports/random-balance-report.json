@@ -1,65 +1,70 @@
 {
-  "generatedAt": "2026-04-18T13:12:36.842Z",
+  "generatedAt": "2026-04-18T13:12:42.087Z",
   "sampleSize": 2000,
-  "seed": 20260433,
+  "seed": 20260434,
   "topCharacter": {
     "name": "利威尔·阿克曼",
-    "count": 539,
-    "share": 26.95
+    "count": 554,
+    "share": 27.7
   },
-  "averageConfidenceGap": 0.398,
-  "distributionEntropy": 2.815,
+  "averageConfidenceGap": 0.396,
+  "distributionEntropy": 2.798,
   "maxEntropy": 4.322,
   "distribution": [
     {
       "name": "利威尔·阿克曼",
-      "count": 539,
-      "share": 26.95
+      "count": 554,
+      "share": 27.7
     },
     {
       "name": "让·基尔希斯坦",
-      "count": 384,
-      "share": 19.2
+      "count": 403,
+      "share": 20.15
     },
     {
       "name": "阿明·阿诺德",
-      "count": 328,
-      "share": 16.4
+      "count": 324,
+      "share": 16.2
     },
     {
       "name": "贾碧·布朗",
-      "count": 255,
-      "share": 12.75
-    },
-    {
-      "name": "莱纳·布朗",
-      "count": 160,
-      "share": 8
+      "count": 247,
+      "share": 12.35
     },
     {
       "name": "柯尼·斯普林格",
-      "count": 153,
-      "share": 7.65
+      "count": 150,
+      "share": 7.5
+    },
+    {
+      "name": "莱纳·布朗",
+      "count": 148,
+      "share": 7.4
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 93,
-      "share": 4.65
+      "count": 80,
+      "share": 4
     },
     {
       "name": "吉克·耶格尔",
-      "count": 50,
-      "share": 2.5
-    },
-    {
-      "name": "萨莎·布劳斯",
-      "count": 21,
-      "share": 1.05
+      "count": 53,
+      "share": 2.65
     },
     {
       "name": "三笠·阿克曼",
-      "count": 17,
-      "share": 0.85
+      "count": 20,
+      "share": 1
+    },
+    {
+      "name": "萨莎·布劳斯",
+      "count": 20,
+      "share": 1
+    },
+    {
+      "name": "肯尼·阿克曼",
+      "count": 1,
+      "share": 0.05
     },
     {
       "name": "艾伦·耶格尔",
@@ -83,11 +88,6 @@
     },
     {
       "name": "艾伦·克鲁格",
-      "count": 0,
-      "share": 0
-    },
-    {
-      "name": "肯尼·阿克曼",
       "count": 0,
       "share": 0
     },
