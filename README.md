@@ -7,6 +7,19 @@
 - 启动开发环境：`npm run dev`
 - 打开浏览器：`http://127.0.0.1:5173/`
 
+## GitHub Pages 发布
+- 仓库已配置自动部署工作流：[.github/workflows/deploy-pages.yml](.github/workflows/deploy-pages.yml)
+- 由于仓库名是 `TitanTest`，构建基路径已配置为 `/TitanTest/`
+- 正常情况下，你只要 push 到 `main`，GitHub Actions 就会自动构建并发布
+- 线上地址通常会是：`https://onovich.github.io/TitanTest/`
+
+如果 GitHub 第一次没有自动开放 Pages，请手动在仓库网页里检查一次：
+- 进入 `Settings > Pages`
+- 在 `Build and deployment` 中确认来源为 `GitHub Actions`
+- 等待 `Deploy to GitHub Pages` 工作流成功
+
+如果 Actions 首次运行后仍没看到页面，通常不是代码问题，而是 GitHub 侧尚未启用 Pages 源。
+
 ## 自动化人格模拟测试
 - 生成测试报告：`npm run test:personas`
 - 严格模式（有校准告警时返回失败）：`npm run test:personas:strict`
