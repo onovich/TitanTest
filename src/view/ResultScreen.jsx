@@ -3,10 +3,30 @@ import { User, RefreshCw, Share2 } from 'lucide-react';
 import { PORTRAITS } from '../data/portraits';
 import { DIMENSION_LABELS } from '../logic/labels';
 
+function resolvePublicAssetUrl(assetPath) {
+  if (!assetPath) {
+    return assetPath;
+  }
+
+  if (/^https?:\/\//i.test(assetPath)) {
+    return assetPath;
+  }
+
+  const baseUrl = import.meta.env.BASE_URL ?? '/';
+  const normalizedBase = baseUrl.endsWith('/') ? baseUrl : `${baseUrl}/`;
+  return `${normalizedBase}${assetPath.replace(/^\//, '')}`;
+}
+
+function isWeChatLikeBrowser() {
+  const userAgent = window.navigator.userAgent ?? '';
+  return /micromessenger|wechat|wxwork/i.test(userAgent) || typeof window.WeixinJSBridge !== 'undefined';
+}
+
 export default function ResultScreen({ match, onRestart, userScores, resultInsights }) {
   const [shareStatus, setShareStatus] = useState('');
   const portrait = PORTRAITS[match.name];
   const hasSelectedPortrait = Boolean(portrait?.selected?.src);
+  const portraitSrc = hasSelectedPortrait ? resolvePublicAssetUrl(portrait.selected.src) : null;
 
   const copyShareText = async (text) => {
     if (navigator.clipboard?.writeText) {
@@ -27,14 +47,14 @@ export default function ResultScreen({ match, onRestart, userScores, resultInsig
     const shareUrl = window.location.href;
     const text = `我在《进击的巨人》灵魂共鸣测试中，匹配到了【${match.name}】！来看看你是谁？`;
     const sharePayload = `${text}\n${shareUrl}`;
-    const isWeChatBrowser = /MicroMessenger/i.test(window.navigator.userAgent);
+    const isWeChatBrowser = isWeChatLikeBrowser();
 
     if (isWeChatBrowser) {
       const copied = await copyShareText(sharePayload);
       setShareStatus(
         copied
-          ? '微信内请点右上角“···”后选择“发送给朋友”，结果链接已复制。'
-          : '微信内请点右上角“···”后选择“发送给朋友”。'
+          ? '微信内无法直接调用系统分享，请点右上角“···”后选择“发送给朋友”或“分享到朋友圈”，结果链接已复制。'
+          : '微信内无法直接调用系统分享，请点右上角“···”后选择“发送给朋友”或“分享到朋友圈”。'
       );
       return;
     }
@@ -71,7 +91,7 @@ export default function ResultScreen({ match, onRestart, userScores, resultInsig
           <div className="flex justify-center">
             {hasSelectedPortrait ? (
               <img
-                src={portrait.selected.src}
+                src={portraitSrc}
                 alt={portrait.selected.alt ?? `${match.name}头像`}
                 className="w-28 h-28 rounded-3xl object-cover border border-red-600/30 shadow-lg shadow-red-950/30"
                 style={{ objectPosition: portrait.selected.objectPosition ?? 'center' }}
