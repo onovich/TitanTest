@@ -1,20 +1,20 @@
 {
-  "generatedAt": "2026-04-18T21:50:56.793Z",
+  "generatedAt": "2026-04-18T21:51:01.963Z",
   "sampleSize": 3000,
-  "seed": 20260427,
+  "seed": 20260428,
   "topCharacter": {
     "name": "让·基尔希斯坦",
-    "count": 1011,
-    "share": 33.7
+    "count": 1022,
+    "share": 34.07
   },
-  "averageConfidenceGap": 0.403,
-  "distributionEntropy": 2.765,
+  "averageConfidenceGap": 0.384,
+  "distributionEntropy": 2.749,
   "maxEntropy": 4.322,
   "distribution": [
     {
       "name": "让·基尔希斯坦",
-      "count": 1011,
-      "share": 33.7
+      "count": 1022,
+      "share": 34.07
     },
     {
       "name": "利威尔·阿克曼",
@@ -23,48 +23,48 @@
     },
     {
       "name": "阿明·阿诺德",
-      "count": 202,
-      "share": 6.73
+      "count": 231,
+      "share": 7.7
     },
     {
       "name": "贾碧·布朗",
-      "count": 201,
-      "share": 6.7
+      "count": 169,
+      "share": 5.63
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 151,
-      "share": 5.03
+      "count": 163,
+      "share": 5.43
     },
     {
       "name": "肯尼·阿克曼",
-      "count": 144,
-      "share": 4.8
+      "count": 140,
+      "share": 4.67
     },
     {
       "name": "艾伦·耶格尔",
-      "count": 141,
-      "share": 4.7
+      "count": 129,
+      "share": 4.3
     },
     {
       "name": "三笠·阿克曼",
-      "count": 108,
-      "share": 3.6
-    },
-    {
-      "name": "莱纳·布朗",
-      "count": 98,
-      "share": 3.27
+      "count": 113,
+      "share": 3.77
     },
     {
       "name": "吉克·耶格尔",
-      "count": 61,
-      "share": 2.03
+      "count": 83,
+      "share": 2.77
+    },
+    {
+      "name": "莱纳·布朗",
+      "count": 65,
+      "share": 2.17
     },
     {
       "name": "尤弥尔·弗里茨",
-      "count": 55,
-      "share": 1.83
+      "count": 58,
+      "share": 1.93
     },
     {
       "name": "艾尔文·史密斯",
@@ -73,11 +73,6 @@
     },
     {
       "name": "多托·匹西斯",
-      "count": 1,
-      "share": 0.03
-    },
-    {
-      "name": "萨莎·布劳斯",
       "count": 1,
       "share": 0.03
     },
@@ -108,6 +103,11 @@
     },
     {
       "name": "达里斯·萨克雷",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "萨莎·布劳斯",
       "count": 0,
       "share": 0
     }
