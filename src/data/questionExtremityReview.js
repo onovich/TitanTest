@@ -8,7 +8,7 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 2,
     stemScore: 2.4,
-    optionScores: [2.7, 2.0, 2.2],
+    optionScores: [2.7, 1.9, 2.2],
     note: '把极端生命交换改成资源分配，更贴近日常组织困境。',
   },
   {

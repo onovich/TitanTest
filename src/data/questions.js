@@ -15,7 +15,7 @@ export const QUESTIONS = [
     text: '当团队资源有限，不可能照顾到每个人时，你更倾向于？',
     options: [
       { text: '优先保住整体目标，即使少数人需要额外承担压力。', scores: { moral: 8, cause: 8, realism: 7 } },
-      { text: '尽量保住每个人的退路和选择，不让少数人直接被当成代价。', scores: { moral: 3, freedom: 5, cause: 4 } },
+      { text: '尽量给每个人留一条退路，不先把少数人推出去承担后果。', scores: { moral: 3, freedom: 5, cause: 4 } },
       { text: '先把取舍规则讲清楚，让资源分配更透明、更能执行。', scores: { moral: 6, cause: 7, fatalism: 6, realism: 8 } },
     ],
   },

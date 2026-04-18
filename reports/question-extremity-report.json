@@ -1,10 +1,10 @@
 {
   "promptAverage": 1.94,
-  "optionAverage": 2.135,
+  "optionAverage": 2.133,
   "promptMax": 2.4,
   "optionMax": 2.7,
   "promptScore": 76.5,
-  "optionScore": 71.63,
+  "optionScore": 71.67,
   "flaggedPromptCount": 0,
   "flaggedOptionCount": 0,
   "items": [
@@ -44,8 +44,8 @@
         },
         {
           "index": 1,
-          "text": "尽量保住每个人的退路和选择，不让少数人直接被当成代价。",
-          "score": 2
+          "text": "尽量给每个人留一条退路，不先把少数人推出去承担后果。",
+          "score": 1.9
         },
         {
           "index": 2,
