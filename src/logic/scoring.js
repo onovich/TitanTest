@@ -61,19 +61,39 @@ function buildDensityPenaltyMap(characters) {
   );
 }
 
-function buildRankedMatch(finalScores, character, densityPenaltyMap) {
+function buildNeutralPenaltyMap(characters) {
+  const neutralEntries = characters.map((character) => ({
+    name: character.name,
+    distanceToNeutral: euclideanDistance(character.scores, INITIAL_SCORES),
+  }));
+
+  const minDistance = Math.min(...neutralEntries.map((entry) => entry.distanceToNeutral));
+  const maxDistance = Math.max(...neutralEntries.map((entry) => entry.distanceToNeutral));
+  const spread = Math.max(0.001, maxDistance - minDistance);
+
+  return Object.fromEntries(
+    neutralEntries.map((entry) => [
+      entry.name,
+      Number((((maxDistance - entry.distanceToNeutral) / spread) * (RUNTIME_TUNING.neutralCenterPenaltyWeight ?? 0)).toFixed(3)),
+    ])
+  );
+}
+
+function buildRankedMatch(finalScores, character, densityPenaltyMap, neutralPenaltyMap) {
   const distance = euclideanDistance(finalScores, character.scores);
   const signalStrength = profileSignalStrength(finalScores);
   const ambiguityCenter = RUNTIME_TUNING.ambiguityCenter ?? 10.5;
   const ambiguityWidth = RUNTIME_TUNING.ambiguityWidth ?? 5;
   const ambiguityFactor = clampUnit((ambiguityCenter - signalStrength) / ambiguityWidth);
   const densityPenalty = Number(((densityPenaltyMap[character.name] ?? 0) * ambiguityFactor).toFixed(3));
+  const neutralPenalty = Number(((neutralPenaltyMap[character.name] ?? 0) * ambiguityFactor).toFixed(3));
 
   return {
     character,
     distance: Number(distance.toFixed(3)),
-    adjustedDistance: Number((distance + densityPenalty).toFixed(3)),
+    adjustedDistance: Number((distance + densityPenalty + neutralPenalty).toFixed(3)),
     densityPenalty,
+    neutralPenalty,
   };
 }
 
@@ -99,24 +119,26 @@ export function euclideanDistance(scoreA, scoreB) {
 
 export function findBestMatch(finalScores, characters) {
   const densityPenaltyMap = buildDensityPenaltyMap(characters);
+  const neutralPenaltyMap = buildNeutralPenaltyMap(characters);
 
   return characters.reduce(
     (best, char) => {
-      const rankedMatch = buildRankedMatch(finalScores, char, densityPenaltyMap);
+      const rankedMatch = buildRankedMatch(finalScores, char, densityPenaltyMap, neutralPenaltyMap);
       if (rankedMatch.adjustedDistance < best.adjustedDistance) {
         return rankedMatch;
       }
       return best;
     },
-    { character: null, distance: Infinity, adjustedDistance: Infinity, densityPenalty: 0 }
+    { character: null, distance: Infinity, adjustedDistance: Infinity, densityPenalty: 0, neutralPenalty: 0 }
   );
 }
 
 export function rankCharacterMatches(finalScores, characters, limit = characters.length) {
   const densityPenaltyMap = buildDensityPenaltyMap(characters);
+  const neutralPenaltyMap = buildNeutralPenaltyMap(characters);
 
   return [...characters]
-    .map((character) => buildRankedMatch(finalScores, character, densityPenaltyMap))
+    .map((character) => buildRankedMatch(finalScores, character, densityPenaltyMap, neutralPenaltyMap))
     .sort((a, b) => a.adjustedDistance - b.adjustedDistance)
     .slice(0, limit);
 }

@@ -7,6 +7,7 @@ import { QUESTIONS } from '../src/data/questions.js';
 import { PERSONAS } from '../src/testing/personas.js';
 import { runPersonaSimulation } from '../src/testing/simulation.js';
 import { runNaturalLanguageSimulation } from '../src/testing/languageSimulation.js';
+import { buildExtremityMarkdownReport, evaluateQuestionExtremity } from '../src/testing/extremity.js';
 import { DIMENSION_LABELS } from '../src/logic/labels.js';
 import { DIMENSIONS } from '../src/logic/scoring.js';
 
@@ -185,6 +186,7 @@ function buildMarkdown(result, languageResult, issues, recommendations) {
 
 async function main() {
   const issues = validateData();
+  const extremity = evaluateQuestionExtremity(QUESTIONS);
   const result = runPersonaSimulation({
     personas: PERSONAS,
     questions: QUESTIONS,
@@ -200,6 +202,7 @@ async function main() {
     generatedAt: new Date().toISOString(),
     strictMode,
     issues,
+    extremity,
     summary: result.summary,
     reports: result.reports,
     semanticSummary: languageResult.summary,
@@ -219,8 +222,20 @@ async function main() {
     `${buildMarkdown(result, languageResult, issues, recommendations)}\n`,
     'utf8'
   );
+  await writeFile(
+    path.join(reportsDir, 'question-extremity-report.json'),
+    `${JSON.stringify(extremity, null, 2)}\n`,
+    'utf8'
+  );
+  await writeFile(
+    path.join(reportsDir, 'question-extremity-report.md'),
+    `${buildExtremityMarkdownReport(extremity)}\n`,
+    'utf8'
+  );
 
   console.log('人格模拟自动化测试完成。');
+  console.log(`题干中庸得分: ${extremity.promptScore}`);
+  console.log(`选项中庸得分: ${extremity.optionScore}`);
   console.log(`平均预期偏差: ${result.summary.avgExpectationGap}`);
   console.log(`触发校准告警的人格数: ${result.summary.calibrationNeededCount}`);
   console.log('主要问题维度:');
@@ -269,6 +284,8 @@ async function main() {
   if (
     strictMode &&
     (issues.length ||
+      extremity.promptScore < 70 ||
+      extremity.optionScore < 70 ||
       result.summary.calibrationNeededCount > 0 ||
       languageResult.summary.reflectionCount > 0 ||
       languageResult.summary.inconsistentOptionCount > 0)

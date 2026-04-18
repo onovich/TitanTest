@@ -95,19 +95,18 @@ export const PORTRAITS = {
     { fileTitle: 'Gabi_Braun_character_image.png', note: '默认半身图。' },
     { fileTitle: 'Gabi_Braun_(Anime)_character_image.png', note: '动画版面部细节更清楚。' },
   ], 1),
-  '清美·亚兹玛比特': createPortrait('kiyomi_azumabito', [1, 2], [
-    { fileTitle: 'Kiyomi_Azumabito_character_image.png', note: '最稳的正传候选。' },
-    { fileTitle: 'Kiyomi_Azumabito_(Anime)_character_image.png', note: '动画版更清楚。' },
-  ], 2),
+  '多托·匹西斯': createPortrait('dot_pyxis', [1, 2], [
+    { fileTitle: 'Dot_Pyxis_(Anime)_character_image.png', note: '候选已记录，待补下载与裁切。' },
+    { fileTitle: 'Dot_Pixis_character_image.png', note: '漫画系候选，待核对清晰度。' },
+  ]),
   '尤弥尔·弗里茨': createPortrait('ymir_fritz', [1, 2], [
     { fileTitle: 'Ymir_Fritz_character_image.png', note: '默认半身图。' },
     { fileTitle: 'Ymir_Fritz_(Anime)_character_image.png', note: '动画版更清楚。' },
   ], 2),
-  '柯尼·斯普林格': createPortrait('connie_springer', [1, 2], [
-    { fileTitle: 'Connie_Springer_character_image.png', note: '标准角色图。' },
-    { fileTitle: 'Connie_Springer_character_image_(850).png', note: '850 时期版。' },
-    { fileTitle: 'Connie_Springer_character_image_(854).png', note: '后期角色图。' },
-  ], 3),
+  '达里斯·萨克雷': createPortrait('dhalis_zachary', [1, 2], [
+    { fileTitle: 'Dhalis_Zachary_(Anime)_character_image.png', note: '候选已记录，待补下载与裁切。' },
+    { fileTitle: 'Darius_Zackly_character_image.png', note: '漫画页别名候选，待核对文件名。' },
+  ]),
   '萨莎·布劳斯': createPortrait('sasha_blouse', [1, 2], [
     { fileTitle: 'Sasha_Blouse_character_image.png', note: '标准角色图。' },
     { fileTitle: 'Sasha_Blouse_character_image_(850).png', note: '850 时期版。' },

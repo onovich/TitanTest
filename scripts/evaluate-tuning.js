@@ -7,6 +7,7 @@ import { QUESTIONS } from '../src/data/questions.js';
 import { PERSONAS } from '../src/testing/personas.js';
 import { runPersonaSimulation } from '../src/testing/simulation.js';
 import { runNaturalLanguageSimulation } from '../src/testing/languageSimulation.js';
+import { evaluateQuestionExtremity } from '../src/testing/extremity.js';
 import { INITIAL_SCORES, DIMENSIONS, euclideanDistance, mergeOptionScores, rankCharacterMatches } from '../src/logic/scoring.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -139,8 +140,10 @@ async function main() {
   const workflowText = await readFile(workflowPath, 'utf8');
   const persona = evaluatePersona();
   const balance = evaluateBalance(sampleSize, seed);
+  const extremity = evaluateQuestionExtremity(QUESTIONS);
   const scoreGap = Number(Math.abs(persona.personaScore - balance.balanceScore).toFixed(2));
-  const combinedScore = Number((persona.personaScore + balance.balanceScore - scoreGap * 0.8).toFixed(2));
+  const moderationFloor = Math.min(extremity.promptScore, extremity.optionScore);
+  const combinedScore = Number((persona.personaScore + balance.balanceScore + moderationFloor * 0.4 - scoreGap * 0.8).toFixed(2));
 
   const payload = {
     generatedAt: new Date().toISOString(),
@@ -149,6 +152,7 @@ async function main() {
     seed,
     persona,
     balance,
+    extremity,
     scoreGap,
     combinedScore,
   };

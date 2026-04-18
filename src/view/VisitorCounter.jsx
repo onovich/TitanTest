@@ -19,13 +19,14 @@ export default function VisitorCounter() {
     const cacheBust = `${todayKey}-${Math.floor(Date.now() / 60000)}`;
     const pagePrefix = `titantest.${host}.${repoBase}`.replace(/[^a-z0-9.-]/gi, '-').toLowerCase();
 
-    return buildBadgeUrl(`${pagePrefix}.total`, '总访客', cacheBust);
+    return buildBadgeUrl(`${pagePrefix}.total`, 'TOTAL', cacheBust);
   }, []);
 
   return (
     <div className="mt-6 rounded-2xl border border-neutral-800 bg-neutral-900/55 px-4 py-4 text-center text-sm text-neutral-400 space-y-3">
       <p className="text-xs tracking-[0.16em] text-neutral-500">结果页访客统计</p>
-      <div className="flex justify-center overflow-hidden">
+      <div className="flex flex-col items-center gap-2 overflow-hidden">
+        <span className="text-[11px] tracking-[0.24em] text-neutral-500">总访客</span>
         <img
           src={totalBadgeUrl}
           alt="总访客"

@@ -124,7 +124,13 @@ function runShell(command) {
 }
 
 function isSatisfied(evaluation) {
-  return evaluation.persona.personaScore >= 88 && evaluation.balance.balanceScore >= 70 && evaluation.scoreGap <= 18;
+  return (
+    evaluation.persona.personaScore >= 88 &&
+    evaluation.balance.balanceScore >= 70 &&
+    evaluation.scoreGap <= 18 &&
+    (evaluation.extremity?.promptScore ?? 0) >= 70 &&
+    (evaluation.extremity?.optionScore ?? 0) >= 70
+  );
 }
 
 function getLastReview(history) {

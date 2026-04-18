@@ -1,23 +1,497 @@
 {
-  "generatedAt": "2026-04-18T20:53:00.507Z",
+  "generatedAt": "2026-04-18T21:22:04.009Z",
   "strictMode": false,
   "issues": [],
+  "extremity": {
+    "promptAverage": 1.94,
+    "optionAverage": 1.985,
+    "promptMax": 2.4,
+    "optionMax": 2.7,
+    "promptScore": 76.5,
+    "optionScore": 75.37,
+    "flaggedPromptCount": 0,
+    "flaggedOptionCount": 0,
+    "items": [
+      {
+        "id": 1,
+        "text": "如果你长期待在一个让自己施展不开的环境里，通常会怎么做？",
+        "stemScore": 2.2,
+        "note": "把“围墙”从末日隐喻改成长期受限环境，保留破局感但降低世界观压迫。",
+        "options": [
+          {
+            "index": 0,
+            "text": "先找突破口，主动争取变化，必要时接受一点风险。",
+            "score": 2.4
+          },
+          {
+            "index": 1,
+            "text": "先把生活稳住，在现有边界里争取更安全的空间。",
+            "score": 1.8
+          },
+          {
+            "index": 2,
+            "text": "先摸清规则和资源，再准备更稳妥的转向方案。",
+            "score": 2.1
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "text": "当团队资源有限，不可能照顾到每个人时，你更倾向于？",
+        "stemScore": 2.4,
+        "note": "把极端生命交换改成资源分配，更贴近日常组织困境。",
+        "options": [
+          {
+            "index": 0,
+            "text": "优先保住整体目标，即使少数人需要额外承担压力。",
+            "score": 2.7
+          },
+          {
+            "index": 1,
+            "text": "尽量压低个体损失，不轻易让少数人被迫买单。",
+            "score": 1.9
+          },
+          {
+            "index": 2,
+            "text": "先把取舍规则讲清楚，让资源分配更透明、更能执行。",
+            "score": 2.2
+          }
+        ]
+      },
+      {
+        "id": 3,
+        "text": "你怎么看待一个人的出身和环境对人生的影响？",
+        "stemScore": 2,
+        "note": "从抽象宿命改成出身与环境影响，戏剧性明显下降。",
+        "options": [
+          {
+            "index": 0,
+            "text": "它会限制人，但通常还是留有可以争取的空间。",
+            "score": 1.9
+          },
+          {
+            "index": 1,
+            "text": "条件再差也不能等它让路，还是要自己闯出路来。",
+            "score": 2.3
+          },
+          {
+            "index": 2,
+            "text": "先理解资源、规则和概率，再想办法慢慢改写位置。",
+            "score": 2.1
+          }
+        ]
+      },
+      {
+        "id": 4,
+        "text": "如果你和曾经非常信任的人在关键问题上立场相反，你通常会？",
+        "stemScore": 2.3,
+        "note": "保留关系冲突，但不再直接上升到战场背叛。",
+        "options": [
+          {
+            "index": 0,
+            "text": "如果事情已经无法回避，我会做决定，但会记住后果。",
+            "score": 2.5
+          },
+          {
+            "index": 1,
+            "text": "先争取沟通，尽量为彼此留一条还能回头的路。",
+            "score": 1.8
+          },
+          {
+            "index": 2,
+            "text": "先确保重要的人不被波及，再决定接下来怎么处理。",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "id": 5,
+        "text": "更能长期支撑你行动的，通常是什么？",
+        "stemScore": 1.6,
+        "note": "价值观题，本身戏剧性较低。",
+        "options": [
+          {
+            "index": 0,
+            "text": "能自己决定方向、保住选择权的感觉。",
+            "score": 1.8
+          },
+          {
+            "index": 1,
+            "text": "和重要的人、习惯或长期执念之间的牵引。",
+            "score": 1.7
+          },
+          {
+            "index": 2,
+            "text": "对责任、群体和未来的持续回应。",
+            "score": 1.8
+          }
+        ]
+      },
+      {
+        "id": 6,
+        "text": "如果一件你投入很多的事大概率会失败，最后阶段你会？",
+        "stemScore": 2.1,
+        "note": "从世界末日改成高投入事项大概率失败，保留收尾方式差异。",
+        "options": [
+          {
+            "index": 0,
+            "text": "还是会继续尝试，看能不能再多争取一点空间。",
+            "score": 2.4
+          },
+          {
+            "index": 1,
+            "text": "接受结果，但把收尾、交接和影响控制好。",
+            "score": 2.1
+          },
+          {
+            "index": 2,
+            "text": "把时间留给重要的人，也尽量让过程体面一些。",
+            "score": 1.8
+          }
+        ]
+      },
+      {
+        "id": 7,
+        "text": "你怎么看待“善意的隐瞒”？",
+        "stemScore": 1.5,
+        "note": "善意隐瞒属于常见伦理题，较为中庸。",
+        "options": [
+          {
+            "index": 0,
+            "text": "特定时候可以有，但不能慢慢变成习惯。",
+            "score": 1.9
+          },
+          {
+            "index": 1,
+            "text": "我更偏向说清楚，因为长期信任比一时方便重要。",
+            "score": 1.6
+          },
+          {
+            "index": 2,
+            "text": "如果能保护具体的人，我能接受有限度的隐瞒。",
+            "score": 1.7
+          }
+        ]
+      },
+      {
+        "id": 8,
+        "text": "如果一个真相可能打乱你现有生活，你还会想知道吗？",
+        "stemScore": 1.9,
+        "note": "从崩溃级真相改成可能打乱生活的事实，温度更低。",
+        "options": [
+          {
+            "index": 0,
+            "text": "会，不知道反而更难真正做选择。",
+            "score": 2
+          },
+          {
+            "index": 1,
+            "text": "会看时机，有些事需要准备好再面对。",
+            "score": 1.8
+          },
+          {
+            "index": 2,
+            "text": "会想知道，但也会预留消化和协商空间。",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "id": 9,
+        "text": "如果你突然掌握了远超常人的资源或影响力，你更可能？",
+        "stemScore": 2,
+        "note": "把毁天灭地力量改成资源与影响力，减少奇观感。",
+        "options": [
+          {
+            "index": 0,
+            "text": "会把它当成底牌，但不想让它变成唯一的解决方式。",
+            "score": 2.1
+          },
+          {
+            "index": 1,
+            "text": "先限制使用边界，尽量避免影响外溢。",
+            "score": 1.9
+          },
+          {
+            "index": 2,
+            "text": "把它当成长期博弈的筹码，换更稳定的合作空间。",
+            "score": 2.2
+          }
+        ]
+      },
+      {
+        "id": 10,
+        "text": "在团队里，大家通常会自然把什么事交给你？",
+        "stemScore": 1.7,
+        "note": "团队角色题，整体平稳。",
+        "options": [
+          {
+            "index": 0,
+            "text": "负责评估局势、统筹资源，并把关键决策推进落地。",
+            "score": 2
+          },
+          {
+            "index": 1,
+            "text": "把关键执行部分做扎实，并盯住每一步的代价。",
+            "score": 1.8
+          },
+          {
+            "index": 2,
+            "text": "提出异议，提醒大家还有哪些出口没被看到。",
+            "score": 1.9
+          }
+        ]
+      },
+      {
+        "id": 11,
+        "text": "如果你的某种身份或处境会让身边人跟着承担风险，你通常会？",
+        "stemScore": 2,
+        "note": "保留身份压力，但从灾难语气改成风险传导。",
+        "options": [
+          {
+            "index": 0,
+            "text": "会先认下这层风险，拉开一点距离，避免它继续波及身边人。",
+            "score": 2.1
+          },
+          {
+            "index": 1,
+            "text": "会说明情况，再和相关的人一起定方案。",
+            "score": 1.8
+          },
+          {
+            "index": 2,
+            "text": "不想被身份完全定义，但会更谨慎安排自己的选择。",
+            "score": 2
+          }
+        ]
+      },
+      {
+        "id": 12,
+        "text": "一个曾和你立场相反、甚至伤过你的人主动求助，你会？",
+        "stemScore": 2.3,
+        "note": "把敌对阵营孩子改成曾对立且伤过你的人，仍有伦理张力但更常见。",
+        "options": [
+          {
+            "index": 0,
+            "text": "会先帮他脱离当下困境，再处理之后的界限。",
+            "score": 2
+          },
+          {
+            "index": 1,
+            "text": "会帮，但会同时评估风险并留一点后手。",
+            "score": 2.1
+          },
+          {
+            "index": 2,
+            "text": "如果这会明显拖累更多人，我会优先顾全整体责任。",
+            "score": 2.4
+          }
+        ]
+      },
+      {
+        "id": 13,
+        "text": "为了避免恐慌，上级希望暂时不公开全部信息，你更倾向于？",
+        "stemScore": 2.1,
+        "note": "信息公开题保留治理意味，但不再过于战时。",
+        "options": [
+          {
+            "index": 0,
+            "text": "先配合稳定局面，同时尽快安排后续公开节奏。",
+            "score": 2.2
+          },
+          {
+            "index": 1,
+            "text": "部分公开，保留关键筹码，避免全面失控。",
+            "score": 2
+          },
+          {
+            "index": 2,
+            "text": "尽量多公开，让人至少保有基本判断空间。",
+            "score": 2.1
+          }
+        ]
+      },
+      {
+        "id": 14,
+        "text": "如果追究一段旧怨能让你出气，但会让关系更糟，你会？",
+        "stemScore": 1.9,
+        "note": "把复仇循环压低成旧怨处理，更接近日常关系修复。",
+        "options": [
+          {
+            "index": 0,
+            "text": "还是会想追究，但也知道这会把自己继续困在里面。",
+            "score": 2
+          },
+          {
+            "index": 1,
+            "text": "会停下来，不想把更多人拖进后续消耗。",
+            "score": 1.8
+          },
+          {
+            "index": 2,
+            "text": "先把情绪压住，按步骤把冲突转成可执行的处理方案。",
+            "score": 2.1
+          }
+        ]
+      },
+      {
+        "id": 15,
+        "text": "哪种状态最让你坐立不安？",
+        "stemScore": 1.7,
+        "note": "不可忍受状态题，整体中性。",
+        "options": [
+          {
+            "index": 0,
+            "text": "人生方向总被别人安排，自己几乎没有选择空间。",
+            "score": 1.9
+          },
+          {
+            "index": 1,
+            "text": "因为自己的软弱而拖累同伴。",
+            "score": 1.8
+          },
+          {
+            "index": 2,
+            "text": "一个本可避免的失误，害很多人去承担后果。",
+            "score": 1.9
+          }
+        ]
+      },
+      {
+        "id": 16,
+        "text": "如果给团队树一个简单靶子，能短时间凝聚共识，你会？",
+        "stemScore": 2.4,
+        "note": "保留“树靶子”这个操盘意味，但语气从战争宣传降为团队策略。",
+        "options": [
+          {
+            "index": 0,
+            "text": "只在别无选择时考虑，但不想让真实完全退场。",
+            "score": 2.5
+          },
+          {
+            "index": 1,
+            "text": "非常时期可以做，但由我自己承担这个做法的污名。",
+            "score": 2.4
+          },
+          {
+            "index": 2,
+            "text": "不会，靠简化敌人换来的团结通常后患更大。",
+            "score": 2.1
+          }
+        ]
+      },
+      {
+        "id": 17,
+        "text": "当现场气氛越来越乱、大家都开始着急时，你通常会？",
+        "stemScore": 1.6,
+        "note": "现场失控题改成常见组织沟通场景。",
+        "options": [
+          {
+            "index": 0,
+            "text": "先做个明确动作打断混乱，再慢慢把节奏拉回来。",
+            "score": 1.9
+          },
+          {
+            "index": 1,
+            "text": "拉住所有人，按步骤把局面重新排好。",
+            "score": 1.8
+          },
+          {
+            "index": 2,
+            "text": "先稳住自己和重要的人，再判断局势能不能接住。",
+            "score": 1.7
+          }
+        ]
+      },
+      {
+        "id": 18,
+        "text": "如果你提前收到一些不完整、但可能准确的预警信息，你会？",
+        "stemScore": 1.8,
+        "note": "未来片段降级为不完整预警信息，更贴近日常决策。",
+        "options": [
+          {
+            "index": 0,
+            "text": "会把这份预警当作可能发生的风险，先做好安排和后手，但不完全照单执行。",
+            "score": 1.9
+          },
+          {
+            "index": 1,
+            "text": "把它当作情报，尽可能改写最坏结果。",
+            "score": 1.8
+          },
+          {
+            "index": 2,
+            "text": "不希望被预警绑住，还是想保留当下的主动权。",
+            "score": 1.9
+          }
+        ]
+      },
+      {
+        "id": 19,
+        "text": "当你发现自己做错了一件影响不小的事，你通常会？",
+        "stemScore": 1.7,
+        "note": "错误处理题较稳定。",
+        "options": [
+          {
+            "index": 0,
+            "text": "先把眼前该补的洞补上，再回头承担责任。",
+            "score": 1.9
+          },
+          {
+            "index": 1,
+            "text": "尽快停下并承认，不让错误继续扩散。",
+            "score": 1.7
+          },
+          {
+            "index": 2,
+            "text": "冷静复盘，优先把后续损失降到最低。",
+            "score": 1.8
+          }
+        ]
+      },
+      {
+        "id": 20,
+        "text": "你更相信什么最能推动长期改变？",
+        "stemScore": 1.6,
+        "note": "长期改变题属于常规价值观题。",
+        "options": [
+          {
+            "index": 0,
+            "text": "不轻易退让的意志，以及守住选择权的能力。",
+            "score": 1.8
+          },
+          {
+            "index": 1,
+            "text": "让人愿意同行的理解、沟通与说服。",
+            "score": 1.7
+          },
+          {
+            "index": 2,
+            "text": "在绝境里仍然能活下来的韧性。",
+            "score": 1.8
+          }
+        ]
+      }
+    ],
+    "flaggedPrompts": [],
+    "flaggedOptions": []
+  },
   "summary": {
     "personaCount": 6,
-    "avgExpectationGap": 1.219,
+    "avgExpectationGap": 1.234,
     "calibrationNeededCount": 0,
     "topProblemDimensions": [
       {
         "dimension": "cause",
-        "error": 0.638
-      },
-      {
-        "dimension": "fatalism",
-        "error": 0.543
+        "error": 0.578
       },
       {
         "dimension": "realism",
-        "error": 0.437
+        "error": 0.5
+      },
+      {
+        "dimension": "fatalism",
+        "error": 0.476
       }
     ]
   },
@@ -32,15 +506,15 @@
         "cause": 4
       },
       "finalScores": {
-        "freedom": 7.321964401845761,
-        "moral": 3.294987147675617,
-        "realism": 4.523582960000641,
-        "fatalism": 2.9096317727873084,
-        "cause": 4.9393497598862375
+        "freedom": 6.987028515847252,
+        "moral": 3.1401827163063105,
+        "realism": 4.314606819542202,
+        "fatalism": 3.2793101010238406,
+        "cause": 4.391884780848932
       },
       "matchName": "三笠·阿克曼",
-      "matchDistance": 5.193,
-      "expectationGap": 1.44,
+      "matchDistance": 4.945,
+      "expectationGap": 1.571,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     },
@@ -54,15 +528,15 @@
         "cause": 8
       },
       "finalScores": {
-        "freedom": 5.763093107970883,
-        "moral": 6.125652690584015,
-        "realism": 7.265232296790267,
-        "fatalism": 5.6241639039999995,
-        "cause": 7.312836924528246
+        "freedom": 5.628707015200713,
+        "moral": 6.054930703736133,
+        "realism": 7.327099908575747,
+        "fatalism": 5.61008192,
+        "cause": 7.087288180225079
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.605,
-      "expectationGap": 1.658,
+      "matchDistance": 2.821,
+      "expectationGap": 1.717,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -76,15 +550,15 @@
         "cause": 5
       },
       "finalScores": {
-        "freedom": 3.792805475414916,
-        "moral": 4.229244297013672,
-        "realism": 6.096088241732509,
-        "fatalism": 7.550368130391963,
-        "cause": 6.022660335426633
+        "freedom": 3.97909042194058,
+        "moral": 3.9890539435349193,
+        "realism": 6.069445594114751,
+        "fatalism": 7.008051405692561,
+        "cause": 5.684341988109723
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.863,
-      "expectationGap": 1.268,
+      "matchDistance": 3.07,
+      "expectationGap": 0.809,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -98,15 +572,15 @@
         "cause": 7
       },
       "finalScores": {
-        "freedom": 6.087626670864036,
-        "moral": 5.756060227077836,
-        "realism": 7.246266599857897,
-        "fatalism": 5.72949438912,
-        "cause": 7.117819670022825
+        "freedom": 5.985884684069513,
+        "moral": 5.797132724604953,
+        "realism": 7.27601807054039,
+        "fatalism": 5.2158290176,
+        "cause": 6.928976346014294
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.658,
-      "expectationGap": 1.47,
+      "matchDistance": 2.75,
+      "expectationGap": 1.041,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -120,15 +594,15 @@
         "cause": 6
       },
       "finalScores": {
-        "freedom": 3.061852704183117,
-        "moral": 5.869410123859294,
-        "realism": 6.457846772135594,
-        "fatalism": 7.501384855859206,
-        "cause": 6.853481401357772
+        "freedom": 3.154059629106447,
+        "moral": 5.746916019236847,
+        "realism": 6.599437228548,
+        "fatalism": 7.045524689224117,
+        "cause": 6.678788766525056
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.683,
-      "expectationGap": 1,
+      "matchDistance": 2.514,
+      "expectationGap": 1.212,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     },
@@ -142,35 +616,35 @@
         "cause": 7.5
       },
       "finalScores": {
-        "freedom": 5.250410198989036,
-        "moral": 6.900768114132818,
-        "realism": 7.291203611522288,
-        "fatalism": 7.266150369944978,
-        "cause": 7.292660853805649
+        "freedom": 5.306168212194513,
+        "moral": 6.504074295266979,
+        "realism": 7.109745630588289,
+        "fatalism": 6.708830119721163,
+        "cause": 6.77153649030501
       },
       "matchName": "莱纳·布朗",
-      "matchDistance": 1.974,
-      "expectationGap": 0.48,
+      "matchDistance": 2.671,
+      "expectationGap": 1.052,
       "dimensionalGap": 0,
       "needsCalibration": false
     }
   ],
   "semanticSummary": {
     "personaCount": 6,
-    "reflectionCount": 0,
-    "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 3.684,
-    "avgOptionToResultGap": 2.25,
-    "inconsistentOptionCount": 0
+    "reflectionCount": 1,
+    "selfPerceptionDriftCount": 3,
+    "avgLanguageToResultGap": 4.828,
+    "avgOptionToResultGap": 2.363,
+    "inconsistentOptionCount": 3
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
-      "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.918,
-      "expectationGap": 3.568,
-      "languageToResultGap": 5.186,
-      "optionToResultGap": 2.768,
+      "matchedCharacter": "阿明·阿诺德",
+      "scoreDistance": 3.571,
+      "expectationGap": 3.969,
+      "languageToResultGap": 5.578,
+      "optionToResultGap": 2.576,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -179,114 +653,114 @@
         {
           "questionId": 1,
           "optionIndex": 0,
-          "optionText": "会先寻找突破口，必要时愿意冒险打破现状。",
-          "semanticMatch": 0.316,
-          "noisyScore": 0.316
+          "optionText": "先找突破口，主动争取变化，必要时接受一点风险。",
+          "semanticMatch": 0.307,
+          "noisyScore": 0.307
         },
         {
           "questionId": 2,
-          "optionIndex": 1,
-          "optionText": "我会尽量寻找替代方案，不轻易接受拿无辜者交换结果。",
-          "semanticMatch": 0.272,
-          "noisyScore": 0.272
+          "optionIndex": 2,
+          "optionText": "先把取舍规则讲清楚，让资源分配更透明、更能执行。",
+          "semanticMatch": 0.233,
+          "noisyScore": 0.233
         },
         {
           "questionId": 3,
           "optionIndex": 2,
-          "optionText": "命运更像条件与概率，我们要学会读懂规则。",
-          "semanticMatch": 0.276,
-          "noisyScore": 0.276
+          "optionText": "先理解资源、规则和概率，再想办法慢慢改写位置。",
+          "semanticMatch": 0.211,
+          "noisyScore": 0.211
         },
         {
           "questionId": 4,
           "optionIndex": 0,
-          "optionText": "如果局势逼到这一步，我会下手，但会把情分和后果都记住。",
-          "semanticMatch": 0.158,
-          "noisyScore": 0.158
+          "optionText": "如果事情已经无法回避，我会做决定，但会记住后果。",
+          "semanticMatch": 0.155,
+          "noisyScore": 0.155
         },
         {
           "questionId": 5,
           "optionIndex": 0,
-          "optionText": "对自由与自我选择的渴望。",
-          "semanticMatch": 0.339,
-          "noisyScore": 0.339
+          "optionText": "能自己决定方向、保住选择权的感觉。",
+          "semanticMatch": 0.253,
+          "noisyScore": 0.253
         },
         {
           "questionId": 6,
           "optionIndex": 1,
-          "optionText": "冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。",
-          "semanticMatch": 0.203,
-          "noisyScore": 0.203
+          "optionText": "接受结果，但把收尾、交接和影响控制好。",
+          "semanticMatch": 0.277,
+          "noisyScore": 0.277
         },
         {
           "questionId": 7,
           "optionIndex": 1,
-          "optionText": "我更偏向坦诚，因为长期信任比一时方便重要。",
+          "optionText": "我更偏向说清楚，因为长期信任比一时方便重要。",
           "semanticMatch": 0.225,
           "noisyScore": 0.225
         },
         {
           "questionId": 8,
           "optionIndex": 0,
-          "optionText": "会追寻，因为真相通常比想象更值得面对。",
-          "semanticMatch": 0.273,
-          "noisyScore": 0.273
+          "optionText": "会，不知道反而更难真正做选择。",
+          "semanticMatch": 0.283,
+          "noisyScore": 0.283
         },
         {
           "questionId": 9,
           "optionIndex": 2,
-          "optionText": "作为威慑筹码，通过外交进行博弈。",
-          "semanticMatch": 0.213,
-          "noisyScore": 0.213
+          "optionText": "把它当成长期博弈的筹码，换更稳定的合作空间。",
+          "semanticMatch": 0.233,
+          "noisyScore": 0.233
         },
         {
           "questionId": 10,
           "optionIndex": 2,
-          "optionText": "习惯提出异议，帮大家看见被忽略的出口。",
-          "semanticMatch": 0.183,
-          "noisyScore": 0.183
+          "optionText": "提出异议，提醒大家还有哪些出口没被看到。",
+          "semanticMatch": 0.189,
+          "noisyScore": 0.189
         },
         {
           "questionId": 11,
           "optionIndex": 1,
-          "optionText": "坦白真相，和同伴一起制定长期方案。",
-          "semanticMatch": 0.314,
-          "noisyScore": 0.314
+          "optionText": "会说明情况，再和相关的人一起定方案。",
+          "semanticMatch": 0.23,
+          "noisyScore": 0.23
         },
         {
           "questionId": 12,
-          "optionIndex": 0,
-          "optionText": "会先救下来，再想办法降低后续风险。",
-          "semanticMatch": 0.16,
-          "noisyScore": 0.16
+          "optionIndex": 1,
+          "optionText": "会帮，但会同时评估风险并留一点后手。",
+          "semanticMatch": 0.163,
+          "noisyScore": 0.163
         },
         {
           "questionId": 13,
           "optionIndex": 0,
-          "optionText": "接受短期封锁，但会尽快准备更稳妥的公开方式。",
-          "semanticMatch": 0.296,
-          "noisyScore": 0.296
+          "optionText": "先配合稳定局面，同时尽快安排后续公开节奏。",
+          "semanticMatch": 0.163,
+          "noisyScore": 0.163
         },
         {
           "questionId": 14,
-          "optionIndex": 1,
-          "optionText": "理性停下报复，避免更多无辜者继续被拖进循环。",
-          "semanticMatch": 0.228,
-          "noisyScore": 0.228
+          "optionIndex": 2,
+          "optionText": "先把情绪压住，按步骤把冲突转成可执行的处理方案。",
+          "semanticMatch": 0.252,
+          "noisyScore": 0.252
         },
         {
           "questionId": 15,
           "optionIndex": 0,
-          "optionText": "被圈养、被安排，连选择人生方向的空间都没有。",
-          "semanticMatch": 0.225,
-          "noisyScore": 0.225
+          "optionText": "人生方向总被别人安排，自己几乎没有选择空间。",
+          "semanticMatch": 0.183,
+          "noisyScore": 0.183
         },
         {
           "questionId": 16,
-          "optionIndex": 2,
-          "optionText": "不会，建立在谎言上的团结会毁掉长期信任与真相。",
-          "semanticMatch": 0.266,
-          "noisyScore": 0.266
+          "optionIndex": 0,
+          "optionText": "只在别无选择时考虑，但不想让真实完全退场。",
+          "semanticMatch": 0.252,
+          "noisyScore": 0.252
         },
         {
           "questionId": 17,
@@ -298,23 +772,23 @@
         {
           "questionId": 18,
           "optionIndex": 2,
-          "optionText": "不会让未来决定现在，宁可保留当下的主动权。",
-          "semanticMatch": 0.173,
-          "noisyScore": 0.173
+          "optionText": "不希望被预警绑住，还是想保留当下的主动权。",
+          "semanticMatch": 0.194,
+          "noisyScore": 0.194
         },
         {
           "questionId": 19,
           "optionIndex": 2,
           "optionText": "冷静复盘，优先把后续损失降到最低。",
-          "semanticMatch": 0.163,
-          "noisyScore": 0.163
+          "semanticMatch": 0.162,
+          "noisyScore": 0.162
         },
         {
           "questionId": 20,
           "optionIndex": 0,
-          "optionText": "让对手知道你有底线、有能力，也有不轻易退让的意志。",
-          "semanticMatch": 0.185,
-          "noisyScore": 0.185
+          "optionText": "不轻易退让的意志，以及守住选择权的能力。",
+          "semanticMatch": 0.302,
+          "noisyScore": 0.302
         }
       ],
       "personaProfile": {
@@ -325,129 +799,129 @@
         "cause": 5
       },
       "resultProfile": {
-        "freedom": 6.1615,
-        "moral": 4.1745,
-        "realism": 7.476500000000001,
-        "fatalism": 3.349,
-        "cause": 6.651
+        "freedom": 4.91,
+        "moral": 5.994999999999999,
+        "realism": 6.840999999999999,
+        "fatalism": 5.936000000000001,
+        "cause": 7.004
       },
       "averageOptionProfile": {
-        "freedom": 5.840000000000001,
-        "moral": 5.056000000000001,
-        "realism": 6.063999999999999,
-        "fatalism": 5.3519999999999985,
-        "cause": 5.77
+        "freedom": 5.463999999999999,
+        "moral": 4.96,
+        "realism": 6.136,
+        "fatalism": 5.112,
+        "cause": 4.984
       }
     },
     {
       "persona": "集体主义战略家",
-      "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.085,
-      "expectationGap": 2.236,
-      "languageToResultGap": 3.994,
-      "optionToResultGap": 2.173,
-      "semanticTopOverlap": 1,
-      "selfPerceptionDrift": false,
+      "matchedCharacter": "利威尔·阿克曼",
+      "scoreDistance": 2.637,
+      "expectationGap": 2.576,
+      "languageToResultGap": 5.26,
+      "optionToResultGap": 2.13,
+      "semanticTopOverlap": 0.5,
+      "selfPerceptionDrift": true,
       "calibrationConcern": false,
       "needsReflection": false,
       "chosenOptions": [
         {
           "questionId": 1,
-          "optionIndex": 2,
-          "optionText": "研究墙壁与规则本身，准备更长期、代价更低的突围方案。",
-          "semanticMatch": 0.209,
-          "noisyScore": 0.209
+          "optionIndex": 1,
+          "optionText": "先把生活稳住，在现有边界里争取更安全的空间。",
+          "semanticMatch": 0.268,
+          "noisyScore": 0.268
         },
         {
           "questionId": 2,
-          "optionIndex": 0,
-          "optionText": "如果别无选择，我会痛苦地执行，但必须有人承担责任。",
-          "semanticMatch": 0.366,
-          "noisyScore": 0.366
+          "optionIndex": 2,
+          "optionText": "先把取舍规则讲清楚，让资源分配更透明、更能执行。",
+          "semanticMatch": 0.201,
+          "noisyScore": 0.201
         },
         {
           "questionId": 3,
           "optionIndex": 2,
-          "optionText": "命运更像条件与概率，我们要学会读懂规则。",
-          "semanticMatch": 0.199,
-          "noisyScore": 0.199
+          "optionText": "先理解资源、规则和概率，再想办法慢慢改写位置。",
+          "semanticMatch": 0.211,
+          "noisyScore": 0.211
         },
         {
           "questionId": 4,
           "optionIndex": 1,
           "optionText": "先争取沟通，尽量为彼此留一条还能回头的路。",
-          "semanticMatch": 0.125,
-          "noisyScore": 0.125
+          "semanticMatch": 0.133,
+          "noisyScore": 0.133
         },
         {
           "questionId": 5,
           "optionIndex": 2,
-          "optionText": "对群体、责任和未来的回应。",
-          "semanticMatch": 0.291,
-          "noisyScore": 0.291
+          "optionText": "对责任、群体和未来的持续回应。",
+          "semanticMatch": 0.359,
+          "noisyScore": 0.359
         },
         {
           "questionId": 6,
-          "optionIndex": 0,
-          "optionText": "还会再尝试一次，但更看重把代价控制在能承受范围。",
-          "semanticMatch": 0.143,
-          "noisyScore": 0.143
+          "optionIndex": 2,
+          "optionText": "把时间留给重要的人，也尽量让过程体面一些。",
+          "semanticMatch": 0.212,
+          "noisyScore": 0.212
         },
         {
           "questionId": 7,
           "optionIndex": 1,
-          "optionText": "我更偏向坦诚，因为长期信任比一时方便重要。",
+          "optionText": "我更偏向说清楚，因为长期信任比一时方便重要。",
           "semanticMatch": 0.198,
           "noisyScore": 0.198
         },
         {
           "questionId": 8,
           "optionIndex": 2,
-          "optionText": "会追寻，但要给自己和同伴留下理解与消化真相的余地。",
-          "semanticMatch": 0.175,
-          "noisyScore": 0.175
+          "optionText": "会想知道，但也会预留消化和协商空间。",
+          "semanticMatch": 0.124,
+          "noisyScore": 0.124
         },
         {
           "questionId": 9,
           "optionIndex": 2,
-          "optionText": "作为威慑筹码，通过外交进行博弈。",
-          "semanticMatch": 0.245,
-          "noisyScore": 0.245
+          "optionText": "把它当成长期博弈的筹码，换更稳定的合作空间。",
+          "semanticMatch": 0.205,
+          "noisyScore": 0.205
         },
         {
           "questionId": 10,
           "optionIndex": 1,
-          "optionText": "把事情执行到位，但会记住每个命令背后的代价。",
-          "semanticMatch": 0.209,
-          "noisyScore": 0.209
+          "optionText": "把关键执行部分做扎实，并盯住每一步的代价。",
+          "semanticMatch": 0.118,
+          "noisyScore": 0.118
         },
         {
           "questionId": 11,
           "optionIndex": 1,
-          "optionText": "坦白真相，和同伴一起制定长期方案。",
-          "semanticMatch": 0.225,
-          "noisyScore": 0.225
+          "optionText": "会说明情况，再和相关的人一起定方案。",
+          "semanticMatch": 0.21,
+          "noisyScore": 0.21
         },
         {
           "questionId": 12,
           "optionIndex": 2,
-          "optionText": "如果局势极度危险，我会优先保护更多人的安全。",
-          "semanticMatch": 0.208,
-          "noisyScore": 0.208
+          "optionText": "如果这会明显拖累更多人，我会优先顾全整体责任。",
+          "semanticMatch": 0.272,
+          "noisyScore": 0.272
         },
         {
           "questionId": 13,
-          "optionIndex": 0,
-          "optionText": "接受短期封锁，但会尽快准备更稳妥的公开方式。",
-          "semanticMatch": 0.234,
-          "noisyScore": 0.234
+          "optionIndex": 1,
+          "optionText": "部分公开，保留关键筹码，避免全面失控。",
+          "semanticMatch": 0.131,
+          "noisyScore": 0.131
         },
         {
           "questionId": 14,
-          "optionIndex": 1,
-          "optionText": "理性停下报复，避免更多无辜者继续被拖进循环。",
-          "semanticMatch": 0.18,
-          "noisyScore": 0.18
+          "optionIndex": 2,
+          "optionText": "先把情绪压住，按步骤把冲突转成可执行的处理方案。",
+          "semanticMatch": 0.209,
+          "noisyScore": 0.209
         },
         {
           "questionId": 15,
@@ -459,9 +933,9 @@
         {
           "questionId": 16,
           "optionIndex": 2,
-          "optionText": "不会，建立在谎言上的团结会毁掉长期信任与真相。",
-          "semanticMatch": 0.226,
-          "noisyScore": 0.226
+          "optionText": "不会，靠简化敌人换来的团结通常后患更大。",
+          "semanticMatch": 0.132,
+          "noisyScore": 0.132
         },
         {
           "questionId": 17,
@@ -474,22 +948,22 @@
           "questionId": 18,
           "optionIndex": 1,
           "optionText": "把它当作情报，尽可能改写最坏结果。",
-          "semanticMatch": 0.219,
-          "noisyScore": 0.219
+          "semanticMatch": 0.131,
+          "noisyScore": 0.131
         },
         {
           "questionId": 19,
           "optionIndex": 0,
-          "optionText": "先扛着继续做完该做的事，再回头承担责任。",
-          "semanticMatch": 0.279,
-          "noisyScore": 0.279
+          "optionText": "先把眼前该补的洞补上，再回头承担责任。",
+          "semanticMatch": 0.272,
+          "noisyScore": 0.272
         },
         {
           "questionId": 20,
-          "optionIndex": 0,
-          "optionText": "让对手知道你有底线、有能力，也有不轻易退让的意志。",
-          "semanticMatch": 0.129,
-          "noisyScore": 0.129
+          "optionIndex": 2,
+          "optionText": "在绝境里仍然能活下来的韧性。",
+          "semanticMatch": 0.188,
+          "noisyScore": 0.188
         }
       ],
       "personaProfile": {
@@ -500,129 +974,129 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 5.742,
-        "moral": 6.931,
-        "realism": 7.569,
-        "fatalism": 5.416,
-        "cause": 7.004
+        "freedom": 4.84,
+        "moral": 5,
+        "realism": 7.496,
+        "fatalism": 6.664,
+        "cause": 6.112
       },
       "averageOptionProfile": {
-        "freedom": 5.28,
-        "moral": 5.08,
-        "realism": 6.6259999999999994,
-        "fatalism": 5.4079999999999995,
-        "cause": 6.563999999999998
+        "freedom": 5.04,
+        "moral": 5.012,
+        "realism": 6.191999999999999,
+        "fatalism": 5.063999999999999,
+        "cause": 5.623999999999999
       }
     },
     {
       "persona": "守护型照料者",
-      "matchedCharacter": "柯尼·斯普林格",
-      "scoreDistance": 2.949,
-      "expectationGap": 3.326,
-      "languageToResultGap": 1.328,
-      "optionToResultGap": 1.521,
-      "semanticTopOverlap": 0.5,
+      "matchedCharacter": "利威尔·阿克曼",
+      "scoreDistance": 3.515,
+      "expectationGap": 2.188,
+      "languageToResultGap": 3.307,
+      "optionToResultGap": 2.761,
+      "semanticTopOverlap": 0,
       "selfPerceptionDrift": false,
-      "calibrationConcern": false,
-      "needsReflection": false,
+      "calibrationConcern": true,
+      "needsReflection": true,
       "chosenOptions": [
         {
           "questionId": 1,
-          "optionIndex": 1,
-          "optionText": "先把生活稳住，在现有边界里争取更安全的空间。",
-          "semanticMatch": 0.207,
-          "noisyScore": 0.207
+          "optionIndex": 0,
+          "optionText": "先找突破口，主动争取变化，必要时接受一点风险。",
+          "semanticMatch": 0.224,
+          "noisyScore": 0.224
         },
         {
           "questionId": 2,
           "optionIndex": 0,
-          "optionText": "如果别无选择，我会痛苦地执行，但必须有人承担责任。",
-          "semanticMatch": 0.426,
-          "noisyScore": 0.426
+          "optionText": "优先保住整体目标，即使少数人需要额外承担压力。",
+          "semanticMatch": 0.296,
+          "noisyScore": 0.296
         },
         {
           "questionId": 3,
-          "optionIndex": 1,
-          "optionText": "很多结果能被意志改写，只是代价常比想象更高。",
-          "semanticMatch": 0.193,
-          "noisyScore": 0.193
+          "optionIndex": 0,
+          "optionText": "它会限制人，但通常还是留有可以争取的空间。",
+          "semanticMatch": 0.296,
+          "noisyScore": 0.296
         },
         {
           "questionId": 4,
-          "optionIndex": 1,
-          "optionText": "先争取沟通，尽量为彼此留一条还能回头的路。",
-          "semanticMatch": 0.336,
-          "noisyScore": 0.336
+          "optionIndex": 2,
+          "optionText": "先确保重要的人不被波及，再决定接下来怎么处理。",
+          "semanticMatch": 0.491,
+          "noisyScore": 0.491
         },
         {
           "questionId": 5,
           "optionIndex": 2,
-          "optionText": "对群体、责任和未来的回应。",
-          "semanticMatch": 0.328,
-          "noisyScore": 0.328
+          "optionText": "对责任、群体和未来的持续回应。",
+          "semanticMatch": 0.395,
+          "noisyScore": 0.395
         },
         {
           "questionId": 6,
           "optionIndex": 2,
-          "optionText": "陪重要的人把最后一段路走好，也尽量维持体面与秩序。",
-          "semanticMatch": 0.508,
-          "noisyScore": 0.508
+          "optionText": "把时间留给重要的人，也尽量让过程体面一些。",
+          "semanticMatch": 0.316,
+          "noisyScore": 0.316
         },
         {
           "questionId": 7,
           "optionIndex": 1,
-          "optionText": "我更偏向坦诚，因为长期信任比一时方便重要。",
+          "optionText": "我更偏向说清楚，因为长期信任比一时方便重要。",
           "semanticMatch": 0.421,
           "noisyScore": 0.421
         },
         {
           "questionId": 8,
-          "optionIndex": 0,
-          "optionText": "会追寻，因为真相通常比想象更值得面对。",
-          "semanticMatch": 0.292,
-          "noisyScore": 0.292
+          "optionIndex": 1,
+          "optionText": "会看时机，有些事需要准备好再面对。",
+          "semanticMatch": 0.34,
+          "noisyScore": 0.34
         },
         {
           "questionId": 9,
-          "optionIndex": 1,
-          "optionText": "宁可限制它的使用范围，避免任何人轻易被它吞没。",
-          "semanticMatch": 0.294,
-          "noisyScore": 0.294
+          "optionIndex": 0,
+          "optionText": "会把它当成底牌，但不想让它变成唯一的解决方式。",
+          "semanticMatch": 0.296,
+          "noisyScore": 0.296
         },
         {
           "questionId": 10,
           "optionIndex": 0,
-          "optionText": "负责规划方向，也愿意扛起艰难决定。",
-          "semanticMatch": 0.537,
-          "noisyScore": 0.537
+          "optionText": "负责评估局势、统筹资源，并把关键决策推进落地。",
+          "semanticMatch": 0.296,
+          "noisyScore": 0.296
         },
         {
           "questionId": 11,
-          "optionIndex": 0,
-          "optionText": "会暂时拉开距离，尽量不把风险直接带给同伴。",
-          "semanticMatch": 0.394,
-          "noisyScore": 0.394
+          "optionIndex": 2,
+          "optionText": "不想被身份完全定义，但会更谨慎安排自己的选择。",
+          "semanticMatch": 0.228,
+          "noisyScore": 0.228
         },
         {
           "questionId": 12,
-          "optionIndex": 0,
-          "optionText": "会先救下来，再想办法降低后续风险。",
-          "semanticMatch": 0.307,
-          "noisyScore": 0.307
+          "optionIndex": 2,
+          "optionText": "如果这会明显拖累更多人，我会优先顾全整体责任。",
+          "semanticMatch": 0.564,
+          "noisyScore": 0.564
         },
         {
           "questionId": 13,
           "optionIndex": 2,
-          "optionText": "倾向公开更多事实，让人们尽可能保有判断空间。",
-          "semanticMatch": 0.477,
-          "noisyScore": 0.477
+          "optionText": "尽量多公开，让人至少保有基本判断空间。",
+          "semanticMatch": 0.296,
+          "noisyScore": 0.296
         },
         {
           "questionId": 14,
-          "optionIndex": 2,
-          "optionText": "把愤怒压下来，当成谈判筹码，为后续局面争取空间。",
-          "semanticMatch": 0.249,
-          "noisyScore": 0.249
+          "optionIndex": 1,
+          "optionText": "会停下来，不想把更多人拖进后续消耗。",
+          "semanticMatch": 0.296,
+          "noisyScore": 0.296
         },
         {
           "questionId": 15,
@@ -633,10 +1107,10 @@
         },
         {
           "questionId": 16,
-          "optionIndex": 0,
-          "optionText": "若真到最后关头，我会考虑，但不会轻易让真实完全让位。",
-          "semanticMatch": 0.431,
-          "noisyScore": 0.431
+          "optionIndex": 2,
+          "optionText": "不会，靠简化敌人换来的团结通常后患更大。",
+          "semanticMatch": 0.494,
+          "noisyScore": 0.494
         },
         {
           "questionId": 17,
@@ -647,24 +1121,24 @@
         },
         {
           "questionId": 18,
-          "optionIndex": 2,
-          "optionText": "不会让未来决定现在，宁可保留当下的主动权。",
-          "semanticMatch": 0.38,
-          "noisyScore": 0.38
+          "optionIndex": 0,
+          "optionText": "会把这份预警当作可能发生的风险，先做好安排和后手，但不完全照单执行。",
+          "semanticMatch": 0.27,
+          "noisyScore": 0.27
         },
         {
           "questionId": 19,
           "optionIndex": 0,
-          "optionText": "先扛着继续做完该做的事，再回头承担责任。",
-          "semanticMatch": 0.595,
-          "noisyScore": 0.595
+          "optionText": "先把眼前该补的洞补上，再回头承担责任。",
+          "semanticMatch": 0.481,
+          "noisyScore": 0.481
         },
         {
           "questionId": 20,
           "optionIndex": 2,
           "optionText": "在绝境里仍然能活下来的韧性。",
-          "semanticMatch": 0.359,
-          "noisyScore": 0.359
+          "semanticMatch": 0.281,
+          "noisyScore": 0.281
         }
       ],
       "personaProfile": {
@@ -675,129 +1149,129 @@
         "cause": 7.24
       },
       "resultProfile": {
-        "freedom": 4.2551000000000005,
-        "moral": 5.4649,
-        "realism": 5.336,
-        "fatalism": 4.2551000000000005,
-        "cause": 6.584899999999999
+        "freedom": 4.84,
+        "moral": 5,
+        "realism": 7.496,
+        "fatalism": 6.664,
+        "cause": 6.112
       },
       "averageOptionProfile": {
-        "freedom": 5.336,
-        "moral": 5.188,
-        "realism": 5.4399999999999995,
-        "fatalism": 5.239999999999999,
-        "cause": 6.289999999999999
+        "freedom": 5.112,
+        "moral": 5.164,
+        "realism": 5.343999999999999,
+        "fatalism": 5.087999999999999,
+        "cause": 5.4719999999999995
       }
     },
     {
       "persona": "现实主义调停者",
-      "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.501,
-      "expectationGap": 1.843,
-      "languageToResultGap": 3.512,
-      "optionToResultGap": 2.261,
+      "matchedCharacter": "阿明·阿诺德",
+      "scoreDistance": 3,
+      "expectationGap": 1.478,
+      "languageToResultGap": 5.513,
+      "optionToResultGap": 2.456,
       "semanticTopOverlap": 0.5,
-      "selfPerceptionDrift": false,
+      "selfPerceptionDrift": true,
       "calibrationConcern": false,
       "needsReflection": false,
       "chosenOptions": [
         {
           "questionId": 1,
           "optionIndex": 2,
-          "optionText": "研究墙壁与规则本身，准备更长期、代价更低的突围方案。",
-          "semanticMatch": 0.287,
-          "noisyScore": 0.287
+          "optionText": "先摸清规则和资源，再准备更稳妥的转向方案。",
+          "semanticMatch": 0.264,
+          "noisyScore": 0.264
         },
         {
           "questionId": 2,
-          "optionIndex": 1,
-          "optionText": "我会尽量寻找替代方案，不轻易接受拿无辜者交换结果。",
-          "semanticMatch": 0.219,
-          "noisyScore": 0.219
+          "optionIndex": 2,
+          "optionText": "先把取舍规则讲清楚，让资源分配更透明、更能执行。",
+          "semanticMatch": 0.242,
+          "noisyScore": 0.242
         },
         {
           "questionId": 3,
           "optionIndex": 2,
-          "optionText": "命运更像条件与概率，我们要学会读懂规则。",
-          "semanticMatch": 0.209,
-          "noisyScore": 0.209
+          "optionText": "先理解资源、规则和概率，再想办法慢慢改写位置。",
+          "semanticMatch": 0.428,
+          "noisyScore": 0.428
         },
         {
           "questionId": 4,
           "optionIndex": 1,
           "optionText": "先争取沟通，尽量为彼此留一条还能回头的路。",
-          "semanticMatch": 0.223,
-          "noisyScore": 0.223
+          "semanticMatch": 0.216,
+          "noisyScore": 0.216
         },
         {
           "questionId": 5,
           "optionIndex": 0,
-          "optionText": "对自由与自我选择的渴望。",
-          "semanticMatch": 0.129,
-          "noisyScore": 0.129
+          "optionText": "能自己决定方向、保住选择权的感觉。",
+          "semanticMatch": 0.213,
+          "noisyScore": 0.213
         },
         {
           "questionId": 6,
           "optionIndex": 0,
-          "optionText": "还会再尝试一次，但更看重把代价控制在能承受范围。",
-          "semanticMatch": 0.164,
-          "noisyScore": 0.164
+          "optionText": "还是会继续尝试，看能不能再多争取一点空间。",
+          "semanticMatch": 0.256,
+          "noisyScore": 0.256
         },
         {
           "questionId": 7,
           "optionIndex": 1,
-          "optionText": "我更偏向坦诚，因为长期信任比一时方便重要。",
+          "optionText": "我更偏向说清楚，因为长期信任比一时方便重要。",
           "semanticMatch": 0.214,
           "noisyScore": 0.214
         },
         {
           "questionId": 8,
           "optionIndex": 2,
-          "optionText": "会追寻，但要给自己和同伴留下理解与消化真相的余地。",
-          "semanticMatch": 0.342,
-          "noisyScore": 0.342
+          "optionText": "会想知道，但也会预留消化和协商空间。",
+          "semanticMatch": 0.24,
+          "noisyScore": 0.24
         },
         {
           "questionId": 9,
           "optionIndex": 2,
-          "optionText": "作为威慑筹码，通过外交进行博弈。",
-          "semanticMatch": 0.306,
-          "noisyScore": 0.306
+          "optionText": "把它当成长期博弈的筹码，换更稳定的合作空间。",
+          "semanticMatch": 0.252,
+          "noisyScore": 0.252
         },
         {
           "questionId": 10,
           "optionIndex": 2,
-          "optionText": "习惯提出异议，帮大家看见被忽略的出口。",
-          "semanticMatch": 0.147,
-          "noisyScore": 0.147
+          "optionText": "提出异议，提醒大家还有哪些出口没被看到。",
+          "semanticMatch": 0.146,
+          "noisyScore": 0.146
         },
         {
           "questionId": 11,
           "optionIndex": 1,
-          "optionText": "坦白真相，和同伴一起制定长期方案。",
-          "semanticMatch": 0.372,
-          "noisyScore": 0.372
+          "optionText": "会说明情况，再和相关的人一起定方案。",
+          "semanticMatch": 0.267,
+          "noisyScore": 0.267
         },
         {
           "questionId": 12,
-          "optionIndex": 2,
-          "optionText": "如果局势极度危险，我会优先保护更多人的安全。",
-          "semanticMatch": 0.231,
-          "noisyScore": 0.231
+          "optionIndex": 1,
+          "optionText": "会帮，但会同时评估风险并留一点后手。",
+          "semanticMatch": 0.168,
+          "noisyScore": 0.168
         },
         {
           "questionId": 13,
           "optionIndex": 1,
           "optionText": "部分公开，保留关键筹码，避免全面失控。",
-          "semanticMatch": 0.273,
-          "noisyScore": 0.273
+          "semanticMatch": 0.172,
+          "noisyScore": 0.172
         },
         {
           "questionId": 14,
-          "optionIndex": 1,
-          "optionText": "理性停下报复，避免更多无辜者继续被拖进循环。",
-          "semanticMatch": 0.241,
-          "noisyScore": 0.241
+          "optionIndex": 2,
+          "optionText": "先把情绪压住，按步骤把冲突转成可执行的处理方案。",
+          "semanticMatch": 0.273,
+          "noisyScore": 0.273
         },
         {
           "questionId": 15,
@@ -808,10 +1282,10 @@
         },
         {
           "questionId": 16,
-          "optionIndex": 2,
-          "optionText": "不会，建立在谎言上的团结会毁掉长期信任与真相。",
-          "semanticMatch": 0.251,
-          "noisyScore": 0.251
+          "optionIndex": 0,
+          "optionText": "只在别无选择时考虑，但不想让真实完全退场。",
+          "semanticMatch": 0.224,
+          "noisyScore": 0.224
         },
         {
           "questionId": 17,
@@ -824,22 +1298,22 @@
           "questionId": 18,
           "optionIndex": 1,
           "optionText": "把它当作情报，尽可能改写最坏结果。",
-          "semanticMatch": 0.16,
-          "noisyScore": 0.16
+          "semanticMatch": 0.172,
+          "noisyScore": 0.172
         },
         {
           "questionId": 19,
           "optionIndex": 2,
           "optionText": "冷静复盘，优先把后续损失降到最低。",
-          "semanticMatch": 0.179,
-          "noisyScore": 0.179
+          "semanticMatch": 0.174,
+          "noisyScore": 0.174
         },
         {
           "questionId": 20,
           "optionIndex": 1,
           "optionText": "让人愿意同行的理解、沟通与说服。",
-          "semanticMatch": 0.249,
-          "noisyScore": 0.249
+          "semanticMatch": 0.33,
+          "noisyScore": 0.33
         }
       ],
       "personaProfile": {
@@ -850,28 +1324,28 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 6.1615,
-        "moral": 4.1745,
-        "realism": 7.476500000000001,
-        "fatalism": 3.349,
-        "cause": 6.651
+        "freedom": 4.91,
+        "moral": 5.994999999999999,
+        "realism": 6.840999999999999,
+        "fatalism": 5.936000000000001,
+        "cause": 7.004
       },
       "averageOptionProfile": {
-        "freedom": 5.488,
-        "moral": 4.648,
-        "realism": 6.8420000000000005,
-        "fatalism": 5.303999999999999,
-        "cause": 6.193999999999999
+        "freedom": 5.247999999999999,
+        "moral": 4.696,
+        "realism": 6.4159999999999995,
+        "fatalism": 4.968,
+        "cause": 5.24
       }
     },
     {
       "persona": "宿命型幸存者",
-      "matchedCharacter": "莱纳·布朗",
-      "scoreDistance": 2.122,
-      "expectationGap": 2.205,
-      "languageToResultGap": 4.675,
-      "optionToResultGap": 2.682,
-      "semanticTopOverlap": 0,
+      "matchedCharacter": "利威尔·阿克曼",
+      "scoreDistance": 2.069,
+      "expectationGap": 2.32,
+      "languageToResultGap": 4.405,
+      "optionToResultGap": 2.128,
+      "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
       "needsReflection": false,
@@ -880,99 +1354,99 @@
           "questionId": 1,
           "optionIndex": 1,
           "optionText": "先把生活稳住，在现有边界里争取更安全的空间。",
-          "semanticMatch": 0.221,
-          "noisyScore": 0.221
+          "semanticMatch": 0.233,
+          "noisyScore": 0.233
         },
         {
           "questionId": 2,
-          "optionIndex": 1,
-          "optionText": "我会尽量寻找替代方案，不轻易接受拿无辜者交换结果。",
-          "semanticMatch": 0.25,
-          "noisyScore": 0.25
+          "optionIndex": 2,
+          "optionText": "先把取舍规则讲清楚，让资源分配更透明、更能执行。",
+          "semanticMatch": 0.144,
+          "noisyScore": 0.144
         },
         {
           "questionId": 3,
           "optionIndex": 2,
-          "optionText": "命运更像条件与概率，我们要学会读懂规则。",
-          "semanticMatch": 0.272,
-          "noisyScore": 0.272
+          "optionText": "先理解资源、规则和概率，再想办法慢慢改写位置。",
+          "semanticMatch": 0.151,
+          "noisyScore": 0.151
         },
         {
           "questionId": 4,
           "optionIndex": 0,
-          "optionText": "如果局势逼到这一步，我会下手，但会把情分和后果都记住。",
-          "semanticMatch": 0.129,
-          "noisyScore": 0.129
+          "optionText": "如果事情已经无法回避，我会做决定，但会记住后果。",
+          "semanticMatch": 0.13,
+          "noisyScore": 0.13
         },
         {
           "questionId": 5,
-          "optionIndex": 2,
-          "optionText": "对群体、责任和未来的回应。",
-          "semanticMatch": 0.114,
-          "noisyScore": 0.114
+          "optionIndex": 0,
+          "optionText": "能自己决定方向、保住选择权的感觉。",
+          "semanticMatch": 0.119,
+          "noisyScore": 0.119
         },
         {
           "questionId": 6,
           "optionIndex": 1,
-          "optionText": "冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。",
-          "semanticMatch": 0.228,
-          "noisyScore": 0.228
+          "optionText": "接受结果，但把收尾、交接和影响控制好。",
+          "semanticMatch": 0.267,
+          "noisyScore": 0.267
         },
         {
           "questionId": 7,
           "optionIndex": 2,
-          "optionText": "只要能保护具体的人，我能接受有限度的谎言。",
+          "optionText": "如果能保护具体的人，我能接受有限度的隐瞒。",
           "semanticMatch": 0.226,
           "noisyScore": 0.226
         },
         {
           "questionId": 8,
           "optionIndex": 2,
-          "optionText": "会追寻，但要给自己和同伴留下理解与消化真相的余地。",
-          "semanticMatch": 0.105,
-          "noisyScore": 0.105
+          "optionText": "会想知道，但也会预留消化和协商空间。",
+          "semanticMatch": 0.122,
+          "noisyScore": 0.122
         },
         {
           "questionId": 9,
           "optionIndex": 2,
-          "optionText": "作为威慑筹码，通过外交进行博弈。",
-          "semanticMatch": 0.161,
-          "noisyScore": 0.161
+          "optionText": "把它当成长期博弈的筹码，换更稳定的合作空间。",
+          "semanticMatch": 0.148,
+          "noisyScore": 0.148
         },
         {
           "questionId": 10,
           "optionIndex": 1,
-          "optionText": "把事情执行到位，但会记住每个命令背后的代价。",
-          "semanticMatch": 0.144,
-          "noisyScore": 0.144
+          "optionText": "把关键执行部分做扎实，并盯住每一步的代价。",
+          "semanticMatch": 0.138,
+          "noisyScore": 0.138
         },
         {
           "questionId": 11,
           "optionIndex": 0,
-          "optionText": "会暂时拉开距离，尽量不把风险直接带给同伴。",
+          "optionText": "会先认下这层风险，拉开一点距离，避免它继续波及身边人。",
+          "semanticMatch": 0.153,
+          "noisyScore": 0.153
+        },
+        {
+          "questionId": 12,
+          "optionIndex": 1,
+          "optionText": "会帮，但会同时评估风险并留一点后手。",
+          "semanticMatch": 0.142,
+          "noisyScore": 0.142
+        },
+        {
+          "questionId": 13,
+          "optionIndex": 1,
+          "optionText": "部分公开，保留关键筹码，避免全面失控。",
           "semanticMatch": 0.144,
           "noisyScore": 0.144
         },
         {
-          "questionId": 12,
-          "optionIndex": 2,
-          "optionText": "如果局势极度危险，我会优先保护更多人的安全。",
-          "semanticMatch": 0.224,
-          "noisyScore": 0.224
-        },
-        {
-          "questionId": 13,
-          "optionIndex": 0,
-          "optionText": "接受短期封锁，但会尽快准备更稳妥的公开方式。",
-          "semanticMatch": 0.237,
-          "noisyScore": 0.237
-        },
-        {
           "questionId": 14,
           "optionIndex": 2,
-          "optionText": "把愤怒压下来，当成谈判筹码，为后续局面争取空间。",
-          "semanticMatch": 0.158,
-          "noisyScore": 0.158
+          "optionText": "先把情绪压住，按步骤把冲突转成可执行的处理方案。",
+          "semanticMatch": 0.141,
+          "noisyScore": 0.141
         },
         {
           "questionId": 15,
@@ -983,10 +1457,10 @@
         },
         {
           "questionId": 16,
-          "optionIndex": 0,
-          "optionText": "若真到最后关头，我会考虑，但不会轻易让真实完全让位。",
-          "semanticMatch": 0.121,
-          "noisyScore": 0.121
+          "optionIndex": 2,
+          "optionText": "不会，靠简化敌人换来的团结通常后患更大。",
+          "semanticMatch": 0.13,
+          "noisyScore": 0.13
         },
         {
           "questionId": 17,
@@ -999,22 +1473,22 @@
           "questionId": 18,
           "optionIndex": 1,
           "optionText": "把它当作情报，尽可能改写最坏结果。",
-          "semanticMatch": 0.165,
-          "noisyScore": 0.165
+          "semanticMatch": 0.144,
+          "noisyScore": 0.144
         },
         {
           "questionId": 19,
           "optionIndex": 2,
           "optionText": "冷静复盘，优先把后续损失降到最低。",
-          "semanticMatch": 0.147,
-          "noisyScore": 0.147
+          "semanticMatch": 0.144,
+          "noisyScore": 0.144
         },
         {
           "questionId": 20,
           "optionIndex": 2,
           "optionText": "在绝境里仍然能活下来的韧性。",
-          "semanticMatch": 0.139,
-          "noisyScore": 0.139
+          "semanticMatch": 0.138,
+          "noisyScore": 0.138
         }
       ],
       "personaProfile": {
@@ -1025,28 +1499,28 @@
         "cause": 5.96
       },
       "resultProfile": {
-        "freedom": 4.35,
-        "moral": 6.95,
-        "realism": 6.3,
-        "fatalism": 6.95,
-        "cause": 7.286
+        "freedom": 4.84,
+        "moral": 5,
+        "realism": 7.496,
+        "fatalism": 6.664,
+        "cause": 6.112
       },
       "averageOptionProfile": {
-        "freedom": 4.808,
-        "moral": 4.904,
-        "realism": 6.4959999999999996,
-        "fatalism": 5.639999999999999,
-        "cause": 6.266
+        "freedom": 4.96,
+        "moral": 4.96,
+        "realism": 6.343999999999999,
+        "fatalism": 5.208,
+        "cause": 5.08
       }
     },
     {
       "persona": "矛盾型士兵",
-      "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.021,
-      "expectationGap": 1.368,
-      "languageToResultGap": 3.409,
-      "optionToResultGap": 2.094,
-      "semanticTopOverlap": 1,
+      "matchedCharacter": "利威尔·阿克曼",
+      "scoreDistance": 2.605,
+      "expectationGap": 1.861,
+      "languageToResultGap": 4.907,
+      "optionToResultGap": 2.127,
+      "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
       "needsReflection": false,
@@ -1054,100 +1528,100 @@
         {
           "questionId": 1,
           "optionIndex": 2,
-          "optionText": "研究墙壁与规则本身，准备更长期、代价更低的突围方案。",
+          "optionText": "先摸清规则和资源，再准备更稳妥的转向方案。",
           "semanticMatch": 0.136,
           "noisyScore": 0.136
         },
         {
           "questionId": 2,
-          "optionIndex": 0,
-          "optionText": "如果别无选择，我会痛苦地执行，但必须有人承担责任。",
-          "semanticMatch": 0.329,
-          "noisyScore": 0.329
+          "optionIndex": 2,
+          "optionText": "先把取舍规则讲清楚，让资源分配更透明、更能执行。",
+          "semanticMatch": 0.139,
+          "noisyScore": 0.139
         },
         {
           "questionId": 3,
           "optionIndex": 2,
-          "optionText": "命运更像条件与概率，我们要学会读懂规则。",
-          "semanticMatch": 0.131,
-          "noisyScore": 0.131
+          "optionText": "先理解资源、规则和概率，再想办法慢慢改写位置。",
+          "semanticMatch": 0.138,
+          "noisyScore": 0.138
         },
         {
           "questionId": 4,
           "optionIndex": 1,
           "optionText": "先争取沟通，尽量为彼此留一条还能回头的路。",
-          "semanticMatch": 0.137,
-          "noisyScore": 0.137
+          "semanticMatch": 0.147,
+          "noisyScore": 0.147
         },
         {
           "questionId": 5,
           "optionIndex": 2,
-          "optionText": "对群体、责任和未来的回应。",
-          "semanticMatch": 0.315,
-          "noisyScore": 0.315
+          "optionText": "对责任、群体和未来的持续回应。",
+          "semanticMatch": 0.313,
+          "noisyScore": 0.313
         },
         {
           "questionId": 6,
-          "optionIndex": 0,
-          "optionText": "还会再尝试一次，但更看重把代价控制在能承受范围。",
-          "semanticMatch": 0.156,
-          "noisyScore": 0.156
+          "optionIndex": 2,
+          "optionText": "把时间留给重要的人，也尽量让过程体面一些。",
+          "semanticMatch": 0.15,
+          "noisyScore": 0.15
         },
         {
           "questionId": 7,
           "optionIndex": 1,
-          "optionText": "我更偏向坦诚，因为长期信任比一时方便重要。",
+          "optionText": "我更偏向说清楚，因为长期信任比一时方便重要。",
           "semanticMatch": 0.141,
           "noisyScore": 0.141
         },
         {
           "questionId": 8,
           "optionIndex": 2,
-          "optionText": "会追寻，但要给自己和同伴留下理解与消化真相的余地。",
-          "semanticMatch": 0.17,
-          "noisyScore": 0.17
+          "optionText": "会想知道，但也会预留消化和协商空间。",
+          "semanticMatch": 0.133,
+          "noisyScore": 0.133
         },
         {
           "questionId": 9,
           "optionIndex": 2,
-          "optionText": "作为威慑筹码，通过外交进行博弈。",
-          "semanticMatch": 0.173,
-          "noisyScore": 0.173
+          "optionText": "把它当成长期博弈的筹码，换更稳定的合作空间。",
+          "semanticMatch": 0.143,
+          "noisyScore": 0.143
         },
         {
           "questionId": 10,
           "optionIndex": 1,
-          "optionText": "把事情执行到位，但会记住每个命令背后的代价。",
-          "semanticMatch": 0.227,
-          "noisyScore": 0.227
+          "optionText": "把关键执行部分做扎实，并盯住每一步的代价。",
+          "semanticMatch": 0.128,
+          "noisyScore": 0.128
         },
         {
           "questionId": 11,
-          "optionIndex": 1,
-          "optionText": "坦白真相，和同伴一起制定长期方案。",
-          "semanticMatch": 0.159,
-          "noisyScore": 0.159
+          "optionIndex": 0,
+          "optionText": "会先认下这层风险，拉开一点距离，避免它继续波及身边人。",
+          "semanticMatch": 0.146,
+          "noisyScore": 0.146
         },
         {
           "questionId": 12,
           "optionIndex": 2,
-          "optionText": "如果局势极度危险，我会优先保护更多人的安全。",
-          "semanticMatch": 0.141,
-          "noisyScore": 0.141
+          "optionText": "如果这会明显拖累更多人，我会优先顾全整体责任。",
+          "semanticMatch": 0.287,
+          "noisyScore": 0.287
         },
         {
           "questionId": 13,
-          "optionIndex": 0,
-          "optionText": "接受短期封锁，但会尽快准备更稳妥的公开方式。",
-          "semanticMatch": 0.246,
-          "noisyScore": 0.246
+          "optionIndex": 1,
+          "optionText": "部分公开，保留关键筹码，避免全面失控。",
+          "semanticMatch": 0.139,
+          "noisyScore": 0.139
         },
         {
           "questionId": 14,
           "optionIndex": 2,
-          "optionText": "把愤怒压下来，当成谈判筹码，为后续局面争取空间。",
-          "semanticMatch": 0.142,
-          "noisyScore": 0.142
+          "optionText": "先把情绪压住，按步骤把冲突转成可执行的处理方案。",
+          "semanticMatch": 0.145,
+          "noisyScore": 0.145
         },
         {
           "questionId": 15,
@@ -1159,9 +1633,9 @@
         {
           "questionId": 16,
           "optionIndex": 2,
-          "optionText": "不会，建立在谎言上的团结会毁掉长期信任与真相。",
-          "semanticMatch": 0.187,
-          "noisyScore": 0.187
+          "optionText": "不会，靠简化敌人换来的团结通常后患更大。",
+          "semanticMatch": 0.147,
+          "noisyScore": 0.147
         },
         {
           "questionId": 17,
@@ -1174,22 +1648,22 @@
           "questionId": 18,
           "optionIndex": 1,
           "optionText": "把它当作情报，尽可能改写最坏结果。",
-          "semanticMatch": 0.232,
-          "noisyScore": 0.232
+          "semanticMatch": 0.139,
+          "noisyScore": 0.139
         },
         {
           "questionId": 19,
           "optionIndex": 0,
-          "optionText": "先扛着继续做完该做的事，再回头承担责任。",
-          "semanticMatch": 0.298,
-          "noisyScore": 0.298
+          "optionText": "先把眼前该补的洞补上，再回头承担责任。",
+          "semanticMatch": 0.288,
+          "noisyScore": 0.288
         },
         {
           "questionId": 20,
-          "optionIndex": 0,
-          "optionText": "让对手知道你有底线、有能力，也有不轻易退让的意志。",
-          "semanticMatch": 0.144,
-          "noisyScore": 0.144
+          "optionIndex": 2,
+          "optionText": "在绝境里仍然能活下来的韧性。",
+          "semanticMatch": 0.128,
+          "noisyScore": 0.128
         }
       ],
       "personaProfile": {
@@ -1200,18 +1674,18 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 5.742,
-        "moral": 6.931,
-        "realism": 7.569,
-        "fatalism": 5.416,
-        "cause": 7.004
+        "freedom": 4.84,
+        "moral": 5,
+        "realism": 7.496,
+        "fatalism": 6.664,
+        "cause": 6.112
       },
       "averageOptionProfile": {
-        "freedom": 5.28,
-        "moral": 5.152,
-        "realism": 6.641999999999999,
-        "fatalism": 5.4079999999999995,
-        "cause": 6.619999999999999
+        "freedom": 5.096,
+        "moral": 5.012,
+        "realism": 6.207999999999999,
+        "fatalism": 5.063999999999999,
+        "cause": 5.623999999999999
       }
     }
   ],
@@ -1219,10 +1693,10 @@
     {
       "questionId": 1,
       "optionIndex": 0,
-      "optionText": "会先寻找突破口，必要时愿意冒险打破现状。",
+      "optionText": "先找突破口，主动争取变化，必要时接受一点风险。",
       "textTop": [
-        "freedom",
-        "moral"
+        "fatalism",
+        "realism"
       ],
       "numericTop": [
         "freedom",
@@ -1249,10 +1723,10 @@
     {
       "questionId": 1,
       "optionIndex": 2,
-      "optionText": "研究墙壁与规则本身，准备更长期、代价更低的突围方案。",
+      "optionText": "先摸清规则和资源，再准备更稳妥的转向方案。",
       "textTop": [
         "realism",
-        "fatalism"
+        "freedom"
       ],
       "numericTop": [
         "realism",
@@ -1264,25 +1738,25 @@
     {
       "questionId": 2,
       "optionIndex": 0,
-      "optionText": "如果别无选择，我会痛苦地执行，但必须有人承担责任。",
+      "optionText": "优先保住整体目标，即使少数人需要额外承担压力。",
       "textTop": [
-        "cause",
+        "freedom",
         "moral"
       ],
       "numericTop": [
         "moral",
         "cause"
       ],
-      "overlap": 1,
+      "overlap": 0.5,
       "warning": false
     },
     {
       "questionId": 2,
       "optionIndex": 1,
-      "optionText": "我会尽量寻找替代方案，不轻易接受拿无辜者交换结果。",
+      "optionText": "尽量压低个体损失，不轻易让少数人被迫买单。",
       "textTop": [
-        "moral",
-        "fatalism"
+        "freedom",
+        "moral"
       ],
       "numericTop": [
         "moral",
@@ -1294,13 +1768,13 @@
     {
       "questionId": 2,
       "optionIndex": 2,
-      "optionText": "也许会接受部分牺牲，但前提是过程透明、代价可控。",
+      "optionText": "先把取舍规则讲清楚，让资源分配更透明、更能执行。",
       "textTop": [
-        "fatalism",
+        "realism",
         "freedom"
       ],
       "numericTop": [
-        "fatalism",
+        "realism",
         "cause"
       ],
       "overlap": 0.5,
@@ -1309,44 +1783,44 @@
     {
       "questionId": 3,
       "optionIndex": 0,
-      "optionText": "命运会限制人，但仍留有可以争取的空间。",
+      "optionText": "它会限制人，但通常还是留有可以争取的空间。",
       "textTop": [
-        "fatalism",
-        "freedom"
+        "freedom",
+        "moral"
       ],
       "numericTop": [
         "fatalism",
         "freedom"
       ],
-      "overlap": 1,
+      "overlap": 0.5,
       "warning": false
     },
     {
       "questionId": 3,
       "optionIndex": 1,
-      "optionText": "很多结果能被意志改写，只是代价常比想象更高。",
+      "optionText": "条件再差也不能等它让路，还是要自己闯出路来。",
       "textTop": [
-        "freedom",
-        "fatalism"
+        "cause",
+        "freedom"
       ],
       "numericTop": [
         "freedom",
         "fatalism"
       ],
-      "overlap": 1,
+      "overlap": 0.5,
       "warning": false
     },
     {
       "questionId": 3,
       "optionIndex": 2,
-      "optionText": "命运更像条件与概率，我们要学会读懂规则。",
+      "optionText": "先理解资源、规则和概率，再想办法慢慢改写位置。",
       "textTop": [
         "realism",
-        "fatalism"
+        "moral"
       ],
       "numericTop": [
         "realism",
-        "freedom"
+        "fatalism"
       ],
       "overlap": 0.5,
       "warning": false
@@ -1354,14 +1828,14 @@
     {
       "questionId": 4,
       "optionIndex": 0,
-      "optionText": "如果局势逼到这一步，我会下手，但会把情分和后果都记住。",
+      "optionText": "如果事情已经无法回避，我会做决定，但会记住后果。",
       "textTop": [
         "freedom",
         "moral"
       ],
       "numericTop": [
-        "cause",
-        "moral"
+        "moral",
+        "cause"
       ],
       "overlap": 0.5,
       "warning": false
@@ -1384,7 +1858,7 @@
     {
       "questionId": 4,
       "optionIndex": 2,
-      "optionText": "我会优先把身边人带离最危险的位置，再决定站哪边。",
+      "optionText": "先确保重要的人不被波及，再决定接下来怎么处理。",
       "textTop": [
         "freedom",
         "moral"
@@ -1399,37 +1873,37 @@
     {
       "questionId": 5,
       "optionIndex": 0,
-      "optionText": "对自由与自我选择的渴望。",
+      "optionText": "能自己决定方向、保住选择权的感觉。",
       "textTop": [
         "freedom",
-        "fatalism"
+        "cause"
       ],
       "numericTop": [
         "freedom",
         "cause"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 5,
+      "optionIndex": 1,
+      "optionText": "和重要的人、习惯或长期执念之间的牵引。",
+      "textTop": [
+        "freedom",
+        "realism"
+      ],
+      "numericTop": [
+        "fatalism",
+        "freedom"
       ],
       "overlap": 0.5,
       "warning": false
     },
     {
       "questionId": 5,
-      "optionIndex": 1,
-      "optionText": "对某些关系、梦想或执念的投入。",
-      "textTop": [
-        "freedom",
-        "realism"
-      ],
-      "numericTop": [
-        "fatalism",
-        "freedom"
-      ],
-      "overlap": 0.5,
-      "warning": false
-    },
-    {
-      "questionId": 5,
       "optionIndex": 2,
-      "optionText": "对群体、责任和未来的回应。",
+      "optionText": "对责任、群体和未来的持续回应。",
       "textTop": [
         "cause",
         "freedom"
@@ -1444,14 +1918,14 @@
     {
       "questionId": 6,
       "optionIndex": 0,
-      "optionText": "还会再尝试一次，但更看重把代价控制在能承受范围。",
+      "optionText": "还是会继续尝试，看能不能再多争取一点空间。",
       "textTop": [
-        "realism",
-        "fatalism"
+        "freedom",
+        "moral"
       ],
       "numericTop": [
         "freedom",
-        "realism"
+        "cause"
       ],
       "overlap": 0.5,
       "warning": false
@@ -1459,7 +1933,7 @@
     {
       "questionId": 6,
       "optionIndex": 1,
-      "optionText": "冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。",
+      "optionText": "接受结果，但把收尾、交接和影响控制好。",
       "textTop": [
         "fatalism",
         "freedom"
@@ -1474,115 +1948,10 @@
     {
       "questionId": 6,
       "optionIndex": 2,
-      "optionText": "陪重要的人把最后一段路走好，也尽量维持体面与秩序。",
+      "optionText": "把时间留给重要的人，也尽量让过程体面一些。",
       "textTop": [
         "moral",
         "freedom"
-      ],
-      "numericTop": [
-        "moral",
-        "fatalism"
-      ],
-      "overlap": 0.5,
-      "warning": false
-    },
-    {
-      "questionId": 7,
-      "optionIndex": 0,
-      "optionText": "必要时可以隐瞒一部分，但不该把谎言当成常态。",
-      "textTop": [
-        "moral",
-        "freedom"
-      ],
-      "numericTop": [
-        "moral",
-        "realism"
-      ],
-      "overlap": 0.5,
-      "warning": false
-    },
-    {
-      "questionId": 7,
-      "optionIndex": 1,
-      "optionText": "我更偏向坦诚，因为长期信任比一时方便重要。",
-      "textTop": [
-        "cause",
-        "freedom"
-      ],
-      "numericTop": [
-        "freedom",
-        "moral"
-      ],
-      "overlap": 0.5,
-      "warning": false
-    },
-    {
-      "questionId": 7,
-      "optionIndex": 2,
-      "optionText": "只要能保护具体的人，我能接受有限度的谎言。",
-      "textTop": [
-        "fatalism",
-        "freedom"
-      ],
-      "numericTop": [
-        "fatalism",
-        "moral"
-      ],
-      "overlap": 0.5,
-      "warning": false
-    },
-    {
-      "questionId": 8,
-      "optionIndex": 0,
-      "optionText": "会追寻，因为真相通常比想象更值得面对。",
-      "textTop": [
-        "freedom",
-        "fatalism"
-      ],
-      "numericTop": [
-        "freedom",
-        "realism"
-      ],
-      "overlap": 0.5,
-      "warning": false
-    },
-    {
-      "questionId": 8,
-      "optionIndex": 1,
-      "optionText": "会看时机，有些真相需要准备好再去承受。",
-      "textTop": [
-        "freedom",
-        "fatalism"
-      ],
-      "numericTop": [
-        "freedom",
-        "realism"
-      ],
-      "overlap": 0.5,
-      "warning": false
-    },
-    {
-      "questionId": 8,
-      "optionIndex": 2,
-      "optionText": "会追寻，但要给自己和同伴留下理解与消化真相的余地。",
-      "textTop": [
-        "realism",
-        "cause"
-      ],
-      "numericTop": [
-        "realism",
-        "cause"
-      ],
-      "overlap": 1,
-      "warning": false
-    },
-    {
-      "questionId": 9,
-      "optionIndex": 0,
-      "optionText": "会把它当成底牌，但尽量不让它先变成解决问题的唯一方式。",
-      "textTop": [
-        "freedom",
-        "moral"
       ],
       "numericTop": [
         "freedom",
@@ -1592,16 +1961,121 @@
       "warning": false
     },
     {
-      "questionId": 9,
+      "questionId": 7,
+      "optionIndex": 0,
+      "optionText": "特定时候可以有，但不能慢慢变成习惯。",
+      "textTop": [
+        "freedom",
+        "moral"
+      ],
+      "numericTop": [
+        "moral",
+        "realism"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 7,
       "optionIndex": 1,
-      "optionText": "宁可限制它的使用范围，避免任何人轻易被它吞没。",
+      "optionText": "我更偏向说清楚，因为长期信任比一时方便重要。",
+      "textTop": [
+        "cause",
+        "freedom"
+      ],
+      "numericTop": [
+        "freedom",
+        "moral"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 7,
+      "optionIndex": 2,
+      "optionText": "如果能保护具体的人，我能接受有限度的隐瞒。",
+      "textTop": [
+        "fatalism",
+        "freedom"
+      ],
+      "numericTop": [
+        "freedom",
+        "fatalism"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 8,
+      "optionIndex": 0,
+      "optionText": "会，不知道反而更难真正做选择。",
+      "textTop": [
+        "freedom",
+        "moral"
+      ],
+      "numericTop": [
+        "freedom",
+        "cause"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 8,
+      "optionIndex": 1,
+      "optionText": "会看时机，有些事需要准备好再面对。",
+      "textTop": [
+        "freedom",
+        "moral"
+      ],
+      "numericTop": [
+        "realism",
+        "freedom"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 8,
+      "optionIndex": 2,
+      "optionText": "会想知道，但也会预留消化和协商空间。",
       "textTop": [
         "realism",
         "freedom"
       ],
       "numericTop": [
         "realism",
-        "fatalism"
+        "cause"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 9,
+      "optionIndex": 0,
+      "optionText": "会把它当成底牌，但不想让它变成唯一的解决方式。",
+      "textTop": [
+        "freedom",
+        "moral"
+      ],
+      "numericTop": [
+        "freedom",
+        "moral"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 9,
+      "optionIndex": 1,
+      "optionText": "先限制使用边界，尽量避免影响外溢。",
+      "textTop": [
+        "freedom",
+        "moral"
+      ],
+      "numericTop": [
+        "realism",
+        "moral"
       ],
       "overlap": 0.5,
       "warning": false
@@ -1609,28 +2083,43 @@
     {
       "questionId": 9,
       "optionIndex": 2,
-      "optionText": "作为威慑筹码，通过外交进行博弈。",
+      "optionText": "把它当成长期博弈的筹码，换更稳定的合作空间。",
       "textTop": [
         "realism",
-        "cause"
+        "freedom"
       ],
       "numericTop": [
         "realism",
         "cause"
       ],
-      "overlap": 1,
+      "overlap": 0.5,
       "warning": false
     },
     {
       "questionId": 10,
       "optionIndex": 0,
-      "optionText": "负责规划方向，也愿意扛起艰难决定。",
+      "optionText": "负责评估局势、统筹资源，并把关键决策推进落地。",
       "textTop": [
-        "cause",
+        "freedom",
+        "moral"
+      ],
+      "numericTop": [
+        "realism",
+        "cause"
+      ],
+      "overlap": 0,
+      "warning": true
+    },
+    {
+      "questionId": 10,
+      "optionIndex": 1,
+      "optionText": "把关键执行部分做扎实，并盯住每一步的代价。",
+      "textTop": [
+        "fatalism",
         "freedom"
       ],
       "numericTop": [
-        "cause",
+        "freedom",
         "realism"
       ],
       "overlap": 0.5,
@@ -1638,23 +2127,8 @@
     },
     {
       "questionId": 10,
-      "optionIndex": 1,
-      "optionText": "把事情执行到位，但会记住每个命令背后的代价。",
-      "textTop": [
-        "cause",
-        "fatalism"
-      ],
-      "numericTop": [
-        "fatalism",
-        "freedom"
-      ],
-      "overlap": 0.5,
-      "warning": false
-    },
-    {
-      "questionId": 10,
       "optionIndex": 2,
-      "optionText": "习惯提出异议，帮大家看见被忽略的出口。",
+      "optionText": "提出异议，提醒大家还有哪些出口没被看到。",
       "textTop": [
         "freedom",
         "moral"
@@ -1669,13 +2143,28 @@
     {
       "questionId": 11,
       "optionIndex": 0,
-      "optionText": "会暂时拉开距离，尽量不把风险直接带给同伴。",
+      "optionText": "会先认下这层风险，拉开一点距离，避免它继续波及身边人。",
       "textTop": [
-        "cause",
-        "realism"
+        "realism",
+        "freedom"
       ],
       "numericTop": [
         "fatalism",
+        "cause"
+      ],
+      "overlap": 0,
+      "warning": true
+    },
+    {
+      "questionId": 11,
+      "optionIndex": 1,
+      "optionText": "会说明情况，再和相关的人一起定方案。",
+      "textTop": [
+        "realism",
+        "freedom"
+      ],
+      "numericTop": [
+        "realism",
         "cause"
       ],
       "overlap": 0.5,
@@ -1683,23 +2172,8 @@
     },
     {
       "questionId": 11,
-      "optionIndex": 1,
-      "optionText": "坦白真相，和同伴一起制定长期方案。",
-      "textTop": [
-        "realism",
-        "cause"
-      ],
-      "numericTop": [
-        "realism",
-        "cause"
-      ],
-      "overlap": 1,
-      "warning": false
-    },
-    {
-      "questionId": 11,
       "optionIndex": 2,
-      "optionText": "不愿完全被身份定义，但会更谨慎地安排自己的选择。",
+      "optionText": "不想被身份完全定义，但会更谨慎安排自己的选择。",
       "textTop": [
         "freedom",
         "cause"
@@ -1714,22 +2188,22 @@
     {
       "questionId": 12,
       "optionIndex": 0,
-      "optionText": "会先救下来，再想办法降低后续风险。",
+      "optionText": "会先帮他脱离当下困境，再处理之后的界限。",
       "textTop": [
-        "realism",
-        "freedom"
+        "freedom",
+        "moral"
       ],
       "numericTop": [
         "moral",
         "freedom"
       ],
-      "overlap": 0.5,
+      "overlap": 1,
       "warning": false
     },
     {
       "questionId": 12,
       "optionIndex": 1,
-      "optionText": "会救，但会评估风险并留下后手。",
+      "optionText": "会帮，但会同时评估风险并留一点后手。",
       "textTop": [
         "realism",
         "freedom"
@@ -1744,10 +2218,10 @@
     {
       "questionId": 12,
       "optionIndex": 2,
-      "optionText": "如果局势极度危险，我会优先保护更多人的安全。",
+      "optionText": "如果这会明显拖累更多人，我会优先顾全整体责任。",
       "textTop": [
-        "realism",
-        "cause"
+        "cause",
+        "freedom"
       ],
       "numericTop": [
         "moral",
@@ -1759,14 +2233,14 @@
     {
       "questionId": 13,
       "optionIndex": 0,
-      "optionText": "接受短期封锁，但会尽快准备更稳妥的公开方式。",
+      "optionText": "先配合稳定局面，同时尽快安排后续公开节奏。",
       "textTop": [
-        "fatalism",
+        "realism",
         "freedom"
       ],
       "numericTop": [
-        "fatalism",
-        "cause"
+        "cause",
+        "realism"
       ],
       "overlap": 0.5,
       "warning": false
@@ -1789,7 +2263,7 @@
     {
       "questionId": 13,
       "optionIndex": 2,
-      "optionText": "倾向公开更多事实，让人们尽可能保有判断空间。",
+      "optionText": "尽量多公开，让人至少保有基本判断空间。",
       "textTop": [
         "freedom",
         "moral"
@@ -1804,14 +2278,14 @@
     {
       "questionId": 14,
       "optionIndex": 0,
-      "optionText": "仍然想复仇，但会承认这会把自己也继续拖进循环。",
+      "optionText": "还是会想追究，但也知道这会把自己继续困在里面。",
       "textTop": [
         "cause",
         "freedom"
       ],
       "numericTop": [
-        "moral",
-        "freedom"
+        "freedom",
+        "moral"
       ],
       "overlap": 0.5,
       "warning": false
@@ -1819,40 +2293,40 @@
     {
       "questionId": 14,
       "optionIndex": 1,
-      "optionText": "理性停下报复，避免更多无辜者继续被拖进循环。",
+      "optionText": "会停下来，不想把更多人拖进后续消耗。",
       "textTop": [
-        "realism",
+        "freedom",
         "moral"
       ],
       "numericTop": [
         "realism",
         "moral"
       ],
-      "overlap": 1,
+      "overlap": 0.5,
       "warning": false
     },
     {
       "questionId": 14,
       "optionIndex": 2,
-      "optionText": "把愤怒压下来，当成谈判筹码，为后续局面争取空间。",
+      "optionText": "先把情绪压住，按步骤把冲突转成可执行的处理方案。",
       "textTop": [
         "realism",
-        "cause"
+        "freedom"
       ],
       "numericTop": [
         "realism",
         "cause"
       ],
-      "overlap": 1,
+      "overlap": 0.5,
       "warning": false
     },
     {
       "questionId": 15,
       "optionIndex": 0,
-      "optionText": "被圈养、被安排，连选择人生方向的空间都没有。",
+      "optionText": "人生方向总被别人安排，自己几乎没有选择空间。",
       "textTop": [
         "freedom",
-        "moral"
+        "cause"
       ],
       "numericTop": [
         "freedom",
@@ -1894,14 +2368,14 @@
     {
       "questionId": 16,
       "optionIndex": 0,
-      "optionText": "若真到最后关头，我会考虑，但不会轻易让真实完全让位。",
+      "optionText": "只在别无选择时考虑，但不想让真实完全退场。",
       "textTop": [
-        "moral",
-        "freedom"
+        "freedom",
+        "moral"
       ],
       "numericTop": [
         "moral",
-        "cause"
+        "realism"
       ],
       "overlap": 0.5,
       "warning": false
@@ -1909,14 +2383,14 @@
     {
       "questionId": 16,
       "optionIndex": 1,
-      "optionText": "只在最后关头才会做，并由自己背负污名。",
+      "optionText": "非常时期可以做，但由我自己承担这个做法的污名。",
       "textTop": [
         "moral",
         "cause"
       ],
       "numericTop": [
-        "fatalism",
-        "moral"
+        "moral",
+        "fatalism"
       ],
       "overlap": 0.5,
       "warning": false
@@ -1924,13 +2398,13 @@
     {
       "questionId": 16,
       "optionIndex": 2,
-      "optionText": "不会，建立在谎言上的团结会毁掉长期信任与真相。",
+      "optionText": "不会，靠简化敌人换来的团结通常后患更大。",
       "textTop": [
         "cause",
         "freedom"
       ],
       "numericTop": [
-        "realism",
+        "moral",
         "freedom"
       ],
       "overlap": 0.5,
@@ -1939,7 +2413,7 @@
     {
       "questionId": 17,
       "optionIndex": 0,
-      "optionText": "会先出手打破僵局，但不想让场面继续失控。",
+      "optionText": "先做个明确动作打断混乱，再慢慢把节奏拉回来。",
       "textTop": [
         "freedom",
         "moral"
@@ -1984,17 +2458,17 @@
     {
       "questionId": 18,
       "optionIndex": 0,
-      "optionText": "会参考那个结局，但不想把自己完全交给它。",
+      "optionText": "会把这份预警当作可能发生的风险，先做好安排和后手，但不完全照单执行。",
       "textTop": [
-        "fatalism",
-        "cause"
+        "realism",
+        "freedom"
       ],
       "numericTop": [
         "fatalism",
         "cause"
       ],
-      "overlap": 1,
-      "warning": false
+      "overlap": 0,
+      "warning": true
     },
     {
       "questionId": 18,
@@ -2014,10 +2488,10 @@
     {
       "questionId": 18,
       "optionIndex": 2,
-      "optionText": "不会让未来决定现在，宁可保留当下的主动权。",
+      "optionText": "不希望被预警绑住，还是想保留当下的主动权。",
       "textTop": [
         "freedom",
-        "cause"
+        "moral"
       ],
       "numericTop": [
         "freedom",
@@ -2029,7 +2503,7 @@
     {
       "questionId": 19,
       "optionIndex": 0,
-      "optionText": "先扛着继续做完该做的事，再回头承担责任。",
+      "optionText": "先把眼前该补的洞补上，再回头承担责任。",
       "textTop": [
         "cause",
         "moral"
@@ -2044,7 +2518,7 @@
     {
       "questionId": 19,
       "optionIndex": 1,
-      "optionText": "尽快停下并承担，不让错误继续扩大。",
+      "optionText": "尽快停下并承认，不让错误继续扩散。",
       "textTop": [
         "freedom",
         "moral"
@@ -2074,16 +2548,16 @@
     {
       "questionId": 20,
       "optionIndex": 0,
-      "optionText": "让对手知道你有底线、有能力，也有不轻易退让的意志。",
+      "optionText": "不轻易退让的意志，以及守住选择权的能力。",
       "textTop": [
         "freedom",
         "moral"
       ],
       "numericTop": [
-        "moral",
-        "cause"
+        "freedom",
+        "moral"
       ],
-      "overlap": 0.5,
+      "overlap": 1,
       "warning": false
     },
     {
@@ -2118,6 +2592,12 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.186，但选项语义到结果偏差仅 2.768。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
+    "人格“守护型照料者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.307，选项语义到结果偏差 2.761；建议复查其高频命中的题目文案与分值。",
+    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.578，但选项语义到结果偏差仅 2.576。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
+    "人格“集体主义战略家”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.26，但选项语义到结果偏差仅 2.13。建议在结果页提示“你的选择比自我描述更接近 利威尔·阿克曼”。",
+    "人格“现实主义调停者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.513，但选项语义到结果偏差仅 2.456。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。",
+    "题目 10 的选项“负责评估局势、统筹资源，并把关键决策推进落地。”文本语义 Top 维度为 freedom / moral，与数值 Top 维度 realism / cause 重合偏低，建议人工复核。",
+    "题目 11 的选项“会先认下这层风险，拉开一点距离，避免它继续波及身边人。”文本语义 Top 维度为 realism / freedom，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。",
+    "题目 18 的选项“会把这份预警当作可能发生的风险，先做好安排和后手，但不完全照单执行。”文本语义 Top 维度为 realism / freedom，与数值 Top 维度 fatalism / cause 重合偏低，建议人工复核。"
   ]
 }
