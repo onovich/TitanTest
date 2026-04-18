@@ -12,6 +12,8 @@ function createPortrait(assetDir, recommended, candidates, selectedId = null, se
     selected: selectedCandidate
       ? {
           ...selectedCandidate,
+          sourceSrc: selectedCandidate.src,
+          src: `/portraits-selected/${assetDir}.png`,
           ...selectedOverrides,
         }
       : null,
