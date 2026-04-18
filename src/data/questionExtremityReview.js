@@ -26,8 +26,8 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 5,
     stemScore: 1.6,
-    optionScores: [1.8, 1.7, 1.8],
-    note: '价值观题，本身戏剧性较低。',
+    optionScores: [2.4, 2.3, 2.2],
+    note: '保留价值观题结构，但把三条驱动力写得更像真实会牵引人的执念。',
   },
   {
     id: 6,
@@ -38,8 +38,8 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 7,
     stemScore: 1.5,
-    optionScores: [1.9, 1.6, 1.7],
-    note: '善意隐瞒属于常见伦理题，较为中庸。',
+    optionScores: [2.1, 2.2, 2.4],
+    note: '维持常见伦理题框架，但让“设期限 / 说开 / 自己背锅”三种姿态更分明。',
   },
   {
     id: 8,
@@ -56,8 +56,8 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 10,
     stemScore: 1.7,
-    optionScores: [2.0, 1.8, 1.9],
-    note: '团队角色题，整体平稳。',
+    optionScores: [2.5, 2.3, 2.6],
+    note: '团队角色题适度回调戏剧性，强化拍板者、收残局者与唱反调者的区别。',
   },
   {
     id: 11,
@@ -80,8 +80,8 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 14,
     stemScore: 1.9,
-    optionScores: [2.0, 1.8, 2.1],
-    note: '把复仇循环压低成旧怨处理，更接近日常关系修复。',
+    optionScores: [2.5, 2.0, 2.3],
+    note: '仍是旧怨处理，但把“硬算账 / 强停手 / 留到谈判桌”三种处理方式写得更有张力。',
   },
   {
     id: 15,
@@ -98,8 +98,8 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 17,
     stemScore: 1.6,
-    optionScores: [1.9, 1.8, 1.7],
-    note: '现场失控题改成常见组织沟通场景。',
+    optionScores: [2.3, 2.0, 2.2],
+    note: '仍是常见混乱场景，但选项语气更鲜明：强行刹车、重建秩序、先护住核心。',
   },
   {
     id: 18,
@@ -110,13 +110,13 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 19,
     stemScore: 1.7,
-    optionScores: [1.9, 1.7, 1.8],
-    note: '错误处理题较稳定。',
+    optionScores: [2.2, 2.1, 2.0],
+    note: '错误处理题回调少量戏剧性，让“先扛住 / 先认错 / 先切断损失”更有辨识度。',
   },
   {
     id: 20,
     stemScore: 1.6,
-    optionScores: [1.8, 1.7, 1.8],
-    note: '长期改变题属于常规价值观题。',
+    optionScores: [2.4, 2.0, 2.3],
+    note: '长期改变题适度加入立场感，把守线、说服、硬撑三种信念重新拉开。',
   },
 ];

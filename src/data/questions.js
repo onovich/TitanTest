@@ -44,9 +44,9 @@ export const QUESTIONS = [
     weight: 0.8,
     text: '更能长期支撑你行动的，通常是什么？',
     options: [
-      { text: '能自己决定方向、保住选择权的感觉。', scores: { freedom: 8, cause: 4 } },
-      { text: '和重要的人、习惯或长期执念之间的牵引。', scores: { fatalism: 7, realism: 5, moral: 5 } },
-      { text: '对责任、群体和未来的持续回应。', scores: { cause: 8, moral: 6 } },
+      { text: '哪怕代价高一点，也想把方向和选择权握在自己手里。', scores: { freedom: 9, cause: 4, moral: 5 } },
+      { text: '嘴上可以说算了，但真正牵着我走的，往往还是那几个人和那点执念。', scores: { fatalism: 8, realism: 5, moral: 5 } },
+      { text: '只要还有人等我扛事，我就很难真正停下来。', scores: { cause: 9, moral: 6, fatalism: 6 } },
     ],
   },
   {
@@ -64,9 +64,9 @@ export const QUESTIONS = [
     weight: 0.8,
     text: '你怎么看待“善意的隐瞒”？',
     options: [
-      { text: '特定时候可以有，但不能慢慢变成习惯。', scores: { moral: 8, realism: 8, cause: 7 } },
-      { text: '我更偏向说清楚，因为长期信任比一时方便重要。', scores: { freedom: 7, moral: 3, realism: 5 } },
-      { text: '如果能保护具体的人，我能接受有限度的隐瞒。', scores: { fatalism: 7, moral: 6, freedom: 3 } },
+      { text: '只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。', scores: { moral: 8, realism: 8, cause: 7 } },
+      { text: '宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。', scores: { freedom: 8, moral: 3, realism: 5 } },
+      { text: '如果能替具体的人挡掉一波伤害，我愿意自己背这个隐瞒。', scores: { fatalism: 8, moral: 6, freedom: 3 } },
     ],
   },
   {
@@ -94,9 +94,9 @@ export const QUESTIONS = [
     weight: 0.8,
     text: '在团队里，大家通常会自然把什么事交给你？',
     options: [
-      { text: '负责评估局势、统筹资源，并把关键决策推进落地。', scores: { realism: 8, moral: 7, cause: 8 } },
-      { text: '把关键执行部分做扎实，并盯住每一步的代价。', scores: { fatalism: 7, cause: 7, freedom: 3, realism: 7 } },
-      { text: '提出异议，提醒大家还有哪些出口没被看到。', scores: { freedom: 8, moral: 4, cause: 2, realism: 5 } },
+      { text: '需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。', scores: { realism: 8, moral: 7, cause: 9 } },
+      { text: '真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。', scores: { fatalism: 7, cause: 7, freedom: 3, realism: 8 } },
+      { text: '当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。', scores: { freedom: 9, moral: 4, cause: 2, realism: 5 } },
     ],
   },
   {
@@ -104,7 +104,7 @@ export const QUESTIONS = [
     weight: 0.45,
     text: '如果你的某种身份或处境会让身边人跟着承担风险，你通常会？',
     options: [
-      { text: '会先认下这层风险，拉开一点距离，避免它继续波及身边人。', scores: { fatalism: 8, cause: 7, moral: 6 } },
+      { text: '知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。', scores: { fatalism: 8, cause: 7, moral: 6 } },
       { text: '会说明情况，再和相关的人一起定方案。', scores: { realism: 8, cause: 8, freedom: 5 } },
       { text: '不想被身份完全定义，但会更谨慎安排自己的选择。', scores: { freedom: 8, fatalism: 3, moral: 4 } },
     ],
@@ -134,9 +134,9 @@ export const QUESTIONS = [
     weight: 0.45,
     text: '如果追究一段旧怨能让你出气，但会让关系更糟，你会？',
     options: [
-      { text: '还是会想追究，但也知道这会把自己继续困在里面。', scores: { moral: 7, freedom: 7, fatalism: 6 } },
-      { text: '会停下来，不想把更多人拖进后续消耗。', scores: { realism: 8, cause: 7, moral: 3 } },
-      { text: '先把情绪压住，按步骤把冲突转成可执行的处理方案。', scores: { realism: 8, cause: 8, moral: 6 } },
+      { text: '我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。', scores: { moral: 8, freedom: 8, fatalism: 6 } },
+      { text: '会强迫自己把事停在这里，至少别让更多无关的人被卷进后续消耗。', scores: { realism: 8, cause: 7, moral: 3 } },
+      { text: '先把情绪封住，不急着翻旧账，而是留到更能谈条件、谈代价的时候再处理。', scores: { realism: 9, cause: 8, moral: 6 } },
     ],
   },
   {
@@ -164,9 +164,9 @@ export const QUESTIONS = [
     weight: 0.45,
     text: '当现场气氛越来越乱、大家都开始着急时，你通常会？',
     options: [
-      { text: '先做个明确动作打断混乱，再慢慢把节奏拉回来。', scores: { freedom: 7, cause: 5, realism: 4 } },
-      { text: '拉住所有人，按步骤把局面重新排好。', scores: { realism: 9, cause: 8, freedom: 4 } },
-      { text: '先稳住自己和重要的人，再判断局势能不能接住。', scores: { fatalism: 7, realism: 7, freedom: 2 } },
+      { text: '会先明确叫停，哪怕语气重一点，也要把混乱先刹住。', scores: { freedom: 8, cause: 5, realism: 4 } },
+      { text: '会把人一个个拉回步骤里，先重建秩序，再谈情绪。', scores: { realism: 9, cause: 8, freedom: 4 } },
+      { text: '会先守住自己和最重要的人，确认不会一起失控，再看要不要接场。', scores: { fatalism: 8, realism: 7, freedom: 2 } },
     ],
   },
   {
@@ -174,7 +174,7 @@ export const QUESTIONS = [
     weight: 0.45,
     text: '如果你提前收到一些不完整、但可能准确的预警信息，你会？',
     options: [
-      { text: '会把这份预警当作可能发生的风险，先做好安排和后手，但不完全照单执行。', scores: { fatalism: 8, cause: 7, moral: 6 } },
+      { text: '会先按最坏情况把后手和空位预留出来，但不会完全照着这份预警行动。', scores: { fatalism: 8, cause: 7, moral: 6 } },
       { text: '把它当作情报，尽可能改写最坏结果。', scores: { realism: 9, freedom: 7, cause: 7 } },
       { text: '不希望被预警绑住，还是想保留当下的主动权。', scores: { freedom: 8, fatalism: 3, realism: 4 } },
     ],
@@ -184,9 +184,9 @@ export const QUESTIONS = [
     weight: 0.45,
     text: '当你发现自己做错了一件影响不小的事，你通常会？',
     options: [
-      { text: '先把眼前该补的洞补上，再回头承担责任。', scores: { moral: 8, cause: 8, fatalism: 7 } },
-      { text: '尽快停下并承认，不让错误继续扩散。', scores: { moral: 3, freedom: 6, cause: 4 } },
-      { text: '冷静复盘，优先把后续损失降到最低。', scores: { realism: 9, moral: 7, cause: 7 } },
+      { text: '先把最危险的连锁反应压住，哪怕那一刻得由我先把后果顶下来。', scores: { moral: 8, cause: 8, fatalism: 8 } },
+      { text: '会立刻叫停并认错，宁可难堪，也不想让错继续滚大。', scores: { moral: 3, freedom: 7, cause: 4 } },
+      { text: '先拆开责任链，冷静复盘，把后续能断的损失先断掉。', scores: { realism: 9, moral: 7, cause: 8 } },
     ],
   },
   {
@@ -194,9 +194,9 @@ export const QUESTIONS = [
     weight: 0.45,
     text: '你更相信什么最能推动长期改变？',
     options: [
-      { text: '不轻易退让的意志，以及守住选择权的能力。', scores: { moral: 7, cause: 6, freedom: 8 } },
-      { text: '让人愿意同行的理解、沟通与说服。', scores: { moral: 2, cause: 8, realism: 6 } },
-      { text: '在绝境里仍然能活下来的韧性。', scores: { fatalism: 7, realism: 7, freedom: 3 } },
+      { text: '有人死死守住不退，让别人知道这条线不会被轻易改写。', scores: { moral: 7, cause: 6, freedom: 9 } },
+      { text: '让更多人真正被说服、愿意一起走，而不是只被一时推着走。', scores: { moral: 2, cause: 9, realism: 6 } },
+      { text: '不是每次都赢，而是很多次快撑不住时，还是有人能继续活下来。', scores: { fatalism: 8, realism: 7, freedom: 3 } },
     ],
   },
 ];
