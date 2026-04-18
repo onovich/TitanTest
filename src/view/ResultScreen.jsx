@@ -50,11 +50,11 @@ export default function ResultScreen({ match, onRestart, userScores, resultInsig
     const isWeChatBrowser = isWeChatLikeBrowser();
 
     if (isWeChatBrowser) {
-      const copied = await copyShareText(sharePayload);
+      const copied = await copyShareText(shareUrl);
       setShareStatus(
         copied
-          ? '微信内无法直接调用系统分享，请点右上角“···”后选择“发送给朋友”或“分享到朋友圈”，结果链接已复制。'
-          : '微信内无法直接调用系统分享，请点右上角“···”后选择“发送给朋友”或“分享到朋友圈”。'
+          ? '分享页链接已复制，请点右上角“···”后发送给朋友或分享到朋友圈。'
+          : '微信内无法直接唤起分享，建议手动复制当前页面链接后从右上角“···”分享。'
       );
       return;
     }

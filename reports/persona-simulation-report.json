@@ -1,23 +1,23 @@
 {
-  "generatedAt": "2026-04-18T12:28:33.527Z",
+  "generatedAt": "2026-04-18T12:48:23.528Z",
   "strictMode": false,
   "issues": [],
   "summary": {
     "personaCount": 6,
-    "avgExpectationGap": 1.925,
+    "avgExpectationGap": 1.878,
     "calibrationNeededCount": 0,
     "topProblemDimensions": [
       {
         "dimension": "fatalism",
-        "error": 1.208
+        "error": 0.984
       },
       {
         "dimension": "cause",
-        "error": 0.945
+        "error": 0.797
       },
       {
-        "dimension": "freedom",
-        "error": 0.625
+        "dimension": "realism",
+        "error": 0.771
       }
     ]
   },
@@ -32,15 +32,15 @@
         "cause": 4
       },
       "finalScores": {
-        "freedom": 7.721909256400402,
-        "moral": 3.481144713731246,
-        "realism": 5.272656809123108,
-        "fatalism": 2.7117210546875,
-        "cause": 5.3598817880142064
+        "freedom": 7.4790933420573396,
+        "moral": 3.439987260019338,
+        "realism": 4.26180791029461,
+        "fatalism": 2.576438003440625,
+        "cause": 4.862150084822203
       },
       "matchName": "让·基尔希斯坦",
-      "matchDistance": 3.667,
-      "expectationGap": 2.082,
+      "matchDistance": 4.607,
+      "expectationGap": 2.061,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     },
@@ -54,15 +54,15 @@
         "cause": 9
       },
       "finalScores": {
-        "freedom": 6.1194916796875,
-        "moral": 6.438581648456475,
-        "realism": 8.941181091549801,
-        "fatalism": 6.5225,
-        "cause": 7.8110557061848
+        "freedom": 5.91320257882246,
+        "moral": 6.397248749144152,
+        "realism": 7.86872864244724,
+        "fatalism": 5.7200746,
+        "cause": 7.2909429004443185
       },
-      "matchName": "利威尔·阿克曼",
-      "matchDistance": 1.895,
-      "expectationGap": 2.725,
+      "matchName": "阿明·阿诺德",
+      "matchDistance": 2.19,
+      "expectationGap": 2.85,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -76,15 +76,15 @@
         "cause": 5
       },
       "finalScores": {
-        "freedom": 3.7350981997020263,
-        "moral": 4.190050622109306,
-        "realism": 7.134677126633049,
-        "fatalism": 7.994318865436075,
-        "cause": 6.2362522899971555
+        "freedom": 3.504307948731756,
+        "moral": 4.149505670789384,
+        "realism": 6.081086816878009,
+        "fatalism": 7.820986638292339,
+        "cause": 5.76257989054027
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 3.136,
-      "expectationGap": 1.625,
+      "matchDistance": 2.32,
+      "expectationGap": 1.539,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -98,15 +98,15 @@
         "cause": 7
       },
       "finalScores": {
-        "freedom": 6.458015412109375,
-        "moral": 5.9683041268061885,
-        "realism": 9.006085489188433,
-        "fatalism": 5.987,
-        "cause": 7.611548778089946
+        "freedom": 6.238562496547099,
+        "moral": 5.926971227493866,
+        "realism": 7.927345695841678,
+        "fatalism": 5.871461045,
+        "cause": 7.107983437985009
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.052,
-      "expectationGap": 2.129,
+      "matchDistance": 2.22,
+      "expectationGap": 2.174,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -120,16 +120,16 @@
         "cause": 6
       },
       "finalScores": {
-        "freedom": 2.77770619921875,
-        "moral": 6.084019593248468,
-        "realism": 7.3704664664291855,
-        "fatalism": 7.760053700266495,
-        "cause": 7.077869424801769
+        "freedom": 2.5634390288402344,
+        "moral": 6.043474641928545,
+        "realism": 6.362446865087188,
+        "fatalism": 7.542652168836273,
+        "cause": 6.626356496668168
       },
-      "matchName": "莱纳·布朗",
-      "matchDistance": 2.666,
-      "expectationGap": 1.701,
-      "dimensionalGap": 0,
+      "matchName": "利威尔·阿克曼",
+      "matchDistance": 2.554,
+      "expectationGap": 1.765,
+      "dimensionalGap": 0.5,
       "needsCalibration": false
     },
     {
@@ -142,35 +142,35 @@
         "cause": 8
       },
       "finalScores": {
-        "freedom": 5.4065774042968755,
-        "moral": 7.126282985256291,
-        "realism": 8.901326732475464,
-        "fatalism": 7.795386398157227,
-        "cause": 7.802447392923161
+        "freedom": 5.187124488734598,
+        "moral": 7.08517276689834,
+        "realism": 7.873526846133894,
+        "fatalism": 7.45623360109742,
+        "cause": 7.285033480448733
       },
-      "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.317,
-      "expectationGap": 1.29,
-      "dimensionalGap": 0,
+      "matchName": "莱纳·布朗",
+      "matchDistance": 1.953,
+      "expectationGap": 0.882,
+      "dimensionalGap": 0.5,
       "needsCalibration": false
     }
   ],
   "semanticSummary": {
     "personaCount": 6,
     "reflectionCount": 0,
-    "selfPerceptionDriftCount": 3,
-    "avgLanguageToResultGap": 4.526,
-    "avgOptionToResultGap": 2.37,
+    "selfPerceptionDriftCount": 1,
+    "avgLanguageToResultGap": 4.05,
+    "avgOptionToResultGap": 2.206,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
     {
       "persona": "理想主义反叛者",
       "matchedCharacter": "让·基尔希斯坦",
-      "scoreDistance": 3.115,
-      "expectationGap": 4.456,
+      "scoreDistance": 3.526,
+      "expectationGap": 3.767,
       "languageToResultGap": 5.143,
-      "optionToResultGap": 2.106,
+      "optionToResultGap": 2.051,
       "semanticTopOverlap": 0,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -214,9 +214,9 @@
         {
           "questionId": 6,
           "optionIndex": 1,
-          "optionText": "静静地喝一杯茶，接受这种必然性。",
-          "semanticMatch": 0.188,
-          "noisyScore": 0.188
+          "optionText": "冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。",
+          "semanticMatch": 0.197,
+          "noisyScore": 0.197
         },
         {
           "questionId": 7,
@@ -334,20 +334,20 @@
       "averageOptionProfile": {
         "freedom": 6.340000000000001,
         "moral": 4.712,
-        "realism": 5.889999999999999,
-        "fatalism": 5.3679999999999986,
+        "realism": 5.786,
+        "fatalism": 5.223999999999998,
         "cause": 5.778
       }
     },
     {
       "persona": "集体主义战略家",
-      "matchedCharacter": "利威尔·阿克曼",
-      "scoreDistance": 2.452,
-      "expectationGap": 2.682,
-      "languageToResultGap": 5.204,
-      "optionToResultGap": 2.337,
-      "semanticTopOverlap": 0.5,
-      "selfPerceptionDrift": true,
+      "matchedCharacter": "阿明·阿诺德",
+      "scoreDistance": 2.9,
+      "expectationGap": 2.938,
+      "languageToResultGap": 4.059,
+      "optionToResultGap": 1.66,
+      "semanticTopOverlap": 1,
+      "selfPerceptionDrift": false,
       "calibrationConcern": false,
       "needsReflection": false,
       "chosenOptions": [
@@ -389,7 +389,7 @@
         {
           "questionId": 6,
           "optionIndex": 1,
-          "optionText": "静静地喝一杯茶，接受这种必然性。",
+          "optionText": "冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。",
           "semanticMatch": 0.124,
           "noisyScore": 0.124
         },
@@ -500,28 +500,28 @@
         "cause": 10
       },
       "resultProfile": {
-        "freedom": 6.248,
-        "moral": 5.936000000000001,
-        "realism": 6.4,
-        "fatalism": 7.156000000000001,
-        "cause": 7.506
+        "freedom": 5.699999999999999,
+        "moral": 6.91,
+        "realism": 7.506,
+        "fatalism": 5.416,
+        "cause": 6.92
       },
       "averageOptionProfile": {
         "freedom": 5.104,
         "moral": 5.712,
-        "realism": 6.764,
-        "fatalism": 5.479999999999999,
+        "realism": 6.659999999999999,
+        "fatalism": 5.335999999999999,
         "cause": 6.428
       }
     },
     {
       "persona": "守护型照料者",
       "matchedCharacter": "莱纳·布朗",
-      "scoreDistance": 2.821,
-      "expectationGap": 4.78,
-      "languageToResultGap": 2.517,
-      "optionToResultGap": 2.465,
-      "semanticTopOverlap": 0.5,
+      "scoreDistance": 2.703,
+      "expectationGap": 4.464,
+      "languageToResultGap": 2.691,
+      "optionToResultGap": 2.806,
+      "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
       "needsReflection": false,
@@ -677,9 +677,9 @@
       "resultProfile": {
         "freedom": 4.35,
         "moral": 6.95,
-        "realism": 5.65,
+        "realism": 6.3,
         "fatalism": 6.95,
-        "cause": 6.635999999999999
+        "cause": 7.286
       },
       "averageOptionProfile": {
         "freedom": 4.896,
@@ -691,13 +691,13 @@
     },
     {
       "persona": "现实主义调停者",
-      "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.291,
-      "expectationGap": 1.761,
-      "languageToResultGap": 5.631,
-      "optionToResultGap": 2.793,
+      "matchedCharacter": "让·基尔希斯坦",
+      "scoreDistance": 2.358,
+      "expectationGap": 2.206,
+      "languageToResultGap": 3.87,
+      "optionToResultGap": 1.696,
       "semanticTopOverlap": 0.5,
-      "selfPerceptionDrift": true,
+      "selfPerceptionDrift": false,
       "calibrationConcern": false,
       "needsReflection": false,
       "chosenOptions": [
@@ -850,11 +850,11 @@
         "cause": 5.8
       },
       "resultProfile": {
-        "freedom": 5.699999999999999,
-        "moral": 6.91,
-        "realism": 7.506,
-        "fatalism": 5.416,
-        "cause": 6.92
+        "freedom": 5.986000000000001,
+        "moral": 4.35,
+        "realism": 6.95,
+        "fatalism": 3.7,
+        "cause": 6.3
       },
       "averageOptionProfile": {
         "freedom": 5.722,
@@ -867,11 +867,11 @@
     {
       "persona": "宿命型幸存者",
       "matchedCharacter": "莱纳·布朗",
-      "scoreDistance": 2.619,
-      "expectationGap": 3.528,
-      "languageToResultGap": 4.864,
-      "optionToResultGap": 1.621,
-      "semanticTopOverlap": 0.5,
+      "scoreDistance": 1.794,
+      "expectationGap": 3.124,
+      "languageToResultGap": 4.742,
+      "optionToResultGap": 2.085,
+      "semanticTopOverlap": 0,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
       "needsReflection": false,
@@ -914,9 +914,9 @@
         {
           "questionId": 6,
           "optionIndex": 1,
-          "optionText": "静静地喝一杯茶，接受这种必然性。",
-          "semanticMatch": 0.339,
-          "noisyScore": 0.339
+          "optionText": "冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。",
+          "semanticMatch": 0.231,
+          "noisyScore": 0.231
         },
         {
           "questionId": 7,
@@ -1027,25 +1027,25 @@
       "resultProfile": {
         "freedom": 4.35,
         "moral": 6.95,
-        "realism": 5.65,
+        "realism": 6.3,
         "fatalism": 6.95,
-        "cause": 6.635999999999999
+        "cause": 7.286
       },
       "averageOptionProfile": {
         "freedom": 4.648,
         "moral": 5.831999999999999,
-        "realism": 5.946,
-        "fatalism": 6.106,
+        "realism": 5.842,
+        "fatalism": 5.961999999999999,
         "cause": 5.935999999999999
       }
     },
     {
       "persona": "矛盾型士兵",
       "matchedCharacter": "吉克·耶格尔",
-      "scoreDistance": 2.403,
-      "expectationGap": 1.856,
+      "scoreDistance": 2.68,
+      "expectationGap": 1.576,
       "languageToResultGap": 3.794,
-      "optionToResultGap": 2.896,
+      "optionToResultGap": 2.938,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -1089,9 +1089,9 @@
         {
           "questionId": 6,
           "optionIndex": 1,
-          "optionText": "静静地喝一杯茶，接受这种必然性。",
-          "semanticMatch": 0.146,
-          "noisyScore": 0.146
+          "optionText": "冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。",
+          "semanticMatch": 0.145,
+          "noisyScore": 0.145
         },
         {
           "questionId": 7,
@@ -1209,8 +1209,8 @@
       "averageOptionProfile": {
         "freedom": 5.104,
         "moral": 5.711999999999999,
-        "realism": 6.756,
-        "fatalism": 5.511999999999999,
+        "realism": 6.651999999999999,
+        "fatalism": 5.367999999999999,
         "cause": 6.459999999999999
       }
     }
@@ -1459,16 +1459,16 @@
     {
       "questionId": 6,
       "optionIndex": 1,
-      "optionText": "静静地喝一杯茶，接受这种必然性。",
+      "optionText": "冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。",
       "textTop": [
         "fatalism",
-        "realism"
+        "freedom"
       ],
       "numericTop": [
-        "fatalism",
-        "realism"
+        "realism",
+        "fatalism"
       ],
-      "overlap": 1,
+      "overlap": 0.5,
       "warning": false
     },
     {
@@ -2103,8 +2103,6 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.143，但选项语义到结果偏差仅 2.106。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。",
-    "人格“集体主义战略家”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.204，但选项语义到结果偏差仅 2.337。建议在结果页提示“你的选择比自我描述更接近 利威尔·阿克曼”。",
-    "人格“现实主义调停者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.631，但选项语义到结果偏差仅 2.793。建议在结果页提示“你的选择比自我描述更接近 阿明·阿诺德”。"
+    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.143，但选项语义到结果偏差仅 2.051。建议在结果页提示“你的选择比自我描述更接近 让·基尔希斯坦”。"
   ]
 }

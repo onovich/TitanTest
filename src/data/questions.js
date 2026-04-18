@@ -49,7 +49,7 @@ export const QUESTIONS = [
     text: '如果世界末日不可避免，你会如何度过最后时刻？',
     options: [
       { text: '发动最后的一搏，试图逆转结果。', scores: { freedom: 8, realism: 5 } },
-      { text: '静静地喝一杯茶，接受这种必然性。', scores: { fatalism: 10, realism: 8 } },
+      { text: '冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。', scores: { fatalism: 8, realism: 9, cause: 7 } },
       { text: '保护好最重要的人，能多活一秒是一秒。', scores: { cause: 1, moral: 4 } },
     ],
   },

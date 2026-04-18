@@ -1,0 +1,254 @@
+{
+  "generatedAt": "2026-04-18T12:48:07.723Z",
+  "sampleSize": 8000,
+  "seed": 20260418,
+  "topCharacter": {
+    "name": "利威尔·阿克曼",
+    "count": 3345,
+    "share": 41.81
+  },
+  "averageConfidenceGap": 0.581,
+  "distributionEntropy": 2.462,
+  "maxEntropy": 4.322,
+  "distribution": [
+    {
+      "name": "利威尔·阿克曼",
+      "count": 3345,
+      "share": 41.81
+    },
+    {
+      "name": "贾碧·布朗",
+      "count": 1347,
+      "share": 16.84
+    },
+    {
+      "name": "柯尼·斯普林格",
+      "count": 852,
+      "share": 10.65
+    },
+    {
+      "name": "让·基尔希斯坦",
+      "count": 839,
+      "share": 10.49
+    },
+    {
+      "name": "阿明·阿诺德",
+      "count": 744,
+      "share": 9.3
+    },
+    {
+      "name": "莱纳·布朗",
+      "count": 535,
+      "share": 6.69
+    },
+    {
+      "name": "格里沙·耶格尔",
+      "count": 260,
+      "share": 3.25
+    },
+    {
+      "name": "吉克·耶格尔",
+      "count": 51,
+      "share": 0.64
+    },
+    {
+      "name": "萨莎·布劳斯",
+      "count": 22,
+      "share": 0.27
+    },
+    {
+      "name": "三笠·阿克曼",
+      "count": 2,
+      "share": 0.03
+    },
+    {
+      "name": "弗洛克·福斯特",
+      "count": 2,
+      "share": 0.03
+    },
+    {
+      "name": "清美·亚兹玛比特",
+      "count": 1,
+      "share": 0.01
+    },
+    {
+      "name": "艾伦·耶格尔",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "艾尔文·史密斯",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "阿尼·利昂纳德",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "贝特霍尔德·胡佛",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "艾伦·克鲁格",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "肯尼·阿克曼",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "威利·戴巴",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "尤弥尔·弗里茨",
+      "count": 0,
+      "share": 0
+    }
+  ],
+  "centrality": [
+    {
+      "name": "莱纳·布朗",
+      "averageDistanceToOthers": 6.122,
+      "distanceToNeutral": 5.657
+    },
+    {
+      "name": "利威尔·阿克曼",
+      "averageDistanceToOthers": 6.182,
+      "distanceToNeutral": 3.873
+    },
+    {
+      "name": "吉克·耶格尔",
+      "averageDistanceToOthers": 6.404,
+      "distanceToNeutral": 7.141
+    },
+    {
+      "name": "柯尼·斯普林格",
+      "averageDistanceToOthers": 6.453,
+      "distanceToNeutral": 2
+    },
+    {
+      "name": "阿明·阿诺德",
+      "averageDistanceToOthers": 6.455,
+      "distanceToNeutral": 5.477
+    },
+    {
+      "name": "贾碧·布朗",
+      "averageDistanceToOthers": 6.514,
+      "distanceToNeutral": 5
+    },
+    {
+      "name": "格里沙·耶格尔",
+      "averageDistanceToOthers": 6.852,
+      "distanceToNeutral": 5
+    },
+    {
+      "name": "弗洛克·福斯特",
+      "averageDistanceToOthers": 6.926,
+      "distanceToNeutral": 6.856
+    },
+    {
+      "name": "威利·戴巴",
+      "averageDistanceToOthers": 6.945,
+      "distanceToNeutral": 7.874
+    },
+    {
+      "name": "清美·亚兹玛比特",
+      "averageDistanceToOthers": 6.953,
+      "distanceToNeutral": 5.292
+    },
+    {
+      "name": "艾尔文·史密斯",
+      "averageDistanceToOthers": 7.099,
+      "distanceToNeutral": 7.616
+    },
+    {
+      "name": "让·基尔希斯坦",
+      "averageDistanceToOthers": 7.215,
+      "distanceToNeutral": 4.359
+    },
+    {
+      "name": "萨莎·布劳斯",
+      "averageDistanceToOthers": 7.252,
+      "distanceToNeutral": 2.449
+    },
+    {
+      "name": "艾伦·克鲁格",
+      "averageDistanceToOthers": 7.468,
+      "distanceToNeutral": 8.66
+    },
+    {
+      "name": "贝特霍尔德·胡佛",
+      "averageDistanceToOthers": 7.737,
+      "distanceToNeutral": 7.746
+    },
+    {
+      "name": "阿尼·利昂纳德",
+      "averageDistanceToOthers": 8.371,
+      "distanceToNeutral": 8.185
+    },
+    {
+      "name": "三笠·阿克曼",
+      "averageDistanceToOthers": 8.396,
+      "distanceToNeutral": 3.873
+    },
+    {
+      "name": "艾伦·耶格尔",
+      "averageDistanceToOthers": 8.633,
+      "distanceToNeutral": 8.246
+    },
+    {
+      "name": "肯尼·阿克曼",
+      "averageDistanceToOthers": 8.725,
+      "distanceToNeutral": 7.81
+    },
+    {
+      "name": "尤弥尔·弗里茨",
+      "averageDistanceToOthers": 10.986,
+      "distanceToNeutral": 9.539
+    }
+  ],
+  "dimensionSpread": [
+    {
+      "dimension": "freedom",
+      "average": 5.65,
+      "deviation": 2.555,
+      "min": 1,
+      "max": 10
+    },
+    {
+      "dimension": "moral",
+      "average": 7.55,
+      "deviation": 2.012,
+      "min": 4,
+      "max": 10
+    },
+    {
+      "dimension": "realism",
+      "average": 7,
+      "deviation": 2.258,
+      "min": 2,
+      "max": 10
+    },
+    {
+      "dimension": "fatalism",
+      "average": 6.35,
+      "deviation": 2.151,
+      "min": 3,
+      "max": 10
+    },
+    {
+      "dimension": "cause",
+      "average": 5.8,
+      "deviation": 2.874,
+      "min": 1,
+      "max": 10
+    }
+  ]
+}

@@ -1,11 +1,11 @@
 {
-  "generatedAt": "2026-04-18T12:28:41.589Z",
-  "iterations": 30,
-  "threshold": 80,
-  "averageSatisfaction": 90.13,
-  "minSatisfaction": 76.45,
-  "maxSatisfaction": 95.54,
-  "satisfiedIterations": 28,
+  "generatedAt": "2026-04-18T12:48:31.992Z",
+  "iterations": 3,
+  "threshold": 88,
+  "averageSatisfaction": 95.63,
+  "minSatisfaction": 95.63,
+  "maxSatisfaction": 95.63,
+  "satisfiedIterations": 3,
   "finalVerdict": "satisfied",
   "questionHotspots": [
     {
@@ -15,26 +15,26 @@
         {
           "optionIndex": 0,
           "optionText": "不惜一切代价冲破它，哪怕这会引发灾难。",
-          "totalSelections": 30,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 4,
-          "selfPerceptionSelections": 26
+          "totalSelections": 3,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         },
         {
           "optionIndex": 1,
           "optionText": "在墙内寻找最舒适、最安全的生存方式。",
-          "totalSelections": 79,
-          "subThresholdSelections": 6,
-          "reflectionSelections": 8,
-          "selfPerceptionSelections": 7
+          "totalSelections": 8,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 2,
           "optionText": "研究墙壁的构造，寻找理性突围的长期方案。",
-          "totalSelections": 71,
-          "subThresholdSelections": 4,
-          "reflectionSelections": 3,
-          "selfPerceptionSelections": 29
+          "totalSelections": 7,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         }
       ]
     },
@@ -45,26 +45,26 @@
         {
           "optionIndex": 0,
           "optionText": "毫不犹豫地执行，为了生存必须舍弃人性。",
-          "totalSelections": 75,
-          "subThresholdSelections": 6,
-          "reflectionSelections": 4,
-          "selfPerceptionSelections": 12
+          "totalSelections": 7,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "绝对无法接受，杀戮永远不能换取正义。",
-          "totalSelections": 76,
-          "subThresholdSelections": 4,
-          "reflectionSelections": 9,
-          "selfPerceptionSelections": 47
+          "totalSelections": 9,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         },
         {
           "optionIndex": 2,
           "optionText": "痛苦地接受，并决定由自己来背负这份罪孽。",
-          "totalSelections": 29,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 2,
-          "selfPerceptionSelections": 3
+          "totalSelections": 2,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         }
       ]
     },
@@ -75,7 +75,7 @@
         {
           "optionIndex": 0,
           "optionText": "命运是既定的，我们只是在扮演剧本里的角色。",
-          "totalSelections": 8,
+          "totalSelections": 3,
           "subThresholdSelections": 0,
           "reflectionSelections": 0,
           "selfPerceptionSelections": 0
@@ -83,18 +83,18 @@
         {
           "optionIndex": 1,
           "optionText": "命运是可以被意志扭转的，只要你有足够的执念。",
-          "totalSelections": 35,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 10,
-          "selfPerceptionSelections": 3
+          "totalSelections": 3,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 1
         },
         {
           "optionIndex": 2,
           "optionText": "命运是概率的集合，我们要利用规则最大化胜算。",
-          "totalSelections": 137,
-          "subThresholdSelections": 10,
-          "reflectionSelections": 5,
-          "selfPerceptionSelections": 59
+          "totalSelections": 12,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 2
         }
       ]
     },
@@ -105,26 +105,26 @@
         {
           "optionIndex": 0,
           "optionText": "为了大义，即便流泪也要痛下杀手。",
-          "totalSelections": 116,
-          "subThresholdSelections": 8,
-          "reflectionSelections": 8,
-          "selfPerceptionSelections": 15
+          "totalSelections": 12,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "尝试沟通，寻找第三条共存的道路。",
-          "totalSelections": 56,
-          "subThresholdSelections": 3,
-          "reflectionSelections": 7,
-          "selfPerceptionSelections": 42
+          "totalSelections": 5,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 2
         },
         {
           "optionIndex": 2,
           "optionText": "放弃立场，只想保护身边的这几个人。",
-          "totalSelections": 8,
-          "subThresholdSelections": 1,
+          "totalSelections": 1,
+          "subThresholdSelections": 0,
           "reflectionSelections": 0,
-          "selfPerceptionSelections": 5
+          "selfPerceptionSelections": 1
         }
       ]
     },
@@ -135,26 +135,26 @@
         {
           "optionIndex": 0,
           "optionText": "对自由的渴望，没有任何东西能束缚我。",
-          "totalSelections": 50,
-          "subThresholdSelections": 4,
-          "reflectionSelections": 6,
-          "selfPerceptionSelections": 41
+          "totalSelections": 6,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         },
         {
           "optionIndex": 1,
           "optionText": "对某些东西的「沉溺」，比如梦想、仇恨或爱。",
-          "totalSelections": 30,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 1,
-          "selfPerceptionSelections": 4
+          "totalSelections": 3,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 2,
           "optionText": "对社会或民族应尽的责任与使命。",
-          "totalSelections": 100,
-          "subThresholdSelections": 6,
-          "reflectionSelections": 8,
-          "selfPerceptionSelections": 17
+          "totalSelections": 9,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         }
       ]
     },
@@ -165,26 +165,26 @@
         {
           "optionIndex": 0,
           "optionText": "发动最后的一搏，试图逆转结果。",
-          "totalSelections": 24,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 1,
-          "selfPerceptionSelections": 6
+          "totalSelections": 4,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
-          "optionText": "静静地喝一杯茶，接受这种必然性。",
-          "totalSelections": 85,
-          "subThresholdSelections": 6,
-          "reflectionSelections": 4,
-          "selfPerceptionSelections": 41
+          "optionText": "冷静接受大势已定，但会把最后的秩序、撤离和告别安排好。",
+          "totalSelections": 8,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         },
         {
           "optionIndex": 2,
           "optionText": "保护好最重要的人，能多活一秒是一秒。",
-          "totalSelections": 71,
-          "subThresholdSelections": 4,
-          "reflectionSelections": 10,
-          "selfPerceptionSelections": 15
+          "totalSelections": 6,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         }
       ]
     },
@@ -195,23 +195,23 @@
         {
           "optionIndex": 0,
           "optionText": "谎言是必要的统治手段，为了大局可以欺骗大众。",
-          "totalSelections": 87,
-          "subThresholdSelections": 6,
-          "reflectionSelections": 1,
-          "selfPerceptionSelections": 16
+          "totalSelections": 9,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "谎言是软弱的表现，我追求绝对的真实。",
-          "totalSelections": 89,
-          "subThresholdSelections": 6,
-          "reflectionSelections": 14,
-          "selfPerceptionSelections": 46
+          "totalSelections": 9,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         },
         {
           "optionIndex": 2,
           "optionText": "只要能保护我爱的人，谎言也无所谓。",
-          "totalSelections": 4,
+          "totalSelections": 0,
           "subThresholdSelections": 0,
           "reflectionSelections": 0,
           "selfPerceptionSelections": 0
@@ -225,18 +225,18 @@
         {
           "optionIndex": 0,
           "optionText": "是的，真相高于一切生存意义。",
-          "totalSelections": 137,
-          "subThresholdSelections": 7,
-          "reflectionSelections": 5,
-          "selfPerceptionSelections": 61
+          "totalSelections": 14,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         },
         {
           "optionIndex": 1,
           "optionText": "不，有些时候无知才是一种幸福。",
-          "totalSelections": 43,
-          "subThresholdSelections": 5,
-          "reflectionSelections": 10,
-          "selfPerceptionSelections": 1
+          "totalSelections": 4,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         }
       ]
     },
@@ -247,15 +247,15 @@
         {
           "optionIndex": 0,
           "optionText": "用它来铲除一切敌人，换取绝对的安全。",
-          "totalSelections": 53,
-          "subThresholdSelections": 4,
-          "reflectionSelections": 8,
-          "selfPerceptionSelections": 5
+          "totalSelections": 4,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "封印它，认为人类不配拥有这种力量。",
-          "totalSelections": 7,
+          "totalSelections": 2,
           "subThresholdSelections": 0,
           "reflectionSelections": 0,
           "selfPerceptionSelections": 0
@@ -263,10 +263,10 @@
         {
           "optionIndex": 2,
           "optionText": "作为威慑筹码，通过外交进行博弈。",
-          "totalSelections": 120,
-          "subThresholdSelections": 8,
-          "reflectionSelections": 7,
-          "selfPerceptionSelections": 57
+          "totalSelections": 12,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         }
       ]
     },
@@ -277,26 +277,26 @@
         {
           "optionIndex": 0,
           "optionText": "制定计划并下达残酷命令的领导者。",
-          "totalSelections": 82,
-          "subThresholdSelections": 6,
-          "reflectionSelections": 8,
-          "selfPerceptionSelections": 22
+          "totalSelections": 8,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "忠诚地执行命令，哪怕内心煎熬。",
-          "totalSelections": 49,
-          "subThresholdSelections": 2,
+          "totalSelections": 6,
+          "subThresholdSelections": 0,
           "reflectionSelections": 0,
-          "selfPerceptionSelections": 5
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 2,
           "optionText": "总是在质疑规则，试图寻找个人出口的刺头。",
-          "totalSelections": 49,
-          "subThresholdSelections": 4,
-          "reflectionSelections": 7,
-          "selfPerceptionSelections": 35
+          "totalSelections": 4,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         }
       ]
     },
@@ -307,18 +307,18 @@
         {
           "optionIndex": 0,
           "optionText": "切断关系，独自承担后果，不把灾难带给同伴。",
-          "totalSelections": 60,
-          "subThresholdSelections": 4,
-          "reflectionSelections": 8,
-          "selfPerceptionSelections": 5
+          "totalSelections": 6,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "坦白真相，和同伴一起制定长期方案。",
-          "totalSelections": 120,
-          "subThresholdSelections": 8,
-          "reflectionSelections": 7,
-          "selfPerceptionSelections": 57
+          "totalSelections": 12,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         },
         {
           "optionIndex": 2,
@@ -337,26 +337,26 @@
         {
           "optionIndex": 0,
           "optionText": "先救下来，孩子不该继承上一代的仇恨。",
-          "totalSelections": 13,
+          "totalSelections": 0,
           "subThresholdSelections": 0,
           "reflectionSelections": 0,
-          "selfPerceptionSelections": 11
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "会救，但会评估风险并留下后手。",
-          "totalSelections": 53,
-          "subThresholdSelections": 5,
-          "reflectionSelections": 6,
-          "selfPerceptionSelections": 35
+          "totalSelections": 5,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 2
         },
         {
           "optionIndex": 2,
           "optionText": "忍痛放弃，不能让群体承担额外风险。",
-          "totalSelections": 114,
-          "subThresholdSelections": 7,
-          "reflectionSelections": 9,
-          "selfPerceptionSelections": 16
+          "totalSelections": 13,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 1
         }
       ]
     },
@@ -367,26 +367,26 @@
         {
           "optionIndex": 0,
           "optionText": "接受，为了稳定民心和整体秩序，必须暂时封锁消息。",
-          "totalSelections": 119,
-          "subThresholdSelections": 8,
-          "reflectionSelections": 8,
-          "selfPerceptionSelections": 15
+          "totalSelections": 12,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "部分公开，保留关键筹码，避免全面失控。",
-          "totalSelections": 31,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 3,
-          "selfPerceptionSelections": 21
+          "totalSelections": 3,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 2,
           "optionText": "拒绝，民众有知道真相与自己选择的自由。",
-          "totalSelections": 30,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 4,
-          "selfPerceptionSelections": 26
+          "totalSelections": 3,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         }
       ]
     },
@@ -405,18 +405,18 @@
         {
           "optionIndex": 1,
           "optionText": "理性停下报复，避免更多无辜者继续被拖进循环。",
-          "totalSelections": 38,
-          "subThresholdSelections": 2,
+          "totalSelections": 3,
+          "subThresholdSelections": 0,
           "reflectionSelections": 0,
-          "selfPerceptionSelections": 21
+          "selfPerceptionSelections": 2
         },
         {
           "optionIndex": 2,
           "optionText": "把愤怒压下来，当成外交筹码，逼对方坐上谈判桌。",
-          "totalSelections": 142,
-          "subThresholdSelections": 10,
-          "reflectionSelections": 15,
-          "selfPerceptionSelections": 41
+          "totalSelections": 15,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 1
         }
       ]
     },
@@ -427,26 +427,26 @@
         {
           "optionIndex": 0,
           "optionText": "被圈养、被安排，连选择人生的资格都没有。",
-          "totalSelections": 47,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 5,
-          "selfPerceptionSelections": 30
+          "totalSelections": 5,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         },
         {
           "optionIndex": 1,
           "optionText": "因为自己的软弱而拖累同伴。",
-          "totalSelections": 95,
-          "subThresholdSelections": 8,
-          "reflectionSelections": 10,
-          "selfPerceptionSelections": 15
+          "totalSelections": 10,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 2,
           "optionText": "一个本可避免的失误，害死了太多人。",
-          "totalSelections": 38,
-          "subThresholdSelections": 2,
+          "totalSelections": 3,
+          "subThresholdSelections": 0,
           "reflectionSelections": 0,
-          "selfPerceptionSelections": 17
+          "selfPerceptionSelections": 0
         }
       ]
     },
@@ -457,26 +457,26 @@
         {
           "optionIndex": 0,
           "optionText": "会做，只要能让群体存活，真实可以让位。",
-          "totalSelections": 65,
-          "subThresholdSelections": 4,
-          "reflectionSelections": 8,
+          "totalSelections": 7,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
           "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "只在最后关头才会做，并由自己背负污名。",
-          "totalSelections": 27,
-          "subThresholdSelections": 1,
+          "totalSelections": 2,
+          "subThresholdSelections": 0,
           "reflectionSelections": 0,
-          "selfPerceptionSelections": 8
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 2,
           "optionText": "不会，建立在谎言上的团结会毁掉长期信任与真相。",
-          "totalSelections": 88,
-          "subThresholdSelections": 7,
-          "reflectionSelections": 7,
-          "selfPerceptionSelections": 54
+          "totalSelections": 9,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 3
         }
       ]
     },
@@ -487,26 +487,26 @@
         {
           "optionIndex": 0,
           "optionText": "第一个冲上去打破僵局，哪怕很鲁莽。",
-          "totalSelections": 46,
-          "subThresholdSelections": 3,
-          "reflectionSelections": 9,
-          "selfPerceptionSelections": 22
+          "totalSelections": 4,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 2
         },
         {
           "optionIndex": 1,
           "optionText": "拉住所有人，按步骤把局面重新排好。",
-          "totalSelections": 43,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 1,
-          "selfPerceptionSelections": 10
+          "totalSelections": 5,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 1
         },
         {
           "optionIndex": 2,
           "optionText": "先别逞强，顺着局势保护自己和重要的人安全。",
-          "totalSelections": 91,
-          "subThresholdSelections": 7,
-          "reflectionSelections": 5,
-          "selfPerceptionSelections": 30
+          "totalSelections": 9,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         }
       ]
     },
@@ -517,26 +517,26 @@
         {
           "optionIndex": 0,
           "optionText": "按那个结局推进，接受必要代价。",
-          "totalSelections": 35,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 2,
-          "selfPerceptionSelections": 8
+          "totalSelections": 4,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 1
         },
         {
           "optionIndex": 1,
           "optionText": "把它当作情报，尽可能改写最坏结果。",
-          "totalSelections": 118,
-          "subThresholdSelections": 8,
-          "reflectionSelections": 11,
-          "selfPerceptionSelections": 31
+          "totalSelections": 12,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 2,
           "optionText": "故意不看，因为未来不该反过来束缚现在。",
-          "totalSelections": 27,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 2,
-          "selfPerceptionSelections": 23
+          "totalSelections": 2,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 2
         }
       ]
     },
@@ -547,26 +547,26 @@
         {
           "optionIndex": 0,
           "optionText": "继续前进，把罪责硬生生变成结果。",
-          "totalSelections": 46,
-          "subThresholdSelections": 3,
-          "reflectionSelections": 11,
-          "selfPerceptionSelections": 4
+          "totalSelections": 6,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 1
         },
         {
           "optionIndex": 1,
           "optionText": "立刻停手并公开承担，不再让错误扩大。",
-          "totalSelections": 20,
-          "subThresholdSelections": 2,
+          "totalSelections": 0,
+          "subThresholdSelections": 0,
           "reflectionSelections": 0,
-          "selfPerceptionSelections": 17
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 2,
           "optionText": "冷静复盘，优先把后续损失降到最低。",
-          "totalSelections": 114,
-          "subThresholdSelections": 7,
-          "reflectionSelections": 4,
-          "selfPerceptionSelections": 41
+          "totalSelections": 12,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 2
         }
       ]
     },
@@ -577,26 +577,26 @@
         {
           "optionIndex": 0,
           "optionText": "让敌人恐惧到不敢越线的压倒性力量。",
-          "totalSelections": 105,
-          "subThresholdSelections": 7,
-          "reflectionSelections": 8,
-          "selfPerceptionSelections": 19
+          "totalSelections": 11,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 0
         },
         {
           "optionIndex": 1,
           "optionText": "让人愿意同行的理解、沟通与说服。",
-          "totalSelections": 40,
-          "subThresholdSelections": 2,
-          "reflectionSelections": 3,
-          "selfPerceptionSelections": 28
+          "totalSelections": 5,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 2
         },
         {
           "optionIndex": 2,
           "optionText": "在绝境里仍然能活下来的韧性。",
-          "totalSelections": 35,
-          "subThresholdSelections": 3,
-          "reflectionSelections": 4,
-          "selfPerceptionSelections": 15
+          "totalSelections": 2,
+          "subThresholdSelections": 0,
+          "reflectionSelections": 0,
+          "selfPerceptionSelections": 1
         }
       ]
     }

@@ -1,20 +1,20 @@
 {
   "iteration": 3,
   "seed": 20260421,
-  "generatedAt": "2026-04-18T12:28:41.360Z",
-  "satisfactionScore": 85.36,
-  "verdict": "继续观察",
-  "action": "当前无硬性告警，但满意度未达阈值；继续积累样本验证稳定性。",
-  "note": "本轮用于验证稳定性；若后续扩充人格样本出现新告警，应优先回看该轮附近的题目与语义日志。",
+  "generatedAt": "2026-04-18T12:48:31.992Z",
+  "satisfactionScore": 95.63,
+  "verdict": "满意",
+  "action": "无需继续调分；保留结果解释层处理自我感知偏差。",
+  "note": "数值与语义模拟均未出现需要改分的硬性问题，当前主要剩余的是个别人格的自我感知偏差。",
   "numeric": {
-    "avgExpectationGap": 1.925,
+    "avgExpectationGap": 1.878,
     "calibrationNeededCount": 0
   },
   "language": {
-    "avgLanguageToResultGap": 4.795,
-    "avgOptionToResultGap": 2.596,
-    "reflectionCount": 1,
-    "selfPerceptionDriftCount": 2,
+    "avgLanguageToResultGap": 4.006,
+    "avgOptionToResultGap": 2.037,
+    "reflectionCount": 0,
+    "selfPerceptionDriftCount": 1,
     "inconsistentOptionCount": 0
   }
 }
