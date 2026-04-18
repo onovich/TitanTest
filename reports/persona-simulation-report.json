@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T21:45:23.467Z",
+  "generatedAt": "2026-04-18T21:45:28.730Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
@@ -478,20 +478,20 @@
   },
   "summary": {
     "personaCount": 6,
-    "avgExpectationGap": 1.192,
+    "avgExpectationGap": 1.196,
     "calibrationNeededCount": 0,
     "topProblemDimensions": [
       {
         "dimension": "cause",
-        "error": 0.638
+        "error": 0.634
       },
       {
         "dimension": "fatalism",
-        "error": 0.49
+        "error": 0.491
       },
       {
         "dimension": "moral",
-        "error": 0.47
+        "error": 0.474
       }
     ]
   },
@@ -506,15 +506,15 @@
         "cause": 4
       },
       "finalScores": {
-        "freedom": 7.412085171883227,
-        "moral": 3.151870883534537,
-        "realism": 4.452382741349636,
-        "fatalism": 3.2909019447956003,
-        "cause": 4.6546349213357034
+        "freedom": 7.420966377952256,
+        "moral": 3.1484766589856443,
+        "realism": 4.4248275569881494,
+        "fatalism": 3.2937999057385396,
+        "cause": 4.641478653774857
       },
       "matchName": "三笠·阿克曼",
-      "matchDistance": 5.367,
-      "expectationGap": 1.37,
+      "matchDistance": 5.371,
+      "expectationGap": 1.374,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     },
@@ -528,15 +528,15 @@
         "cause": 8
       },
       "finalScores": {
-        "freedom": 5.663662713903392,
-        "moral": 6.041518345131176,
-        "realism": 7.527066255129829,
-        "fatalism": 5.870124416,
-        "cause": 7.544964498410025
+        "freedom": 5.670653853643928,
+        "moral": 6.038165255479938,
+        "realism": 7.49833795508153,
+        "fatalism": 5.8727567744,
+        "cause": 7.531555564738663
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.86,
-      "expectationGap": 1.596,
+      "matchDistance": 2.876,
+      "expectationGap": 1.615,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -550,15 +550,15 @@
         "cause": 5
       },
       "finalScores": {
-        "freedom": 4.179316269216761,
-        "moral": 3.975633265111254,
-        "realism": 6.32885283206874,
-        "fatalism": 7.2370555565264665,
-        "cause": 5.941221131319035
+        "freedom": 4.187861438671996,
+        "moral": 3.9722780955053367,
+        "realism": 6.300741843851534,
+        "fatalism": 7.241145523921078,
+        "cause": 5.928798738417871
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.79,
-      "expectationGap": 1.002,
+      "matchDistance": 2.819,
+      "expectationGap": 0.998,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -572,15 +572,15 @@
         "cause": 7
       },
       "finalScores": {
-        "freedom": 6.023652787135442,
-        "moral": 5.783720365999996,
-        "realism": 7.486260024907254,
-        "fatalism": 5.47454994048,
-        "cause": 7.3866526641992385
+        "freedom": 6.031206407748629,
+        "moral": 5.780367276348757,
+        "realism": 7.4575825174315264,
+        "fatalism": 5.477429202432,
+        "cause": 7.373243730527877
       },
       "matchName": "阿明·阿诺德",
-      "matchDistance": 2.733,
-      "expectationGap": 1.188,
+      "matchDistance": 2.751,
+      "expectationGap": 1.199,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -594,15 +594,15 @@
         "cause": 6
       },
       "finalScores": {
-        "freedom": 3.192879254278518,
-        "moral": 5.733603641285908,
-        "realism": 6.860089082997902,
-        "fatalism": 7.486764613056143,
-        "cause": 6.77942138742797
+        "freedom": 3.2006431793129324,
+        "moral": 5.7302755467981745,
+        "realism": 6.8317291714815145,
+        "fatalism": 7.490909175888356,
+        "cause": 6.766842309815106
       },
       "matchName": "利威尔·阿克曼",
-      "matchDistance": 2.234,
-      "expectationGap": 1.053,
+      "matchDistance": 2.253,
+      "expectationGap": 1.035,
       "dimensionalGap": 0,
       "needsCalibration": false
     },
@@ -616,15 +616,15 @@
         "cause": 7.5
       },
       "finalScores": {
-        "freedom": 5.5014363152604435,
-        "moral": 6.490761917316041,
-        "realism": 7.503091235038192,
-        "fatalism": 6.946315712122585,
-        "cause": 6.88856952823713
+        "freedom": 5.508989935873628,
+        "moral": 6.487433822828306,
+        "realism": 7.474731323521804,
+        "fatalism": 6.950170758015364,
+        "cause": 6.875160594565769
       },
       "matchName": "莱纳·布朗",
-      "matchDistance": 2.67,
-      "expectationGap": 0.942,
+      "matchDistance": 2.675,
+      "expectationGap": 0.957,
       "dimensionalGap": 0.5,
       "needsCalibration": false
     }
@@ -641,8 +641,8 @@
     {
       "persona": "理想主义反叛者",
       "matchedCharacter": "吉克·耶格尔",
-      "scoreDistance": 3.252,
-      "expectationGap": 4.252,
+      "scoreDistance": 3.274,
+      "expectationGap": 4.232,
       "languageToResultGap": 4.945,
       "optionToResultGap": 4.144,
       "semanticTopOverlap": 0.5,
@@ -816,8 +816,8 @@
     {
       "persona": "集体主义战略家",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.458,
-      "expectationGap": 2.433,
+      "scoreDistance": 3.476,
+      "expectationGap": 2.454,
       "languageToResultGap": 4.439,
       "optionToResultGap": 2.326,
       "semanticTopOverlap": 1,
@@ -991,8 +991,8 @@
     {
       "persona": "守护型照料者",
       "matchedCharacter": "利威尔·阿克曼",
-      "scoreDistance": 3.653,
-      "expectationGap": 2.978,
+      "scoreDistance": 3.675,
+      "expectationGap": 2.977,
       "languageToResultGap": 3.307,
       "optionToResultGap": 2.832,
       "semanticTopOverlap": 0,
@@ -1166,8 +1166,8 @@
     {
       "persona": "现实主义调停者",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 2.958,
-      "expectationGap": 1.435,
+      "scoreDistance": 2.979,
+      "expectationGap": 1.454,
       "languageToResultGap": 5.499,
       "optionToResultGap": 2.543,
       "semanticTopOverlap": 0.5,
@@ -1341,8 +1341,8 @@
     {
       "persona": "宿命型幸存者",
       "matchedCharacter": "利威尔·阿克曼",
-      "scoreDistance": 2.763,
-      "expectationGap": 3.459,
+      "scoreDistance": 2.776,
+      "expectationGap": 3.451,
       "languageToResultGap": 4.405,
       "optionToResultGap": 2.174,
       "semanticTopOverlap": 1,
@@ -1516,8 +1516,8 @@
     {
       "persona": "矛盾型士兵",
       "matchedCharacter": "阿明·阿诺德",
-      "scoreDistance": 3.524,
-      "expectationGap": 1.967,
+      "scoreDistance": 3.542,
+      "expectationGap": 1.979,
       "languageToResultGap": 3.796,
       "optionToResultGap": 2.323,
       "semanticTopOverlap": 1,
