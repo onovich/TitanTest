@@ -1,98 +1,98 @@
 {
   "iteration": 13,
-  "generatedAt": "2026-04-18T21:25:08.172Z",
+  "generatedAt": "2026-04-18T21:46:00.108Z",
   "workflowLength": 923,
   "mode": "normal",
-  "selectedCandidate": "restore-runtime",
+  "selectedCandidate": "balanced-runtime",
   "accepted": {
-    "generatedAt": "2026-04-18T21:25:07.769Z",
+    "generatedAt": "2026-04-18T21:45:54.272Z",
     "workflowLength": 923,
     "sampleSize": 3000,
-    "seed": 20260431,
+    "seed": 20260430,
     "persona": {
-      "personaScore": 37.2,
-      "avgExpectationGap": 1.193,
+      "personaScore": 15.38,
+      "avgExpectationGap": 1.196,
       "calibrationNeededCount": 0,
       "reflectionCount": 1,
-      "selfPerceptionDriftCount": 3,
-      "inconsistentOptionCount": 3,
-      "avgLanguageToResultGap": 4.827,
-      "avgOptionToResultGap": 2.378
+      "selfPerceptionDriftCount": 2,
+      "inconsistentOptionCount": 5,
+      "avgLanguageToResultGap": 4.318,
+      "avgOptionToResultGap": 2.547
     },
     "balance": {
       "sampleSize": 3000,
-      "seed": 20260431,
-      "topShare": 42.67,
-      "topCharacter": "利威尔·阿克曼",
-      "normalizedEntropy": 0.572,
-      "averageConfidenceGap": 0.353,
-      "activeRoleCount": 12,
-      "balanceScore": 59.26,
+      "seed": 20260430,
+      "topShare": 32.6,
+      "topCharacter": "让·基尔希斯坦",
+      "normalizedEntropy": 0.653,
+      "averageConfidenceGap": 0.341,
+      "activeRoleCount": 13,
+      "balanceScore": 80.84,
       "distribution": [
         {
-          "name": "利威尔·阿克曼",
-          "count": 1280,
-          "share": 42.67
+          "name": "让·基尔希斯坦",
+          "count": 978,
+          "share": 32.6
         },
         {
-          "name": "让·基尔希斯坦",
-          "count": 664,
-          "share": 22.13
+          "name": "利威尔·阿克曼",
+          "count": 789,
+          "share": 26.3
         },
         {
           "name": "阿明·阿诺德",
-          "count": 378,
-          "share": 12.6
-        },
-        {
-          "name": "贾碧·布朗",
-          "count": 166,
-          "share": 5.53
-        },
-        {
-          "name": "莱纳·布朗",
-          "count": 124,
-          "share": 4.13
+          "count": 234,
+          "share": 7.8
         },
         {
           "name": "格里沙·耶格尔",
-          "count": 120,
-          "share": 4
+          "count": 173,
+          "share": 5.77
         },
         {
-          "name": "吉克·耶格尔",
-          "count": 115,
-          "share": 3.83
-        },
-        {
-          "name": "萨莎·布劳斯",
-          "count": 84,
-          "share": 2.8
-        },
-        {
-          "name": "三笠·阿克曼",
-          "count": 37,
-          "share": 1.23
-        },
-        {
-          "name": "肯尼·阿克曼",
-          "count": 19,
-          "share": 0.63
+          "name": "贾碧·布朗",
+          "count": 164,
+          "share": 5.47
         },
         {
           "name": "艾伦·耶格尔",
-          "count": 12,
-          "share": 0.4
+          "count": 157,
+          "share": 5.23
         },
         {
-          "name": "弗洛克·福斯特",
+          "name": "肯尼·阿克曼",
+          "count": 156,
+          "share": 5.2
+        },
+        {
+          "name": "三笠·阿克曼",
+          "count": 136,
+          "share": 4.53
+        },
+        {
+          "name": "吉克·耶格尔",
+          "count": 77,
+          "share": 2.57
+        },
+        {
+          "name": "尤弥尔·弗里茨",
+          "count": 72,
+          "share": 2.4
+        },
+        {
+          "name": "莱纳·布朗",
+          "count": 62,
+          "share": 2.07
+        },
+        {
+          "name": "艾尔文·史密斯",
           "count": 1,
           "share": 0.03
         },
         {
-          "name": "艾尔文·史密斯",
-          "count": 0,
-          "share": 0
+          "name": "萨莎·布劳斯",
+          "count": 1,
+          "share": 0.03
         },
         {
           "name": "阿尼·利昂纳德",
@@ -115,12 +115,12 @@
           "share": 0
         },
         {
-          "name": "多托·匹西斯",
+          "name": "弗洛克·福斯特",
           "count": 0,
           "share": 0
         },
         {
-          "name": "尤弥尔·弗里茨",
+          "name": "多托·匹西斯",
           "count": 0,
           "share": 0
         },
@@ -133,11 +133,11 @@
     },
     "extremity": {
       "promptAverage": 1.94,
-      "optionAverage": 1.985,
+      "optionAverage": 2.137,
       "promptMax": 2.4,
       "optionMax": 2.7,
       "promptScore": 76.5,
-      "optionScore": 75.37,
+      "optionScore": 71.58,
       "flaggedPromptCount": 0,
       "flaggedOptionCount": 0,
       "items": [
@@ -237,22 +237,22 @@
           "id": 5,
           "text": "更能长期支撑你行动的，通常是什么？",
           "stemScore": 1.6,
-          "note": "价值观题，本身戏剧性较低。",
+          "note": "保留价值观题结构，但把三条驱动力写得更像真实会牵引人的执念。",
           "options": [
             {
               "index": 0,
-              "text": "能自己决定方向、保住选择权的感觉。",
-              "score": 1.8
+              "text": "哪怕代价高一点，也想把方向和选择权握在自己手里。",
+              "score": 2.4
             },
             {
               "index": 1,
-              "text": "和重要的人、习惯或长期执念之间的牵引。",
-              "score": 1.7
+              "text": "嘴上可以说算了，但真正牵着我走的，往往还是那几个人和那点执念。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "对责任、群体和未来的持续回应。",
-              "score": 1.8
+              "text": "只要还有人等我扛事，我就很难真正停下来。",
+              "score": 2.2
             }
           ]
         },
@@ -283,22 +283,22 @@
           "id": 7,
           "text": "你怎么看待“善意的隐瞒”？",
           "stemScore": 1.5,
-          "note": "善意隐瞒属于常见伦理题，较为中庸。",
+          "note": "维持常见伦理题框架，但让“设期限 / 说开 / 自己背锅”三种姿态更分明。",
           "options": [
             {
               "index": 0,
-              "text": "特定时候可以有，但不能慢慢变成习惯。",
-              "score": 1.9
+              "text": "只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。",
+              "score": 2.1
             },
             {
               "index": 1,
-              "text": "我更偏向说清楚，因为长期信任比一时方便重要。",
-              "score": 1.6
+              "text": "宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。",
+              "score": 2.2
             },
             {
               "index": 2,
-              "text": "如果能保护具体的人，我能接受有限度的隐瞒。",
-              "score": 1.7
+              "text": "如果能替具体的人挡掉一波伤害，我愿意自己背这个隐瞒。",
+              "score": 2.4
             }
           ]
         },
@@ -352,22 +352,22 @@
           "id": 10,
           "text": "在团队里，大家通常会自然把什么事交给你？",
           "stemScore": 1.7,
-          "note": "团队角色题，整体平稳。",
+          "note": "团队角色题适度回调戏剧性，强化拍板者、收残局者与唱反调者的区别。",
           "options": [
             {
               "index": 0,
-              "text": "负责评估局势、统筹资源，并把关键决策推进落地。",
-              "score": 2
+              "text": "需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。",
+              "score": 2.5
             },
             {
               "index": 1,
-              "text": "把关键执行部分做扎实，并盯住每一步的代价。",
-              "score": 1.8
+              "text": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "提出异议，提醒大家还有哪些出口没被看到。",
-              "score": 1.9
+              "text": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
+              "score": 2.6
             }
           ]
         },
@@ -379,7 +379,7 @@
           "options": [
             {
               "index": 0,
-              "text": "会先认下这层风险，拉开一点距离，避免它继续波及身边人。",
+              "text": "知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。",
               "score": 2.1
             },
             {
@@ -444,22 +444,22 @@
           "id": 14,
           "text": "如果追究一段旧怨能让你出气，但会让关系更糟，你会？",
           "stemScore": 1.9,
-          "note": "把复仇循环压低成旧怨处理，更接近日常关系修复。",
+          "note": "仍是旧怨处理，但把“硬算账 / 强停手 / 留到谈判桌”三种处理方式写得更有张力。",
           "options": [
             {
               "index": 0,
-              "text": "还是会想追究，但也知道这会把自己继续困在里面。",
-              "score": 2
+              "text": "我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。",
+              "score": 2.5
             },
             {
               "index": 1,
-              "text": "会停下来，不想把更多人拖进后续消耗。",
-              "score": 1.8
+              "text": "会强迫自己把事停在这里，至少别让更多无关的人被卷进后续消耗。",
+              "score": 2
             },
             {
               "index": 2,
-              "text": "先把情绪压住，按步骤把冲突转成可执行的处理方案。",
-              "score": 2.1
+              "text": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、谈代价的时候再处理。",
+              "score": 2.3
             }
           ]
         },
@@ -513,22 +513,22 @@
           "id": 17,
           "text": "当现场气氛越来越乱、大家都开始着急时，你通常会？",
           "stemScore": 1.6,
-          "note": "现场失控题改成常见组织沟通场景。",
+          "note": "仍是常见混乱场景，但选项语气更鲜明：强行刹车、重建秩序、先护住核心。",
           "options": [
             {
               "index": 0,
-              "text": "先做个明确动作打断混乱，再慢慢把节奏拉回来。",
-              "score": 1.9
+              "text": "会先明确叫停，哪怕语气重一点，也要把混乱先刹住。",
+              "score": 2.3
             },
             {
               "index": 1,
-              "text": "拉住所有人，按步骤把局面重新排好。",
-              "score": 1.8
+              "text": "会把人一个个拉回步骤里，先重建秩序，再谈情绪。",
+              "score": 2
             },
             {
               "index": 2,
-              "text": "先稳住自己和重要的人，再判断局势能不能接住。",
-              "score": 1.7
+              "text": "会先守住自己和最重要的人，确认不会一起失控，再看要不要接场。",
+              "score": 2.2
             }
           ]
         },
@@ -540,7 +540,7 @@
           "options": [
             {
               "index": 0,
-              "text": "会把这份预警当作可能发生的风险，先做好安排和后手，但不完全照单执行。",
+              "text": "会先按最坏情况把后手和空位预留出来，但不会完全照着这份预警行动。",
               "score": 1.9
             },
             {
@@ -559,22 +559,22 @@
           "id": 19,
           "text": "当你发现自己做错了一件影响不小的事，你通常会？",
           "stemScore": 1.7,
-          "note": "错误处理题较稳定。",
+          "note": "错误处理题回调少量戏剧性，让“先扛住 / 先认错 / 先切断损失”更有辨识度。",
           "options": [
             {
               "index": 0,
-              "text": "先把眼前该补的洞补上，再回头承担责任。",
-              "score": 1.9
+              "text": "先把最危险的连锁反应压住，哪怕那一刻得由我先把后果顶下来。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "尽快停下并承认，不让错误继续扩散。",
-              "score": 1.7
+              "text": "会立刻叫停并认错，宁可难堪，也不想让错继续滚大。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "冷静复盘，优先把后续损失降到最低。",
-              "score": 1.8
+              "text": "先拆开责任链，冷静复盘，把后续能断的损失先断掉。",
+              "score": 2
             }
           ]
         },
@@ -582,22 +582,22 @@
           "id": 20,
           "text": "你更相信什么最能推动长期改变？",
           "stemScore": 1.6,
-          "note": "长期改变题属于常规价值观题。",
+          "note": "长期改变题适度加入立场感，把守线、说服、硬撑三种信念重新拉开。",
           "options": [
             {
               "index": 0,
-              "text": "不轻易退让的意志，以及守住选择权的能力。",
-              "score": 1.8
+              "text": "有人死死守住不退，让别人知道这条线不会被轻易改写。",
+              "score": 2.4
             },
             {
               "index": 1,
-              "text": "让人愿意同行的理解、沟通与说服。",
-              "score": 1.7
+              "text": "让更多人真正被说服、愿意一起走，而不是只被一时推着走。",
+              "score": 2
             },
             {
               "index": 2,
-              "text": "在绝境里仍然能活下来的韧性。",
-              "score": 1.8
+              "text": "不是每次都赢，而是很多次快撑不住时，还是有人能继续活下来。",
+              "score": 2.3
             }
           ]
         }
@@ -605,93 +605,93 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 22.06,
-    "combinedScore": 108.96
+    "scoreGap": 65.46,
+    "combinedScore": 72.48
   },
   "candidate": {
-    "generatedAt": "2026-04-18T21:25:07.769Z",
+    "generatedAt": "2026-04-18T21:45:59.299Z",
     "workflowLength": 923,
     "sampleSize": 3000,
     "seed": 20260431,
     "persona": {
-      "personaScore": 37.2,
-      "avgExpectationGap": 1.193,
+      "personaScore": 15.4,
+      "avgExpectationGap": 1.192,
       "calibrationNeededCount": 0,
       "reflectionCount": 1,
-      "selfPerceptionDriftCount": 3,
-      "inconsistentOptionCount": 3,
-      "avgLanguageToResultGap": 4.827,
-      "avgOptionToResultGap": 2.378
+      "selfPerceptionDriftCount": 2,
+      "inconsistentOptionCount": 5,
+      "avgLanguageToResultGap": 4.318,
+      "avgOptionToResultGap": 2.547
     },
     "balance": {
       "sampleSize": 3000,
       "seed": 20260431,
-      "topShare": 42.67,
-      "topCharacter": "利威尔·阿克曼",
-      "normalizedEntropy": 0.572,
-      "averageConfidenceGap": 0.353,
+      "topShare": 31.53,
+      "topCharacter": "让·基尔希斯坦",
+      "normalizedEntropy": 0.637,
+      "averageConfidenceGap": 0.357,
       "activeRoleCount": 12,
-      "balanceScore": 59.26,
+      "balanceScore": 80.54,
       "distribution": [
         {
-          "name": "利威尔·阿克曼",
-          "count": 1280,
-          "share": 42.67
+          "name": "让·基尔希斯坦",
+          "count": 946,
+          "share": 31.53
         },
         {
-          "name": "让·基尔希斯坦",
-          "count": 664,
-          "share": 22.13
+          "name": "利威尔·阿克曼",
+          "count": 885,
+          "share": 29.5
         },
         {
           "name": "阿明·阿诺德",
-          "count": 378,
-          "share": 12.6
+          "count": 232,
+          "share": 7.73
         },
         {
           "name": "贾碧·布朗",
-          "count": 166,
-          "share": 5.53
-        },
-        {
-          "name": "莱纳·布朗",
-          "count": 124,
-          "share": 4.13
+          "count": 195,
+          "share": 6.5
         },
         {
           "name": "格里沙·耶格尔",
-          "count": 120,
-          "share": 4
-        },
-        {
-          "name": "吉克·耶格尔",
-          "count": 115,
-          "share": 3.83
-        },
-        {
-          "name": "萨莎·布劳斯",
-          "count": 84,
-          "share": 2.8
-        },
-        {
-          "name": "三笠·阿克曼",
-          "count": 37,
-          "share": 1.23
+          "count": 157,
+          "share": 5.23
         },
         {
           "name": "肯尼·阿克曼",
-          "count": 19,
-          "share": 0.63
+          "count": 150,
+          "share": 5
         },
         {
           "name": "艾伦·耶格尔",
-          "count": 12,
-          "share": 0.4
+          "count": 140,
+          "share": 4.67
         },
         {
-          "name": "弗洛克·福斯特",
-          "count": 1,
-          "share": 0.03
+          "name": "三笠·阿克曼",
+          "count": 114,
+          "share": 3.8
+        },
+        {
+          "name": "吉克·耶格尔",
+          "count": 80,
+          "share": 2.67
+        },
+        {
+          "name": "莱纳·布朗",
+          "count": 71,
+          "share": 2.37
+        },
+        {
+          "name": "尤弥尔·弗里茨",
+          "count": 25,
+          "share": 0.83
+        },
+        {
+          "name": "萨莎·布劳斯",
+          "count": 5,
+          "share": 0.17
         },
         {
           "name": "艾尔文·史密斯",
@@ -719,12 +719,12 @@
           "share": 0
         },
         {
-          "name": "多托·匹西斯",
+          "name": "弗洛克·福斯特",
           "count": 0,
           "share": 0
         },
         {
-          "name": "尤弥尔·弗里茨",
+          "name": "多托·匹西斯",
           "count": 0,
           "share": 0
         },
@@ -737,11 +737,11 @@
     },
     "extremity": {
       "promptAverage": 1.94,
-      "optionAverage": 1.985,
+      "optionAverage": 2.137,
       "promptMax": 2.4,
       "optionMax": 2.7,
       "promptScore": 76.5,
-      "optionScore": 75.37,
+      "optionScore": 71.58,
       "flaggedPromptCount": 0,
       "flaggedOptionCount": 0,
       "items": [
@@ -841,22 +841,22 @@
           "id": 5,
           "text": "更能长期支撑你行动的，通常是什么？",
           "stemScore": 1.6,
-          "note": "价值观题，本身戏剧性较低。",
+          "note": "保留价值观题结构，但把三条驱动力写得更像真实会牵引人的执念。",
           "options": [
             {
               "index": 0,
-              "text": "能自己决定方向、保住选择权的感觉。",
-              "score": 1.8
+              "text": "哪怕代价高一点，也想把方向和选择权握在自己手里。",
+              "score": 2.4
             },
             {
               "index": 1,
-              "text": "和重要的人、习惯或长期执念之间的牵引。",
-              "score": 1.7
+              "text": "嘴上可以说算了，但真正牵着我走的，往往还是那几个人和那点执念。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "对责任、群体和未来的持续回应。",
-              "score": 1.8
+              "text": "只要还有人等我扛事，我就很难真正停下来。",
+              "score": 2.2
             }
           ]
         },
@@ -887,22 +887,22 @@
           "id": 7,
           "text": "你怎么看待“善意的隐瞒”？",
           "stemScore": 1.5,
-          "note": "善意隐瞒属于常见伦理题，较为中庸。",
+          "note": "维持常见伦理题框架，但让“设期限 / 说开 / 自己背锅”三种姿态更分明。",
           "options": [
             {
               "index": 0,
-              "text": "特定时候可以有，但不能慢慢变成习惯。",
-              "score": 1.9
+              "text": "只会在局面快失控时短暂压住消息，但会提前想好何时交代、怎么收尾。",
+              "score": 2.1
             },
             {
               "index": 1,
-              "text": "我更偏向说清楚，因为长期信任比一时方便重要。",
-              "score": 1.6
+              "text": "宁可一开始难堪一点，我也更想把话说开，免得以后信任整块塌掉。",
+              "score": 2.2
             },
             {
               "index": 2,
-              "text": "如果能保护具体的人，我能接受有限度的隐瞒。",
-              "score": 1.7
+              "text": "如果能替具体的人挡掉一波伤害，我愿意自己背这个隐瞒。",
+              "score": 2.4
             }
           ]
         },
@@ -956,22 +956,22 @@
           "id": 10,
           "text": "在团队里，大家通常会自然把什么事交给你？",
           "stemScore": 1.7,
-          "note": "团队角色题，整体平稳。",
+          "note": "团队角色题适度回调戏剧性，强化拍板者、收残局者与唱反调者的区别。",
           "options": [
             {
               "index": 0,
-              "text": "负责评估局势、统筹资源，并把关键决策推进落地。",
-              "score": 2
+              "text": "需要看清局势、调配资源、把优先级定下来的时候，通常会先找到我。",
+              "score": 2.5
             },
             {
               "index": 1,
-              "text": "把关键执行部分做扎实，并盯住每一步的代价。",
-              "score": 1.8
+              "text": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "提出异议，提醒大家还有哪些出口没被看到。",
-              "score": 1.9
+              "text": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
+              "score": 2.6
             }
           ]
         },
@@ -983,7 +983,7 @@
           "options": [
             {
               "index": 0,
-              "text": "会先认下这层风险，拉开一点距离，避免它继续波及身边人。",
+              "text": "知道这层风险躲不掉时，我会先隔离它，再把距离拉开，避免继续波及身边人。",
               "score": 2.1
             },
             {
@@ -1048,22 +1048,22 @@
           "id": 14,
           "text": "如果追究一段旧怨能让你出气，但会让关系更糟，你会？",
           "stemScore": 1.9,
-          "note": "把复仇循环压低成旧怨处理，更接近日常关系修复。",
+          "note": "仍是旧怨处理，但把“硬算账 / 强停手 / 留到谈判桌”三种处理方式写得更有张力。",
           "options": [
             {
               "index": 0,
-              "text": "还是会想追究，但也知道这会把自己继续困在里面。",
-              "score": 2
+              "text": "我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。",
+              "score": 2.5
             },
             {
               "index": 1,
-              "text": "会停下来，不想把更多人拖进后续消耗。",
-              "score": 1.8
+              "text": "会强迫自己把事停在这里，至少别让更多无关的人被卷进后续消耗。",
+              "score": 2
             },
             {
               "index": 2,
-              "text": "先把情绪压住，按步骤把冲突转成可执行的处理方案。",
-              "score": 2.1
+              "text": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、谈代价的时候再处理。",
+              "score": 2.3
             }
           ]
         },
@@ -1117,22 +1117,22 @@
           "id": 17,
           "text": "当现场气氛越来越乱、大家都开始着急时，你通常会？",
           "stemScore": 1.6,
-          "note": "现场失控题改成常见组织沟通场景。",
+          "note": "仍是常见混乱场景，但选项语气更鲜明：强行刹车、重建秩序、先护住核心。",
           "options": [
             {
               "index": 0,
-              "text": "先做个明确动作打断混乱，再慢慢把节奏拉回来。",
-              "score": 1.9
+              "text": "会先明确叫停，哪怕语气重一点，也要把混乱先刹住。",
+              "score": 2.3
             },
             {
               "index": 1,
-              "text": "拉住所有人，按步骤把局面重新排好。",
-              "score": 1.8
+              "text": "会把人一个个拉回步骤里，先重建秩序，再谈情绪。",
+              "score": 2
             },
             {
               "index": 2,
-              "text": "先稳住自己和重要的人，再判断局势能不能接住。",
-              "score": 1.7
+              "text": "会先守住自己和最重要的人，确认不会一起失控，再看要不要接场。",
+              "score": 2.2
             }
           ]
         },
@@ -1144,7 +1144,7 @@
           "options": [
             {
               "index": 0,
-              "text": "会把这份预警当作可能发生的风险，先做好安排和后手，但不完全照单执行。",
+              "text": "会先按最坏情况把后手和空位预留出来，但不会完全照着这份预警行动。",
               "score": 1.9
             },
             {
@@ -1163,22 +1163,22 @@
           "id": 19,
           "text": "当你发现自己做错了一件影响不小的事，你通常会？",
           "stemScore": 1.7,
-          "note": "错误处理题较稳定。",
+          "note": "错误处理题回调少量戏剧性，让“先扛住 / 先认错 / 先切断损失”更有辨识度。",
           "options": [
             {
               "index": 0,
-              "text": "先把眼前该补的洞补上，再回头承担责任。",
-              "score": 1.9
+              "text": "先把最危险的连锁反应压住，哪怕那一刻得由我先把后果顶下来。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "尽快停下并承认，不让错误继续扩散。",
-              "score": 1.7
+              "text": "会立刻叫停并认错，宁可难堪，也不想让错继续滚大。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "冷静复盘，优先把后续损失降到最低。",
-              "score": 1.8
+              "text": "先拆开责任链，冷静复盘，把后续能断的损失先断掉。",
+              "score": 2
             }
           ]
         },
@@ -1186,22 +1186,22 @@
           "id": 20,
           "text": "你更相信什么最能推动长期改变？",
           "stemScore": 1.6,
-          "note": "长期改变题属于常规价值观题。",
+          "note": "长期改变题适度加入立场感，把守线、说服、硬撑三种信念重新拉开。",
           "options": [
             {
               "index": 0,
-              "text": "不轻易退让的意志，以及守住选择权的能力。",
-              "score": 1.8
+              "text": "有人死死守住不退，让别人知道这条线不会被轻易改写。",
+              "score": 2.4
             },
             {
               "index": 1,
-              "text": "让人愿意同行的理解、沟通与说服。",
-              "score": 1.7
+              "text": "让更多人真正被说服、愿意一起走，而不是只被一时推着走。",
+              "score": 2
             },
             {
               "index": 2,
-              "text": "在绝境里仍然能活下来的韧性。",
-              "score": 1.8
+              "text": "不是每次都赢，而是很多次快撑不住时，还是有人能继续活下来。",
+              "score": 2.3
             }
           ]
         }
@@ -1209,46 +1209,46 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 22.06,
-    "combinedScore": 108.96
+    "scoreGap": 65.14,
+    "combinedScore": 72.46
   },
   "candidateRanks": [
     {
-      "name": "restore-runtime",
-      "rank": 73.69,
-      "personaScore": 37.2,
-      "balanceScore": 59.26,
-      "scoreGap": 22.06
-    },
-    {
       "name": "balanced-runtime",
-      "rank": 73.67,
-      "personaScore": 37.2,
-      "balanceScore": 59.13,
-      "scoreGap": 21.93
+      "rank": 29.99,
+      "personaScore": 15.4,
+      "balanceScore": 80.54,
+      "scoreGap": 65.14
     },
     {
-      "name": "density-runtime",
-      "rank": 56.56,
-      "personaScore": 25.36,
-      "balanceScore": 63.82,
-      "scoreGap": 38.46
+      "name": "restore-runtime",
+      "rank": 3.97,
+      "personaScore": 3.58,
+      "balanceScore": 80.45,
+      "scoreGap": 76.87
     },
     {
       "name": "balanced-character",
-      "rank": 56.26,
-      "personaScore": 25.36,
-      "balanceScore": 62.34,
-      "scoreGap": 36.98
+      "rank": 3.96,
+      "personaScore": 3.58,
+      "balanceScore": 80.44,
+      "scoreGap": 76.86
     },
     {
       "name": "focus-top-character",
-      "rank": 56.26,
-      "personaScore": 25.36,
-      "balanceScore": 62.34,
-      "scoreGap": 36.98
+      "rank": 3.96,
+      "personaScore": 3.58,
+      "balanceScore": 80.44,
+      "scoreGap": 76.86
+    },
+    {
+      "name": "density-runtime",
+      "rank": 3.43,
+      "personaScore": 3.58,
+      "balanceScore": 77.77,
+      "scoreGap": 74.19
     }
   ],
-  "accept": true,
-  "degradationStreak": 0
+  "accept": false,
+  "degradationStreak": 1
 }
