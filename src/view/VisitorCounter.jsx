@@ -12,43 +12,29 @@ function buildBadgeUrl(pageId, leftText, cacheBust) {
 }
 
 export default function VisitorCounter() {
-  const { totalBadgeUrl, todayBadgeUrl } = useMemo(() => {
+  const totalBadgeUrl = useMemo(() => {
     const host = window.location.hostname || 'local-preview';
     const repoBase = (import.meta.env.BASE_URL ?? '/').replace(/^\/+|\/+$/g, '') || 'root';
     const todayKey = new Date().toISOString().slice(0, 10);
     const cacheBust = `${todayKey}-${Math.floor(Date.now() / 60000)}`;
     const pagePrefix = `titantest.${host}.${repoBase}`.replace(/[^a-z0-9.-]/gi, '-').toLowerCase();
 
-    return {
-      totalBadgeUrl: buildBadgeUrl(`${pagePrefix}.total`, '累计访问', cacheBust),
-      todayBadgeUrl: buildBadgeUrl(`${pagePrefix}.day.${todayKey}`, '今日访问', cacheBust),
-    };
+    return buildBadgeUrl(`${pagePrefix}.total`, '总访客', cacheBust);
   }, []);
 
   return (
-    <div className="mt-10 border-t border-neutral-800 pt-6 text-center text-sm text-neutral-500 space-y-3">
-      <p className="tracking-[0.18em] uppercase text-xs text-neutral-400">访客计数器</p>
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-3 max-w-md mx-auto">
-        <div className="rounded-xl border border-neutral-800 bg-neutral-900/60 px-3 py-2 flex items-center justify-center min-h-12 overflow-hidden">
-          <img
-            src={totalBadgeUrl}
-            alt="累计访问"
-            className="h-6 max-w-full object-contain"
-            loading="lazy"
-            referrerPolicy="no-referrer"
-          />
-        </div>
-        <div className="rounded-xl border border-neutral-800 bg-neutral-900/60 px-3 py-2 flex items-center justify-center min-h-12 overflow-hidden">
-          <img
-            src={todayBadgeUrl}
-            alt="今日访问"
-            className="h-6 max-w-full object-contain"
-            loading="lazy"
-            referrerPolicy="no-referrer"
-          />
-        </div>
+    <div className="mt-6 rounded-2xl border border-neutral-800 bg-neutral-900/55 px-4 py-4 text-center text-sm text-neutral-400 space-y-3">
+      <p className="text-xs tracking-[0.16em] text-neutral-500">结果页访客统计</p>
+      <div className="flex justify-center overflow-hidden">
+        <img
+          src={totalBadgeUrl}
+          alt="总访客"
+          className="block h-8 w-auto max-w-full object-contain"
+          loading="lazy"
+          referrerPolicy="no-referrer"
+        />
       </div>
-      <p className="text-xs text-neutral-600 leading-relaxed">若微信或极简模式屏蔽外部徽章图片，可能暂时看不到数字。</p>
+      <p className="text-xs text-neutral-600 leading-relaxed">若浏览器拦截外部徽章图片，统计数字可能暂时不可见。</p>
     </div>
   );
 }

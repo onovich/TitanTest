@@ -6,7 +6,6 @@ import { buildResultInsights } from './src/logic/resultInsights';
 import WelcomeScreen from './src/view/WelcomeScreen.jsx';
 import QuizScreen from './src/view/QuizScreen.jsx';
 import ResultScreen from './src/view/ResultScreen.jsx';
-import VisitorCounter from './src/view/VisitorCounter.jsx';
 
 function findCharacterByName(characterName) {
   return CHARACTERS.find(
@@ -105,7 +104,6 @@ export default function App() {
           />
         )}
 
-        <VisitorCounter />
       </div>
     </div>
   );

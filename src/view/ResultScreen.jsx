@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import { User, RefreshCw, Share2 } from 'lucide-react';
 import { PORTRAITS } from '../data/portraits';
 import { DIMENSION_LABELS } from '../logic/labels';
+import VisitorCounter from './VisitorCounter.jsx';
 
 function resolvePublicAssetUrl(assetPath) {
   if (!assetPath) {
@@ -176,6 +177,7 @@ export default function ResultScreen({ match, onRestart, userScores, resultInsig
       </div>
 
       <p className="text-center text-neutral-500 text-sm">* 结果基于你的价值取向向量计算，旨在映射角色的哲学立场。</p>
+      <VisitorCounter />
     </div>
   );
 }

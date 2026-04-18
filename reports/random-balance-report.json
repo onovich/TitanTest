@@ -1,80 +1,70 @@
 {
-  "generatedAt": "2026-04-18T13:13:39.641Z",
-  "sampleSize": 8000,
-  "seed": 20260450,
+  "generatedAt": "2026-04-18T20:49:01.725Z",
+  "sampleSize": 6000,
+  "seed": 20260419,
   "topCharacter": {
-    "name": "利威尔·阿克曼",
-    "count": 2035,
-    "share": 25.44
+    "name": "柯尼·斯普林格",
+    "count": 1305,
+    "share": 21.75
   },
-  "averageConfidenceGap": 0.368,
-  "distributionEntropy": 2.872,
+  "averageConfidenceGap": 0.305,
+  "distributionEntropy": 2.828,
   "maxEntropy": 4.322,
   "distribution": [
     {
+      "name": "柯尼·斯普林格",
+      "count": 1305,
+      "share": 21.75
+    },
+    {
       "name": "利威尔·阿克曼",
-      "count": 2035,
-      "share": 25.44
+      "count": 1221,
+      "share": 20.35
     },
     {
       "name": "让·基尔希斯坦",
-      "count": 1672,
-      "share": 20.9
-    },
-    {
-      "name": "阿明·阿诺德",
-      "count": 1162,
-      "share": 14.52
+      "count": 1214,
+      "share": 20.23
     },
     {
       "name": "贾碧·布朗",
-      "count": 1000,
-      "share": 12.5
-    },
-    {
-      "name": "莱纳·布朗",
-      "count": 611,
-      "share": 7.64
-    },
-    {
-      "name": "柯尼·斯普林格",
-      "count": 597,
-      "share": 7.46
+      "count": 774,
+      "share": 12.9
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 524,
-      "share": 6.55
+      "count": 540,
+      "share": 9
     },
     {
-      "name": "吉克·耶格尔",
-      "count": 202,
-      "share": 2.53
+      "name": "阿明·阿诺德",
+      "count": 334,
+      "share": 5.57
     },
     {
-      "name": "三笠·阿克曼",
-      "count": 119,
-      "share": 1.49
+      "name": "莱纳·布朗",
+      "count": 329,
+      "share": 5.48
     },
     {
       "name": "萨莎·布劳斯",
-      "count": 66,
-      "share": 0.83
+      "count": 154,
+      "share": 2.57
+    },
+    {
+      "name": "三笠·阿克曼",
+      "count": 124,
+      "share": 2.07
+    },
+    {
+      "name": "吉克·耶格尔",
+      "count": 5,
+      "share": 0.08
     },
     {
       "name": "艾伦·耶格尔",
-      "count": 4,
-      "share": 0.05
-    },
-    {
-      "name": "肯尼·阿克曼",
-      "count": 4,
-      "share": 0.05
-    },
-    {
-      "name": "弗洛克·福斯特",
-      "count": 4,
-      "share": 0.05
+      "count": 0,
+      "share": 0
     },
     {
       "name": "艾尔文·史密斯",
@@ -97,7 +87,17 @@
       "share": 0
     },
     {
+      "name": "肯尼·阿克曼",
+      "count": 0,
+      "share": 0
+    },
+    {
       "name": "威利·戴巴",
+      "count": 0,
+      "share": 0
+    },
+    {
+      "name": "弗洛克·福斯特",
       "count": 0,
       "share": 0
     },
