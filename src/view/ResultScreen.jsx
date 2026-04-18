@@ -2,7 +2,7 @@ import React from 'react';
 import { User, RefreshCw, Share2 } from 'lucide-react';
 import { DIMENSION_LABELS } from '../logic/labels';
 
-export default function ResultScreen({ match, onRestart }) {
+export default function ResultScreen({ match, onRestart, userScores, resultInsights }) {
   const handleShare = async () => {
     const text = `我在《进击的巨人》灵魂共鸣测试中，匹配到了【${match.name}】！来看看你是谁？`;
 
@@ -50,6 +50,28 @@ export default function ResultScreen({ match, onRestart }) {
               </div>
             ))}
           </div>
+
+          {resultInsights && (
+            <div className="space-y-4 pt-4">
+              <div className="p-5 bg-neutral-800/40 rounded-2xl border border-neutral-700/60 space-y-3">
+                <h4 className="text-sm uppercase tracking-[0.25em] text-neutral-400 font-bold">结果解读</h4>
+                {resultInsights.summary.map((line) => (
+                  <p key={line} className="text-neutral-300 leading-relaxed">
+                    {line}
+                  </p>
+                ))}
+              </div>
+
+              <div className="grid grid-cols-2 md:grid-cols-5 gap-4">
+                {Object.entries(userScores).map(([key, val]) => (
+                  <div key={key} className="text-center p-3 bg-black/30 rounded-lg border border-neutral-800">
+                    <div className="text-xs uppercase text-neutral-500 mb-1">{DIMENSION_LABELS[key] ?? key}</div>
+                    <div className="text-xl font-bold text-white">{Number(val).toFixed(1)}</div>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
         </div>
 
         <div className="bg-neutral-800/50 p-6 flex flex-col sm:flex-row gap-4">

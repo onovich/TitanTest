@@ -2,6 +2,8 @@ export const PERSONAS = [
   {
     id: 'idealistic-rebel',
     name: '理想主义反叛者',
+    narrative: '我无法接受被围墙、规则和命运束缚。即使代价高昂，我也想冲出去，追求真相、自由和个人选择。',
+    selfImage: '反叛者、真相追寻者、自由优先',
     expectedScores: { freedom: 9, moral: 4, realism: 5, fatalism: 2, cause: 4 },
     expectedTopDimensions: ['freedom', 'realism'],
     picks: [0, 1, 1, 1, 0, 0, 1, 0, 0, 2],
@@ -9,6 +11,8 @@ export const PERSONAS = [
   {
     id: 'collective-strategist',
     name: '集体主义战略家',
+    narrative: '我把群体生存放在前面，愿意为了同胞、未来和大局承担责任，也相信理性计划、外交与必要牺牲。',
+    selfImage: '战略家、领导者、集体主义者',
     expectedScores: { freedom: 5, moral: 8, realism: 9, fatalism: 5, cause: 9 },
     expectedTopDimensions: ['cause', 'realism'],
     picks: [2, 0, 2, 0, 2, 1, 0, 0, 2, 0],
@@ -16,6 +20,8 @@ export const PERSONAS = [
   {
     id: 'protective-caregiver',
     name: '守护型照料者',
+    narrative: '我最在乎具体的人。面对灾难时，我会先保护重要的人，不愿让抽象的大义、牺牲或残酷逻辑压过真实关系。',
+    selfImage: '守护者、照料者、关系优先',
     expectedScores: { freedom: 4, moral: 5, realism: 5, fatalism: 6, cause: 3 },
     expectedTopDimensions: ['fatalism', 'moral'],
     picks: [1, 2, 0, 2, 1, 2, 2, 1, 1, 1],
@@ -23,6 +29,8 @@ export const PERSONAS = [
   {
     id: 'pragmatic-mediator',
     name: '现实主义调停者',
+    narrative: '我倾向于先理解局势，再寻找共存方案。我重视理性、沟通、规则、真相和长期胜算，不偏好极端做法。',
+    selfImage: '调停者、理性派、长期主义者',
     expectedScores: { freedom: 6, moral: 6, realism: 9, fatalism: 4, cause: 7 },
     expectedTopDimensions: ['realism', 'cause'],
     picks: [2, 2, 2, 1, 2, 0, 0, 0, 2, 0],
@@ -30,6 +38,8 @@ export const PERSONAS = [
   {
     id: 'fatalistic-survivor',
     name: '宿命型幸存者',
+    narrative: '我觉得世界残酷且很多事无法改变。与其逞强，不如接受必然性、优先活下去，守住有限的安全感。',
+    selfImage: '幸存者、宿命论者、安全优先',
     expectedScores: { freedom: 3, moral: 6, realism: 7, fatalism: 9, cause: 6 },
     expectedTopDimensions: ['fatalism', 'realism'],
     picks: [1, 2, 0, 1, 1, 1, 2, 1, 1, 1],
@@ -37,6 +47,8 @@ export const PERSONAS = [
   {
     id: 'conflicted-soldier',
     name: '矛盾型士兵',
+    narrative: '我习惯执行命令，也愿意承担责任，但每次做出残酷选择都真的会内心煎熬。我会在罪恶感和务实之间来回拉扯。',
+    selfImage: '士兵、责任承担者、矛盾执行者',
     expectedScores: { freedom: 5, moral: 7, realism: 8, fatalism: 7, cause: 8 },
     expectedTopDimensions: ['cause', 'realism'],
     picks: [2, 2, 2, 0, 2, 1, 0, 0, 2, 1],

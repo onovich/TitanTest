@@ -1,0 +1,1238 @@
+{
+  "generatedAt": "2026-04-18T08:58:19.448Z",
+  "strictMode": true,
+  "issues": [],
+  "summary": {
+    "personaCount": 6,
+    "avgExpectationGap": 2.096,
+    "calibrationNeededCount": 0,
+    "topProblemDimensions": [
+      {
+        "dimension": "fatalism",
+        "error": 1.258
+      },
+      {
+        "dimension": "cause",
+        "error": 0.827
+      },
+      {
+        "dimension": "moral",
+        "error": 0.746
+      }
+    ]
+  },
+  "reports": [
+    {
+      "persona": "理想主义反叛者",
+      "expectedScores": {
+        "freedom": 9,
+        "moral": 4,
+        "realism": 5,
+        "fatalism": 2,
+        "cause": 4
+      },
+      "finalScores": {
+        "freedom": 8.99558457272461,
+        "moral": 5.583911453125,
+        "realism": 5.10600625,
+        "fatalism": 3.2675,
+        "cause": 4.577660906249999
+      },
+      "matchName": "让 基尔希斯坦",
+      "matchDistance": 5.079,
+      "expectationGap": 2.112,
+      "dimensionalGap": 0.5,
+      "needsCalibration": false
+    },
+    {
+      "persona": "集体主义战略家",
+      "expectedScores": {
+        "freedom": 5,
+        "moral": 8,
+        "realism": 9,
+        "fatalism": 5,
+        "cause": 9
+      },
+      "finalScores": {
+        "freedom": 6.6274999999999995,
+        "moral": 7.3556011718750005,
+        "realism": 8.910563402333985,
+        "fatalism": 6.5225,
+        "cause": 8.035433903085938
+      },
+      "matchName": "吉克 耶格尔",
+      "matchDistance": 2.207,
+      "expectationGap": 2.514,
+      "dimensionalGap": 0,
+      "needsCalibration": false
+    },
+    {
+      "persona": "守护型照料者",
+      "expectedScores": {
+        "freedom": 4,
+        "moral": 5,
+        "realism": 5,
+        "fatalism": 6,
+        "cause": 3
+      },
+      "finalScores": {
+        "freedom": 2.9938371875,
+        "moral": 5.2718625,
+        "realism": 6.916807703125,
+        "fatalism": 7.5888573484375,
+        "cause": 4.2289565625
+      },
+      "matchName": "莱纳 布朗",
+      "matchDistance": 4.14,
+      "expectationGap": 2.966,
+      "dimensionalGap": 0.5,
+      "needsCalibration": false
+    },
+    {
+      "persona": "现实主义调停者",
+      "expectedScores": {
+        "freedom": 6,
+        "moral": 6,
+        "realism": 9,
+        "fatalism": 4,
+        "cause": 7
+      },
+      "finalScores": {
+        "freedom": 7.2303749999999996,
+        "moral": 6.92138471875,
+        "realism": 8.597011874804688,
+        "fatalism": 5.5600000000000005,
+        "cause": 7.779589820273438
+      },
+      "matchName": "阿尔敏 阿诺德",
+      "matchDistance": 1.75,
+      "expectationGap": 2.359,
+      "dimensionalGap": 0,
+      "needsCalibration": false
+    },
+    {
+      "persona": "宿命型幸存者",
+      "expectedScores": {
+        "freedom": 3,
+        "moral": 6,
+        "realism": 7,
+        "fatalism": 9,
+        "cause": 6
+      },
+      "finalScores": {
+        "freedom": 2.88551875,
+        "moral": 5.1239875,
+        "realism": 7.23344781953125,
+        "fatalism": 7.817501026484376,
+        "cause": 5.30585625
+      },
+      "matchName": "莱纳 布朗",
+      "matchDistance": 3.733,
+      "expectationGap": 1.648,
+      "dimensionalGap": 0,
+      "needsCalibration": false
+    },
+    {
+      "persona": "矛盾型士兵",
+      "expectedScores": {
+        "freedom": 5,
+        "moral": 7,
+        "realism": 8,
+        "fatalism": 7,
+        "cause": 8
+      },
+      "finalScores": {
+        "freedom": 5.357875,
+        "moral": 6.821185625,
+        "realism": 8.317344542968751,
+        "fatalism": 7.4241,
+        "cause": 7.282640679648438
+      },
+      "matchName": "利威尔 阿克曼",
+      "matchDistance": 2.146,
+      "expectationGap": 0.977,
+      "dimensionalGap": 0.5,
+      "needsCalibration": false
+    }
+  ],
+  "semanticSummary": {
+    "personaCount": 6,
+    "reflectionCount": 0,
+    "selfPerceptionDriftCount": 1,
+    "avgLanguageToResultGap": 3.976,
+    "avgOptionToResultGap": 2.103,
+    "inconsistentOptionCount": 0
+  },
+  "semanticReports": [
+    {
+      "persona": "理想主义反叛者",
+      "matchedCharacter": "让 基尔希斯坦",
+      "scoreDistance": 3.705,
+      "expectationGap": 2.479,
+      "languageToResultGap": 5.053,
+      "optionToResultGap": 2.463,
+      "semanticTopOverlap": 0,
+      "selfPerceptionDrift": true,
+      "calibrationConcern": false,
+      "needsReflection": false,
+      "chosenOptions": [
+        {
+          "questionId": 1,
+          "optionIndex": 0,
+          "optionText": "不惜一切代价冲破它，哪怕这会引发灾难。",
+          "semanticMatch": 0.237,
+          "noisyScore": 0.237
+        },
+        {
+          "questionId": 2,
+          "optionIndex": 1,
+          "optionText": "绝对无法接受，杀戮永远不能换取正义。",
+          "semanticMatch": 0.164,
+          "noisyScore": 0.164
+        },
+        {
+          "questionId": 3,
+          "optionIndex": 1,
+          "optionText": "命运是可以被意志扭转的，只要你有足够的执念。",
+          "semanticMatch": 0.207,
+          "noisyScore": 0.207
+        },
+        {
+          "questionId": 4,
+          "optionIndex": 1,
+          "optionText": "尝试沟通，寻找第三条共存的道路。",
+          "semanticMatch": 0.159,
+          "noisyScore": 0.159
+        },
+        {
+          "questionId": 5,
+          "optionIndex": 0,
+          "optionText": "对自由的渴望，没有任何东西能束缚我。",
+          "semanticMatch": 0.293,
+          "noisyScore": 0.293
+        },
+        {
+          "questionId": 6,
+          "optionIndex": 0,
+          "optionText": "发动最后的一搏，试图逆转结果。",
+          "semanticMatch": 0.172,
+          "noisyScore": 0.172
+        },
+        {
+          "questionId": 7,
+          "optionIndex": 1,
+          "optionText": "谎言是软弱的表现，我追求绝对的真实。",
+          "semanticMatch": 0.19,
+          "noisyScore": 0.19
+        },
+        {
+          "questionId": 8,
+          "optionIndex": 0,
+          "optionText": "是的，真相高于一切生存意义。",
+          "semanticMatch": 0.247,
+          "noisyScore": 0.247
+        },
+        {
+          "questionId": 9,
+          "optionIndex": 2,
+          "optionText": "作为威慑筹码，通过外交进行博弈。",
+          "semanticMatch": 0.177,
+          "noisyScore": 0.177
+        },
+        {
+          "questionId": 10,
+          "optionIndex": 2,
+          "optionText": "总是在质疑规则，试图寻找个人出口的刺头。",
+          "semanticMatch": 0.349,
+          "noisyScore": 0.349
+        }
+      ],
+      "personaProfile": {
+        "freedom": 10,
+        "moral": 2.7600000000000002,
+        "realism": 6.44,
+        "fatalism": 5.16,
+        "cause": 5
+      },
+      "resultProfile": {
+        "freedom": 5.65,
+        "moral": 4.35,
+        "realism": 6.95,
+        "fatalism": 3.7,
+        "cause": 6.3
+      },
+      "averageOptionProfile": {
+        "freedom": 6.779999999999999,
+        "moral": 4.4879999999999995,
+        "realism": 5.304,
+        "fatalism": 4.92,
+        "cause": 5.544
+      }
+    },
+    {
+      "persona": "集体主义战略家",
+      "matchedCharacter": "吉克 耶格尔",
+      "scoreDistance": 2.207,
+      "expectationGap": 2.514,
+      "languageToResultGap": 4.181,
+      "optionToResultGap": 2.543,
+      "semanticTopOverlap": 0.5,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": false,
+      "needsReflection": false,
+      "chosenOptions": [
+        {
+          "questionId": 1,
+          "optionIndex": 2,
+          "optionText": "研究墙壁的构造，寻找理性突围的长期方案。",
+          "semanticMatch": 0.181,
+          "noisyScore": 0.181
+        },
+        {
+          "questionId": 2,
+          "optionIndex": 0,
+          "optionText": "毫不犹豫地执行，为了生存必须舍弃人性。",
+          "semanticMatch": 0.276,
+          "noisyScore": 0.276
+        },
+        {
+          "questionId": 3,
+          "optionIndex": 2,
+          "optionText": "命运是概率的集合，我们要利用规则最大化胜算。",
+          "semanticMatch": 0.164,
+          "noisyScore": 0.164
+        },
+        {
+          "questionId": 4,
+          "optionIndex": 0,
+          "optionText": "为了大义，即便流泪也要痛下杀手。",
+          "semanticMatch": 0.229,
+          "noisyScore": 0.229
+        },
+        {
+          "questionId": 5,
+          "optionIndex": 2,
+          "optionText": "对社会或民族应尽的责任与使命。",
+          "semanticMatch": 0.234,
+          "noisyScore": 0.234
+        },
+        {
+          "questionId": 6,
+          "optionIndex": 1,
+          "optionText": "静静地喝一杯茶，接受这种必然性。",
+          "semanticMatch": 0.124,
+          "noisyScore": 0.124
+        },
+        {
+          "questionId": 7,
+          "optionIndex": 0,
+          "optionText": "谎言是必要的统治手段，为了大局可以欺骗大众。",
+          "semanticMatch": 0.212,
+          "noisyScore": 0.212
+        },
+        {
+          "questionId": 8,
+          "optionIndex": 0,
+          "optionText": "是的，真相高于一切生存意义。",
+          "semanticMatch": 0.163,
+          "noisyScore": 0.163
+        },
+        {
+          "questionId": 9,
+          "optionIndex": 2,
+          "optionText": "作为威慑筹码，通过外交进行博弈。",
+          "semanticMatch": 0.221,
+          "noisyScore": 0.221
+        },
+        {
+          "questionId": 10,
+          "optionIndex": 0,
+          "optionText": "制定计划并下达残酷命令的领导者。",
+          "semanticMatch": 0.288,
+          "noisyScore": 0.288
+        }
+      ],
+      "personaProfile": {
+        "freedom": 5,
+        "moral": 7.24,
+        "realism": 10,
+        "fatalism": 5,
+        "cause": 10
+      },
+      "resultProfile": {
+        "freedom": 6.95,
+        "moral": 7.6000000000000005,
+        "realism": 7.6000000000000005,
+        "fatalism": 5.65,
+        "cause": 7.286
+      },
+      "averageOptionProfile": {
+        "freedom": 5.016,
+        "moral": 6.119999999999999,
+        "realism": 7.312,
+        "fatalism": 5.752,
+        "cause": 6.62
+      }
+    },
+    {
+      "persona": "守护型照料者",
+      "matchedCharacter": "莱纳 布朗",
+      "scoreDistance": 2.787,
+      "expectationGap": 4.236,
+      "languageToResultGap": 2.473,
+      "optionToResultGap": 2.661,
+      "semanticTopOverlap": 0.5,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": false,
+      "needsReflection": false,
+      "chosenOptions": [
+        {
+          "questionId": 1,
+          "optionIndex": 1,
+          "optionText": "在墙内寻找最舒适、最安全的生存方式。",
+          "semanticMatch": 0.178,
+          "noisyScore": 0.178
+        },
+        {
+          "questionId": 2,
+          "optionIndex": 1,
+          "optionText": "绝对无法接受，杀戮永远不能换取正义。",
+          "semanticMatch": 0.287,
+          "noisyScore": 0.287
+        },
+        {
+          "questionId": 3,
+          "optionIndex": 1,
+          "optionText": "命运是可以被意志扭转的，只要你有足够的执念。",
+          "semanticMatch": 0.177,
+          "noisyScore": 0.177
+        },
+        {
+          "questionId": 4,
+          "optionIndex": 0,
+          "optionText": "为了大义，即便流泪也要痛下杀手。",
+          "semanticMatch": 0.519,
+          "noisyScore": 0.519
+        },
+        {
+          "questionId": 5,
+          "optionIndex": 2,
+          "optionText": "对社会或民族应尽的责任与使命。",
+          "semanticMatch": 0.298,
+          "noisyScore": 0.298
+        },
+        {
+          "questionId": 6,
+          "optionIndex": 2,
+          "optionText": "保护好最重要的人，能多活一秒是一秒。",
+          "semanticMatch": 0.368,
+          "noisyScore": 0.368
+        },
+        {
+          "questionId": 7,
+          "optionIndex": 1,
+          "optionText": "谎言是软弱的表现，我追求绝对的真实。",
+          "semanticMatch": 0.299,
+          "noisyScore": 0.299
+        },
+        {
+          "questionId": 8,
+          "optionIndex": 1,
+          "optionText": "不，有些时候无知才是一种幸福。",
+          "semanticMatch": 0.307,
+          "noisyScore": 0.307
+        },
+        {
+          "questionId": 9,
+          "optionIndex": 0,
+          "optionText": "用它来铲除一切敌人，换取绝对的安全。",
+          "semanticMatch": 0.278,
+          "noisyScore": 0.278
+        },
+        {
+          "questionId": 10,
+          "optionIndex": 1,
+          "optionText": "忠诚地执行命令，哪怕内心煎熬。",
+          "semanticMatch": 0.246,
+          "noisyScore": 0.246
+        }
+      ],
+      "personaProfile": {
+        "freedom": 5,
+        "moral": 5.8,
+        "realism": 5,
+        "fatalism": 5,
+        "cause": 7.24
+      },
+      "resultProfile": {
+        "freedom": 4.35,
+        "moral": 6.95,
+        "realism": 5.65,
+        "fatalism": 6.95,
+        "cause": 6.859999999999999
+      },
+      "averageOptionProfile": {
+        "freedom": 4.632000000000001,
+        "moral": 4.872,
+        "realism": 5.064,
+        "fatalism": 5.576,
+        "cause": 6.188000000000001
+      }
+    },
+    {
+      "persona": "现实主义调停者",
+      "matchedCharacter": "让 基尔希斯坦",
+      "scoreDistance": 3.839,
+      "expectationGap": 3.979,
+      "languageToResultGap": 3.438,
+      "optionToResultGap": 1.897,
+      "semanticTopOverlap": 0.5,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": false,
+      "needsReflection": false,
+      "chosenOptions": [
+        {
+          "questionId": 1,
+          "optionIndex": 2,
+          "optionText": "研究墙壁的构造，寻找理性突围的长期方案。",
+          "semanticMatch": 0.308,
+          "noisyScore": 0.308
+        },
+        {
+          "questionId": 2,
+          "optionIndex": 1,
+          "optionText": "绝对无法接受，杀戮永远不能换取正义。",
+          "semanticMatch": 0.129,
+          "noisyScore": 0.129
+        },
+        {
+          "questionId": 3,
+          "optionIndex": 2,
+          "optionText": "命运是概率的集合，我们要利用规则最大化胜算。",
+          "semanticMatch": 0.191,
+          "noisyScore": 0.191
+        },
+        {
+          "questionId": 4,
+          "optionIndex": 1,
+          "optionText": "尝试沟通，寻找第三条共存的道路。",
+          "semanticMatch": 0.162,
+          "noisyScore": 0.162
+        },
+        {
+          "questionId": 5,
+          "optionIndex": 0,
+          "optionText": "对自由的渴望，没有任何东西能束缚我。",
+          "semanticMatch": 0.13,
+          "noisyScore": 0.13
+        },
+        {
+          "questionId": 6,
+          "optionIndex": 2,
+          "optionText": "保护好最重要的人，能多活一秒是一秒。",
+          "semanticMatch": 0.159,
+          "noisyScore": 0.159
+        },
+        {
+          "questionId": 7,
+          "optionIndex": 1,
+          "optionText": "谎言是软弱的表现，我追求绝对的真实。",
+          "semanticMatch": 0.181,
+          "noisyScore": 0.181
+        },
+        {
+          "questionId": 8,
+          "optionIndex": 0,
+          "optionText": "是的，真相高于一切生存意义。",
+          "semanticMatch": 0.223,
+          "noisyScore": 0.223
+        },
+        {
+          "questionId": 9,
+          "optionIndex": 2,
+          "optionText": "作为威慑筹码，通过外交进行博弈。",
+          "semanticMatch": 0.331,
+          "noisyScore": 0.331
+        },
+        {
+          "questionId": 10,
+          "optionIndex": 2,
+          "optionText": "总是在质疑规则，试图寻找个人出口的刺头。",
+          "semanticMatch": 0.203,
+          "noisyScore": 0.203
+        }
+      ],
+      "personaProfile": {
+        "freedom": 6.12,
+        "moral": 3.08,
+        "realism": 10,
+        "fatalism": 4.359999999999999,
+        "cause": 5.8
+      },
+      "resultProfile": {
+        "freedom": 5.65,
+        "moral": 4.35,
+        "realism": 6.95,
+        "fatalism": 3.7,
+        "cause": 6.3
+      },
+      "averageOptionProfile": {
+        "freedom": 6.0120000000000005,
+        "moral": 4.4079999999999995,
+        "realism": 6.544000000000001,
+        "fatalism": 5.351999999999999,
+        "cause": 5.544
+      }
+    },
+    {
+      "persona": "宿命型幸存者",
+      "matchedCharacter": "莱纳 布朗",
+      "scoreDistance": 2.274,
+      "expectationGap": 4.041,
+      "languageToResultGap": 4.9,
+      "optionToResultGap": 1.594,
+      "semanticTopOverlap": 0.5,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": false,
+      "needsReflection": false,
+      "chosenOptions": [
+        {
+          "questionId": 1,
+          "optionIndex": 1,
+          "optionText": "在墙内寻找最舒适、最安全的生存方式。",
+          "semanticMatch": 0.193,
+          "noisyScore": 0.193
+        },
+        {
+          "questionId": 2,
+          "optionIndex": 2,
+          "optionText": "痛苦地接受，并决定由自己来背负这份罪孽。",
+          "semanticMatch": 0.182,
+          "noisyScore": 0.182
+        },
+        {
+          "questionId": 3,
+          "optionIndex": 2,
+          "optionText": "命运是概率的集合，我们要利用规则最大化胜算。",
+          "semanticMatch": 0.225,
+          "noisyScore": 0.225
+        },
+        {
+          "questionId": 4,
+          "optionIndex": 0,
+          "optionText": "为了大义，即便流泪也要痛下杀手。",
+          "semanticMatch": 0.126,
+          "noisyScore": 0.126
+        },
+        {
+          "questionId": 5,
+          "optionIndex": 1,
+          "optionText": "对某些东西的「沉溺」，比如梦想、仇恨或爱。",
+          "semanticMatch": 0.133,
+          "noisyScore": 0.133
+        },
+        {
+          "questionId": 6,
+          "optionIndex": 1,
+          "optionText": "静静地喝一杯茶，接受这种必然性。",
+          "semanticMatch": 0.309,
+          "noisyScore": 0.309
+        },
+        {
+          "questionId": 7,
+          "optionIndex": 0,
+          "optionText": "谎言是必要的统治手段，为了大局可以欺骗大众。",
+          "semanticMatch": 0.13,
+          "noisyScore": 0.13
+        },
+        {
+          "questionId": 8,
+          "optionIndex": 0,
+          "optionText": "是的，真相高于一切生存意义。",
+          "semanticMatch": 0.142,
+          "noisyScore": 0.142
+        },
+        {
+          "questionId": 9,
+          "optionIndex": 0,
+          "optionText": "用它来铲除一切敌人，换取绝对的安全。",
+          "semanticMatch": 0.172,
+          "noisyScore": 0.172
+        },
+        {
+          "questionId": 10,
+          "optionIndex": 1,
+          "optionText": "忠诚地执行命令，哪怕内心煎熬。",
+          "semanticMatch": 0.191,
+          "noisyScore": 0.191
+        }
+      ],
+      "personaProfile": {
+        "freedom": 1.4799999999999995,
+        "moral": 6.12,
+        "realism": 7.880000000000001,
+        "fatalism": 10,
+        "cause": 5.96
+      },
+      "resultProfile": {
+        "freedom": 4.35,
+        "moral": 6.95,
+        "realism": 5.65,
+        "fatalism": 6.95,
+        "cause": 6.859999999999999
+      },
+      "averageOptionProfile": {
+        "freedom": 4.456,
+        "moral": 6.023999999999999,
+        "realism": 6.156000000000001,
+        "fatalism": 6.4079999999999995,
+        "cause": 5.8
+      }
+    },
+    {
+      "persona": "矛盾型士兵",
+      "matchedCharacter": "利威尔 阿克曼",
+      "scoreDistance": 2.592,
+      "expectationGap": 1.646,
+      "languageToResultGap": 3.813,
+      "optionToResultGap": 1.461,
+      "semanticTopOverlap": 0.5,
+      "selfPerceptionDrift": false,
+      "calibrationConcern": false,
+      "needsReflection": false,
+      "chosenOptions": [
+        {
+          "questionId": 1,
+          "optionIndex": 2,
+          "optionText": "研究墙壁的构造，寻找理性突围的长期方案。",
+          "semanticMatch": 0.143,
+          "noisyScore": 0.143
+        },
+        {
+          "questionId": 2,
+          "optionIndex": 0,
+          "optionText": "毫不犹豫地执行，为了生存必须舍弃人性。",
+          "semanticMatch": 0.194,
+          "noisyScore": 0.194
+        },
+        {
+          "questionId": 3,
+          "optionIndex": 2,
+          "optionText": "命运是概率的集合，我们要利用规则最大化胜算。",
+          "semanticMatch": 0.136,
+          "noisyScore": 0.136
+        },
+        {
+          "questionId": 4,
+          "optionIndex": 0,
+          "optionText": "为了大义，即便流泪也要痛下杀手。",
+          "semanticMatch": 0.207,
+          "noisyScore": 0.207
+        },
+        {
+          "questionId": 5,
+          "optionIndex": 2,
+          "optionText": "对社会或民族应尽的责任与使命。",
+          "semanticMatch": 0.273,
+          "noisyScore": 0.273
+        },
+        {
+          "questionId": 6,
+          "optionIndex": 1,
+          "optionText": "静静地喝一杯茶，接受这种必然性。",
+          "semanticMatch": 0.15,
+          "noisyScore": 0.15
+        },
+        {
+          "questionId": 7,
+          "optionIndex": 0,
+          "optionText": "谎言是必要的统治手段，为了大局可以欺骗大众。",
+          "semanticMatch": 0.175,
+          "noisyScore": 0.175
+        },
+        {
+          "questionId": 8,
+          "optionIndex": 1,
+          "optionText": "不，有些时候无知才是一种幸福。",
+          "semanticMatch": 0.128,
+          "noisyScore": 0.128
+        },
+        {
+          "questionId": 9,
+          "optionIndex": 2,
+          "optionText": "作为威慑筹码，通过外交进行博弈。",
+          "semanticMatch": 0.19,
+          "noisyScore": 0.19
+        },
+        {
+          "questionId": 10,
+          "optionIndex": 0,
+          "optionText": "制定计划并下达残酷命令的领导者。",
+          "semanticMatch": 0.336,
+          "noisyScore": 0.336
+        }
+      ],
+      "personaProfile": {
+        "freedom": 4.2,
+        "moral": 6.12,
+        "realism": 8.84,
+        "fatalism": 5.96,
+        "cause": 10
+      },
+      "resultProfile": {
+        "freedom": 5,
+        "moral": 5.504,
+        "realism": 7.6000000000000005,
+        "fatalism": 7.084,
+        "cause": 6.726
+      },
+      "averageOptionProfile": {
+        "freedom": 4.808,
+        "moral": 6.055999999999999,
+        "realism": 7.184,
+        "fatalism": 5.816,
+        "cause": 6.62
+      }
+    }
+  ],
+  "semanticQuestionConsistency": [
+    {
+      "questionId": 1,
+      "optionIndex": 0,
+      "optionText": "不惜一切代价冲破它，哪怕这会引发灾难。",
+      "textTop": [
+        "freedom",
+        "realism"
+      ],
+      "numericTop": [
+        "freedom",
+        "moral"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 1,
+      "optionIndex": 1,
+      "optionText": "在墙内寻找最舒适、最安全的生存方式。",
+      "textTop": [
+        "realism",
+        "freedom"
+      ],
+      "numericTop": [
+        "freedom",
+        "realism"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 1,
+      "optionIndex": 2,
+      "optionText": "研究墙壁的构造，寻找理性突围的长期方案。",
+      "textTop": [
+        "realism",
+        "freedom"
+      ],
+      "numericTop": [
+        "realism",
+        "cause"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 2,
+      "optionIndex": 0,
+      "optionText": "毫不犹豫地执行，为了生存必须舍弃人性。",
+      "textTop": [
+        "moral",
+        "realism"
+      ],
+      "numericTop": [
+        "moral",
+        "cause"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 2,
+      "optionIndex": 1,
+      "optionText": "绝对无法接受，杀戮永远不能换取正义。",
+      "textTop": [
+        "moral",
+        "fatalism"
+      ],
+      "numericTop": [
+        "moral",
+        "cause"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 2,
+      "optionIndex": 2,
+      "optionText": "痛苦地接受，并决定由自己来背负这份罪孽。",
+      "textTop": [
+        "moral",
+        "fatalism"
+      ],
+      "numericTop": [
+        "fatalism",
+        "cause"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 3,
+      "optionIndex": 0,
+      "optionText": "命运是既定的，我们只是在扮演剧本里的角色。",
+      "textTop": [
+        "fatalism",
+        "freedom"
+      ],
+      "numericTop": [
+        "fatalism",
+        "freedom"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 3,
+      "optionIndex": 1,
+      "optionText": "命运是可以被意志扭转的，只要你有足够的执念。",
+      "textTop": [
+        "freedom",
+        "realism"
+      ],
+      "numericTop": [
+        "freedom",
+        "fatalism"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 3,
+      "optionIndex": 2,
+      "optionText": "命运是概率的集合，我们要利用规则最大化胜算。",
+      "textTop": [
+        "realism",
+        "fatalism"
+      ],
+      "numericTop": [
+        "realism",
+        "freedom"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 4,
+      "optionIndex": 0,
+      "optionText": "为了大义，即便流泪也要痛下杀手。",
+      "textTop": [
+        "cause",
+        "moral"
+      ],
+      "numericTop": [
+        "cause",
+        "moral"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 4,
+      "optionIndex": 1,
+      "optionText": "尝试沟通，寻找第三条共存的道路。",
+      "textTop": [
+        "moral",
+        "cause"
+      ],
+      "numericTop": [
+        "moral",
+        "realism"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 4,
+      "optionIndex": 2,
+      "optionText": "放弃立场，只想保护身边的这几个人。",
+      "textTop": [
+        "cause",
+        "moral"
+      ],
+      "numericTop": [
+        "cause",
+        "freedom"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 5,
+      "optionIndex": 0,
+      "optionText": "对自由的渴望，没有任何东西能束缚我。",
+      "textTop": [
+        "freedom",
+        "fatalism"
+      ],
+      "numericTop": [
+        "freedom",
+        "cause"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 5,
+      "optionIndex": 1,
+      "optionText": "对某些东西的「沉溺」，比如梦想、仇恨或爱。",
+      "textTop": [
+        "fatalism",
+        "realism"
+      ],
+      "numericTop": [
+        "fatalism",
+        "freedom"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 5,
+      "optionIndex": 2,
+      "optionText": "对社会或民族应尽的责任与使命。",
+      "textTop": [
+        "cause",
+        "freedom"
+      ],
+      "numericTop": [
+        "cause",
+        "moral"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 6,
+      "optionIndex": 0,
+      "optionText": "发动最后的一搏，试图逆转结果。",
+      "textTop": [
+        "freedom",
+        "fatalism"
+      ],
+      "numericTop": [
+        "freedom",
+        "moral"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 6,
+      "optionIndex": 1,
+      "optionText": "静静地喝一杯茶，接受这种必然性。",
+      "textTop": [
+        "fatalism",
+        "realism"
+      ],
+      "numericTop": [
+        "fatalism",
+        "realism"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 6,
+      "optionIndex": 2,
+      "optionText": "保护好最重要的人，能多活一秒是一秒。",
+      "textTop": [
+        "moral",
+        "freedom"
+      ],
+      "numericTop": [
+        "cause",
+        "moral"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 7,
+      "optionIndex": 0,
+      "optionText": "谎言是必要的统治手段，为了大局可以欺骗大众。",
+      "textTop": [
+        "moral",
+        "cause"
+      ],
+      "numericTop": [
+        "moral",
+        "realism"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 7,
+      "optionIndex": 1,
+      "optionText": "谎言是软弱的表现，我追求绝对的真实。",
+      "textTop": [
+        "moral",
+        "realism"
+      ],
+      "numericTop": [
+        "freedom",
+        "moral"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 7,
+      "optionIndex": 2,
+      "optionText": "只要能保护我爱的人，谎言也无所谓。",
+      "textTop": [
+        "moral",
+        "cause"
+      ],
+      "numericTop": [
+        "cause",
+        "moral"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 8,
+      "optionIndex": 0,
+      "optionText": "是的，真相高于一切生存意义。",
+      "textTop": [
+        "realism",
+        "freedom"
+      ],
+      "numericTop": [
+        "freedom",
+        "realism"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 8,
+      "optionIndex": 1,
+      "optionText": "不，有些时候无知才是一种幸福。",
+      "textTop": [
+        "freedom",
+        "moral"
+      ],
+      "numericTop": [
+        "fatalism",
+        "freedom"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    },
+    {
+      "questionId": 9,
+      "optionIndex": 0,
+      "optionText": "用它来铲除一切敌人，换取绝对的安全。",
+      "textTop": [
+        "moral",
+        "freedom"
+      ],
+      "numericTop": [
+        "freedom",
+        "moral"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 9,
+      "optionIndex": 1,
+      "optionText": "封印它，认为人类不配拥有这种力量。",
+      "textTop": [
+        "realism",
+        "fatalism"
+      ],
+      "numericTop": [
+        "realism",
+        "fatalism"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 9,
+      "optionIndex": 2,
+      "optionText": "作为威慑筹码，通过外交进行博弈。",
+      "textTop": [
+        "realism",
+        "cause"
+      ],
+      "numericTop": [
+        "realism",
+        "cause"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 10,
+      "optionIndex": 0,
+      "optionText": "制定计划并下达残酷命令的领导者。",
+      "textTop": [
+        "realism",
+        "cause"
+      ],
+      "numericTop": [
+        "realism",
+        "cause"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 10,
+      "optionIndex": 1,
+      "optionText": "忠诚地执行命令，哪怕内心煎熬。",
+      "textTop": [
+        "fatalism",
+        "freedom"
+      ],
+      "numericTop": [
+        "fatalism",
+        "freedom"
+      ],
+      "overlap": 1,
+      "warning": false
+    },
+    {
+      "questionId": 10,
+      "optionIndex": 2,
+      "optionText": "总是在质疑规则，试图寻找个人出口的刺头。",
+      "textTop": [
+        "freedom",
+        "realism"
+      ],
+      "numericTop": [
+        "freedom",
+        "cause"
+      ],
+      "overlap": 0.5,
+      "warning": false
+    }
+  ],
+  "recommendations": [
+    "人格“理想主义反叛者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.053，但选项语义到结果偏差仅 2.463。建议在结果页提示“你的选择比自我描述更接近 让 基尔希斯坦”。"
+  ]
+}

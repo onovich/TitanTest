@@ -1,0 +1,20 @@
+{
+  "iteration": 11,
+  "seed": 20260429,
+  "generatedAt": "2026-04-18T08:58:05.446Z",
+  "satisfactionScore": 93.89,
+  "verdict": "满意",
+  "action": "无需继续调分；保留结果解释层处理自我感知偏差。",
+  "note": "数值与语义模拟均未出现需要改分的硬性问题，当前主要剩余的是个别人格的自我感知偏差。",
+  "numeric": {
+    "avgExpectationGap": 2.096,
+    "calibrationNeededCount": 0
+  },
+  "language": {
+    "avgLanguageToResultGap": 4.042,
+    "avgOptionToResultGap": 2.193,
+    "reflectionCount": 0,
+    "selfPerceptionDriftCount": 1,
+    "inconsistentOptionCount": 0
+  }
+}

@@ -1,4 +1,4 @@
-import { INITIAL_SCORES, mergeOptionScores, findBestMatch, euclideanDistance, rankDimensions, DIMENSIONS } from '../logic/scoring';
+import { INITIAL_SCORES, mergeOptionScores, findBestMatch, euclideanDistance, rankDimensions, DIMENSIONS } from '../logic/scoring.js';
 
 function average(values) {
   return values.reduce((s, v) => s + v, 0) / (values.length || 1);

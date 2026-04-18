@@ -1,0 +1,10 @@
+{
+  "generatedAt": "2026-04-18T08:58:05.538Z",
+  "iterations": 30,
+  "threshold": 80,
+  "averageSatisfaction": 86.5,
+  "minSatisfaction": 69.89,
+  "maxSatisfaction": 93.89,
+  "satisfiedIterations": 29,
+  "finalVerdict": "satisfied"
+}

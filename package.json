@@ -1,0 +1,25 @@
+{
+  "name": "titantest",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "npm run test:personas",
+    "test:personas": "node scripts/run-persona-tests.js",
+    "test:personas:strict": "node scripts/run-persona-tests.js --strict",
+    "test:iterations": "node scripts/run-iteration-cycle.js",
+    "test:iterations:strict": "node scripts/run-iteration-cycle.js --max=30 --threshold=88"
+  },
+  "dependencies": {
+    "lucide-react": "^0.511.0",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-react": "^4.3.4",
+    "vite": "^5.4.10"
+  }
+}

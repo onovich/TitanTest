@@ -14,9 +14,10 @@ export function clampScore(value, min = 1, max = 10) {
 
 export function mergeOptionScores(currentScores, optionScores) {
   const nextScores = { ...currentScores };
+  const influence = 0.35;
 
   Object.keys(optionScores).forEach((key) => {
-    nextScores[key] = clampScore(nextScores[key] + (optionScores[key] - 5) * 0.5);
+    nextScores[key] = clampScore(nextScores[key] + (optionScores[key] - nextScores[key]) * influence);
   });
 
   return nextScores;
@@ -41,6 +42,16 @@ export function findBestMatch(finalScores, characters) {
     },
     { character: null, distance: Infinity }
   );
+}
+
+export function rankCharacterMatches(finalScores, characters, limit = characters.length) {
+  return [...characters]
+    .map((character) => ({
+      character,
+      distance: euclideanDistance(finalScores, character.scores),
+    }))
+    .sort((a, b) => a.distance - b.distance)
+    .slice(0, limit);
 }
 
 export function rankDimensions(scores) {
