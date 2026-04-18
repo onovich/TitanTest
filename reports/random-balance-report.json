@@ -1,60 +1,60 @@
 {
-  "generatedAt": "2026-04-18T21:57:26.056Z",
+  "generatedAt": "2026-04-18T21:57:31.242Z",
   "sampleSize": 3000,
-  "seed": 20260427,
+  "seed": 20260428,
   "topCharacter": {
     "name": "利威尔·阿克曼",
-    "count": 947,
-    "share": 31.57
+    "count": 958,
+    "share": 31.93
   },
   "averageConfidenceGap": 0.386,
-  "distributionEntropy": 2.688,
+  "distributionEntropy": 2.663,
   "maxEntropy": 4.322,
   "distribution": [
     {
       "name": "利威尔·阿克曼",
-      "count": 947,
-      "share": 31.57
+      "count": 958,
+      "share": 31.93
     },
     {
       "name": "让·基尔希斯坦",
-      "count": 924,
-      "share": 30.8
+      "count": 923,
+      "share": 30.77
     },
     {
       "name": "阿明·阿诺德",
-      "count": 283,
-      "share": 9.43
+      "count": 304,
+      "share": 10.13
     },
     {
       "name": "贾碧·布朗",
-      "count": 196,
-      "share": 6.53
+      "count": 180,
+      "share": 6
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 149,
-      "share": 4.97
-    },
-    {
-      "name": "莱纳·布朗",
-      "count": 119,
-      "share": 3.97
-    },
-    {
-      "name": "肯尼·阿克曼",
-      "count": 105,
-      "share": 3.5
-    },
-    {
-      "name": "艾伦·耶格尔",
-      "count": 102,
-      "share": 3.4
+      "count": 151,
+      "share": 5.03
     },
     {
       "name": "吉克·耶格尔",
-      "count": 87,
-      "share": 2.9
+      "count": 124,
+      "share": 4.13
+    },
+    {
+      "name": "肯尼·阿克曼",
+      "count": 111,
+      "share": 3.7
+    },
+    {
+      "name": "艾伦·耶格尔",
+      "count": 90,
+      "share": 3
+    },
+    {
+      "name": "莱纳·布朗",
+      "count": 75,
+      "share": 2.5
     },
     {
       "name": "三笠·阿克曼",
@@ -62,12 +62,7 @@
       "share": 2.43
     },
     {
-      "name": "萨莎·布劳斯",
-      "count": 7,
-      "share": 0.23
-    },
-    {
-      "name": "艾尔文·史密斯",
+      "name": "多托·匹西斯",
       "count": 3,
       "share": 0.1
     },
@@ -77,7 +72,12 @@
       "share": 0.1
     },
     {
-      "name": "多托·匹西斯",
+      "name": "萨莎·布劳斯",
+      "count": 3,
+      "share": 0.1
+    },
+    {
+      "name": "艾尔文·史密斯",
       "count": 2,
       "share": 0.07
     },
