@@ -8,16 +8,16 @@
       "cause": 5.9
     },
     "optionScoreCalibrationStrengths": {
-      "freedom": 0.04,
-      "moral": 0.17000000000000004,
-      "realism": 0.47,
-      "fatalism": 0.09000000000000002,
-      "cause": 0.29499999999999993
+      "freedom": 0.065,
+      "moral": 0.16000000000000003,
+      "realism": 0.44999999999999996,
+      "fatalism": 0.10000000000000002,
+      "cause": 0.2799999999999999
     },
-    "matchDensityPenaltyWeight": 5.12,
+    "matchDensityPenaltyWeight": 4.94,
     "neutralCenterPenaltyWeight": 2.35,
-    "ambiguityCenter": 12.5,
-    "ambiguityWidth": 7.5
+    "ambiguityCenter": 12.34,
+    "ambiguityWidth": 7.38
   },
   "characterTuning": {
     "signalScales": {
@@ -44,13 +44,13 @@
     }
   },
   "evaluation": {
-    "generatedAt": "2026-04-18T21:46:14.965Z",
+    "generatedAt": "2026-04-18T21:46:20.227Z",
     "workflowLength": 923,
     "sampleSize": 3000,
-    "seed": 20260434,
+    "seed": 20260435,
     "persona": {
-      "personaScore": 15.38,
-      "avgExpectationGap": 1.196,
+      "personaScore": 15.4,
+      "avgExpectationGap": 1.192,
       "calibrationNeededCount": 0,
       "reflectionCount": 1,
       "selfPerceptionDriftCount": 2,
@@ -60,81 +60,76 @@
     },
     "balance": {
       "sampleSize": 3000,
-      "seed": 20260434,
-      "topShare": 32.23,
+      "seed": 20260435,
+      "topShare": 33.3,
       "topCharacter": "让·基尔希斯坦",
-      "normalizedEntropy": 0.646,
-      "averageConfidenceGap": 0.344,
-      "activeRoleCount": 14,
-      "balanceScore": 82.99,
+      "normalizedEntropy": 0.64,
+      "averageConfidenceGap": 0.35,
+      "activeRoleCount": 13,
+      "balanceScore": 79.25,
       "distribution": [
         {
           "name": "让·基尔希斯坦",
-          "count": 967,
-          "share": 32.23
+          "count": 999,
+          "share": 33.3
         },
         {
           "name": "利威尔·阿克曼",
-          "count": 834,
-          "share": 27.8
-        },
-        {
-          "name": "阿明·阿诺德",
-          "count": 232,
-          "share": 7.73
-        },
-        {
-          "name": "格里沙·耶格尔",
-          "count": 184,
-          "share": 6.13
+          "count": 826,
+          "share": 27.53
         },
         {
           "name": "贾碧·布朗",
-          "count": 167,
-          "share": 5.57
+          "count": 203,
+          "share": 6.77
         },
         {
-          "name": "艾伦·耶格尔",
-          "count": 163,
-          "share": 5.43
+          "name": "阿明·阿诺德",
+          "count": 188,
+          "share": 6.27
+        },
+        {
+          "name": "格里沙·耶格尔",
+          "count": 178,
+          "share": 5.93
         },
         {
           "name": "肯尼·阿克曼",
-          "count": 140,
-          "share": 4.67
+          "count": 154,
+          "share": 5.13
+        },
+        {
+          "name": "艾伦·耶格尔",
+          "count": 129,
+          "share": 4.3
         },
         {
           "name": "三笠·阿克曼",
-          "count": 121,
-          "share": 4.03
+          "count": 107,
+          "share": 3.57
         },
         {
           "name": "莱纳·布朗",
-          "count": 69,
-          "share": 2.3
+          "count": 93,
+          "share": 3.1
         },
         {
           "name": "吉克·耶格尔",
-          "count": 60,
-          "share": 2
+          "count": 91,
+          "share": 3.03
         },
         {
           "name": "尤弥尔·弗里茨",
-          "count": 57,
-          "share": 1.9
+          "count": 28,
+          "share": 0.93
         },
         {
-          "name": "艾尔文·史密斯",
+          "name": "萨莎·布劳斯",
           "count": 3,
           "share": 0.1
         },
         {
-          "name": "萨莎·布劳斯",
-          "count": 2,
-          "share": 0.07
-        },
-        {
-          "name": "多托·匹西斯",
+          "name": "艾尔文·史密斯",
           "count": 1,
           "share": 0.03
         },
@@ -160,6 +155,11 @@
         },
         {
           "name": "弗洛克·福斯特",
+          "count": 0,
+          "share": 0
+        },
+        {
+          "name": "多托·匹西斯",
           "count": 0,
           "share": 0
         },
@@ -644,7 +644,7 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 67.61,
-    "combinedScore": 72.91
+    "scoreGap": 63.85,
+    "combinedScore": 72.2
   }
 }
