@@ -14,7 +14,7 @@
       "fatalism": 0.05,
       "cause": 0.23004000000000002
     },
-    "matchDensityPenaltyWeight": 5.9895999999999985,
+    "matchDensityPenaltyWeight": 6,
     "ambiguityCenter": 12.5,
     "ambiguityWidth": 7.5
   },
@@ -43,10 +43,10 @@
     }
   },
   "evaluation": {
-    "generatedAt": "2026-04-18T20:51:40.324Z",
+    "generatedAt": "2026-04-18T20:51:45.331Z",
     "workflowLength": 923,
     "sampleSize": 2000,
-    "seed": 20260432,
+    "seed": 20260433,
     "persona": {
       "personaScore": 91.61,
       "avgExpectationGap": 1.191,
@@ -59,63 +59,63 @@
     },
     "balance": {
       "sampleSize": 2000,
-      "seed": 20260432,
-      "topShare": 22,
+      "seed": 20260433,
+      "topShare": 21.3,
       "topCharacter": "利威尔·阿克曼",
-      "normalizedEntropy": 0.684,
-      "averageConfidenceGap": 0.305,
+      "normalizedEntropy": 0.688,
+      "averageConfidenceGap": 0.303,
       "activeRoleCount": 10,
-      "balanceScore": 95.14,
+      "balanceScore": 96.5,
       "distribution": [
         {
           "name": "利威尔·阿克曼",
-          "count": 440,
-          "share": 22
+          "count": 426,
+          "share": 21.3
         },
         {
           "name": "让·基尔希斯坦",
-          "count": 399,
-          "share": 19.95
+          "count": 422,
+          "share": 21.1
         },
         {
           "name": "柯尼·斯普林格",
-          "count": 277,
-          "share": 13.85
-        },
-        {
-          "name": "阿明·阿诺德",
-          "count": 218,
-          "share": 10.9
+          "count": 243,
+          "share": 12.15
         },
         {
           "name": "贾碧·布朗",
-          "count": 208,
-          "share": 10.4
+          "count": 223,
+          "share": 11.15
         },
         {
           "name": "格里沙·耶格尔",
+          "count": 203,
+          "share": 10.15
+        },
+        {
+          "name": "阿明·阿诺德",
           "count": 197,
           "share": 9.85
         },
         {
-          "name": "莱纳·布朗",
-          "count": 108,
-          "share": 5.4
+          "name": "三笠·阿克曼",
+          "count": 124,
+          "share": 6.2
         },
         {
-          "name": "三笠·阿克曼",
-          "count": 105,
-          "share": 5.25
+          "name": "莱纳·布朗",
+          "count": 112,
+          "share": 5.6
         },
         {
           "name": "萨莎·布劳斯",
-          "count": 38,
-          "share": 1.9
+          "count": 29,
+          "share": 1.45
         },
         {
           "name": "吉克·耶格尔",
-          "count": 10,
-          "share": 0.5
+          "count": 21,
+          "share": 1.05
         },
         {
           "name": "艾伦·耶格尔",
@@ -169,7 +169,7 @@
         }
       ]
     },
-    "scoreGap": 3.53,
-    "combinedScore": 183.93
+    "scoreGap": 4.89,
+    "combinedScore": 184.2
   }
 }
