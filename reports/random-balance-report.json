@@ -1,70 +1,70 @@
 {
-  "generatedAt": "2026-04-18T21:24:47.651Z",
+  "generatedAt": "2026-04-18T21:24:52.846Z",
   "sampleSize": 3000,
-  "seed": 20260427,
+  "seed": 20260428,
   "topCharacter": {
     "name": "利威尔·阿克曼",
-    "count": 1257,
-    "share": 41.9
+    "count": 1218,
+    "share": 40.6
   },
-  "averageConfidenceGap": 0.37,
-  "distributionEntropy": 2.534,
+  "averageConfidenceGap": 0.366,
+  "distributionEntropy": 2.555,
   "maxEntropy": 4.322,
   "distribution": [
     {
       "name": "利威尔·阿克曼",
-      "count": 1257,
-      "share": 41.9
+      "count": 1218,
+      "share": 40.6
     },
     {
       "name": "让·基尔希斯坦",
-      "count": 642,
-      "share": 21.4
+      "count": 693,
+      "share": 23.1
     },
     {
       "name": "阿明·阿诺德",
-      "count": 324,
-      "share": 10.8
+      "count": 329,
+      "share": 10.97
     },
     {
       "name": "贾碧·布朗",
-      "count": 207,
-      "share": 6.9
-    },
-    {
-      "name": "莱纳·布朗",
-      "count": 163,
-      "share": 5.43
+      "count": 173,
+      "share": 5.77
     },
     {
       "name": "格里沙·耶格尔",
-      "count": 145,
-      "share": 4.83
+      "count": 153,
+      "share": 5.1
+    },
+    {
+      "name": "莱纳·布朗",
+      "count": 117,
+      "share": 3.9
     },
     {
       "name": "萨莎·布劳斯",
-      "count": 100,
-      "share": 3.33
+      "count": 117,
+      "share": 3.9
     },
     {
       "name": "吉克·耶格尔",
-      "count": 91,
-      "share": 3.03
+      "count": 110,
+      "share": 3.67
     },
     {
       "name": "三笠·阿克曼",
-      "count": 32,
-      "share": 1.07
+      "count": 49,
+      "share": 1.63
     },
     {
       "name": "肯尼·阿克曼",
-      "count": 26,
-      "share": 0.87
+      "count": 30,
+      "share": 1
     },
     {
       "name": "艾伦·耶格尔",
-      "count": 13,
-      "share": 0.43
+      "count": 11,
+      "share": 0.37
     },
     {
       "name": "艾尔文·史密斯",
