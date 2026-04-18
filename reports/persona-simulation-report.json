@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-04-18T20:51:21.241Z",
+  "generatedAt": "2026-04-18T20:51:26.235Z",
   "strictMode": false,
   "issues": [],
   "summary": {
@@ -159,8 +159,8 @@
     "personaCount": 6,
     "reflectionCount": 0,
     "selfPerceptionDriftCount": 1,
-    "avgLanguageToResultGap": 3.683,
-    "avgOptionToResultGap": 2.255,
+    "avgLanguageToResultGap": 3.684,
+    "avgOptionToResultGap": 2.258,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
@@ -517,10 +517,10 @@
     {
       "persona": "守护型照料者",
       "matchedCharacter": "柯尼·斯普林格",
-      "scoreDistance": 2.902,
+      "scoreDistance": 2.923,
       "expectationGap": 3.356,
-      "languageToResultGap": 1.324,
-      "optionToResultGap": 1.501,
+      "languageToResultGap": 1.328,
+      "optionToResultGap": 1.521,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -675,11 +675,11 @@
         "cause": 7.24
       },
       "resultProfile": {
-        "freedom": 4.2668,
-        "moral": 5.4532,
+        "freedom": 4.2551000000000005,
+        "moral": 5.4649,
         "realism": 5.336,
-        "fatalism": 4.2668,
-        "cause": 6.5732
+        "fatalism": 4.2551000000000005,
+        "cause": 6.584899999999999
       },
       "averageOptionProfile": {
         "freedom": 5.336,
