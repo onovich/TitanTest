@@ -1,88 +1,93 @@
 {
   "iteration": 24,
-  "generatedAt": "2026-04-18T21:46:58.581Z",
+  "generatedAt": "2026-04-18T21:52:15.138Z",
   "workflowLength": 923,
-  "mode": "normal",
-  "selectedCandidate": "balanced-runtime",
+  "mode": "recover",
+  "selectedCandidate": "balanced-character",
   "accepted": {
-    "generatedAt": "2026-04-18T21:46:57.785Z",
+    "generatedAt": "2026-04-18T21:50:13.303Z",
     "workflowLength": 923,
     "sampleSize": 3000,
-    "seed": 20260442,
+    "seed": 20260418,
     "persona": {
-      "personaScore": 15.36,
-      "avgExpectationGap": 1.2,
+      "personaScore": 15.35,
+      "avgExpectationGap": 1.201,
       "calibrationNeededCount": 0,
       "reflectionCount": 1,
       "selfPerceptionDriftCount": 2,
       "inconsistentOptionCount": 5,
-      "avgLanguageToResultGap": 4.318,
-      "avgOptionToResultGap": 2.547
+      "avgLanguageToResultGap": 4.501,
+      "avgOptionToResultGap": 2.478
     },
     "balance": {
       "sampleSize": 3000,
-      "seed": 20260442,
-      "topShare": 33.73,
+      "seed": 20260418,
+      "topShare": 33.7,
       "topCharacter": "让·基尔希斯坦",
       "normalizedEntropy": 0.638,
-      "averageConfidenceGap": 0.352,
+      "averageConfidenceGap": 0.367,
       "activeRoleCount": 14,
-      "balanceScore": 80.13,
+      "balanceScore": 80.19,
       "distribution": [
         {
           "name": "让·基尔希斯坦",
-          "count": 1012,
-          "share": 33.73
+          "count": 1011,
+          "share": 33.7
         },
         {
           "name": "利威尔·阿克曼",
-          "count": 840,
-          "share": 28
+          "count": 839,
+          "share": 27.97
         },
         {
           "name": "阿明·阿诺德",
-          "count": 210,
-          "share": 7
+          "count": 213,
+          "share": 7.1
         },
         {
           "name": "贾碧·布朗",
-          "count": 181,
-          "share": 6.03
-        },
-        {
-          "name": "格里沙·耶格尔",
-          "count": 162,
-          "share": 5.4
+          "count": 175,
+          "share": 5.83
         },
         {
           "name": "肯尼·阿克曼",
-          "count": 139,
-          "share": 4.63
+          "count": 165,
+          "share": 5.5
+        },
+        {
+          "name": "格里沙·耶格尔",
+          "count": 148,
+          "share": 4.93
         },
         {
           "name": "艾伦·耶格尔",
-          "count": 132,
-          "share": 4.4
+          "count": 142,
+          "share": 4.73
         },
         {
           "name": "三笠·阿克曼",
-          "count": 120,
-          "share": 4
-        },
-        {
-          "name": "吉克·耶格尔",
-          "count": 69,
-          "share": 2.3
+          "count": 102,
+          "share": 3.4
         },
         {
           "name": "莱纳·布朗",
+          "count": 78,
+          "share": 2.6
+        },
+        {
+          "name": "吉克·耶格尔",
           "count": 65,
           "share": 2.17
         },
         {
           "name": "尤弥尔·弗里茨",
-          "count": 64,
-          "share": 2.13
+          "count": 55,
+          "share": 1.83
+        },
+        {
+          "name": "多托·匹西斯",
+          "count": 3,
+          "share": 0.1
         },
         {
           "name": "萨莎·布劳斯",
@@ -91,11 +96,6 @@
         },
         {
           "name": "艾尔文·史密斯",
-          "count": 2,
-          "share": 0.07
-        },
-        {
-          "name": "多托·匹西斯",
           "count": 1,
           "share": 0.03
         },
@@ -605,93 +605,93 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 64.77,
-    "combinedScore": 72.31
+    "scoreGap": 64.84,
+    "combinedScore": 72.3
   },
   "candidate": {
-    "generatedAt": "2026-04-18T21:46:57.785Z",
+    "generatedAt": "2026-04-18T21:52:14.931Z",
     "workflowLength": 923,
     "sampleSize": 3000,
     "seed": 20260442,
     "persona": {
-      "personaScore": 15.36,
+      "personaScore": 3.56,
       "avgExpectationGap": 1.2,
       "calibrationNeededCount": 0,
-      "reflectionCount": 1,
-      "selfPerceptionDriftCount": 2,
+      "reflectionCount": 2,
+      "selfPerceptionDriftCount": 1,
       "inconsistentOptionCount": 5,
-      "avgLanguageToResultGap": 4.318,
-      "avgOptionToResultGap": 2.547
+      "avgLanguageToResultGap": 4.39,
+      "avgOptionToResultGap": 2.734
     },
     "balance": {
       "sampleSize": 3000,
       "seed": 20260442,
-      "topShare": 33.73,
-      "topCharacter": "让·基尔希斯坦",
-      "normalizedEntropy": 0.638,
-      "averageConfidenceGap": 0.352,
+      "topShare": 32.83,
+      "topCharacter": "利威尔·阿克曼",
+      "normalizedEntropy": 0.616,
+      "averageConfidenceGap": 0.371,
       "activeRoleCount": 14,
-      "balanceScore": 80.13,
+      "balanceScore": 81.08,
       "distribution": [
         {
-          "name": "让·基尔希斯坦",
-          "count": 1012,
-          "share": 33.73
+          "name": "利威尔·阿克曼",
+          "count": 985,
+          "share": 32.83
         },
         {
-          "name": "利威尔·阿克曼",
-          "count": 840,
-          "share": 28
+          "name": "让·基尔希斯坦",
+          "count": 924,
+          "share": 30.8
         },
         {
           "name": "阿明·阿诺德",
-          "count": 210,
-          "share": 7
+          "count": 264,
+          "share": 8.8
         },
         {
           "name": "贾碧·布朗",
-          "count": 181,
-          "share": 6.03
+          "count": 177,
+          "share": 5.9
         },
         {
           "name": "格里沙·耶格尔",
-          "count": 162,
-          "share": 5.4
-        },
-        {
-          "name": "肯尼·阿克曼",
-          "count": 139,
-          "share": 4.63
-        },
-        {
-          "name": "艾伦·耶格尔",
-          "count": 132,
-          "share": 4.4
-        },
-        {
-          "name": "三笠·阿克曼",
-          "count": 120,
-          "share": 4
+          "count": 146,
+          "share": 4.87
         },
         {
           "name": "吉克·耶格尔",
-          "count": 69,
-          "share": 2.3
+          "count": 126,
+          "share": 4.2
+        },
+        {
+          "name": "艾伦·耶格尔",
+          "count": 104,
+          "share": 3.47
+        },
+        {
+          "name": "肯尼·阿克曼",
+          "count": 100,
+          "share": 3.33
         },
         {
           "name": "莱纳·布朗",
-          "count": 65,
-          "share": 2.17
+          "count": 81,
+          "share": 2.7
+        },
+        {
+          "name": "三笠·阿克曼",
+          "count": 77,
+          "share": 2.57
+        },
+        {
+          "name": "多托·匹西斯",
+          "count": 9,
+          "share": 0.3
         },
         {
           "name": "尤弥尔·弗里茨",
-          "count": 64,
-          "share": 2.13
-        },
-        {
-          "name": "萨莎·布劳斯",
-          "count": 3,
-          "share": 0.1
+          "count": 4,
+          "share": 0.13
         },
         {
           "name": "艾尔文·史密斯",
@@ -699,7 +699,7 @@
           "share": 0.07
         },
         {
-          "name": "多托·匹西斯",
+          "name": "萨莎·布劳斯",
           "count": 1,
           "share": 0.03
         },
@@ -1209,46 +1209,61 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 64.77,
-    "combinedScore": 72.31
+    "scoreGap": 77.52,
+    "combinedScore": 51.26
   },
   "candidateRanks": [
     {
-      "name": "balanced-runtime",
-      "rank": 29.82,
-      "personaScore": 15.36,
-      "balanceScore": 80.13,
-      "scoreGap": 64.77
-    },
-    {
-      "name": "density-runtime",
-      "rank": 29.54,
-      "personaScore": 15.37,
-      "balanceScore": 78.63,
-      "scoreGap": 63.26
-    },
-    {
-      "name": "restore-runtime",
-      "rank": 12.43,
-      "personaScore": 3.56,
-      "balanceScore": 82.97,
-      "scoreGap": 79.41
-    },
-    {
       "name": "balanced-character",
-      "rank": 3.86,
-      "personaScore": 3.57,
-      "balanceScore": 80.04,
-      "scoreGap": 76.47
+      "rank": 62.46,
+      "combinedScore": 51.26,
+      "personaScore": 3.56,
+      "balanceScore": 81.08,
+      "promptScore": 76.5,
+      "optionScore": 71.58,
+      "scoreGap": 77.52
     },
     {
       "name": "focus-top-character",
-      "rank": 3.86,
-      "personaScore": 3.57,
-      "balanceScore": 80.04,
-      "scoreGap": 76.47
+      "rank": 62.46,
+      "combinedScore": 51.26,
+      "personaScore": 3.56,
+      "balanceScore": 81.08,
+      "promptScore": 76.5,
+      "optionScore": 71.58,
+      "scoreGap": 77.52
+    },
+    {
+      "name": "density-runtime",
+      "rank": 62.12,
+      "combinedScore": 51.12,
+      "personaScore": 3.56,
+      "balanceScore": 80.39,
+      "promptScore": 76.5,
+      "optionScore": 71.58,
+      "scoreGap": 76.83
+    },
+    {
+      "name": "balanced-runtime",
+      "rank": 60.8,
+      "combinedScore": 51.33,
+      "personaScore": 3.56,
+      "balanceScore": 81.44,
+      "promptScore": 76.5,
+      "optionScore": 71.58,
+      "scoreGap": 77.88
+    },
+    {
+      "name": "restore-runtime",
+      "rank": 54.25,
+      "combinedScore": 50.8,
+      "personaScore": 3.55,
+      "balanceScore": 78.87,
+      "promptScore": 76.5,
+      "optionScore": 71.58,
+      "scoreGap": 75.32
     }
   ],
-  "accept": true,
-  "degradationStreak": 0
+  "accept": false,
+  "degradationStreak": 24
 }
