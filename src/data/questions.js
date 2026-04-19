@@ -94,9 +94,9 @@ export const QUESTIONS = [
     weight: 0.8,
     text: '在团队里，大家通常会自然把什么事交给你？',
     options: [
-      { text: '需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。', scores: { realism: 8, moral: 7, cause: 9 } },
-      { text: '真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。', scores: { fatalism: 7, cause: 7, freedom: 3, realism: 8 } },
-      { text: '当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。', scores: { freedom: 9, moral: 4, cause: 2, realism: 5 } },
+      { text: '需要看清局势、排好优先级、把规则先定住的时候，大家通常会来找我。', scores: { realism: 8, moral: 7, cause: 9 } },
+      { text: '真到要补漏洞、收残局、把代价算清的时候，通常是我顶上去。', scores: { fatalism: 7, cause: 7, freedom: 3, realism: 8 } },
+      { text: '当大家都顺着惯性往前冲时，我会先把那句最不好听的话讲出来。', scores: { freedom: 9, moral: 4, cause: 2, realism: 5 } },
     ],
   },
   {

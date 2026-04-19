@@ -56,7 +56,7 @@ export const QUESTION_EXTREMITY_REVIEW = [
   {
     id: 10,
     stemScore: 1.7,
-    optionScores: [2.4, 2.3, 2.6],
+    optionScores: [2.3, 2.3, 2.5],
     note: '团队角色题适度回调戏剧性，强化拍板者、收残局者与唱反调者的区别。',
   },
   {

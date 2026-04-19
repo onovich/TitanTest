@@ -1,10 +1,10 @@
 {
   "promptAverage": 1.94,
-  "optionAverage": 2.133,
+  "optionAverage": 2.13,
   "promptMax": 2.4,
   "optionMax": 2.7,
   "promptScore": 76.5,
-  "optionScore": 71.67,
+  "optionScore": 71.75,
   "flaggedPromptCount": 0,
   "flaggedOptionCount": 0,
   "items": [
@@ -223,18 +223,18 @@
       "options": [
         {
           "index": 0,
-          "text": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
-          "score": 2.4
+          "text": "需要看清局势、排好优先级、把规则先定住的时候，大家通常会来找我。",
+          "score": 2.3
         },
         {
           "index": 1,
-          "text": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
+          "text": "真到要补漏洞、收残局、把代价算清的时候，通常是我顶上去。",
           "score": 2.3
         },
         {
           "index": 2,
-          "text": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
-          "score": 2.6
+          "text": "当大家都顺着惯性往前冲时，我会先把那句最不好听的话讲出来。",
+          "score": 2.5
         }
       ]
     },

@@ -1,14 +1,14 @@
 {
-  "generatedAt": "2026-04-18T22:10:07.390Z",
+  "generatedAt": "2026-04-19T04:38:38.947Z",
   "strictMode": false,
   "issues": [],
   "extremity": {
     "promptAverage": 1.94,
-    "optionAverage": 2.133,
+    "optionAverage": 2.13,
     "promptMax": 2.4,
     "optionMax": 2.7,
     "promptScore": 76.5,
-    "optionScore": 71.67,
+    "optionScore": 71.75,
     "flaggedPromptCount": 0,
     "flaggedOptionCount": 0,
     "items": [
@@ -227,18 +227,18 @@
         "options": [
           {
             "index": 0,
-            "text": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
-            "score": 2.4
+            "text": "需要看清局势、排好优先级、把规则先定住的时候，大家通常会来找我。",
+            "score": 2.3
           },
           {
             "index": 1,
-            "text": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
+            "text": "真到要补漏洞、收残局、把代价算清的时候，通常是我顶上去。",
             "score": 2.3
           },
           {
             "index": 2,
-            "text": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
-            "score": 2.6
+            "text": "当大家都顺着惯性往前冲时，我会先把那句最不好听的话讲出来。",
+            "score": 2.5
           }
         ]
       },
@@ -634,7 +634,7 @@
     "reflectionCount": 2,
     "selfPerceptionDriftCount": 2,
     "avgLanguageToResultGap": 4.318,
-    "avgOptionToResultGap": 2.75,
+    "avgOptionToResultGap": 2.762,
     "inconsistentOptionCount": 0
   },
   "semanticReports": [
@@ -644,7 +644,7 @@
       "scoreDistance": 3.635,
       "expectationGap": 4.197,
       "languageToResultGap": 4.9,
-      "optionToResultGap": 3.851,
+      "optionToResultGap": 3.891,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": true,
@@ -716,9 +716,9 @@
         {
           "questionId": 10,
           "optionIndex": 0,
-          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
-          "semanticMatch": 0.222,
-          "noisyScore": 0.222
+          "optionText": "需要看清局势、排好优先级、把规则先定住的时候，大家通常会来找我。",
+          "semanticMatch": 0.233,
+          "noisyScore": 0.233
         },
         {
           "questionId": 11,
@@ -808,7 +808,7 @@
       "averageOptionProfile": {
         "freedom": 5.367999999999999,
         "moral": 4.96,
-        "realism": 6.304,
+        "realism": 6.192,
         "fatalism": 5.096,
         "cause": 5.064
       }
@@ -819,7 +819,7 @@
       "scoreDistance": 2.681,
       "expectationGap": 2.547,
       "languageToResultGap": 5.104,
-      "optionToResultGap": 2.065,
+      "optionToResultGap": 2.054,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -891,9 +891,9 @@
         {
           "questionId": 10,
           "optionIndex": 0,
-          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
-          "semanticMatch": 0.217,
-          "noisyScore": 0.217
+          "optionText": "需要看清局势、排好优先级、把规则先定住的时候，大家通常会来找我。",
+          "semanticMatch": 0.201,
+          "noisyScore": 0.201
         },
         {
           "questionId": 11,
@@ -983,7 +983,7 @@
       "averageOptionProfile": {
         "freedom": 4.936,
         "moral": 4.896,
-        "realism": 6.6,
+        "realism": 6.4879999999999995,
         "fatalism": 5.112,
         "cause": 5.504
       }
@@ -1066,7 +1066,7 @@
         {
           "questionId": 10,
           "optionIndex": 2,
-          "optionText": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
+          "optionText": "当大家都顺着惯性往前冲时，我会先把那句最不好听的话讲出来。",
           "semanticMatch": 0.285,
           "noisyScore": 0.285
         },
@@ -1169,7 +1169,7 @@
       "scoreDistance": 3.687,
       "expectationGap": 1.676,
       "languageToResultGap": 3.345,
-      "optionToResultGap": 3.434,
+      "optionToResultGap": 3.497,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": false,
       "calibrationConcern": true,
@@ -1241,9 +1241,9 @@
         {
           "questionId": 10,
           "optionIndex": 0,
-          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
-          "semanticMatch": 0.292,
-          "noisyScore": 0.292
+          "optionText": "需要看清局势、排好优先级、把规则先定住的时候，大家通常会来找我。",
+          "semanticMatch": 0.242,
+          "noisyScore": 0.242
         },
         {
           "questionId": 11,
@@ -1333,7 +1333,7 @@
       "averageOptionProfile": {
         "freedom": 5.215999999999999,
         "moral": 4.8,
-        "realism": 6.4079999999999995,
+        "realism": 6.296,
         "fatalism": 4.904,
         "cause": 5.2559999999999985
       }
@@ -1344,7 +1344,7 @@
       "scoreDistance": 2.67,
       "expectationGap": 3.432,
       "languageToResultGap": 5.943,
-      "optionToResultGap": 2.179,
+      "optionToResultGap": 2.162,
       "semanticTopOverlap": 0.5,
       "selfPerceptionDrift": true,
       "calibrationConcern": false,
@@ -1416,9 +1416,9 @@
         {
           "questionId": 10,
           "optionIndex": 0,
-          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
-          "semanticMatch": 0.158,
-          "noisyScore": 0.158
+          "optionText": "需要看清局势、排好优先级、把规则先定住的时候，大家通常会来找我。",
+          "semanticMatch": 0.144,
+          "noisyScore": 0.144
         },
         {
           "questionId": 11,
@@ -1508,7 +1508,7 @@
       "averageOptionProfile": {
         "freedom": 4.936,
         "moral": 4.952,
-        "realism": 6.736,
+        "realism": 6.6240000000000006,
         "fatalism": 5.112,
         "cause": 5.335999999999999
       }
@@ -1519,7 +1519,7 @@
       "scoreDistance": 2.702,
       "expectationGap": 1.447,
       "languageToResultGap": 4.383,
-      "optionToResultGap": 1.895,
+      "optionToResultGap": 1.893,
       "semanticTopOverlap": 1,
       "selfPerceptionDrift": false,
       "calibrationConcern": false,
@@ -1591,9 +1591,9 @@
         {
           "questionId": 10,
           "optionIndex": 0,
-          "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
-          "semanticMatch": 0.149,
-          "noisyScore": 0.149
+          "optionText": "需要看清局势、排好优先级、把规则先定住的时候，大家通常会来找我。",
+          "semanticMatch": 0.139,
+          "noisyScore": 0.139
         },
         {
           "questionId": 11,
@@ -1683,7 +1683,7 @@
       "averageOptionProfile": {
         "freedom": 5.056,
         "moral": 4.9399999999999995,
-        "realism": 6.447999999999999,
+        "realism": 6.336,
         "fatalism": 5.112,
         "cause": 5.631999999999999
       }
@@ -2098,7 +2098,7 @@
     {
       "questionId": 10,
       "optionIndex": 0,
-      "optionText": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
+      "optionText": "需要看清局势、排好优先级、把规则先定住的时候，大家通常会来找我。",
       "textTop": [
         "realism",
         "freedom"
@@ -2113,7 +2113,7 @@
     {
       "questionId": 10,
       "optionIndex": 1,
-      "optionText": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
+      "optionText": "真到要补漏洞、收残局、把代价算清的时候，通常是我顶上去。",
       "textTop": [
         "fatalism",
         "freedom"
@@ -2128,7 +2128,7 @@
     {
       "questionId": 10,
       "optionIndex": 2,
-      "optionText": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
+      "optionText": "当大家都顺着惯性往前冲时，我会先把那句最不好听的话讲出来。",
       "textTop": [
         "freedom",
         "moral"
@@ -2592,9 +2592,9 @@
     }
   ],
   "recommendations": [
-    "人格“理想主义反叛者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 4.9，选项语义到结果偏差 3.851；建议复查其高频命中的题目文案与分值。",
-    "人格“现实主义调停者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.345，选项语义到结果偏差 3.434；建议复查其高频命中的题目文案与分值。",
-    "人格“集体主义战略家”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.104，但选项语义到结果偏差仅 2.065。建议在结果页提示“你的选择比自我描述更接近 利威尔·阿克曼”。",
-    "人格“宿命型幸存者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.943，但选项语义到结果偏差仅 2.179。建议在结果页提示“你的选择比自我描述更接近 利威尔·阿克曼”。"
+    "人格“理想主义反叛者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 4.9，选项语义到结果偏差 3.891；建议复查其高频命中的题目文案与分值。",
+    "人格“现实主义调停者”在自然语言直觉模拟中与结果角色存在背离：文本到结果偏差 3.345，选项语义到结果偏差 3.497；建议复查其高频命中的题目文案与分值。",
+    "人格“集体主义战略家”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.104，但选项语义到结果偏差仅 2.054。建议在结果页提示“你的选择比自我描述更接近 利威尔·阿克曼”。",
+    "人格“宿命型幸存者”更像是“自我认知与实际作答存在偏差”：自我叙事到结果偏差 5.943，但选项语义到结果偏差仅 2.162。建议在结果页提示“你的选择比自我描述更接近 利威尔·阿克曼”。"
   ]
 }
