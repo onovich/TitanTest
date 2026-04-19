@@ -8,6 +8,7 @@ import { PERSONAS } from '../src/testing/personas.js';
 import { runPersonaSimulation } from '../src/testing/simulation.js';
 import { runNaturalLanguageSimulation } from '../src/testing/languageSimulation.js';
 import { evaluateQuestionExtremity } from '../src/testing/extremity.js';
+import { evaluateQuestionQuality } from '../src/testing/questionQuality.js';
 import { INITIAL_SCORES, DIMENSIONS, euclideanDistance, mergeOptionScores, rankCharacterMatches } from '../src/logic/scoring.js';
 
 const __filename = fileURLToPath(import.meta.url);
@@ -141,9 +142,19 @@ async function main() {
   const persona = evaluatePersona();
   const balance = evaluateBalance(sampleSize, seed);
   const extremity = evaluateQuestionExtremity(QUESTIONS);
+  const quality = evaluateQuestionQuality(QUESTIONS);
   const scoreGap = Number(Math.abs(persona.personaScore - balance.balanceScore).toFixed(2));
-  const moderationFloor = Math.min(extremity.promptScore, extremity.optionScore);
-  const combinedScore = Number((persona.personaScore + balance.balanceScore + moderationFloor * 0.4 - scoreGap * 0.8).toFixed(2));
+  const dramaticityCore = extremity.dramaticityScore;
+  const qualityCore = Number((quality.clarityScore * 0.45 + quality.differentiationScore * 0.55).toFixed(2));
+  const combinedScore = Number(
+    (
+      dramaticityCore * 0.34 +
+      qualityCore * 0.28 +
+      persona.personaScore * 0.22 +
+      balance.balanceScore * 0.16 -
+      scoreGap * 0.55
+    ).toFixed(2)
+  );
 
   const payload = {
     generatedAt: new Date().toISOString(),
@@ -153,6 +164,7 @@ async function main() {
     persona,
     balance,
     extremity,
+    quality,
     scoreGap,
     combinedScore,
   };

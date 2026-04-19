@@ -8,6 +8,7 @@ import { PERSONAS } from '../src/testing/personas.js';
 import { runPersonaSimulation } from '../src/testing/simulation.js';
 import { runNaturalLanguageSimulation } from '../src/testing/languageSimulation.js';
 import { buildExtremityMarkdownReport, evaluateQuestionExtremity } from '../src/testing/extremity.js';
+import { evaluateQuestionQuality } from '../src/testing/questionQuality.js';
 import { DIMENSION_LABELS } from '../src/logic/labels.js';
 import { DIMENSIONS } from '../src/logic/scoring.js';
 
@@ -187,6 +188,7 @@ function buildMarkdown(result, languageResult, issues, recommendations) {
 async function main() {
   const issues = validateData();
   const extremity = evaluateQuestionExtremity(QUESTIONS);
+  const quality = evaluateQuestionQuality(QUESTIONS);
   const result = runPersonaSimulation({
     personas: PERSONAS,
     questions: QUESTIONS,
@@ -203,6 +205,7 @@ async function main() {
     strictMode,
     issues,
     extremity,
+    quality,
     summary: result.summary,
     reports: result.reports,
     semanticSummary: languageResult.summary,
@@ -236,6 +239,9 @@ async function main() {
   console.log('人格模拟自动化测试完成。');
   console.log(`题干中庸得分: ${extremity.promptScore}`);
   console.log(`选项中庸得分: ${extremity.optionScore}`);
+  console.log(`综合戏剧性得分: ${extremity.dramaticityScore}`);
+  console.log(`题库清晰度得分: ${quality.clarityScore}`);
+  console.log(`选项差异化得分: ${quality.differentiationScore}`);
   console.log(`平均预期偏差: ${result.summary.avgExpectationGap}`);
   console.log(`触发校准告警的人格数: ${result.summary.calibrationNeededCount}`);
   console.log('主要问题维度:');

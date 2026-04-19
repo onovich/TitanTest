@@ -98,7 +98,7 @@ function mutateCharacterTuning(config, evaluation, iteration, mode, variant = 'b
 }
 
 function getModerationFloor(evaluation) {
-  return Math.min(evaluation.extremity?.promptScore ?? 0, evaluation.extremity?.optionScore ?? 0);
+  return evaluation.extremity?.dramaticityScore ?? 0;
 }
 
 function getRegressionSummary(candidateEvaluation, baselineEvaluation) {
@@ -107,6 +107,9 @@ function getRegressionSummary(candidateEvaluation, baselineEvaluation) {
     balanceDrop: Math.max(0, baselineEvaluation.balance.balanceScore - candidateEvaluation.balance.balanceScore),
     promptDrop: Math.max(0, (baselineEvaluation.extremity?.promptScore ?? 0) - (candidateEvaluation.extremity?.promptScore ?? 0)),
     optionDrop: Math.max(0, (baselineEvaluation.extremity?.optionScore ?? 0) - (candidateEvaluation.extremity?.optionScore ?? 0)),
+    dramaticityDrop: Math.max(0, (baselineEvaluation.extremity?.dramaticityScore ?? 0) - (candidateEvaluation.extremity?.dramaticityScore ?? 0)),
+    clarityDrop: Math.max(0, (baselineEvaluation.quality?.clarityScore ?? 0) - (candidateEvaluation.quality?.clarityScore ?? 0)),
+    differentiationDrop: Math.max(0, (baselineEvaluation.quality?.differentiationScore ?? 0) - (candidateEvaluation.quality?.differentiationScore ?? 0)),
     gapIncrease: Math.max(0, candidateEvaluation.scoreGap - baselineEvaluation.scoreGap),
     reflectionIncrease: Math.max(0, candidateEvaluation.persona.reflectionCount - baselineEvaluation.persona.reflectionCount),
     driftIncrease: Math.max(0, candidateEvaluation.persona.selfPerceptionDriftCount - baselineEvaluation.persona.selfPerceptionDriftCount),
@@ -118,17 +121,21 @@ function rankCandidate(candidateEvaluation, bestEvaluation) {
   const moderationFloor = getModerationFloor(candidateEvaluation);
   const regression = getRegressionSummary(candidateEvaluation, bestEvaluation);
   const improvementBonus =
-    (candidateEvaluation.persona.personaScore > bestEvaluation.persona.personaScore ? 8 : 0) +
-    (candidateEvaluation.balance.balanceScore > bestEvaluation.balance.balanceScore ? 8 : 0) +
-    ((candidateEvaluation.extremity?.promptScore ?? 0) > (bestEvaluation.extremity?.promptScore ?? 0) ? 4 : 0) +
-    ((candidateEvaluation.extremity?.optionScore ?? 0) > (bestEvaluation.extremity?.optionScore ?? 0) ? 4 : 0) +
+    ((candidateEvaluation.extremity?.dramaticityScore ?? 0) > (bestEvaluation.extremity?.dramaticityScore ?? 0) ? 14 : 0) +
+    ((candidateEvaluation.quality?.differentiationScore ?? 0) > (bestEvaluation.quality?.differentiationScore ?? 0) ? 12 : 0) +
+    ((candidateEvaluation.quality?.clarityScore ?? 0) > (bestEvaluation.quality?.clarityScore ?? 0) ? 10 : 0) +
+    (candidateEvaluation.persona.personaScore > bestEvaluation.persona.personaScore ? 6 : 0) +
+    (candidateEvaluation.balance.balanceScore > bestEvaluation.balance.balanceScore ? 5 : 0) +
     (candidateEvaluation.scoreGap < bestEvaluation.scoreGap ? 6 : 0);
 
   const regressionPenalty =
-    regression.personaDrop * 2.6 +
-    regression.balanceDrop * 2.2 +
-    regression.promptDrop * 1.6 +
-    regression.optionDrop * 1.6 +
+    regression.dramaticityDrop * 3.8 +
+    regression.differentiationDrop * 3.4 +
+    regression.clarityDrop * 2.8 +
+    regression.personaDrop * 1.9 +
+    regression.balanceDrop * 1.5 +
+    regression.promptDrop * 0.9 +
+    regression.optionDrop * 0.9 +
     regression.gapIncrease * 1.8 +
     regression.reflectionIncrease * 8 +
     regression.driftIncrease * 4 +
@@ -137,9 +144,12 @@ function rankCandidate(candidateEvaluation, bestEvaluation) {
   return Number(
     (
       candidateEvaluation.combinedScore +
-      candidateEvaluation.persona.personaScore * 0.45 +
-      candidateEvaluation.balance.balanceScore * 0.35 +
-      moderationFloor * 0.25 +
+      (candidateEvaluation.extremity?.dramaticityScore ?? 0) * 0.75 +
+      (candidateEvaluation.quality?.differentiationScore ?? 0) * 0.58 +
+      (candidateEvaluation.quality?.clarityScore ?? 0) * 0.5 +
+      candidateEvaluation.persona.personaScore * 0.18 +
+      candidateEvaluation.balance.balanceScore * 0.12 +
+      moderationFloor * 0.1 +
       candidateEvaluation.balance.activeRoleCount * 1.2 +
       improvementBonus -
       regressionPenalty
@@ -164,15 +174,19 @@ function shouldAcceptCandidate(candidateEvaluation, bestEvaluation) {
 
   const strongOverallImprovement =
     candidateEvaluation.combinedScore >= bestEvaluation.combinedScore + 2.5 &&
-    candidateEvaluation.persona.personaScore >= bestEvaluation.persona.personaScore - 0.6 &&
-    candidateEvaluation.balance.balanceScore >= bestEvaluation.balance.balanceScore - 0.8 &&
+    (candidateEvaluation.extremity?.dramaticityScore ?? 0) >= (bestEvaluation.extremity?.dramaticityScore ?? 0) - 1.2 &&
+    (candidateEvaluation.quality?.differentiationScore ?? 0) >= (bestEvaluation.quality?.differentiationScore ?? 0) - 1.5 &&
+    (candidateEvaluation.quality?.clarityScore ?? 0) >= (bestEvaluation.quality?.clarityScore ?? 0) - 1.5 &&
+    candidateEvaluation.persona.personaScore >= bestEvaluation.persona.personaScore - 1.4 &&
+    candidateEvaluation.balance.balanceScore >= bestEvaluation.balance.balanceScore - 2.5 &&
     moderationFloor >= bestModerationFloor - 0.8;
 
   const multiMetricImprovementCount = [
+    (candidateEvaluation.extremity?.dramaticityScore ?? 0) > (bestEvaluation.extremity?.dramaticityScore ?? 0),
+    (candidateEvaluation.quality?.differentiationScore ?? 0) > (bestEvaluation.quality?.differentiationScore ?? 0),
+    (candidateEvaluation.quality?.clarityScore ?? 0) > (bestEvaluation.quality?.clarityScore ?? 0),
     candidateEvaluation.persona.personaScore > bestEvaluation.persona.personaScore,
     candidateEvaluation.balance.balanceScore > bestEvaluation.balance.balanceScore,
-    (candidateEvaluation.extremity?.promptScore ?? 0) > (bestEvaluation.extremity?.promptScore ?? 0),
-    (candidateEvaluation.extremity?.optionScore ?? 0) > (bestEvaluation.extremity?.optionScore ?? 0),
     candidateEvaluation.scoreGap < bestEvaluation.scoreGap,
   ].filter(Boolean).length;
 
@@ -198,11 +212,12 @@ function runShell(command) {
 
 function isSatisfied(evaluation) {
   return (
-    evaluation.persona.personaScore >= 88 &&
-    evaluation.balance.balanceScore >= 70 &&
-    evaluation.scoreGap <= 18 &&
-    (evaluation.extremity?.promptScore ?? 0) >= 70 &&
-    (evaluation.extremity?.optionScore ?? 0) >= 70
+    (evaluation.extremity?.dramaticityScore ?? 0) >= 84 &&
+    (evaluation.quality?.differentiationScore ?? 0) >= 80 &&
+    (evaluation.quality?.clarityScore ?? 0) >= 78 &&
+    evaluation.persona.personaScore >= 72 &&
+    evaluation.balance.balanceScore >= 66 &&
+    evaluation.scoreGap <= 22
   );
 }
 
@@ -298,6 +313,9 @@ async function main() {
         combinedScore: item.evaluation.combinedScore,
         personaScore: item.evaluation.persona.personaScore,
         balanceScore: item.evaluation.balance.balanceScore,
+        dramaticityScore: item.evaluation.extremity?.dramaticityScore,
+        clarityScore: item.evaluation.quality?.clarityScore,
+        differentiationScore: item.evaluation.quality?.differentiationScore,
         promptScore: item.evaluation.extremity?.promptScore,
         optionScore: item.evaluation.extremity?.optionScore,
         scoreGap: item.evaluation.scoreGap,

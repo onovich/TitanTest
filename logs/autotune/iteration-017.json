@@ -1,105 +1,100 @@
 {
   "iteration": 17,
-  "generatedAt": "2026-04-18T21:58:07.313Z",
-  "workflowLength": 923,
+  "generatedAt": "2026-04-19T13:42:59.844Z",
+  "workflowLength": 1264,
   "mode": "recover",
-  "selectedCandidate": "balanced-runtime",
+  "selectedCandidate": "restore-runtime",
   "accepted": {
-    "generatedAt": "2026-04-18T21:56:42.592Z",
-    "workflowLength": 923,
+    "generatedAt": "2026-04-19T13:42:33.834Z",
+    "workflowLength": 1264,
     "sampleSize": 3000,
     "seed": 20260418,
     "persona": {
-      "personaScore": 49.36,
-      "avgExpectationGap": 1.2,
+      "personaScore": 23.9,
+      "avgExpectationGap": 1.173,
       "calibrationNeededCount": 0,
-      "reflectionCount": 2,
-      "selfPerceptionDriftCount": 2,
-      "inconsistentOptionCount": 1,
-      "avgLanguageToResultGap": 4.374,
-      "avgOptionToResultGap": 2.442
+      "reflectionCount": 5,
+      "selfPerceptionDriftCount": 0,
+      "inconsistentOptionCount": 0,
+      "avgLanguageToResultGap": 5.004,
+      "avgOptionToResultGap": 3.38
     },
     "balance": {
       "sampleSize": 3000,
       "seed": 20260418,
-      "topShare": 33.1,
+      "topShare": 30.6,
       "topCharacter": "利威尔·阿克曼",
-      "normalizedEntropy": 0.616,
-      "averageConfidenceGap": 0.371,
-      "activeRoleCount": 14,
-      "balanceScore": 80.61,
+      "normalizedEntropy": 0.65,
+      "averageConfidenceGap": 0.333,
+      "activeRoleCount": 13,
+      "balanceScore": 84.26,
       "distribution": [
         {
           "name": "利威尔·阿克曼",
-          "count": 993,
-          "share": 33.1
+          "count": 918,
+          "share": 30.6
         },
         {
           "name": "让·基尔希斯坦",
-          "count": 920,
-          "share": 30.67
+          "count": 818,
+          "share": 27.27
         },
         {
           "name": "阿明·阿诺德",
-          "count": 269,
-          "share": 8.97
-        },
-        {
-          "name": "贾碧·布朗",
-          "count": 186,
-          "share": 6.2
-        },
-        {
-          "name": "格里沙·耶格尔",
-          "count": 137,
-          "share": 4.57
+          "count": 275,
+          "share": 9.17
         },
         {
           "name": "肯尼·阿克曼",
-          "count": 119,
-          "share": 3.97
+          "count": 218,
+          "share": 7.27
         },
         {
           "name": "艾伦·耶格尔",
-          "count": 102,
-          "share": 3.4
+          "count": 207,
+          "share": 6.9
         },
         {
-          "name": "吉克·耶格尔",
-          "count": 100,
-          "share": 3.33
+          "name": "贾碧·布朗",
+          "count": 183,
+          "share": 6.1
         },
         {
-          "name": "莱纳·布朗",
-          "count": 92,
-          "share": 3.07
+          "name": "格里沙·耶格尔",
+          "count": 161,
+          "share": 5.37
         },
         {
           "name": "三笠·阿克曼",
-          "count": 61,
-          "share": 2.03
+          "count": 69,
+          "share": 2.3
+        },
+        {
+          "name": "吉克·耶格尔",
+          "count": 49,
+          "share": 1.63
+        },
+        {
+          "name": "莱纳·布朗",
+          "count": 42,
+          "share": 1.4
+        },
+        {
+          "name": "尤弥尔·弗里茨",
+          "count": 35,
+          "share": 1.17
         },
         {
           "name": "多托·匹西斯",
-          "count": 8,
-          "share": 0.27
+          "count": 19,
+          "share": 0.63
         },
         {
-          "name": "萨莎·布劳斯",
+          "name": "艾尔文·史密斯",
           "count": 6,
           "share": 0.2
         },
         {
-          "name": "艾尔文·史密斯",
-          "count": 4,
-          "share": 0.13
-        },
-        {
-          "name": "尤弥尔·弗里茨",
-          "count": 3,
-          "share": 0.1
-        },
-        {
           "name": "阿尼·利昂纳德",
           "count": 0,
           "share": 0
@@ -128,476 +123,486 @@
           "name": "达里斯·萨克雷",
           "count": 0,
           "share": 0
+        },
+        {
+          "name": "萨莎·布劳斯",
+          "count": 0,
+          "share": 0
         }
       ]
     },
     "extremity": {
-      "promptAverage": 1.94,
-      "optionAverage": 2.135,
-      "promptMax": 2.4,
-      "optionMax": 2.7,
-      "promptScore": 76.5,
-      "optionScore": 71.63,
+      "promptAverage": 2.21,
+      "optionAverage": 2.375,
+      "promptMax": 2.6,
+      "optionMax": 2.9,
+      "targetPromptAverage": 2.18,
+      "targetOptionAverage": 2.34,
+      "promptScore": 69.75,
+      "optionScore": 65.63,
+      "promptBandScore": 94.55,
+      "optionBandScore": 94.17,
+      "dramaticityScore": 94.32,
       "flaggedPromptCount": 0,
       "flaggedOptionCount": 0,
       "items": [
         {
           "id": 1,
-          "text": "如果你长期待在一个让自己施展不开的环境里，通常会怎么做？",
-          "stemScore": 2.2,
-          "note": "把“围墙”从末日隐喻改成长期受限环境，保留破局感但降低世界观压迫。",
+          "text": "如果你被困在一个让你越待越窒息的环境里，第一反应会是什么？",
+          "stemScore": 2.5,
+          "note": "题干改成更直接的窒息感场景，三条路分别是硬撞、硬熬、谋划换轨，张力明显上提。",
           "options": [
             {
               "index": 0,
-              "text": "先找突破口，主动争取变化，必要时接受一点风险。",
-              "score": 2.4
+              "text": "我会先狠狠干一记，哪怕冒险，也要把出口撞出来。",
+              "score": 2.7
             },
             {
               "index": 1,
-              "text": "先把生活稳住，在现有边界里争取更安全的空间。",
-              "score": 1.8
+              "text": "我会先把饭碗和安全攥住，宁可憋一阵，也不先把自己搭进去。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "先摸清规则和资源，再准备更稳妥的转向方案。",
-              "score": 2.1
+              "text": "我会先摸清规则、资源和局面，再选一个能带动后续的换轨点。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 2,
-          "text": "当团队资源有限，不可能照顾到每个人时，你更倾向于？",
-          "stemScore": 2.4,
-          "note": "把极端生命交换改成资源分配，更贴近日常组织困境。",
+          "text": "当资源只够保住一部分人时，你会怎么切这刀？",
+          "stemScore": 2.6,
+          "note": "把资源分配写成“切刀”，牺牲感、护人感和规则感拉得更开。",
           "options": [
             {
               "index": 0,
-              "text": "优先保住整体目标，即使少数人需要额外承担压力。",
-              "score": 2.7
+              "text": "先保住最关键的任务，哪怕有人得咬牙把压力扛完。",
+              "score": 2.9
             },
             {
               "index": 1,
-              "text": "尽量保住每个人的退路和选择，不让少数人直接被当成代价。",
-              "score": 2
+              "text": "宁可全队慢一点，我也不想先点名谁去吃亏。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "先把取舍规则讲清楚，让资源分配更透明、更能执行。",
-              "score": 2.2
+              "text": "把规则和责任摊在桌上，谁该扛什么，当场讲清。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 3,
-          "text": "你怎么看待一个人的出身和环境对人生的影响？",
-          "stemScore": 2,
-          "note": "从抽象宿命改成出身与环境影响，戏剧性明显下降。",
+          "text": "你怎么看出身和环境给人上的那道锁？",
+          "stemScore": 2.2,
+          "note": "把“出身影响”写成上锁与翻盘，宿命、冲破和谋局三种气质都更有火药味。",
           "options": [
             {
               "index": 0,
-              "text": "它会限制人，但通常还是留有可以争取的空间。",
-              "score": 1.9
+              "text": "那道锁真的很重，门不是没有，只是每一步都得拿代价去换。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "条件再差也不能等它让路，还是要自己闯出路来。",
-              "score": 2.3
+              "text": "锁再重也不能认命，路很多时候就是硬冲出来的。",
+              "score": 2.6
             },
             {
               "index": 2,
-              "text": "先理解资源、规则和概率，再想办法慢慢改写位置。",
-              "score": 2.1
+              "text": "先看规则往谁那边倾斜，再一点点挪位置，才是真的翻盘。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 4,
-          "text": "如果你和曾经非常信任的人在关键问题上立场相反，你通常会？",
-          "stemScore": 2.3,
-          "note": "保留关系冲突，但不再直接上升到战场背叛。",
+          "text": "如果你和最信的人在关键立场上彻底翻脸，你会？",
+          "stemScore": 2.5,
+          "note": "“翻脸”比原版更贴肉，三选项分别是出手、说尽、隔离，冲突感更实。",
           "options": [
             {
               "index": 0,
-              "text": "如果事情已经无法回避，我会做决定，但会记住后果。",
-              "score": 2.5
+              "text": "真到了非站队不可的时候，我会出手，但不会装作自己没疼过。",
+              "score": 2.8
             },
             {
               "index": 1,
-              "text": "先争取沟通，尽量为彼此留一条还能回头的路。",
-              "score": 1.8
+              "text": "我会把该说的话一次说尽，至少别让关系死得太草率。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "先确保重要的人不被波及，再决定接下来怎么处理。",
-              "score": 2
+              "text": "我先切隔离、做止损，别让旁边的人跟着被这场对撞拖下去。",
+              "score": 2.3
             }
           ]
         },
         {
           "id": 5,
-          "text": "更能长期支撑你行动的，通常是什么？",
-          "stemScore": 1.6,
-          "note": "保留价值观题结构，但把三条驱动力写得更像真实会牵引人的执念。",
+          "text": "真正把你一路往前拽的，通常是哪股力？",
+          "stemScore": 2,
+          "note": "把长期驱动力写成抓权、执念和顶事，情绪浓度比之前更高。",
           "options": [
             {
               "index": 0,
-              "text": "哪怕代价高一点，也想把方向和选择权握在自己手里。",
-              "score": 2.4
+              "text": "哪怕代价高，我也想把方向和选择权死死握在自己手里。",
+              "score": 2.6
             },
             {
               "index": 1,
-              "text": "嘴上可以说算了，但真正牵着我走的，往往还是那几个人和那点执念。",
-              "score": 2.3
+              "text": "嘴上能说算了，可真把我拖着走的，往往还是那点执念和那几个人。",
+              "score": 2.5
             },
             {
               "index": 2,
-              "text": "只要还有人等我扛事，我就很难真正停下来。",
-              "score": 2.2
+              "text": "只要还有人等我顶事，我就很难心安理得地停下。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 6,
-          "text": "如果一件你投入很多的事大概率会失败，最后阶段你会？",
-          "stemScore": 2.1,
-          "note": "从世界末日改成高投入事项大概率失败，保留收尾方式差异。",
+          "text": "如果你赌了很久的一件事眼看要输，最后一程你会？",
+          "stemScore": 2.3,
+          "note": "把失败末段写成抢最后一寸、压住收尾和保全重要的人，结尾感更重。",
           "options": [
             {
               "index": 0,
-              "text": "还是会继续尝试，看能不能再多争取一点空间。",
-              "score": 2.4
+              "text": "我还会再往前拱一下，哪怕只多抢回一寸空间。",
+              "score": 2.6
             },
             {
               "index": 1,
-              "text": "接受这件事大概率就到这里了，但把收尾、交接和影响控制好。",
-              "score": 2.2
+              "text": "我会认这局大概率输了，但把收尾、交接和影响都压住。",
+              "score": 2.4
             },
             {
               "index": 2,
-              "text": "把时间留给重要的人，也尽量让过程体面一些。",
-              "score": 1.8
+              "text": "我会把剩下的时间留给重要的人，至少让结尾别太难看。",
+              "score": 2.1
             }
           ]
         },
         {
           "id": 7,
-          "text": "你怎么看待“善意的隐瞒”？",
-          "stemScore": 1.5,
-          "note": "维持常见伦理题框架，但让“设期限 / 说开 / 自己背锅”三种姿态更分明。",
-          "options": [
-            {
-              "index": 0,
-              "text": "只会在局面快失控时临时压住消息，把秩序和收尾先稳住。",
-              "score": 2
-            },
-            {
-              "index": 1,
-              "text": "宁可一开始难堪一点，我也更想把真相和判断空间说开，免得以后信任整块塌掉。",
-              "score": 2.3
-            },
-            {
-              "index": 2,
-              "text": "如果能替具体的人挡掉一波伤害，我愿意自己背这个隐瞒。",
-              "score": 2.4
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "text": "如果一个真相可能打乱你现有生活，你还会想知道吗？",
+          "text": "你怎么看“带着善意的隐瞒”？",
           "stemScore": 1.9,
-          "note": "从崩溃级真相改成可能打乱生活的事实，温度更低。",
+          "note": "“压消息 / 摊真相 / 背锅”都更像会伤人的真实决定，戏剧性明显增强。",
           "options": [
             {
               "index": 0,
-              "text": "会，不知道反而更难真正做选择。",
-              "score": 2
-            },
-            {
-              "index": 1,
-              "text": "会看时机，有些事需要准备好再面对。",
-              "score": 1.8
-            },
-            {
-              "index": 2,
-              "text": "会想知道，但也会预留消化和协商空间。",
-              "score": 2
-            }
-          ]
-        },
-        {
-          "id": 9,
-          "text": "如果你突然掌握了远超常人的资源或影响力，你更可能？",
-          "stemScore": 2,
-          "note": "把毁天灭地力量改成资源与影响力，减少奇观感。",
-          "options": [
-            {
-              "index": 0,
-              "text": "会把它当成底牌，但不想让它变成唯一的解决方式。",
-              "score": 2.1
-            },
-            {
-              "index": 1,
-              "text": "先限制使用边界，尽量避免影响外溢。",
-              "score": 1.9
-            },
-            {
-              "index": 2,
-              "text": "把它当成长期博弈的筹码，换更稳定的合作空间。",
+              "text": "只有局面快失控时我才会先压消息，把秩序和收尾稳住。",
               "score": 2.2
-            }
-          ]
-        },
-        {
-          "id": 10,
-          "text": "在团队里，大家通常会自然把什么事交给你？",
-          "stemScore": 1.7,
-          "note": "团队角色题适度回调戏剧性，强化拍板者、收残局者与唱反调者的区别。",
-          "options": [
-            {
-              "index": 0,
-              "text": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
-              "score": 2.4
             },
             {
               "index": 1,
-              "text": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
-              "score": 2.3
+              "text": "宁可先难堪一阵，我也想把真相摊开，让人自己保留判断。",
+              "score": 2.5
             },
             {
               "index": 2,
-              "text": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
+              "text": "要是能替具体的人挡下一波伤，我愿意把这口锅背在自己身上。",
               "score": 2.6
             }
           ]
         },
         {
-          "id": 11,
-          "text": "如果你的某种身份或处境会让身边人跟着承担风险，你通常会？",
-          "stemScore": 2,
-          "note": "保留身份压力，但从灾难语气改成风险传导。",
+          "id": 8,
+          "text": "如果一个真相足够把你现在的生活掀乱，你还要不要知道？",
+          "stemScore": 2.2,
+          "note": "把“知道真相”写成掀翻生活，知道、缓开、布退路的冲突更尖。",
           "options": [
             {
               "index": 0,
-              "text": "知道这层风险没办法绕开时，我会先把它隔离开，再拉开距离，避免继续拖累同伴。",
-              "score": 2
+              "text": "要，难听的真相也比活在别人替我写好的版本里强。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "会说明情况，再和相关的人一起定方案。",
-              "score": 1.8
+              "text": "要，但不会现在就掀；有些真相得等自己接得住再看。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "不想被身份完全定义，但会更谨慎安排自己的选择。",
-              "score": 2
+              "text": "要，我会先备好情报、退路和谈法，再把真相摊到桌面上。",
+              "score": 2.4
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "如果你突然握住远超常人的资源和影响力，你会怎么用？",
+          "stemScore": 2.3,
+          "note": "把资源与影响力写成底牌、笼头和筹码，操盘感比旧版更足。",
+          "options": [
+            {
+              "index": 0,
+              "text": "我会把它压成一张底牌，真要掀桌时再掀，不让自己事事都靠它。",
+              "score": 2.3
+            },
+            {
+              "index": 1,
+              "text": "先给它套上笼头，不然这玩意迟早先把身边的人卷下水。",
+              "score": 2.2
+            },
+            {
+              "index": 2,
+              "text": "我会拿它去换规则、位置和盟友，把优势变成长期筹码。",
+              "score": 2.5
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "在团队里，大家最自然会把哪种烂摊子递给你？",
+          "stemScore": 2,
+          "note": "把团队角色写成“接烂摊子”，拍板、收尸和唱反调的锋芒更明显。",
+          "options": [
+            {
+              "index": 0,
+              "text": "遇到要判局势、排优先级、先把规则钉住的事，大家会来找我。",
+              "score": 2.5
+            },
+            {
+              "index": 1,
+              "text": "真到要补漏洞、收残局、把代价一笔笔算清时，通常是我顶上。",
+              "score": 2.5
+            },
+            {
+              "index": 2,
+              "text": "当所有人顺着惯性往前冲，我会先把最刺耳但最该说的话甩出来。",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "text": "如果你的身份会把风险传给身边人，你通常会怎么处理？",
+          "stemScore": 2.2,
+          "note": "“风险传导”被写成认下拖累、讲清边界和更谨慎活着，压迫感更强。",
+          "options": [
+            {
+              "index": 0,
+              "text": "要是这层拖累已经躲不开，我会先认下它，再拉开距离，不让同伴替我担风险。",
+              "score": 2.3
+            },
+            {
+              "index": 1,
+              "text": "我会把风险、边界和方案一次讲明，再和相关的人一起定规则。",
+              "score": 2.1
+            },
+            {
+              "index": 2,
+              "text": "我不想被这层身份牵着走，但往后每一步都会比以前更谨慎。",
+              "score": 2.3
             }
           ]
         },
         {
           "id": 12,
-          "text": "一个曾和你立场相反、甚至伤过你的人主动求助，你会？",
-          "stemScore": 2.3,
-          "note": "把敌对阵营孩子改成曾对立且伤过你的人，仍有伦理张力但更常见。",
+          "text": "一个曾站在你对面、甚至伤过你的人忽然来求助，你会？",
+          "stemScore": 2.4,
+          "note": "救、留后手、守整体责任三种反应都更干脆，伦理冲突维持高张力。",
           "options": [
             {
               "index": 0,
-              "text": "会先帮他脱离当下困境，再处理之后的界限。",
-              "score": 2
+              "text": "先把他从眼前的坑里拽出来，之后再慢慢算界限。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "会帮，但会同时评估风险并留一点后手。",
-              "score": 2.1
+              "text": "我会帮，但会一边评估风险，一边把后手留够。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "如果这会明显拖累更多人，我会优先顾全整体责任。",
-              "score": 2.4
+              "text": "如果帮他会明显拖垮更多人，我会先守住整体责任。",
+              "score": 2.6
             }
           ]
         },
         {
           "id": 13,
-          "text": "为了避免恐慌，上级希望暂时不公开全部信息，你更倾向于？",
-          "stemScore": 2.1,
-          "note": "信息公开题保留治理意味，但不再过于战时。",
+          "text": "为了稳住局面，上级要你暂时别把全部信息说出去，你站哪边？",
+          "stemScore": 2.3,
+          "note": "把信息公开写成压局、分层、说穿三种治理姿态，策略冲突更锋利。",
           "options": [
             {
               "index": 0,
-              "text": "先配合稳住局面和民心，同时尽快安排后续公开节奏。",
-              "score": 2.1
+              "text": "我会先配合把局面和秩序稳住，但会盯死公开节奏，逼这件事尽快转进公开。",
+              "score": 2.3
             },
             {
               "index": 1,
-              "text": "部分公开，保留关键筹码，避免全面失控。",
-              "score": 2
+              "text": "我倾向分层公开：先放能稳局的信息，把关键筹码和后续方案暂时扣住。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "尽量多公开真相，让人至少保有判断空间，而不是一直被代替决定。",
-              "score": 2.2
+              "text": "我更想把真相尽量说开，至少别让所有人一直被代替判断。",
+              "score": 2.5
             }
           ]
         },
         {
           "id": 14,
-          "text": "如果追究一段旧怨能让你出气，但会让关系更糟，你会？",
-          "stemScore": 1.9,
-          "note": "仍是旧怨处理，但把“硬算账 / 强停手 / 留到谈判桌”三种处理方式写得更有张力。",
+          "text": "如果翻旧账能让你出气，却会把关系彻底撕坏，你会？",
+          "stemScore": 2.2,
+          "note": "旧怨题被写得更像撕裂现场：讨气、止损、压情绪留谈判，张力更高。",
           "options": [
             {
               "index": 0,
-              "text": "我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。",
-              "score": 2.5
+              "text": "我大概率还是会把这口气讨回来，哪怕知道讨完人也回不去了。",
+              "score": 2.8
             },
             {
               "index": 1,
-              "text": "会理性把事情停在这里，至少别让更多无关的人继续为后果买单。",
-              "score": 1.9
+              "text": "我会把事停在这里，别再让更多无关的人替这笔旧账买单。",
+              "score": 2.2
             },
             {
               "index": 2,
-              "text": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、处理后续局面的时候再谈。",
-              "score": 2.2
+              "text": "我会先把情绪扣住，把旧账留到更能谈判、也更利于后续局面的时候再翻。",
+              "score": 2.5
             }
           ]
         },
         {
           "id": 15,
-          "text": "哪种状态最让你坐立不安？",
-          "stemScore": 1.7,
-          "note": "不可忍受状态题，整体中性。",
+          "text": "哪种局面最让你浑身发紧、坐都坐不住？",
+          "stemScore": 1.9,
+          "note": "把不安写成更贴身的身体反应，虽然仍相对克制，但不再平。",
           "options": [
             {
               "index": 0,
-              "text": "人生方向总被别人安排，自己几乎没有选择空间。",
-              "score": 2
+              "text": "人生方向老被别人摆布，自己几乎没有选择权。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "因为自己的软弱而拖累同伴。",
-              "score": 1.8
+              "text": "因为自己的软弱，把同伴硬生生拖下水。",
+              "score": 2
             },
             {
               "index": 2,
-              "text": "一个本可避免的失误，害很多人去承担后果。",
-              "score": 1.9
+              "text": "一个本来能避免的失误，却让很多人替你吞后果。",
+              "score": 2.1
             }
           ]
         },
         {
           "id": 16,
-          "text": "如果给团队树一个简单靶子，能短时间凝聚共识，你会？",
-          "stemScore": 2.4,
-          "note": "保留“树靶子”这个操盘意味，但语气从战争宣传降为团队策略。",
+          "text": "如果给团队立一个简单靶子，就能在短时间把人拧成一股绳，你会？",
+          "stemScore": 2.6,
+          "note": "“立靶子”现在更像高压操盘手段，接受与拒绝都带更重的代价感。",
           "options": [
             {
               "index": 0,
-              "text": "只在别无选择时考虑，但不想让真实完全退场。",
-              "score": 2.5
+              "text": "只有别无选择时我才会这么干，但不想让真实彻底退场。",
+              "score": 2.7
             },
             {
               "index": 1,
-              "text": "非常时期可以做，但由我自己承担这个做法的污名。",
-              "score": 2.4
+              "text": "非常时期可以做，这个污名我来背，不让别人替我洗。",
+              "score": 2.6
             },
             {
               "index": 2,
-              "text": "不会，靠简化敌人换来的团结通常后患更大。",
-              "score": 2.1
+              "text": "我不会这么干，靠简化敌人换来的团结，后患通常更大。",
+              "score": 2.3
             }
           ]
         },
         {
           "id": 17,
-          "text": "当现场气氛越来越乱、大家都开始着急时，你通常会？",
-          "stemScore": 1.6,
-          "note": "仍是常见混乱场景，但选项语气更鲜明：强行刹车、重建秩序、先护住核心。",
+          "text": "当场面越来越乱、所有人都开始发急时，你通常会先做什么？",
+          "stemScore": 2,
+          "note": "把混乱现场写得更紧，掐住、拉回、护核心三种动作感更强。",
           "options": [
             {
               "index": 0,
-              "text": "会先明确叫停，哪怕语气重一点，也要把混乱先刹住。",
-              "score": 2.3
+              "text": "我会先硬叫停，哪怕语气刺一点，也得先把混乱掐住。",
+              "score": 2.5
             },
             {
               "index": 1,
-              "text": "会把人一个个拉回步骤里，先重建秩序，再谈情绪。",
-              "score": 2
+              "text": "我会把人一层层拉回步骤里，先重建秩序，再处理情绪。",
+              "score": 2.2
             },
             {
               "index": 2,
-              "text": "会先守住自己和最重要的人，确认不会一起失控，再看要不要接场。",
-              "score": 2.2
+              "text": "我会先守住自己和最重要的人，确认不会一起失控，再决定接不接场。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 18,
-          "text": "如果你提前收到一些不完整、但可能准确的预警信息，你会？",
-          "stemScore": 1.8,
-          "note": "未来片段降级为不完整预警信息，更贴近日常决策。",
+          "text": "如果你提前收到一份不完整、却可能很准的预警，你会怎么用？",
+          "stemScore": 2.1,
+          "note": "预警题从平面判断改成更有命运逼近感的处理选择，整体张力上移。",
           "options": [
             {
               "index": 0,
-              "text": "如果最坏结局看起来很难避开，我会先把同伴的位置和后手预留出来，再决定跟到哪一步。",
-              "score": 1.9
+              "text": "要是最坏结局已经露头，我会先把人和后手安顿好，再决定跟这局走多远。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "把它当作情报，尽可能改写最坏结果。",
-              "score": 1.8
+              "text": "我会把它当情报狠狠干，用在几个关键点上，尽量把最坏结果往回扳。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "不希望被预警绑住，还是想保留当下的主动权。",
-              "score": 1.9
+              "text": "我不想被一纸预警牵着鼻子走，最后的选择权还是要留在自己手里。",
+              "score": 2.2
             }
           ]
         },
         {
           "id": 19,
-          "text": "当你发现自己做错了一件影响不小的事，你通常会？",
-          "stemScore": 1.7,
-          "note": "错误处理题回调少量戏剧性，让“先扛住 / 先认错 / 先切断损失”更有辨识度。",
+          "text": "当你发现自己做错了一件影响不小的事，你第一反应更像？",
+          "stemScore": 2,
+          "note": "错误处理三选项现在更像现场动作：先扛、先认、先切，辨识度和火药味都更足。",
           "options": [
             {
               "index": 0,
-              "text": "先把最危险的连锁反应压住，哪怕那一刻得由我先把后果顶下来。",
-              "score": 2.2
+              "text": "先把最危险的连锁反应压住，哪怕那一下得由我先把后果扛下来。",
+              "score": 2.4
             },
             {
               "index": 1,
-              "text": "会立刻叫停并认错，宁可难堪，也不想让错继续滚大。",
-              "score": 2.1
+              "text": "我会立刻叫停、认错，宁可当场难堪，也不让错继续滚大。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "先拆开责任链，冷静复盘，把后续能断的损失先断掉。",
-              "score": 2
+              "text": "我会先拆责任链、做复盘，把后面还能切断的损失先切掉。",
+              "score": 2.2
             }
           ]
         },
         {
           "id": 20,
-          "text": "你更相信什么最能推动长期改变？",
-          "stemScore": 1.6,
-          "note": "长期改变题适度加入立场感，把守线、说服、硬撑三种信念重新拉开。",
+          "text": "你更相信，什么东西最能把一个局面慢慢改写？",
+          "stemScore": 2,
+          "note": "把长期改变写成守线、说服与续火，立场感和史诗感都更强。",
           "options": [
             {
               "index": 0,
-              "text": "有人死死守住不退，让别人知道这条线不会被轻易改写。",
-              "score": 2.4
+              "text": "总得有人死死守线不退，让所有人知道这条线不是拿来试探的。",
+              "score": 2.6
             },
             {
               "index": 1,
-              "text": "让更多人真正被说服、愿意一起走，而不是只被一时推着走。",
-              "score": 2
+              "text": "让更多人真正被说服、愿意一起走，比一阵热血推着冲更久。",
+              "score": 2.2
             },
             {
               "index": 2,
-              "text": "不是每次都赢，而是很多次快撑不住时，还是有人能继续活下来。",
-              "score": 2.3
+              "text": "不是每次都赢，而是一次次快撑不住时，还是有人能活着把火接下去。",
+              "score": 2.5
             }
           ]
         }
@@ -605,103 +610,586 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 31.25,
-    "combinedScore": 133.62
+    "quality": {
+      "clarityScore": 85.38,
+      "differentiationScore": 92.31,
+      "items": [
+        {
+          "id": 1,
+          "text": "如果你被困在一个让你越待越窒息的环境里，第一反应会是什么？",
+          "clarity": {
+            "stemScore": 83.4,
+            "optionScore": 79.83,
+            "overallScore": 81.08
+          },
+          "differentiationScore": 79.24,
+          "options": [
+            {
+              "text": "我会先狠狠干一记，哪怕冒险，也要把出口撞出来。",
+              "clarityScore": 90.2
+            },
+            {
+              "text": "我会先把饭碗和安全攥住，宁可憋一阵，也不先把自己搭进去。",
+              "clarityScore": 81.2
+            },
+            {
+              "text": "我会先摸清规则、资源和局面，再选一个能带动后续的换轨点。",
+              "clarityScore": 68.1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "当资源只够保住一部分人时，你会怎么切这刀？",
+          "clarity": {
+            "stemScore": 93.6,
+            "optionScore": 93.27,
+            "overallScore": 93.38
+          },
+          "differentiationScore": 96,
+          "options": [
+            {
+              "text": "先保住最关键的任务，哪怕有人得咬牙把压力扛完。",
+              "clarityScore": 94.2
+            },
+            {
+              "text": "宁可全队慢一点，我也不想先点名谁去吃亏。",
+              "clarityScore": 96
+            },
+            {
+              "text": "把规则和责任摊在桌上，谁该扛什么，当场讲清。",
+              "clarityScore": 89.6
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你怎么看出身和环境给人上的那道锁？",
+          "clarity": {
+            "stemScore": 100,
+            "optionScore": 82.83,
+            "overallScore": 88.84
+          },
+          "differentiationScore": 96.84,
+          "options": [
+            {
+              "text": "那道锁真的很重，门不是没有，只是每一步都得拿代价去换。",
+              "clarityScore": 79.5
+            },
+            {
+              "text": "锁再重也不能认命，路很多时候就是硬冲出来的。",
+              "clarityScore": 92.5
+            },
+            {
+              "text": "先看规则往谁那边倾斜，再一点点挪位置，才是真的翻盘。",
+              "clarityScore": 76.5
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "如果你和最信的人在关键立场上彻底翻脸，你会？",
+          "clarity": {
+            "stemScore": 96,
+            "optionScore": 83.57,
+            "overallScore": 87.92
+          },
+          "differentiationScore": 95.73,
+          "options": [
+            {
+              "text": "真到了非站队不可的时候，我会出手，但不会装作自己没疼过。",
+              "clarityScore": 81.2
+            },
+            {
+              "text": "我会把该说的话一次说尽，至少别让关系死得太草率。",
+              "clarityScore": 86.5
+            },
+            {
+              "text": "我先切隔离、做止损，别让旁边的人跟着被这场对撞拖下去。",
+              "clarityScore": 83
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "真正把你一路往前拽的，通常是哪股力？",
+          "clarity": {
+            "stemScore": 96,
+            "optionScore": 88.07,
+            "overallScore": 90.84
+          },
+          "differentiationScore": 100,
+          "options": [
+            {
+              "text": "哪怕代价高，我也想把方向和选择权死死握在自己手里。",
+              "clarityScore": 90.6
+            },
+            {
+              "text": "嘴上能说算了，可真把我拖着走的，往往还是那点执念和那几个人。",
+              "clarityScore": 77.6
+            },
+            {
+              "text": "只要还有人等我顶事，我就很难心安理得地停下。",
+              "clarityScore": 96
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "如果你赌了很久的一件事眼看要输，最后一程你会？",
+          "clarity": {
+            "stemScore": 94.2,
+            "optionScore": 86.33,
+            "overallScore": 89.09
+          },
+          "differentiationScore": 92.79,
+          "options": [
+            {
+              "text": "我还会再往前拱一下，哪怕只多抢回一寸空间。",
+              "clarityScore": 90.1
+            },
+            {
+              "text": "我会认这局大概率输了，但把收尾、交接和影响都压住。",
+              "clarityScore": 81.8
+            },
+            {
+              "text": "我会把剩下的时间留给重要的人，至少让结尾别太难看。",
+              "clarityScore": 87.1
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "你怎么看“带着善意的隐瞒”？",
+          "clarity": {
+            "stemScore": 100,
+            "optionScore": 85.27,
+            "overallScore": 90.42
+          },
+          "differentiationScore": 94.93,
+          "options": [
+            {
+              "text": "只有局面快失控时我才会先压消息，把秩序和收尾稳住。",
+              "clarityScore": 88.2
+            },
+            {
+              "text": "宁可先难堪一阵，我也想把真相摊开，让人自己保留判断。",
+              "clarityScore": 82.4
+            },
+            {
+              "text": "要是能替具体的人挡下一波伤，我愿意把这口锅背在自己身上。",
+              "clarityScore": 85.2
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "如果一个真相足够把你现在的生活掀乱，你还要不要知道？",
+          "clarity": {
+            "stemScore": 88.8,
+            "optionScore": 85.47,
+            "overallScore": 86.63
+          },
+          "differentiationScore": 80.13,
+          "options": [
+            {
+              "text": "要，难听的真相也比活在别人替我写好的版本里强。",
+              "clarityScore": 94.2
+            },
+            {
+              "text": "要，但不会现在就掀；有些真相得等自己接得住再看。",
+              "clarityScore": 84.9
+            },
+            {
+              "text": "要，我会先备好情报、退路和谈法，再把真相摊到桌面上。",
+              "clarityScore": 77.3
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "如果你突然握住远超常人的资源和影响力，你会怎么用？",
+          "clarity": {
+            "stemScore": 85.8,
+            "optionScore": 81.97,
+            "overallScore": 83.31
+          },
+          "differentiationScore": 92.93,
+          "options": [
+            {
+              "text": "我会把它压成一张底牌，真要掀桌时再掀，不让自己事事都靠它。",
+              "clarityScore": 75.9
+            },
+            {
+              "text": "先给它套上笼头，不然这玩意迟早先把身边的人卷下水。",
+              "clarityScore": 90.6
+            },
+            {
+              "text": "我会拿它去换规则、位置和盟友，把优势变成长期筹码。",
+              "clarityScore": 79.4
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "在团队里，大家最自然会把哪种烂摊子递给你？",
+          "clarity": {
+            "stemScore": 96,
+            "optionScore": 77.67,
+            "overallScore": 84.08
+          },
+          "differentiationScore": 91.81,
+          "options": [
+            {
+              "text": "遇到要判局势、排优先级、先把规则钉住的事，大家会来找我。",
+              "clarityScore": 72.4
+            },
+            {
+              "text": "真到要补漏洞、收残局、把代价一笔笔算清时，通常是我顶上。",
+              "clarityScore": 77.2
+            },
+            {
+              "text": "当所有人顺着惯性往前冲，我会先把最刺耳但最该说的话甩出来。",
+              "clarityScore": 83.4
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "text": "如果你的身份会把风险传给身边人，你通常会怎么处理？",
+          "clarity": {
+            "stemScore": 90.6,
+            "optionScore": 73.67,
+            "overallScore": 79.59
+          },
+          "differentiationScore": 95.33,
+          "options": [
+            {
+              "text": "要是这层拖累已经躲不开，我会先认下它，再拉开距离，不让同伴替我担风险。",
+              "clarityScore": 61.1
+            },
+            {
+              "text": "我会把风险、边界和方案一次讲明，再和相关的人一起定规则。",
+              "clarityScore": 72.9
+            },
+            {
+              "text": "我不想被这层身份牵着走，但往后每一步都会比以前更谨慎。",
+              "clarityScore": 87
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "text": "一个曾站在你对面、甚至伤过你的人忽然来求助，你会？",
+          "clarity": {
+            "stemScore": 86.6,
+            "optionScore": 92.9,
+            "overallScore": 90.69
+          },
+          "differentiationScore": 92.67,
+          "options": [
+            {
+              "text": "先把他从眼前的坑里拽出来，之后再慢慢算界限。",
+              "clarityScore": 92.5
+            },
+            {
+              "text": "我会帮，但会一边评估风险，一边把后手留够。",
+              "clarityScore": 92
+            },
+            {
+              "text": "如果帮他会明显拖垮更多人，我会先守住整体责任。",
+              "clarityScore": 94.2
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "text": "为了稳住局面，上级要你暂时别把全部信息说出去，你站哪边？",
+          "clarity": {
+            "stemScore": 78.8,
+            "optionScore": 73.1,
+            "overallScore": 75.09
+          },
+          "differentiationScore": 97.08,
+          "options": [
+            {
+              "text": "我会先配合把局面和秩序稳住，但会盯死公开节奏，逼这件事尽快转进公开。",
+              "clarityScore": 65.6
+            },
+            {
+              "text": "我倾向分层公开：先放能稳局的信息，把关键筹码和后续方案暂时扣住。",
+              "clarityScore": 70.8
+            },
+            {
+              "text": "我更想把真相尽量说开，至少别让所有人一直被代替判断。",
+              "clarityScore": 82.9
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "text": "如果翻旧账能让你出气，却会把关系彻底撕坏，你会？",
+          "clarity": {
+            "stemScore": 86,
+            "optionScore": 77.33,
+            "overallScore": 80.37
+          },
+          "differentiationScore": 91.09,
+          "options": [
+            {
+              "text": "我大概率还是会把这口气讨回来，哪怕知道讨完人也回不去了。",
+              "clarityScore": 82.8
+            },
+            {
+              "text": "我会把事停在这里，别再让更多无关的人替这笔旧账买单。",
+              "clarityScore": 85.3
+            },
+            {
+              "text": "我会先把情绪扣住，把旧账留到更能谈判、也更利于后续局面的时候再翻。",
+              "clarityScore": 63.9
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "text": "哪种局面最让你浑身发紧、坐都坐不住？",
+          "clarity": {
+            "stemScore": 93.6,
+            "optionScore": 96,
+            "overallScore": 95.16
+          },
+          "differentiationScore": 96.52,
+          "options": [
+            {
+              "text": "人生方向老被别人摆布，自己几乎没有选择权。",
+              "clarityScore": 96
+            },
+            {
+              "text": "因为自己的软弱，把同伴硬生生拖下水。",
+              "clarityScore": 96
+            },
+            {
+              "text": "一个本来能避免的失误，却让很多人替你吞后果。",
+              "clarityScore": 96
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "text": "如果给团队立一个简单靶子，就能在短时间把人拧成一股绳，你会？",
+          "clarity": {
+            "stemScore": 77.6,
+            "optionScore": 88.53,
+            "overallScore": 84.71
+          },
+          "differentiationScore": 90.36,
+          "options": [
+            {
+              "text": "只有别无选择时我才会这么干，但不想让真实彻底退场。",
+              "clarityScore": 90.6
+            },
+            {
+              "text": "非常时期可以做，这个污名我来背，不让别人替我洗。",
+              "clarityScore": 88.4
+            },
+            {
+              "text": "我不会这么干，靠简化敌人换来的团结，后患通常更大。",
+              "clarityScore": 86.6
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "text": "当场面越来越乱、所有人都开始发急时，你通常会先做什么？",
+          "clarity": {
+            "stemScore": 83,
+            "optionScore": 81.27,
+            "overallScore": 81.87
+          },
+          "differentiationScore": 81.77,
+          "options": [
+            {
+              "text": "我会先硬叫停，哪怕语气刺一点，也得先把混乱掐住。",
+              "clarityScore": 88.4
+            },
+            {
+              "text": "我会把人一层层拉回步骤里，先重建秩序，再处理情绪。",
+              "clarityScore": 83.1
+            },
+            {
+              "text": "我会先守住自己和最重要的人，确认不会一起失控，再决定接不接场。",
+              "clarityScore": 72.3
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "text": "如果你提前收到一份不完整、却可能很准的预警，你会怎么用？",
+          "clarity": {
+            "stemScore": 81.2,
+            "optionScore": 73.4,
+            "overallScore": 76.13
+          },
+          "differentiationScore": 93.24,
+          "options": [
+            {
+              "text": "要是最坏结局已经露头，我会先把人和后手安顿好，再决定跟这局走多远。",
+              "clarityScore": 68.7
+            },
+            {
+              "text": "我会把它当情报狠狠干，用在几个关键点上，尽量把最坏结果往回扳。",
+              "clarityScore": 69.9
+            },
+            {
+              "text": "我不想被一纸预警牵着鼻子走，最后的选择权还是要留在自己手里。",
+              "clarityScore": 81.6
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "text": "当你发现自己做错了一件影响不小的事，你第一反应更像？",
+          "clarity": {
+            "stemScore": 86.4,
+            "optionScore": 83,
+            "overallScore": 84.19
+          },
+          "differentiationScore": 91.72,
+          "options": [
+            {
+              "text": "先把最危险的连锁反应压住，哪怕那一下得由我先把后果扛下来。",
+              "clarityScore": 83.4
+            },
+            {
+              "text": "我会立刻叫停、认错，宁可当场难堪，也不让错继续滚大。",
+              "clarityScore": 80.8
+            },
+            {
+              "text": "我会先拆责任链、做复盘，把后面还能切断的损失先切掉。",
+              "clarityScore": 84.8
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "text": "你更相信，什么东西最能把一个局面慢慢改写？",
+          "clarity": {
+            "stemScore": 93.6,
+            "optionScore": 79,
+            "overallScore": 84.11
+          },
+          "differentiationScore": 96.02,
+          "options": [
+            {
+              "text": "总得有人死死守线不退，让所有人知道这条线不是拿来试探的。",
+              "clarityScore": 81.7
+            },
+            {
+              "text": "让更多人真正被说服、愿意一起走，比一阵热血推着冲更久。",
+              "clarityScore": 83
+            },
+            {
+              "text": "不是每次都赢，而是一次次快撑不住时，还是有人能活着把火接下去。",
+              "clarityScore": 72.3
+            }
+          ]
+        }
+      ],
+      "flaggedClarityCount": 0,
+      "flaggedDifferentiationCount": 0
+    },
+    "scoreGap": 60.36,
+    "combinedScore": 42.58
   },
   "candidate": {
-    "generatedAt": "2026-04-18T21:58:06.514Z",
-    "workflowLength": 923,
+    "generatedAt": "2026-04-19T13:42:59.426Z",
+    "workflowLength": 1264,
     "sampleSize": 3000,
     "seed": 20260435,
     "persona": {
-      "personaScore": 49.37,
-      "avgExpectationGap": 1.198,
+      "personaScore": 23.91,
+      "avgExpectationGap": 1.172,
       "calibrationNeededCount": 0,
-      "reflectionCount": 2,
-      "selfPerceptionDriftCount": 2,
-      "inconsistentOptionCount": 1,
-      "avgLanguageToResultGap": 4.374,
-      "avgOptionToResultGap": 2.442
+      "reflectionCount": 5,
+      "selfPerceptionDriftCount": 0,
+      "inconsistentOptionCount": 0,
+      "avgLanguageToResultGap": 5.004,
+      "avgOptionToResultGap": 3.38
     },
     "balance": {
       "sampleSize": 3000,
       "seed": 20260435,
-      "topShare": 33,
+      "topShare": 30.97,
       "topCharacter": "利威尔·阿克曼",
-      "normalizedEntropy": 0.62,
-      "averageConfidenceGap": 0.364,
-      "activeRoleCount": 14,
-      "balanceScore": 80.9,
+      "normalizedEntropy": 0.653,
+      "averageConfidenceGap": 0.331,
+      "activeRoleCount": 13,
+      "balanceScore": 83.69,
       "distribution": [
         {
           "name": "利威尔·阿克曼",
-          "count": 990,
-          "share": 33
+          "count": 929,
+          "share": 30.97
         },
         {
           "name": "让·基尔希斯坦",
-          "count": 885,
-          "share": 29.5
+          "count": 800,
+          "share": 26.67
         },
         {
           "name": "阿明·阿诺德",
-          "count": 283,
-          "share": 9.43
+          "count": 297,
+          "share": 9.9
         },
         {
           "name": "贾碧·布朗",
+          "count": 218,
+          "share": 7.27
+        },
+        {
+          "name": "艾伦·耶格尔",
           "count": 194,
           "share": 6.47
         },
         {
-          "name": "吉克·耶格尔",
-          "count": 143,
-          "share": 4.77
+          "name": "肯尼·阿克曼",
+          "count": 189,
+          "share": 6.3
         },
         {
           "name": "格里沙·耶格尔",
-          "count": 126,
-          "share": 4.2
+          "count": 134,
+          "share": 4.47
+        },
+        {
+          "name": "吉克·耶格尔",
+          "count": 69,
+          "share": 2.3
         },
         {
           "name": "莱纳·布朗",
-          "count": 114,
-          "share": 3.8
-        },
-        {
-          "name": "肯尼·阿克曼",
-          "count": 112,
-          "share": 3.73
-        },
-        {
-          "name": "艾伦·耶格尔",
-          "count": 85,
-          "share": 2.83
+          "count": 66,
+          "share": 2.2
         },
         {
           "name": "三笠·阿克曼",
-          "count": 53,
-          "share": 1.77
+          "count": 51,
+          "share": 1.7
         },
         {
           "name": "多托·匹西斯",
-          "count": 5,
-          "share": 0.17
-        },
-        {
-          "name": "萨莎·布劳斯",
-          "count": 5,
-          "share": 0.17
-        },
-        {
-          "name": "艾尔文·史密斯",
-          "count": 3,
-          "share": 0.1
+          "count": 20,
+          "share": 0.67
         },
         {
           "name": "尤弥尔·弗里茨",
-          "count": 2,
-          "share": 0.07
+          "count": 19,
+          "share": 0.63
+        },
+        {
+          "name": "艾尔文·史密斯",
+          "count": 14,
+          "share": 0.47
         },
         {
           "name": "阿尼·利昂纳德",
@@ -732,476 +1220,486 @@
           "name": "达里斯·萨克雷",
           "count": 0,
           "share": 0
+        },
+        {
+          "name": "萨莎·布劳斯",
+          "count": 0,
+          "share": 0
         }
       ]
     },
     "extremity": {
-      "promptAverage": 1.94,
-      "optionAverage": 2.135,
-      "promptMax": 2.4,
-      "optionMax": 2.7,
-      "promptScore": 76.5,
-      "optionScore": 71.63,
+      "promptAverage": 2.21,
+      "optionAverage": 2.375,
+      "promptMax": 2.6,
+      "optionMax": 2.9,
+      "targetPromptAverage": 2.18,
+      "targetOptionAverage": 2.34,
+      "promptScore": 69.75,
+      "optionScore": 65.63,
+      "promptBandScore": 94.55,
+      "optionBandScore": 94.17,
+      "dramaticityScore": 94.32,
       "flaggedPromptCount": 0,
       "flaggedOptionCount": 0,
       "items": [
         {
           "id": 1,
-          "text": "如果你长期待在一个让自己施展不开的环境里，通常会怎么做？",
-          "stemScore": 2.2,
-          "note": "把“围墙”从末日隐喻改成长期受限环境，保留破局感但降低世界观压迫。",
+          "text": "如果你被困在一个让你越待越窒息的环境里，第一反应会是什么？",
+          "stemScore": 2.5,
+          "note": "题干改成更直接的窒息感场景，三条路分别是硬撞、硬熬、谋划换轨，张力明显上提。",
           "options": [
             {
               "index": 0,
-              "text": "先找突破口，主动争取变化，必要时接受一点风险。",
-              "score": 2.4
+              "text": "我会先狠狠干一记，哪怕冒险，也要把出口撞出来。",
+              "score": 2.7
             },
             {
               "index": 1,
-              "text": "先把生活稳住，在现有边界里争取更安全的空间。",
-              "score": 1.8
+              "text": "我会先把饭碗和安全攥住，宁可憋一阵，也不先把自己搭进去。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "先摸清规则和资源，再准备更稳妥的转向方案。",
-              "score": 2.1
+              "text": "我会先摸清规则、资源和局面，再选一个能带动后续的换轨点。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 2,
-          "text": "当团队资源有限，不可能照顾到每个人时，你更倾向于？",
-          "stemScore": 2.4,
-          "note": "把极端生命交换改成资源分配，更贴近日常组织困境。",
+          "text": "当资源只够保住一部分人时，你会怎么切这刀？",
+          "stemScore": 2.6,
+          "note": "把资源分配写成“切刀”，牺牲感、护人感和规则感拉得更开。",
           "options": [
             {
               "index": 0,
-              "text": "优先保住整体目标，即使少数人需要额外承担压力。",
-              "score": 2.7
+              "text": "先保住最关键的任务，哪怕有人得咬牙把压力扛完。",
+              "score": 2.9
             },
             {
               "index": 1,
-              "text": "尽量保住每个人的退路和选择，不让少数人直接被当成代价。",
-              "score": 2
+              "text": "宁可全队慢一点，我也不想先点名谁去吃亏。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "先把取舍规则讲清楚，让资源分配更透明、更能执行。",
-              "score": 2.2
+              "text": "把规则和责任摊在桌上，谁该扛什么，当场讲清。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 3,
-          "text": "你怎么看待一个人的出身和环境对人生的影响？",
-          "stemScore": 2,
-          "note": "从抽象宿命改成出身与环境影响，戏剧性明显下降。",
+          "text": "你怎么看出身和环境给人上的那道锁？",
+          "stemScore": 2.2,
+          "note": "把“出身影响”写成上锁与翻盘，宿命、冲破和谋局三种气质都更有火药味。",
           "options": [
             {
               "index": 0,
-              "text": "它会限制人，但通常还是留有可以争取的空间。",
-              "score": 1.9
+              "text": "那道锁真的很重，门不是没有，只是每一步都得拿代价去换。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "条件再差也不能等它让路，还是要自己闯出路来。",
-              "score": 2.3
+              "text": "锁再重也不能认命，路很多时候就是硬冲出来的。",
+              "score": 2.6
             },
             {
               "index": 2,
-              "text": "先理解资源、规则和概率，再想办法慢慢改写位置。",
-              "score": 2.1
+              "text": "先看规则往谁那边倾斜，再一点点挪位置，才是真的翻盘。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 4,
-          "text": "如果你和曾经非常信任的人在关键问题上立场相反，你通常会？",
-          "stemScore": 2.3,
-          "note": "保留关系冲突，但不再直接上升到战场背叛。",
+          "text": "如果你和最信的人在关键立场上彻底翻脸，你会？",
+          "stemScore": 2.5,
+          "note": "“翻脸”比原版更贴肉，三选项分别是出手、说尽、隔离，冲突感更实。",
           "options": [
             {
               "index": 0,
-              "text": "如果事情已经无法回避，我会做决定，但会记住后果。",
-              "score": 2.5
+              "text": "真到了非站队不可的时候，我会出手，但不会装作自己没疼过。",
+              "score": 2.8
             },
             {
               "index": 1,
-              "text": "先争取沟通，尽量为彼此留一条还能回头的路。",
-              "score": 1.8
+              "text": "我会把该说的话一次说尽，至少别让关系死得太草率。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "先确保重要的人不被波及，再决定接下来怎么处理。",
-              "score": 2
+              "text": "我先切隔离、做止损，别让旁边的人跟着被这场对撞拖下去。",
+              "score": 2.3
             }
           ]
         },
         {
           "id": 5,
-          "text": "更能长期支撑你行动的，通常是什么？",
-          "stemScore": 1.6,
-          "note": "保留价值观题结构，但把三条驱动力写得更像真实会牵引人的执念。",
+          "text": "真正把你一路往前拽的，通常是哪股力？",
+          "stemScore": 2,
+          "note": "把长期驱动力写成抓权、执念和顶事，情绪浓度比之前更高。",
           "options": [
             {
               "index": 0,
-              "text": "哪怕代价高一点，也想把方向和选择权握在自己手里。",
-              "score": 2.4
+              "text": "哪怕代价高，我也想把方向和选择权死死握在自己手里。",
+              "score": 2.6
             },
             {
               "index": 1,
-              "text": "嘴上可以说算了，但真正牵着我走的，往往还是那几个人和那点执念。",
-              "score": 2.3
+              "text": "嘴上能说算了，可真把我拖着走的，往往还是那点执念和那几个人。",
+              "score": 2.5
             },
             {
               "index": 2,
-              "text": "只要还有人等我扛事，我就很难真正停下来。",
-              "score": 2.2
+              "text": "只要还有人等我顶事，我就很难心安理得地停下。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 6,
-          "text": "如果一件你投入很多的事大概率会失败，最后阶段你会？",
-          "stemScore": 2.1,
-          "note": "从世界末日改成高投入事项大概率失败，保留收尾方式差异。",
+          "text": "如果你赌了很久的一件事眼看要输，最后一程你会？",
+          "stemScore": 2.3,
+          "note": "把失败末段写成抢最后一寸、压住收尾和保全重要的人，结尾感更重。",
           "options": [
             {
               "index": 0,
-              "text": "还是会继续尝试，看能不能再多争取一点空间。",
-              "score": 2.4
+              "text": "我还会再往前拱一下，哪怕只多抢回一寸空间。",
+              "score": 2.6
             },
             {
               "index": 1,
-              "text": "接受这件事大概率就到这里了，但把收尾、交接和影响控制好。",
-              "score": 2.2
+              "text": "我会认这局大概率输了，但把收尾、交接和影响都压住。",
+              "score": 2.4
             },
             {
               "index": 2,
-              "text": "把时间留给重要的人，也尽量让过程体面一些。",
-              "score": 1.8
+              "text": "我会把剩下的时间留给重要的人，至少让结尾别太难看。",
+              "score": 2.1
             }
           ]
         },
         {
           "id": 7,
-          "text": "你怎么看待“善意的隐瞒”？",
-          "stemScore": 1.5,
-          "note": "维持常见伦理题框架，但让“设期限 / 说开 / 自己背锅”三种姿态更分明。",
-          "options": [
-            {
-              "index": 0,
-              "text": "只会在局面快失控时临时压住消息，把秩序和收尾先稳住。",
-              "score": 2
-            },
-            {
-              "index": 1,
-              "text": "宁可一开始难堪一点，我也更想把真相和判断空间说开，免得以后信任整块塌掉。",
-              "score": 2.3
-            },
-            {
-              "index": 2,
-              "text": "如果能替具体的人挡掉一波伤害，我愿意自己背这个隐瞒。",
-              "score": 2.4
-            }
-          ]
-        },
-        {
-          "id": 8,
-          "text": "如果一个真相可能打乱你现有生活，你还会想知道吗？",
+          "text": "你怎么看“带着善意的隐瞒”？",
           "stemScore": 1.9,
-          "note": "从崩溃级真相改成可能打乱生活的事实，温度更低。",
+          "note": "“压消息 / 摊真相 / 背锅”都更像会伤人的真实决定，戏剧性明显增强。",
           "options": [
             {
               "index": 0,
-              "text": "会，不知道反而更难真正做选择。",
-              "score": 2
-            },
-            {
-              "index": 1,
-              "text": "会看时机，有些事需要准备好再面对。",
-              "score": 1.8
-            },
-            {
-              "index": 2,
-              "text": "会想知道，但也会预留消化和协商空间。",
-              "score": 2
-            }
-          ]
-        },
-        {
-          "id": 9,
-          "text": "如果你突然掌握了远超常人的资源或影响力，你更可能？",
-          "stemScore": 2,
-          "note": "把毁天灭地力量改成资源与影响力，减少奇观感。",
-          "options": [
-            {
-              "index": 0,
-              "text": "会把它当成底牌，但不想让它变成唯一的解决方式。",
-              "score": 2.1
-            },
-            {
-              "index": 1,
-              "text": "先限制使用边界，尽量避免影响外溢。",
-              "score": 1.9
-            },
-            {
-              "index": 2,
-              "text": "把它当成长期博弈的筹码，换更稳定的合作空间。",
+              "text": "只有局面快失控时我才会先压消息，把秩序和收尾稳住。",
               "score": 2.2
-            }
-          ]
-        },
-        {
-          "id": 10,
-          "text": "在团队里，大家通常会自然把什么事交给你？",
-          "stemScore": 1.7,
-          "note": "团队角色题适度回调戏剧性，强化拍板者、收残局者与唱反调者的区别。",
-          "options": [
-            {
-              "index": 0,
-              "text": "需要理性看清局势、统筹资源和规则、把团队优先级定下来的时候，通常会先找到我。",
-              "score": 2.4
             },
             {
               "index": 1,
-              "text": "真要把事情做完、把漏洞补上、把代价算清的时候，通常是我去收。",
-              "score": 2.3
+              "text": "宁可先难堪一阵，我也想把真相摊开，让人自己保留判断。",
+              "score": 2.5
             },
             {
               "index": 2,
-              "text": "当大家都顺着惯性往前冲时，我会先把那个最刺耳的反对意见说出来。",
+              "text": "要是能替具体的人挡下一波伤，我愿意把这口锅背在自己身上。",
               "score": 2.6
             }
           ]
         },
         {
-          "id": 11,
-          "text": "如果你的某种身份或处境会让身边人跟着承担风险，你通常会？",
-          "stemScore": 2,
-          "note": "保留身份压力，但从灾难语气改成风险传导。",
+          "id": 8,
+          "text": "如果一个真相足够把你现在的生活掀乱，你还要不要知道？",
+          "stemScore": 2.2,
+          "note": "把“知道真相”写成掀翻生活，知道、缓开、布退路的冲突更尖。",
           "options": [
             {
               "index": 0,
-              "text": "知道这层风险没办法绕开时，我会先把它隔离开，再拉开距离，避免继续拖累同伴。",
-              "score": 2
+              "text": "要，难听的真相也比活在别人替我写好的版本里强。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "会说明情况，再和相关的人一起定方案。",
-              "score": 1.8
+              "text": "要，但不会现在就掀；有些真相得等自己接得住再看。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "不想被身份完全定义，但会更谨慎安排自己的选择。",
-              "score": 2
+              "text": "要，我会先备好情报、退路和谈法，再把真相摊到桌面上。",
+              "score": 2.4
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "如果你突然握住远超常人的资源和影响力，你会怎么用？",
+          "stemScore": 2.3,
+          "note": "把资源与影响力写成底牌、笼头和筹码，操盘感比旧版更足。",
+          "options": [
+            {
+              "index": 0,
+              "text": "我会把它压成一张底牌，真要掀桌时再掀，不让自己事事都靠它。",
+              "score": 2.3
+            },
+            {
+              "index": 1,
+              "text": "先给它套上笼头，不然这玩意迟早先把身边的人卷下水。",
+              "score": 2.2
+            },
+            {
+              "index": 2,
+              "text": "我会拿它去换规则、位置和盟友，把优势变成长期筹码。",
+              "score": 2.5
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "在团队里，大家最自然会把哪种烂摊子递给你？",
+          "stemScore": 2,
+          "note": "把团队角色写成“接烂摊子”，拍板、收尸和唱反调的锋芒更明显。",
+          "options": [
+            {
+              "index": 0,
+              "text": "遇到要判局势、排优先级、先把规则钉住的事，大家会来找我。",
+              "score": 2.5
+            },
+            {
+              "index": 1,
+              "text": "真到要补漏洞、收残局、把代价一笔笔算清时，通常是我顶上。",
+              "score": 2.5
+            },
+            {
+              "index": 2,
+              "text": "当所有人顺着惯性往前冲，我会先把最刺耳但最该说的话甩出来。",
+              "score": 2.8
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "text": "如果你的身份会把风险传给身边人，你通常会怎么处理？",
+          "stemScore": 2.2,
+          "note": "“风险传导”被写成认下拖累、讲清边界和更谨慎活着，压迫感更强。",
+          "options": [
+            {
+              "index": 0,
+              "text": "要是这层拖累已经躲不开，我会先认下它，再拉开距离，不让同伴替我担风险。",
+              "score": 2.3
+            },
+            {
+              "index": 1,
+              "text": "我会把风险、边界和方案一次讲明，再和相关的人一起定规则。",
+              "score": 2.1
+            },
+            {
+              "index": 2,
+              "text": "我不想被这层身份牵着走，但往后每一步都会比以前更谨慎。",
+              "score": 2.3
             }
           ]
         },
         {
           "id": 12,
-          "text": "一个曾和你立场相反、甚至伤过你的人主动求助，你会？",
-          "stemScore": 2.3,
-          "note": "把敌对阵营孩子改成曾对立且伤过你的人，仍有伦理张力但更常见。",
+          "text": "一个曾站在你对面、甚至伤过你的人忽然来求助，你会？",
+          "stemScore": 2.4,
+          "note": "救、留后手、守整体责任三种反应都更干脆，伦理冲突维持高张力。",
           "options": [
             {
               "index": 0,
-              "text": "会先帮他脱离当下困境，再处理之后的界限。",
-              "score": 2
+              "text": "先把他从眼前的坑里拽出来，之后再慢慢算界限。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "会帮，但会同时评估风险并留一点后手。",
-              "score": 2.1
+              "text": "我会帮，但会一边评估风险，一边把后手留够。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "如果这会明显拖累更多人，我会优先顾全整体责任。",
-              "score": 2.4
+              "text": "如果帮他会明显拖垮更多人，我会先守住整体责任。",
+              "score": 2.6
             }
           ]
         },
         {
           "id": 13,
-          "text": "为了避免恐慌，上级希望暂时不公开全部信息，你更倾向于？",
-          "stemScore": 2.1,
-          "note": "信息公开题保留治理意味，但不再过于战时。",
+          "text": "为了稳住局面，上级要你暂时别把全部信息说出去，你站哪边？",
+          "stemScore": 2.3,
+          "note": "把信息公开写成压局、分层、说穿三种治理姿态，策略冲突更锋利。",
           "options": [
             {
               "index": 0,
-              "text": "先配合稳住局面和民心，同时尽快安排后续公开节奏。",
-              "score": 2.1
+              "text": "我会先配合把局面和秩序稳住，但会盯死公开节奏，逼这件事尽快转进公开。",
+              "score": 2.3
             },
             {
               "index": 1,
-              "text": "部分公开，保留关键筹码，避免全面失控。",
-              "score": 2
+              "text": "我倾向分层公开：先放能稳局的信息，把关键筹码和后续方案暂时扣住。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "尽量多公开真相，让人至少保有判断空间，而不是一直被代替决定。",
-              "score": 2.2
+              "text": "我更想把真相尽量说开，至少别让所有人一直被代替判断。",
+              "score": 2.5
             }
           ]
         },
         {
           "id": 14,
-          "text": "如果追究一段旧怨能让你出气，但会让关系更糟，你会？",
-          "stemScore": 1.9,
-          "note": "仍是旧怨处理，但把“硬算账 / 强停手 / 留到谈判桌”三种处理方式写得更有张力。",
+          "text": "如果翻旧账能让你出气，却会把关系彻底撕坏，你会？",
+          "stemScore": 2.2,
+          "note": "旧怨题被写得更像撕裂现场：讨气、止损、压情绪留谈判，张力更高。",
           "options": [
             {
               "index": 0,
-              "text": "我大概率还是会把这笔账算清，哪怕知道算完以后关系会更僵。",
-              "score": 2.5
+              "text": "我大概率还是会把这口气讨回来，哪怕知道讨完人也回不去了。",
+              "score": 2.8
             },
             {
               "index": 1,
-              "text": "会理性把事情停在这里，至少别让更多无关的人继续为后果买单。",
-              "score": 1.9
+              "text": "我会把事停在这里，别再让更多无关的人替这笔旧账买单。",
+              "score": 2.2
             },
             {
               "index": 2,
-              "text": "先把情绪封住，不急着翻旧账，而是留到更能谈条件、处理后续局面的时候再谈。",
-              "score": 2.2
+              "text": "我会先把情绪扣住，把旧账留到更能谈判、也更利于后续局面的时候再翻。",
+              "score": 2.5
             }
           ]
         },
         {
           "id": 15,
-          "text": "哪种状态最让你坐立不安？",
-          "stemScore": 1.7,
-          "note": "不可忍受状态题，整体中性。",
+          "text": "哪种局面最让你浑身发紧、坐都坐不住？",
+          "stemScore": 1.9,
+          "note": "把不安写成更贴身的身体反应，虽然仍相对克制，但不再平。",
           "options": [
             {
               "index": 0,
-              "text": "人生方向总被别人安排，自己几乎没有选择空间。",
-              "score": 2
+              "text": "人生方向老被别人摆布，自己几乎没有选择权。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "因为自己的软弱而拖累同伴。",
-              "score": 1.8
+              "text": "因为自己的软弱，把同伴硬生生拖下水。",
+              "score": 2
             },
             {
               "index": 2,
-              "text": "一个本可避免的失误，害很多人去承担后果。",
-              "score": 1.9
+              "text": "一个本来能避免的失误，却让很多人替你吞后果。",
+              "score": 2.1
             }
           ]
         },
         {
           "id": 16,
-          "text": "如果给团队树一个简单靶子，能短时间凝聚共识，你会？",
-          "stemScore": 2.4,
-          "note": "保留“树靶子”这个操盘意味，但语气从战争宣传降为团队策略。",
+          "text": "如果给团队立一个简单靶子，就能在短时间把人拧成一股绳，你会？",
+          "stemScore": 2.6,
+          "note": "“立靶子”现在更像高压操盘手段，接受与拒绝都带更重的代价感。",
           "options": [
             {
               "index": 0,
-              "text": "只在别无选择时考虑，但不想让真实完全退场。",
-              "score": 2.5
+              "text": "只有别无选择时我才会这么干，但不想让真实彻底退场。",
+              "score": 2.7
             },
             {
               "index": 1,
-              "text": "非常时期可以做，但由我自己承担这个做法的污名。",
-              "score": 2.4
+              "text": "非常时期可以做，这个污名我来背，不让别人替我洗。",
+              "score": 2.6
             },
             {
               "index": 2,
-              "text": "不会，靠简化敌人换来的团结通常后患更大。",
-              "score": 2.1
+              "text": "我不会这么干，靠简化敌人换来的团结，后患通常更大。",
+              "score": 2.3
             }
           ]
         },
         {
           "id": 17,
-          "text": "当现场气氛越来越乱、大家都开始着急时，你通常会？",
-          "stemScore": 1.6,
-          "note": "仍是常见混乱场景，但选项语气更鲜明：强行刹车、重建秩序、先护住核心。",
+          "text": "当场面越来越乱、所有人都开始发急时，你通常会先做什么？",
+          "stemScore": 2,
+          "note": "把混乱现场写得更紧，掐住、拉回、护核心三种动作感更强。",
           "options": [
             {
               "index": 0,
-              "text": "会先明确叫停，哪怕语气重一点，也要把混乱先刹住。",
-              "score": 2.3
+              "text": "我会先硬叫停，哪怕语气刺一点，也得先把混乱掐住。",
+              "score": 2.5
             },
             {
               "index": 1,
-              "text": "会把人一个个拉回步骤里，先重建秩序，再谈情绪。",
-              "score": 2
+              "text": "我会把人一层层拉回步骤里，先重建秩序，再处理情绪。",
+              "score": 2.2
             },
             {
               "index": 2,
-              "text": "会先守住自己和最重要的人，确认不会一起失控，再看要不要接场。",
-              "score": 2.2
+              "text": "我会先守住自己和最重要的人，确认不会一起失控，再决定接不接场。",
+              "score": 2.4
             }
           ]
         },
         {
           "id": 18,
-          "text": "如果你提前收到一些不完整、但可能准确的预警信息，你会？",
-          "stemScore": 1.8,
-          "note": "未来片段降级为不完整预警信息，更贴近日常决策。",
+          "text": "如果你提前收到一份不完整、却可能很准的预警，你会怎么用？",
+          "stemScore": 2.1,
+          "note": "预警题从平面判断改成更有命运逼近感的处理选择，整体张力上移。",
           "options": [
             {
               "index": 0,
-              "text": "如果最坏结局看起来很难避开，我会先把同伴的位置和后手预留出来，再决定跟到哪一步。",
-              "score": 1.9
+              "text": "要是最坏结局已经露头，我会先把人和后手安顿好，再决定跟这局走多远。",
+              "score": 2.2
             },
             {
               "index": 1,
-              "text": "把它当作情报，尽可能改写最坏结果。",
-              "score": 1.8
+              "text": "我会把它当情报狠狠干，用在几个关键点上，尽量把最坏结果往回扳。",
+              "score": 2.1
             },
             {
               "index": 2,
-              "text": "不希望被预警绑住，还是想保留当下的主动权。",
-              "score": 1.9
+              "text": "我不想被一纸预警牵着鼻子走，最后的选择权还是要留在自己手里。",
+              "score": 2.2
             }
           ]
         },
         {
           "id": 19,
-          "text": "当你发现自己做错了一件影响不小的事，你通常会？",
-          "stemScore": 1.7,
-          "note": "错误处理题回调少量戏剧性，让“先扛住 / 先认错 / 先切断损失”更有辨识度。",
+          "text": "当你发现自己做错了一件影响不小的事，你第一反应更像？",
+          "stemScore": 2,
+          "note": "错误处理三选项现在更像现场动作：先扛、先认、先切，辨识度和火药味都更足。",
           "options": [
             {
               "index": 0,
-              "text": "先把最危险的连锁反应压住，哪怕那一刻得由我先把后果顶下来。",
-              "score": 2.2
+              "text": "先把最危险的连锁反应压住，哪怕那一下得由我先把后果扛下来。",
+              "score": 2.4
             },
             {
               "index": 1,
-              "text": "会立刻叫停并认错，宁可难堪，也不想让错继续滚大。",
-              "score": 2.1
+              "text": "我会立刻叫停、认错，宁可当场难堪，也不让错继续滚大。",
+              "score": 2.3
             },
             {
               "index": 2,
-              "text": "先拆开责任链，冷静复盘，把后续能断的损失先断掉。",
-              "score": 2
+              "text": "我会先拆责任链、做复盘，把后面还能切断的损失先切掉。",
+              "score": 2.2
             }
           ]
         },
         {
           "id": 20,
-          "text": "你更相信什么最能推动长期改变？",
-          "stemScore": 1.6,
-          "note": "长期改变题适度加入立场感，把守线、说服、硬撑三种信念重新拉开。",
+          "text": "你更相信，什么东西最能把一个局面慢慢改写？",
+          "stemScore": 2,
+          "note": "把长期改变写成守线、说服与续火，立场感和史诗感都更强。",
           "options": [
             {
               "index": 0,
-              "text": "有人死死守住不退，让别人知道这条线不会被轻易改写。",
-              "score": 2.4
+              "text": "总得有人死死守线不退，让所有人知道这条线不是拿来试探的。",
+              "score": 2.6
             },
             {
               "index": 1,
-              "text": "让更多人真正被说服、愿意一起走，而不是只被一时推着走。",
-              "score": 2
+              "text": "让更多人真正被说服、愿意一起走，比一阵热血推着冲更久。",
+              "score": 2.2
             },
             {
               "index": 2,
-              "text": "不是每次都赢，而是很多次快撑不住时，还是有人能继续活下来。",
-              "score": 2.3
+              "text": "不是每次都赢，而是一次次快撑不住时，还是有人能活着把火接下去。",
+              "score": 2.5
             }
           ]
         }
@@ -1209,59 +1707,562 @@
       "flaggedPrompts": [],
       "flaggedOptions": []
     },
-    "scoreGap": 31.53,
-    "combinedScore": 133.7
+    "quality": {
+      "clarityScore": 85.38,
+      "differentiationScore": 92.31,
+      "items": [
+        {
+          "id": 1,
+          "text": "如果你被困在一个让你越待越窒息的环境里，第一反应会是什么？",
+          "clarity": {
+            "stemScore": 83.4,
+            "optionScore": 79.83,
+            "overallScore": 81.08
+          },
+          "differentiationScore": 79.24,
+          "options": [
+            {
+              "text": "我会先狠狠干一记，哪怕冒险，也要把出口撞出来。",
+              "clarityScore": 90.2
+            },
+            {
+              "text": "我会先把饭碗和安全攥住，宁可憋一阵，也不先把自己搭进去。",
+              "clarityScore": 81.2
+            },
+            {
+              "text": "我会先摸清规则、资源和局面，再选一个能带动后续的换轨点。",
+              "clarityScore": 68.1
+            }
+          ]
+        },
+        {
+          "id": 2,
+          "text": "当资源只够保住一部分人时，你会怎么切这刀？",
+          "clarity": {
+            "stemScore": 93.6,
+            "optionScore": 93.27,
+            "overallScore": 93.38
+          },
+          "differentiationScore": 96,
+          "options": [
+            {
+              "text": "先保住最关键的任务，哪怕有人得咬牙把压力扛完。",
+              "clarityScore": 94.2
+            },
+            {
+              "text": "宁可全队慢一点，我也不想先点名谁去吃亏。",
+              "clarityScore": 96
+            },
+            {
+              "text": "把规则和责任摊在桌上，谁该扛什么，当场讲清。",
+              "clarityScore": 89.6
+            }
+          ]
+        },
+        {
+          "id": 3,
+          "text": "你怎么看出身和环境给人上的那道锁？",
+          "clarity": {
+            "stemScore": 100,
+            "optionScore": 82.83,
+            "overallScore": 88.84
+          },
+          "differentiationScore": 96.84,
+          "options": [
+            {
+              "text": "那道锁真的很重，门不是没有，只是每一步都得拿代价去换。",
+              "clarityScore": 79.5
+            },
+            {
+              "text": "锁再重也不能认命，路很多时候就是硬冲出来的。",
+              "clarityScore": 92.5
+            },
+            {
+              "text": "先看规则往谁那边倾斜，再一点点挪位置，才是真的翻盘。",
+              "clarityScore": 76.5
+            }
+          ]
+        },
+        {
+          "id": 4,
+          "text": "如果你和最信的人在关键立场上彻底翻脸，你会？",
+          "clarity": {
+            "stemScore": 96,
+            "optionScore": 83.57,
+            "overallScore": 87.92
+          },
+          "differentiationScore": 95.73,
+          "options": [
+            {
+              "text": "真到了非站队不可的时候，我会出手，但不会装作自己没疼过。",
+              "clarityScore": 81.2
+            },
+            {
+              "text": "我会把该说的话一次说尽，至少别让关系死得太草率。",
+              "clarityScore": 86.5
+            },
+            {
+              "text": "我先切隔离、做止损，别让旁边的人跟着被这场对撞拖下去。",
+              "clarityScore": 83
+            }
+          ]
+        },
+        {
+          "id": 5,
+          "text": "真正把你一路往前拽的，通常是哪股力？",
+          "clarity": {
+            "stemScore": 96,
+            "optionScore": 88.07,
+            "overallScore": 90.84
+          },
+          "differentiationScore": 100,
+          "options": [
+            {
+              "text": "哪怕代价高，我也想把方向和选择权死死握在自己手里。",
+              "clarityScore": 90.6
+            },
+            {
+              "text": "嘴上能说算了，可真把我拖着走的，往往还是那点执念和那几个人。",
+              "clarityScore": 77.6
+            },
+            {
+              "text": "只要还有人等我顶事，我就很难心安理得地停下。",
+              "clarityScore": 96
+            }
+          ]
+        },
+        {
+          "id": 6,
+          "text": "如果你赌了很久的一件事眼看要输，最后一程你会？",
+          "clarity": {
+            "stemScore": 94.2,
+            "optionScore": 86.33,
+            "overallScore": 89.09
+          },
+          "differentiationScore": 92.79,
+          "options": [
+            {
+              "text": "我还会再往前拱一下，哪怕只多抢回一寸空间。",
+              "clarityScore": 90.1
+            },
+            {
+              "text": "我会认这局大概率输了，但把收尾、交接和影响都压住。",
+              "clarityScore": 81.8
+            },
+            {
+              "text": "我会把剩下的时间留给重要的人，至少让结尾别太难看。",
+              "clarityScore": 87.1
+            }
+          ]
+        },
+        {
+          "id": 7,
+          "text": "你怎么看“带着善意的隐瞒”？",
+          "clarity": {
+            "stemScore": 100,
+            "optionScore": 85.27,
+            "overallScore": 90.42
+          },
+          "differentiationScore": 94.93,
+          "options": [
+            {
+              "text": "只有局面快失控时我才会先压消息，把秩序和收尾稳住。",
+              "clarityScore": 88.2
+            },
+            {
+              "text": "宁可先难堪一阵，我也想把真相摊开，让人自己保留判断。",
+              "clarityScore": 82.4
+            },
+            {
+              "text": "要是能替具体的人挡下一波伤，我愿意把这口锅背在自己身上。",
+              "clarityScore": 85.2
+            }
+          ]
+        },
+        {
+          "id": 8,
+          "text": "如果一个真相足够把你现在的生活掀乱，你还要不要知道？",
+          "clarity": {
+            "stemScore": 88.8,
+            "optionScore": 85.47,
+            "overallScore": 86.63
+          },
+          "differentiationScore": 80.13,
+          "options": [
+            {
+              "text": "要，难听的真相也比活在别人替我写好的版本里强。",
+              "clarityScore": 94.2
+            },
+            {
+              "text": "要，但不会现在就掀；有些真相得等自己接得住再看。",
+              "clarityScore": 84.9
+            },
+            {
+              "text": "要，我会先备好情报、退路和谈法，再把真相摊到桌面上。",
+              "clarityScore": 77.3
+            }
+          ]
+        },
+        {
+          "id": 9,
+          "text": "如果你突然握住远超常人的资源和影响力，你会怎么用？",
+          "clarity": {
+            "stemScore": 85.8,
+            "optionScore": 81.97,
+            "overallScore": 83.31
+          },
+          "differentiationScore": 92.93,
+          "options": [
+            {
+              "text": "我会把它压成一张底牌，真要掀桌时再掀，不让自己事事都靠它。",
+              "clarityScore": 75.9
+            },
+            {
+              "text": "先给它套上笼头，不然这玩意迟早先把身边的人卷下水。",
+              "clarityScore": 90.6
+            },
+            {
+              "text": "我会拿它去换规则、位置和盟友，把优势变成长期筹码。",
+              "clarityScore": 79.4
+            }
+          ]
+        },
+        {
+          "id": 10,
+          "text": "在团队里，大家最自然会把哪种烂摊子递给你？",
+          "clarity": {
+            "stemScore": 96,
+            "optionScore": 77.67,
+            "overallScore": 84.08
+          },
+          "differentiationScore": 91.81,
+          "options": [
+            {
+              "text": "遇到要判局势、排优先级、先把规则钉住的事，大家会来找我。",
+              "clarityScore": 72.4
+            },
+            {
+              "text": "真到要补漏洞、收残局、把代价一笔笔算清时，通常是我顶上。",
+              "clarityScore": 77.2
+            },
+            {
+              "text": "当所有人顺着惯性往前冲，我会先把最刺耳但最该说的话甩出来。",
+              "clarityScore": 83.4
+            }
+          ]
+        },
+        {
+          "id": 11,
+          "text": "如果你的身份会把风险传给身边人，你通常会怎么处理？",
+          "clarity": {
+            "stemScore": 90.6,
+            "optionScore": 73.67,
+            "overallScore": 79.59
+          },
+          "differentiationScore": 95.33,
+          "options": [
+            {
+              "text": "要是这层拖累已经躲不开，我会先认下它，再拉开距离，不让同伴替我担风险。",
+              "clarityScore": 61.1
+            },
+            {
+              "text": "我会把风险、边界和方案一次讲明，再和相关的人一起定规则。",
+              "clarityScore": 72.9
+            },
+            {
+              "text": "我不想被这层身份牵着走，但往后每一步都会比以前更谨慎。",
+              "clarityScore": 87
+            }
+          ]
+        },
+        {
+          "id": 12,
+          "text": "一个曾站在你对面、甚至伤过你的人忽然来求助，你会？",
+          "clarity": {
+            "stemScore": 86.6,
+            "optionScore": 92.9,
+            "overallScore": 90.69
+          },
+          "differentiationScore": 92.67,
+          "options": [
+            {
+              "text": "先把他从眼前的坑里拽出来，之后再慢慢算界限。",
+              "clarityScore": 92.5
+            },
+            {
+              "text": "我会帮，但会一边评估风险，一边把后手留够。",
+              "clarityScore": 92
+            },
+            {
+              "text": "如果帮他会明显拖垮更多人，我会先守住整体责任。",
+              "clarityScore": 94.2
+            }
+          ]
+        },
+        {
+          "id": 13,
+          "text": "为了稳住局面，上级要你暂时别把全部信息说出去，你站哪边？",
+          "clarity": {
+            "stemScore": 78.8,
+            "optionScore": 73.1,
+            "overallScore": 75.09
+          },
+          "differentiationScore": 97.08,
+          "options": [
+            {
+              "text": "我会先配合把局面和秩序稳住，但会盯死公开节奏，逼这件事尽快转进公开。",
+              "clarityScore": 65.6
+            },
+            {
+              "text": "我倾向分层公开：先放能稳局的信息，把关键筹码和后续方案暂时扣住。",
+              "clarityScore": 70.8
+            },
+            {
+              "text": "我更想把真相尽量说开，至少别让所有人一直被代替判断。",
+              "clarityScore": 82.9
+            }
+          ]
+        },
+        {
+          "id": 14,
+          "text": "如果翻旧账能让你出气，却会把关系彻底撕坏，你会？",
+          "clarity": {
+            "stemScore": 86,
+            "optionScore": 77.33,
+            "overallScore": 80.37
+          },
+          "differentiationScore": 91.09,
+          "options": [
+            {
+              "text": "我大概率还是会把这口气讨回来，哪怕知道讨完人也回不去了。",
+              "clarityScore": 82.8
+            },
+            {
+              "text": "我会把事停在这里，别再让更多无关的人替这笔旧账买单。",
+              "clarityScore": 85.3
+            },
+            {
+              "text": "我会先把情绪扣住，把旧账留到更能谈判、也更利于后续局面的时候再翻。",
+              "clarityScore": 63.9
+            }
+          ]
+        },
+        {
+          "id": 15,
+          "text": "哪种局面最让你浑身发紧、坐都坐不住？",
+          "clarity": {
+            "stemScore": 93.6,
+            "optionScore": 96,
+            "overallScore": 95.16
+          },
+          "differentiationScore": 96.52,
+          "options": [
+            {
+              "text": "人生方向老被别人摆布，自己几乎没有选择权。",
+              "clarityScore": 96
+            },
+            {
+              "text": "因为自己的软弱，把同伴硬生生拖下水。",
+              "clarityScore": 96
+            },
+            {
+              "text": "一个本来能避免的失误，却让很多人替你吞后果。",
+              "clarityScore": 96
+            }
+          ]
+        },
+        {
+          "id": 16,
+          "text": "如果给团队立一个简单靶子，就能在短时间把人拧成一股绳，你会？",
+          "clarity": {
+            "stemScore": 77.6,
+            "optionScore": 88.53,
+            "overallScore": 84.71
+          },
+          "differentiationScore": 90.36,
+          "options": [
+            {
+              "text": "只有别无选择时我才会这么干，但不想让真实彻底退场。",
+              "clarityScore": 90.6
+            },
+            {
+              "text": "非常时期可以做，这个污名我来背，不让别人替我洗。",
+              "clarityScore": 88.4
+            },
+            {
+              "text": "我不会这么干，靠简化敌人换来的团结，后患通常更大。",
+              "clarityScore": 86.6
+            }
+          ]
+        },
+        {
+          "id": 17,
+          "text": "当场面越来越乱、所有人都开始发急时，你通常会先做什么？",
+          "clarity": {
+            "stemScore": 83,
+            "optionScore": 81.27,
+            "overallScore": 81.87
+          },
+          "differentiationScore": 81.77,
+          "options": [
+            {
+              "text": "我会先硬叫停，哪怕语气刺一点，也得先把混乱掐住。",
+              "clarityScore": 88.4
+            },
+            {
+              "text": "我会把人一层层拉回步骤里，先重建秩序，再处理情绪。",
+              "clarityScore": 83.1
+            },
+            {
+              "text": "我会先守住自己和最重要的人，确认不会一起失控，再决定接不接场。",
+              "clarityScore": 72.3
+            }
+          ]
+        },
+        {
+          "id": 18,
+          "text": "如果你提前收到一份不完整、却可能很准的预警，你会怎么用？",
+          "clarity": {
+            "stemScore": 81.2,
+            "optionScore": 73.4,
+            "overallScore": 76.13
+          },
+          "differentiationScore": 93.24,
+          "options": [
+            {
+              "text": "要是最坏结局已经露头，我会先把人和后手安顿好，再决定跟这局走多远。",
+              "clarityScore": 68.7
+            },
+            {
+              "text": "我会把它当情报狠狠干，用在几个关键点上，尽量把最坏结果往回扳。",
+              "clarityScore": 69.9
+            },
+            {
+              "text": "我不想被一纸预警牵着鼻子走，最后的选择权还是要留在自己手里。",
+              "clarityScore": 81.6
+            }
+          ]
+        },
+        {
+          "id": 19,
+          "text": "当你发现自己做错了一件影响不小的事，你第一反应更像？",
+          "clarity": {
+            "stemScore": 86.4,
+            "optionScore": 83,
+            "overallScore": 84.19
+          },
+          "differentiationScore": 91.72,
+          "options": [
+            {
+              "text": "先把最危险的连锁反应压住，哪怕那一下得由我先把后果扛下来。",
+              "clarityScore": 83.4
+            },
+            {
+              "text": "我会立刻叫停、认错，宁可当场难堪，也不让错继续滚大。",
+              "clarityScore": 80.8
+            },
+            {
+              "text": "我会先拆责任链、做复盘，把后面还能切断的损失先切掉。",
+              "clarityScore": 84.8
+            }
+          ]
+        },
+        {
+          "id": 20,
+          "text": "你更相信，什么东西最能把一个局面慢慢改写？",
+          "clarity": {
+            "stemScore": 93.6,
+            "optionScore": 79,
+            "overallScore": 84.11
+          },
+          "differentiationScore": 96.02,
+          "options": [
+            {
+              "text": "总得有人死死守线不退，让所有人知道这条线不是拿来试探的。",
+              "clarityScore": 81.7
+            },
+            {
+              "text": "让更多人真正被说服、愿意一起走，比一阵热血推着冲更久。",
+              "clarityScore": 83
+            },
+            {
+              "text": "不是每次都赢，而是一次次快撑不住时，还是有人能活着把火接下去。",
+              "clarityScore": 72.3
+            }
+          ]
+        }
+      ],
+      "flaggedClarityCount": 0,
+      "flaggedDifferentiationCount": 0
+    },
+    "scoreGap": 59.78,
+    "combinedScore": 42.81
   },
   "candidateRanks": [
     {
-      "name": "balanced-runtime",
-      "rank": 234.44,
-      "combinedScore": 133.7,
-      "personaScore": 49.37,
-      "balanceScore": 80.9,
-      "promptScore": 76.5,
-      "optionScore": 71.63,
-      "scoreGap": 31.53
+      "name": "restore-runtime",
+      "rank": 260.3,
+      "combinedScore": 42.81,
+      "personaScore": 23.91,
+      "balanceScore": 83.69,
+      "dramaticityScore": 94.32,
+      "clarityScore": 85.38,
+      "differentiationScore": 92.31,
+      "promptScore": 69.75,
+      "optionScore": 65.63,
+      "scoreGap": 59.78
     },
     {
-      "name": "restore-runtime",
-      "rank": 226.53,
-      "combinedScore": 133.63,
-      "personaScore": 49.35,
-      "balanceScore": 80.74,
-      "promptScore": 76.5,
-      "optionScore": 71.63,
-      "scoreGap": 31.39
+      "name": "balanced-runtime",
+      "rank": 260.25,
+      "combinedScore": 42.84,
+      "personaScore": 23.92,
+      "balanceScore": 83.64,
+      "dramaticityScore": 94.32,
+      "clarityScore": 85.38,
+      "differentiationScore": 92.31,
+      "promptScore": 69.75,
+      "optionScore": 65.63,
+      "scoreGap": 59.72
     },
     {
       "name": "balanced-character",
-      "rank": 223.19,
-      "combinedScore": 134.19,
-      "personaScore": 49.36,
-      "balanceScore": 83.46,
-      "promptScore": 76.5,
-      "optionScore": 71.63,
-      "scoreGap": 34.1
-    },
-    {
-      "name": "focus-top-character",
-      "rank": 223.19,
-      "combinedScore": 134.19,
-      "personaScore": 49.36,
-      "balanceScore": 83.46,
-      "promptScore": 76.5,
-      "optionScore": 71.63,
-      "scoreGap": 34.1
+      "rank": 242.14,
+      "combinedScore": 40.35,
+      "personaScore": 23.9,
+      "balanceScore": 89.99,
+      "dramaticityScore": 94.32,
+      "clarityScore": 85.38,
+      "differentiationScore": 92.31,
+      "promptScore": 69.75,
+      "optionScore": 65.63,
+      "scoreGap": 66.09
     },
     {
       "name": "density-runtime",
-      "rank": 139.39,
-      "combinedScore": 112.53,
-      "personaScore": 37.56,
-      "balanceScore": 81.33,
-      "promptScore": 76.5,
-      "optionScore": 71.63,
-      "scoreGap": 43.77
+      "rank": 241.78,
+      "combinedScore": 40.28,
+      "personaScore": 23.9,
+      "balanceScore": 90.16,
+      "dramaticityScore": 94.32,
+      "clarityScore": 85.38,
+      "differentiationScore": 92.31,
+      "promptScore": 69.75,
+      "optionScore": 65.63,
+      "scoreGap": 66.26
+    },
+    {
+      "name": "focus-top-character",
+      "rank": 241.66,
+      "combinedScore": 40.26,
+      "personaScore": 23.9,
+      "balanceScore": 90.22,
+      "dramaticityScore": 94.32,
+      "clarityScore": 85.38,
+      "differentiationScore": 92.31,
+      "promptScore": 69.75,
+      "optionScore": 65.63,
+      "scoreGap": 66.32
     }
   ],
   "accept": false,

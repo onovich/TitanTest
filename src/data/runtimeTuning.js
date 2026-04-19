@@ -1,20 +1,20 @@
 export const RUNTIME_TUNING = {
   "optionScoreBaselines": {
-    "freedom": 5.45,
-    "moral": 5.35,
-    "realism": 6.45,
-    "fatalism": 5.42,
-    "cause": 5.9
+    "freedom": 5.75,
+    "moral": 5.2,
+    "realism": 6.65,
+    "fatalism": 5.55,
+    "cause": 6.1
   },
   "optionScoreCalibrationStrengths": {
-    "freedom": 0.04,
-    "moral": 0.18,
-    "realism": 0.39559999999999995,
-    "fatalism": 0.07000000000000003,
-    "cause": 0.22539999999999993
+    "freedom": 0.12,
+    "moral": 0.16,
+    "realism": 0.4232,
+    "fatalism": 0.09,
+    "cause": 0.276
   },
-  "matchDensityPenaltyWeight": 4.3824000000000005,
-  "neutralCenterPenaltyWeight": 2.35,
-  "ambiguityCenter": 12.38,
-  "ambiguityWidth": 7.5
+  "matchDensityPenaltyWeight": 4.312,
+  "neutralCenterPenaltyWeight": 2.75,
+  "ambiguityCenter": 12.6,
+  "ambiguityWidth": 6.8
 };

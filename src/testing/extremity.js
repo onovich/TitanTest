@@ -4,6 +4,12 @@ function average(values) {
   return values.reduce((sum, value) => sum + value, 0) / (values.length || 1);
 }
 
+function toTargetBandScore(rawAverage, target, tolerance) {
+  const distance = Math.abs(rawAverage - target);
+  const normalized = Math.max(0, 1 - distance / tolerance);
+  return Number((normalized * 100).toFixed(2));
+}
+
 function toModerationScore(rawAverage) {
   const normalized = Math.max(0, Math.min(1, (5 - rawAverage) / 4));
   return Number((normalized * 100).toFixed(2));
@@ -34,20 +40,30 @@ export function evaluateQuestionExtremity(questions) {
   const optionAverage = Number(average(optionScores).toFixed(3));
   const promptMax = Number(Math.max(...stemScores).toFixed(3));
   const optionMax = Number(Math.max(...optionScores).toFixed(3));
+  const targetPromptAverage = 2.18;
+  const targetOptionAverage = 2.34;
   const flaggedPrompts = items.filter((item) => item.stemScore > 3);
   const flaggedOptions = items.flatMap((item) =>
     item.options
       .filter((option) => option.score > 3)
       .map((option) => ({ questionId: item.id, optionIndex: option.index, text: option.text, score: option.score }))
   );
+  const promptBandScore = toTargetBandScore(promptAverage, targetPromptAverage, 0.55);
+  const optionBandScore = toTargetBandScore(optionAverage, targetOptionAverage, 0.6);
+  const dramaticityScore = Number((promptBandScore * 0.4 + optionBandScore * 0.6).toFixed(2));
 
   return {
     promptAverage,
     optionAverage,
     promptMax,
     optionMax,
+    targetPromptAverage,
+    targetOptionAverage,
     promptScore: toModerationScore(promptAverage),
     optionScore: toModerationScore(optionAverage),
+    promptBandScore,
+    optionBandScore,
+    dramaticityScore,
     flaggedPromptCount: flaggedPrompts.length,
     flaggedOptionCount: flaggedOptions.length,
     items,
@@ -65,6 +81,9 @@ export function buildExtremityMarkdownReport(report) {
   lines.push(`- 选项平均分：${report.optionAverage}`);
   lines.push(`- 题干中庸得分：${report.promptScore}`);
   lines.push(`- 选项中庸得分：${report.optionScore}`);
+  lines.push(`- 题干目标区间得分：${report.promptBandScore}`);
+  lines.push(`- 选项目标区间得分：${report.optionBandScore}`);
+  lines.push(`- 综合戏剧性得分：${report.dramaticityScore}`);
   lines.push('');
 
   report.items.forEach((item) => {
